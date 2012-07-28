@@ -24,6 +24,8 @@ L[ [=[This works like a macro, you can run different situations to get the actio
  Example: '[combat] show;hide']=] ] = [=[This works like a macro, you can run different situations to get the actionbar to show/hide differently.
  Example: '[combat] show;hide']=]
 L["Binding"] = "Binding"
+L["ActionBars"] = "ActionBars"
+L["Action Paging"] = "Action Paging"
 
 
 --Bags
@@ -92,6 +94,7 @@ L["One or more of the changes you have made require a ReloadUI."] = "One or more
 L["One or more of the changes you have made will effect all characters using this addon. You will have to reload the user interface to see the changes you have made."] = "One or more of the changes you have made will effect all characters using this addon. You will have to reload the user interface to see the changes you have made."
 L["Binds Discarded"] = "Binds Discarded"
 L["Binds Saved"] = "Binds Saved"
+L["All keybindings cleared for |cff00ff00%s|r."] = "All keybindings cleared for |cff00ff00%s|r."
 
 
 --Credits
@@ -152,6 +155,7 @@ L["Auto Repair"] = "Auto Repair"
 L["Auto Scale"] = "Auto Scale"
 L['Display emotion icons in chat.'] = true;
 L["Accept Invites"] = "Accept Invites"
+L["Adjust the size of the minimap."] = "Adjust the size of the minimap."
 
 
 --NamePlates
@@ -162,11 +166,15 @@ L['Color the border of the nameplate yellow when it reaches the threshold point 
 L['Players'] = true;
 L['Low Health Threshold'] = true;
 L['Color the border of the nameplate yellow when it reaches this point, it will be colored red when it reaches half this value.'] = true;
+L["Add Name"] = "Add Name"
+L["All"] = "All"
 
 
 --Reminders
 L["Reminders"] = "Reminders"
 L["Select Group"] = "Select Group"
+L["Add Group"] = "Add Group"
+
 
 --Skins
 L["Character Frame"] = "Character Frame"
@@ -203,10 +211,12 @@ L["Taxi Frame"] = "Taxi Frame"
 L["Trade Frame"] = "Trade Frame"
 L["TradeSkill Frame"] = "TradeSkill Frame"
 L["Trainer Frame"] = "Trainer Frame"
+L["Pet Battle"] = true;
+L['Alert Frames'] = true;
 
 
 --Tooltip
-
+L["AFK"] = "AFK"
 
 --Tutorials
 L['Using the /farmmode <size> command will spawn a larger minimap on your screen that can be moved around, very useful when farming.'] = true;
@@ -253,24 +263,27 @@ L["Select Filter"] = "Select Filter"
 L["Select Spell"] = "Select Spell"
 L['The spell "%s" has been added to the DebuffBlacklist unitframe filter.'] = true;
 L['Hold shift + right click to blacklist this aura.'] = true;
+L["Add a spell to the filter."] = "Add a spell to the filter."
+L["Add Spell"] = "Add Spell"
+L["Add SpellID"] = "Add SpellID"
+
+
+
 
 
 
 -----------------------------------------------------------------------
-L["Pet Battle"] = true;
-L['Alert Frames'] = true;
 L["Achievement Popup Frames"] = "Achievement Popup Frames" --This one seem to be unused!!!
-L["ActionBars"] = "ActionBars"
-L["Action Paging"] = "Action Paging"
-L["Add a spell to the filter."] = "Add a spell to the filter."
-L["Add Group"] = "Add Group"
-L["Add Name"] = "Add Name"
-L["Add Spell"] = "Add Spell"
-L["Add SpellID"] = "Add SpellID"
-L["Adjust the size of the minimap."] = "Adjust the size of the minimap."
-L["AFK"] = "AFK"
-L["All"] = "All"
-L["All keybindings cleared for |cff00ff00%s|r."] = "All keybindings cleared for |cff00ff00%s|r."
+
+
+
+
+
+
+
+
+
+
 L["Alt-Power"] = "Alt-Power"
 L["Anchor"] = "Anchor"
 L["Anchor Mode"] = "Anchor Mode"
