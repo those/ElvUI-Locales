@@ -8,8 +8,36 @@ else
 end
 
 if not L then return; end
-L["Whisper Alert"] = true;
-L["Keyword Alert"] = true;
+
+--ActionBars
+L["Color when the text is about to expire"] = "Color when the text is about to expire"
+L["Color when the text is in the days format."] = "Color when the text is in the days format."
+L["Color when the text is in the hours format."] = "Color when the text is in the hours format."
+L["Color when the text is in the minutes format."] = "Color when the text is in the minutes format."
+L["Color when the text is in the seconds format."] = "Color when the text is in the seconds format."
+L['Max Paging'] = true;
+L['When enabled the main actionbar will use the maximum amount of pages available. This means if you have another actionbar disabled, the actionbar page will become available on the main actionbar. Having this disabled will limit the main actionbar to two pages.'] = true;
+L[ [=[This works like a macro, you can run different situations to get the actionbar to page differently.
+ Example: '[combat] 2;']=] ] = [=[This works like a macro, you can run different situations to get the actionbar to page differently.
+ Example: '[combat] 2;']=]
+L[ [=[This works like a macro, you can run different situations to get the actionbar to show/hide differently.
+ Example: '[combat] show;hide']=] ] = [=[This works like a macro, you can run different situations to get the actionbar to show/hide differently.
+ Example: '[combat] show;hide']=]
+L["Binding"] = "Binding"
+
+
+--Bags
+L["Enable Bag-Bar"] = "Enable Bag-Bar"
+L["Enable/Disable the all-in-one bag."] = "Enable/Disable the all-in-one bag."
+L["Enable/Disable the Bag-Bar."] = "Enable/Disable the Bag-Bar."
+L["Click to search.."] = "Click to search.."
+L["Number of columns (width) of bags. Set it to 0 to match the width of the chat panels."] = "Number of columns (width) of bags. Set it to 0 to match the width of the chat panels."
+L["Number of columns (width) of the bank. Set it to 0 to match the width of the chat panels."] = "Number of columns (width) of the bank. Set it to 0 to match the width of the chat panels."
+L["No gray items to delete."] = "No gray items to delete."
+L["No gray items to sell."] = "No gray items to sell."
+
+
+--Buffs and Debuffs
 L['AURAS_DESC'] = 'Configure the aura icons that appear near the minimap.';
 L['Consolidated Buffs'] = true;
 L['Display the consolidated buffs bar.'] = true;
@@ -32,9 +60,157 @@ L['Indicate whether buffs you cast yourself should be separated before or after.
 L["Other's First"] = true;
 L['No Sorting'] = true;
 L['Your Auras First'] = true;
+
+
+--Chat
+L["Keyword Alert"] = true;
+L["Whisper Alert"] = true;
+L['List of words to color in chat if found in a message. If you wish to add multiple words you must seperate the word with a comma. To search for your current name you can use %MYNAME%.\n\nExample:\n%MYNAME%, ElvUI, RBGs, Tank'] = true;
+L['Keywords'] = true;
+L["Chat"] = "Chat"
+L["Chat Bubbles"] = "Chat Bubbles"
+L["CHAT_DESC"] = "Adjust chat settings for ElvUI."
+L["When opening the Chat Editbox to type a message having this option set means it will retain the last channel you spoke in. If this option is turned off opening the Chat Editbox should always default to the SAY channel."] = "When opening the Chat Editbox to type a message having this option set means it will retain the last channel you spoke in. If this option is turned off opening the Chat Editbox should always default to the SAY channel."
+L["Number of time in seconds to scroll down to the bottom of the chat window if you are not scrolled down completely."] = "Number of time in seconds to scroll down to the bottom of the chat window if you are not scrolled down completely."
+
+
+--Config / Install
+L['Config Mode:'] = true;
+L['Classic'] = true;
+L['Classic Pixel'] = true;
+L['Theme Set'] = true;
+L['Theme Setup'] = true;
+L['Choose a theme layout you wish to use for your initial setup.'] = true;
+L['You can always change fonts and colors of any element of elvui from the in-game configuration.'] = true;
+L['Toggle Configuration'] = true;
+L["Chat Set"] = "Chat Set"
+L["Click the button below to resize your chat frames, unitframes, and reposition your actionbars."] = "Click the button below to resize your chat frames, unitframes, and reposition your actionbars."
+L["Please click the button below so you can setup variables and ReloadUI."] = "Please click the button below so you can setup variables and ReloadUI."
+L["Please click the button below to setup your CVars."] = "Please click the button below to setup your CVars."
+L["Please press the continue button to go onto the next step."] = "Please press the continue button to go onto the next step."
+L["One or more of the changes you have made require a ReloadUI."] = "One or more of the changes you have made require a ReloadUI."
+L["One or more of the changes you have made will effect all characters using this addon. You will have to reload the user interface to see the changes you have made."] = "One or more of the changes you have made will effect all characters using this addon. You will have to reload the user interface to see the changes you have made."
+L["Binds Discarded"] = "Binds Discarded"
+L["Binds Saved"] = "Binds Saved"
+
+
+--Credits
+L["Coding:"] = "Coding:"
+
+
+--DataTexts
+L['Flags Captured'] = true;
+L['Flags Returned'] = true;
+L['Graveyards Assaulted'] = true;
+L['Graveyards Defended'] = true;
+L['Towers Assaulted'] = true;
+L['Towers Defended'] = true;
+L['Demolishers Destroyed'] = true;
+L['Gates Destroyed'] = true;
+L['Bases Assaulted'] = true;
+L['Bases Defended'] = true;
+L['Battleground datatexts temporarily hidden, to show type /bgstats or right click the "C" icon near the minimap.'] = true;
+L['Show BG Texts'] = true;
+L["24-Hour Time"] = "24-Hour Time"
+
+
+--General
+L["Login Message"] = "Login Message"
+L["LOGIN_MSG"] = "Welcome to %sElvUI|r version %s%s|r, type /ec to access the in-game configuration menu. If you are in need of technical support you can visit us at www.tukui.org. You can report bugs, add suggestions here: http://www.tukui.org/tickets/elvui/."
+L["Loot"] = "Loot"
+L["Loot Roll"] = "Loot Roll"
+L['Toggle Tutorials'] = true;
+L["Loot Frames"] = true;
+L['Emotion Icons'] = true;
+L["Enable/Disable the loot frame."] = "Enable/Disable the loot frame."
+L["Enable/Disable the loot roll frame."] = "Enable/Disable the loot roll frame."
+L["Welcome to ElvUI version %s!"] = "Welcome to ElvUI version %s!"
+L[ [=[Specify a filename located inside the World of Warcraft directory. Textures folder that you wish to have set as a panel background.
+
+Please Note:
+-The image size recommended is 256x128
+-You must do a complete game restart after adding a file to the folder.
+-The file type must be tga format.
+
+Example: Interface\AddOns\ElvUI\media\textures\copy
+
+Or for most users it would be easier to simply put a tga file into your WoW folder, then type the name of the file here.]=] ] = [=[Specify a filename located inside the World of Warcraft directory. Textures folder that you wish to have set as a panel background.
+
+Please Note:
+-The image size recommended is 256x128
+-You must do a complete game restart after adding a file to the folder.
+-The file type must be tga format.
+
+Example: Interface\AddOns\ElvUI\media\textures\copy
+
+Or for most users it would be easier to simply put a tga file into your WoW folder, then type the name of the file here.]=]
+L["Automatically accept invites from guild/friends."] = "Automatically accept invites from guild/friends."
+L["Automatically repair using the following method when visiting a merchant."] = "Automatically repair using the following method when visiting a merchant."
+L["Automatically scale the User Interface based on your screen resolution"] = "Automatically scale the User Interface based on your screen resolution"
+L["Automatically vendor gray items when visiting a vendor."] = "Automatically vendor gray items when visiting a vendor."
+L["Auto Repair"] = "Auto Repair"
+L["Auto Scale"] = "Auto Scale"
+L['Display emotion icons in chat.'] = true;
+L["Accept Invites"] = "Accept Invites"
+
+
+--NamePlates
+L["NAMEPLATE_DESC"] = "Modify the nameplate settings."
+L["Color the nameplate's healthbar by your current threat, Example: good threat color is used if your a tank when you have threat, opposite for DPS."] = "Color the nameplate's healthbar by your current threat, Example: good threat color is used if your a tank when you have threat, opposite for DPS."
+L['Low Health Warning'] = true;
+L['Color the border of the nameplate yellow when it reaches the threshold point on these types of frames.'] = true;
+L['Players'] = true;
+L['Low Health Threshold'] = true;
+L['Color the border of the nameplate yellow when it reaches this point, it will be colored red when it reaches half this value.'] = true;
+
+
+--Reminders
+L["Reminders"] = "Reminders"
+L["Select Group"] = "Select Group"
+
+--Skins
+L["Character Frame"] = "Character Frame"
+L["Achievement Frame"] = "Achievement Frame"
+L["Achievement Frame"] = "Achievement Frame"
+L["Archaeology Frame"] = "Archaeology Frame"
+L["Auction Frame"] = "Auction Frame"
+L["Barbershop Frame"] = "Barbershop Frame"
+L["Calendar Frame"] = "Calendar Frame"
+L["Focus Frame"] = "Focus Frame"
+L["FocusTarget Frame"] = "FocusTarget Frame"
+L["Glyph Frame"] = "Glyph Frame"
+L["Gossip Frame"] = "Gossip Frame"
+L["Greeting Frame"] = "Greeting Frame"
+L["Guild Control Frame"] = "Guild Control Frame"
+L["Guild Frame"] = "Guild Frame"
+L["Help Frame"] = "Help Frame"
+L["Inspect Frame"] = "Inspect Frame"
+L["KeyBinding Frame"] = "KeyBinding Frame"
+L["LFG Frame"] = "LFG Frame"
+L["LF Guild Frame"] = "LF Guild Frame"
+L["Macro Frame"] = "Macro Frame"
+L["Mail Frame"] = "Mail Frame"
+L["Merchant Frame"] = "Merchant Frame"
+L["Non-Raid Frame"] = "Non-Raid Frame"
+L["Pet Frame"] = "Pet Frame"
+L["Petition Frame"] = "Petition Frame"
+L["Raid Frame"] = "Raid Frame"
+L["Reforge Frame"] = "Reforge Frame"
+L["Socket Frame"] = "Socket Frame"
+L["Tabard Frame"] = "Tabard Frame"
+L["Talent Frame"] = "Talent Frame"
+L["Taxi Frame"] = "Taxi Frame"
+L["Trade Frame"] = "Trade Frame"
+L["TradeSkill Frame"] = "TradeSkill Frame"
+L["Trainer Frame"] = "Trainer Frame"
+
+
+--Tooltip
+
+
+--Tutorials
 L['Using the /farmmode <size> command will spawn a larger minimap on your screen that can be moved around, very useful when farming.'] = true;
 L['You can use the /resetui command to reset all of your movers. You can also use the command to reset a specific mover, /resetui <mover name>.\nExample: /resetui Player Frame'] = true;
-L['Config Mode:'] = true;
 L['For technical support visit us at www.tukui.org.'] = true;
 L['You can toggle the microbar by using your middle mouse button on the minimap you can also accomplish this by holding shift and right clicking on the minimap.'] = true;
 L['A raid marker feature is available by pressing Escape -> Keybinds scroll to the bottom under ElvUI and setting a keybind for the raid marker.'] = true;
@@ -49,21 +225,41 @@ L['If you accidently remove a chat frame you can always go the in-game configura
 L['If your experience and reputation bars disappear, mouse over the place where they were and click them again.'] = true;
 L['To setup which channels appear in which chat frame, right click the chat tab and go to settings.'] = true;
 L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the blizzard actionbar options menu.'] = true;
-L['Low Health Warning'] = true;
-L['Color the border of the nameplate yellow when it reaches the threshold point on these types of frames.'] = true;
-L['Players'] = true;
-L['Low Health Threshold'] = true;
-L['Color the border of the nameplate yellow when it reaches this point, it will be colored red when it reaches half this value.'] = true;
-L['Toggle Tutorials'] = true;
+
+
+--UnitFrames
+L['Aura Bars'] = true;
+L['The point of which you are anchoring to in relation to the attach to object.'] = true;
+L['Anchor To'] = true;
+L['The object you want to attach to.'] = true;
+L['No Duration'] = true;
+L['Allow displaying of aura bars that do not have a duration.'] = true;
+L['No Consolidated'] = true;
+L['Allow displaying of aura bars that are considered consolidated by Blizzard.'] = true;
+L['Above'] = true;
+L['Below'] = true;
+L["Color"] = "Color"
+L["Color health by ammount remaining."] = "Color health by ammount remaining."
+L["Color health by classcolor or reaction."] = "Color health by classcolor or reaction."
+L["Color power by classcolor or reaction."] = "Color power by classcolor or reaction."
+L["Colors"] = "Colors"
+L["Color Icons"] = "Color Icons"
+L["Color some texts use."] = "Color some texts use."
+L["Color the health backdrop by class or reaction."] = "Color the health backdrop by class or reaction."
+L["Color the icon to their set color in the filters section, otherwise use the icon texture."] = "Color the icon to their set color in the filters section, otherwise use the icon texture."
+L["Color the unit healthbar if there is a debuff that can be dispelled by you."] = "Color the unit healthbar if there is a debuff that can be dispelled by you."
+L["Select a unit to copy settings from."] = "Select a unit to copy settings from."
+L["Select Filter"] = "Select Filter"
+L["Select Spell"] = "Select Spell"
+L['The spell "%s" has been added to the DebuffBlacklist unitframe filter.'] = true;
+L['Hold shift + right click to blacklist this aura.'] = true;
+
+
+
+-----------------------------------------------------------------------
 L["Pet Battle"] = true;
 L['Alert Frames'] = true;
-L["Loot Frames"] = true;
-L['Emotion Icons'] = true;
-L['Display emotion icons in chat.'] = true;
-L["24-Hour Time"] = "24-Hour Time"
-L["Accept Invites"] = "Accept Invites"
-L["Achievement Frame"] = "Achievement Frame"
-L["Achievement Popup Frames"] = "Achievement Popup Frames"
+L["Achievement Popup Frames"] = "Achievement Popup Frames" --This one seem to be unused!!!
 L["ActionBars"] = "ActionBars"
 L["Action Paging"] = "Action Paging"
 L["Add a spell to the filter."] = "Add a spell to the filter."
@@ -86,7 +282,6 @@ L["Any"] = "Any"
 L["An Y offset (in pixels) to be used when anchoring new frames."] = "An Y offset (in pixels) to be used when anchoring new frames."
 L["Any Unit"] = "Any Unit"
 L["AP"] = "AP"
-L["Archaeology Frame"] = "Archaeology Frame"
 L["Arena Frames"] = "Arena Frames"
 L["Are you sure you want to delete all your gray items?"] = "Are you sure you want to delete all your gray items?"
 L["Are you sure you want to disband the group?"] = "Are you sure you want to disband the group?"
@@ -96,14 +291,7 @@ L["Assist Frames"] = "Assist Frames"
 L["Attach To"] = "Attach To"
 L["Attempted to show a reminder icon that does not have any spells. You must add a spell first."] = "Attempted to show a reminder icon that does not have any spells. You must add a spell first."
 L["Attempt to create URL links inside the chat."] = "Attempt to create URL links inside the chat."
-L["Auction Frame"] = "Auction Frame"
 L["Auras"] = "Auras"
-L["Automatically accept invites from guild/friends."] = "Automatically accept invites from guild/friends."
-L["Automatically repair using the following method when visiting a merchant."] = "Automatically repair using the following method when visiting a merchant."
-L["Automatically scale the User Interface based on your screen resolution"] = "Automatically scale the User Interface based on your screen resolution"
-L["Automatically vendor gray items when visiting a vendor."] = "Automatically vendor gray items when visiting a vendor."
-L["Auto Repair"] = "Auto Repair"
-L["Auto Scale"] = "Auto Scale"
 L["AVD: "] = "AVD: "
 L["Avoidance Breakdown"] = "Avoidance Breakdown"
 L["Backdrop"] = "Backdrop"
@@ -121,7 +309,6 @@ L["BAGS_DESC"] = "Adjust bag settings for ElvUI."
 L["Bandwidth"] = "Bandwidth"
 L["Bank Columns"] = "Bank Columns"
 L["Bar "] = "Bar "
-L["Barbershop Frame"] = "Barbershop Frame"
 L["Bar Direction"] = "Bar Direction"
 L["Bars will transition smoothly."] = "Bars will transition smoothly."
 L["Below Minimap"] = "Below Minimap"
@@ -129,9 +316,6 @@ L["BG"] = "BG"
 L["BGL"] = "BGL"
 L["BG Map"] = "BG Map"
 L["BG Score"] = "BG Score"
-L["Binding"] = "Binding"
-L["Binds Discarded"] = "Binds Discarded"
-L["Binds Saved"] = "Binds Saved"
 L["Blacklist"] = "Blacklist"
 L["Blank"] = "Blank"
 L["BN:"] = "BN:"
@@ -144,7 +328,6 @@ L["Buttons"] = "Buttons"
 L["Button Size"] = "Button Size"
 L["Button Spacing"] = "Button Spacing"
 L["Buttons Per Row"] = "Buttons Per Row"
-L["Calendar Frame"] = "Calendar Frame"
 L["Camera Distance Scale"] = "Camera Distance Scale"
 L["Can't buy anymore slots!"] = "Can't buy anymore slots!"
 L["Can't Roll"] = "Can't Roll"
@@ -155,35 +338,11 @@ L["Caster DPS"] = "Caster DPS"
 L[" |cff00ff00bound to |r"] = " |cff00ff00bound to |r"
 L["Change the position of the experience/reputation bar."] = "Change the position of the experience/reputation bar."
 L["Change this if you want the Reminder module to check for weapon enchants, setting this will cause it to ignore any spells listed."] = "Change this if you want the Reminder module to check for weapon enchants, setting this will cause it to ignore any spells listed."
-L["Character Frame"] = "Character Frame"
-L["Chat"] = "Chat"
-L["Chat Bubbles"] = "Chat Bubbles"
-L["CHAT_DESC"] = "Adjust chat settings for ElvUI."
-L["Chat Set"] = "Chat Set"
 L["Chest"] = "Chest"
 L["Class Backdrop"] = "Class Backdrop"
 L["Classbar"] = "Classbar"
 L["Class Health"] = "Class Health"
 L["Class Power"] = "Class Power"
-L["Click the button below to resize your chat frames, unitframes, and reposition your actionbars."] = "Click the button below to resize your chat frames, unitframes, and reposition your actionbars."
-L["Click to search.."] = "Click to search.."
-L["Coding:"] = "Coding:"
-L["Color"] = "Color"
-L["Color health by ammount remaining."] = "Color health by ammount remaining."
-L["Color health by classcolor or reaction."] = "Color health by classcolor or reaction."
-L["Color Icons"] = "Color Icons"
-L["Color power by classcolor or reaction."] = "Color power by classcolor or reaction."
-L["Colors"] = "Colors"
-L["Color some texts use."] = "Color some texts use."
-L["Color the health backdrop by class or reaction."] = "Color the health backdrop by class or reaction."
-L["Color the icon to their set color in the filters section, otherwise use the icon texture."] = "Color the icon to their set color in the filters section, otherwise use the icon texture."
-L["Color the nameplate's healthbar by your current threat, Example: good threat color is used if your a tank when you have threat, opposite for DPS."] = "Color the nameplate's healthbar by your current threat, Example: good threat color is used if your a tank when you have threat, opposite for DPS."
-L["Color the unit healthbar if there is a debuff that can be dispelled by you."] = "Color the unit healthbar if there is a debuff that can be dispelled by you."
-L["Color when the text is about to expire"] = "Color when the text is about to expire"
-L["Color when the text is in the days format."] = "Color when the text is in the days format."
-L["Color when the text is in the hours format."] = "Color when the text is in the hours format."
-L["Color when the text is in the minutes format."] = "Color when the text is in the minutes format."
-L["Color when the text is in the seconds format."] = "Color when the text is in the seconds format."
 L["Column Point"] = "Column Point"
 L["Column Spacing"] = "Column Spacing"
 L["Combat"] = "Combat"
@@ -267,11 +426,6 @@ L["Embedded Addon"] = "Embedded Addon"
 L["Embedded Bar Height"] = "Embedded Bar Height"
 L["Empty Slot"] = "Empty Slot"
 L["Enable"] = "Enable"
-L["Enable Bag-Bar"] = "Enable Bag-Bar"
-L["Enable/Disable the all-in-one bag."] = "Enable/Disable the all-in-one bag."
-L["Enable/Disable the Bag-Bar."] = "Enable/Disable the Bag-Bar."
-L["Enable/Disable the loot frame."] = "Enable/Disable the loot frame."
-L["Enable/Disable the loot roll frame."] = "Enable/Disable the loot roll frame."
 L["Encounter Journal"] = "Encounter Journal"
 L["Enemy"] = "Enemy"
 L["Enhance Threat"] = "Enhance Threat"
@@ -287,8 +441,6 @@ L["Filters"] = "Filters"
 L["Filter Type"] = "Filter Type"
 L["Finished"] = "Finished"
 L["Fishy Loot"] = "Fishy Loot"
-L["Focus Frame"] = "Focus Frame"
-L["FocusTarget Frame"] = "FocusTarget Frame"
 L["Font"] = "Font"
 L["Font Outline"] = "Font Outline"
 L["Fonts"] = "Fonts"
@@ -303,14 +455,11 @@ L["Friends List"] = "Friends List"
 L["G"] = "G"
 L["General"] = "General"
 L["Ghost"] = "Ghost"
-L["Glyph Frame"] = "Glyph Frame"
 L["goldabbrev"] = "|cffffd700g|r"
 L["Good"] = "Good"
 L["Good Color"] = "Good Color"
 L["Good Scale"] = "Good Scale"
 L["Good Transition Color"] = "Good Transition Color"
-L["Gossip Frame"] = "Gossip Frame"
-L["Greeting Frame"] = "Greeting Frame"
 L["Grid Size:"] = "Grid Size:"
 L["Group already exists!"] = "Group already exists!"
 L["Group By"] = "Group By"
@@ -318,8 +467,6 @@ L["Group Point"] = "Group Point"
 L["Growth Direction"] = "Growth Direction"
 L["Growth direction of the buffs"] = "Growth direction of the buffs"
 L["Guild Bank"] = "Guild Bank"
-L["Guild Control Frame"] = "Guild Control Frame"
-L["Guild Frame"] = "Guild Frame"
 L["Guild Registrar"] = "Guild Registrar"
 L["Hands"] = "Hands"
 L["Head"] = "Head"
@@ -332,7 +479,6 @@ L["Health By Value"] = "Health By Value"
 L["Health Text"] = "Health Text"
 L["Height"] = "Height"
 L["Height Multiplier"] = "Height Multiplier"
-L["Help Frame"] = "Help Frame"
 L["Hide"] = "Hide"
 L["Hide Both"] = "Hide Both"
 L["Hide tooltip while in combat."] = "Hide tooltip while in combat."
@@ -360,14 +506,12 @@ L["INCOMPATIBLE_ADDON"] = "The addon %s is not compatible with ElvUI's %s module
 L["Initial Anchor"] = "Initial Anchor"
 L["Inside BG/Arena"] = "Inside BG/Arena"
 L["Inside Raid/Party"] = "Inside Raid/Party"
-L["Inspect Frame"] = "Inspect Frame"
 L["Install"] = "Install"
 L["Installation Complete"] = "Installation Complete"
 L["Instead of hiding the frame when you have the buff, show the frame when you have the buff."] = true;
 L["Interrupt Color"] = "Interrupt Color"
 L["Key"] = "Key"
 L["KEY_ALT"] = "A"
-L["KeyBinding Frame"] = "KeyBinding Frame"
 L["Keybind Mode"] = "Keybind Mode"
 L["Keybind Text"] = "Keybind Text"
 L["KEY_BUTTON3"] = "M3"
@@ -395,23 +539,15 @@ L["Left Only"] = "Left Only"
 L["Legs"] = "Legs"
 L["Level Requirement"] = "Level Requirement"
 L["Level requirement for the icon to be able to display. 0 for disabled."] = "Level requirement for the icon to be able to display. 0 for disabled."
-L["LFG Frame"] = "LFG Frame"
-L["LF Guild Frame"] = "LF Guild Frame"
 L["Mounts & Pets"] = true;
 L["Local Time"] = "Local Time"
 L["Lock"] = "Lock"
 L["LOCK_AB_ERROR"] = "It has come to our attention that you do not have your actionbars locked. This may cause abilities to be used while dragging buttons to differant slots. Please run the Set CVar portion of the Installation process (Step 2). This can be done by typing /ec and clicking the Install button."
-L["Login Message"] = "Login Message"
-L["LOGIN_MSG"] = "Welcome to %sElvUI|r version %s%s|r, type /ec to access the in-game configuration menu. If you are in need of technical support you can visit us at www.tukui.org. You can report bugs, add suggestions here: http://www.tukui.org/tickets/elvui/."
-L["Loot"] = "Loot"
-L["Loot Roll"] = "Loot Roll"
 L["low"] = "low"
 L["Low Mana Threshold"] = "Low Mana Threshold"
 L["Low Threshold"] = "Low Threshold"
 L["lvl"] = "lvl"
-L["Macro Frame"] = "Macro Frame"
 L["Macro Text"] = "Macro Text"
-L["Mail Frame"] = "Mail Frame"
 L["Main backdrop color of the UI."] = "Main backdrop color of the UI."
 L["Main border color of the UI."] = "Main border color of the UI."
 L["Main Hand"] = "Main Hand"
@@ -420,7 +556,6 @@ L['Map Alpha While Moving'] = 'Map Alpha While Moving'
 L["Match Frame Width"] = "Match Frame Width"
 L["Max Columns"] = "Max Columns"
 L["Media"] = "Media"
-L["Merchant Frame"] = "Merchant Frame"
 L["middle"] = "Middle"
 L["Minimap Size"] = "Minimap Size"
 L["Minutes"] = "Minutes"
@@ -429,29 +564,20 @@ L["Mouse Over"] = "Mouse Over"
 L["Movers unlocked. Move them now and click Lock when you are done."] = "Movers unlocked. Move them now and click Lock when you are done."
 L["Multiply the backdrops height or width by this value. This is usefull if you wish to have more than one bar behind a backdrop."] = "Multiply the backdrops height or width by this value. This is usefull if you wish to have more than one bar behind a backdrop."
 L["Name"] = "Name"
-L["NAMEPLATE_DESC"] = "Modify the nameplate settings."
 L["NamePlates"] = "NamePlates"
 L["Negate Spells"] = "Negate Spells"
 L["Neutral"] = "Neutral"
 L["New ID"] = "New ID"
 L["New ID (Negate)"] = "New ID (Negate)"
 L["No bindings set."] = "No bindings set."
-L["No gray items to delete."] = "No gray items to delete."
-L["No gray items to sell."] = "No gray items to sell."
 L["None"] = "None"
-L["Non-Raid Frame"] = "Non-Raid Frame"
 L["Not valid spell id"] = "Not valid spell id"
-L["Number of columns (width) of bags. Set it to 0 to match the width of the chat panels."] = "Number of columns (width) of bags. Set it to 0 to match the width of the chat panels."
-L["Number of columns (width) of the bank. Set it to 0 to match the width of the chat panels."] = "Number of columns (width) of the bank. Set it to 0 to match the width of the chat panels."
-L["Number of time in seconds to scroll down to the bottom of the chat window if you are not scrolled down completely."] = "Number of time in seconds to scroll down to the bottom of the chat window if you are not scrolled down completely."
 L["Num Rows"] = "Num Rows"
 L["O"] = "O"
 L["Offhand"] = "Offhand"
 L["Offline"] = "Offline"
 L["Offset"] = "Offset"
 L["Offset of the powerbar to the healthbar, set to 0 to disable."] = "Offset of the powerbar to the healthbar, set to 0 to disable."
-L["One or more of the changes you have made require a ReloadUI."] = "One or more of the changes you have made require a ReloadUI."
-L["One or more of the changes you have made will effect all characters using this addon. You will have to reload the user interface to see the changes you have made."] = "One or more of the changes you have made will effect all characters using this addon. You will have to reload the user interface to see the changes you have made."
 L["Only check if the buff is coming from you."] = "Only check if the buff is coming from you."
 L["Only run checks during combat."] = "Only run checks during combat."
 L["Only run checks inside BG/Arena instances."] = "Only run checks inside BG/Arena instances."
@@ -478,16 +604,11 @@ L["Personal Auras"] = "Personal Auras"
 L["Personal Buffs"] = "Personal Buffs"
 L["Personal Debuffs"] = "Personal Debuffs"
 L["Pet Bar"] = "Pet Bar"
-L["Pet Frame"] = "Pet Frame"
-L["Petition Frame"] = "Petition Frame"
 L["PetTarget Frame"] = "PetTarget Frame"
 L["PG"] = "PG"
 L["Physical DPS"] = "Physical DPS"
 L["PL"] = "PL"
 L["Player Frame"] = "Player Frame"
-L["Please click the button below so you can setup variables and ReloadUI."] = "Please click the button below so you can setup variables and ReloadUI."
-L["Please click the button below to setup your CVars."] = "Please click the button below to setup your CVars."
-L["Please press the continue button to go onto the next step."] = "Please press the continue button to go onto the next step."
 L["Portrait"] = "Portrait"
 L["Position"] = "Position"
 L["Power"] = "Power"
@@ -502,15 +623,12 @@ L["PvP Frames"] = "PvP Frames"
 L["Quest Frames"] = "Quest Frames"
 L["R"] = "R"
 L["RaidDebuff Indicator"] = "RaidDebuff Indicator"
-L["Raid Frame"] = "Raid Frame"
 L["Raid Menu"] = "Raid Menu"
 L["Rapidly update the health, uses more memory and cpu. Only recommended for healing."] = "Rapidly update the health, uses more memory and cpu. Only recommended for healing."
 L["Reactions"] = "Reactions"
-L["Reforge Frame"] = "Reforge Frame"
 L["Remaining"] = "Remaining"
 L["Remaining:"] = "Remaining:"
 L["REMINDER_DESC"] = "This module will show warning icons on your screen when you are missing buffs or have buffs when you shouldn't."
-L["Reminders"] = "Reminders"
 L["Remove a spell from the filter."] = "Remove a spell from the filter."
 L["Remove Group"] = "Remove Group"
 L["Remove ID"] = "Remove ID"
@@ -550,10 +668,6 @@ L["Seconds"] = "Seconds"
 L["Select a filter to use."] = "Select a filter to use."
 L["Select a filter to use. These are imported from the unitframe aura filter."] = "Select a filter to use. These are imported from the unitframe aura filter."
 L["Select an addon to embed to the right chat window. This will resize the addon to fit perfectly into the chat window, it will also parent it to the chat window so hiding the chat window will also hide the addon."] = "Select an addon to embed to the right chat window. This will resize the addon to fit perfectly into the chat window, it will also parent it to the chat window so hiding the chat window will also hide the addon."
-L["Select a unit to copy settings from."] = "Select a unit to copy settings from."
-L["Select Filter"] = "Select Filter"
-L["Select Group"] = "Select Group"
-L["Select Spell"] = "Select Spell"
 L["Server: "] = "Server: "
 L["Session:"] = "Session:"
 L["Set a talent tree to not follow the reverse check."] = "Set a talent tree to not follow the reverse check."
@@ -588,7 +702,6 @@ L["Skip Process"] = "Skip Process"
 L["Smart"] = "Smart"
 L["Smart Raid Filter"] = "Smart Raid Filter"
 L["Smooth Bars"] = "Smooth Bars"
-L["Socket Frame"] = "Socket Frame"
 L["Sort Bags"] = "Sort Bags"
 L["Sort Direction"] = "Sort Direction"
 L["Sort Orientation"] = "Sort Orientation"
@@ -599,25 +712,6 @@ L["SP"] = "SP"
 L["Spaced"] = "Spaced"
 L["Spam Interval"] = "Spam Interval"
 L["Spark"] = "Spark"
-L[ [=[Specify a filename located inside the World of Warcraft directory. Textures folder that you wish to have set as a panel background.
-
-Please Note:
--The image size recommended is 256x128
--You must do a complete game restart after adding a file to the folder.
--The file type must be tga format.
-
-Example: Interface\AddOns\ElvUI\media\textures\copy
-
-Or for most users it would be easier to simply put a tga file into your WoW folder, then type the name of the file here.]=] ] = [=[Specify a filename located inside the World of Warcraft directory. Textures folder that you wish to have set as a panel background.
-
-Please Note:
--The image size recommended is 256x128
--You must do a complete game restart after adding a file to the folder.
--The file type must be tga format.
-
-Example: Interface\AddOns\ElvUI\media\textures\copy
-
-Or for most users it would be easier to simply put a tga file into your WoW folder, then type the name of the file here.]=]
 L["Spell"] = "Spell"
 L["Spell already exists in filter."] = "Spell already exists in filter."
 L["Spellbook"] = "Spellbook"
@@ -633,8 +727,6 @@ L["StatusBar Texture"] = "StatusBar Texture"
 L["Sticky Chat"] = "Sticky Chat"
 L["Sticky Frames"] = "Sticky Frames"
 L["Strict Filter"] = "Strict Filter"
-L["Tabard Frame"] = "Tabard Frame"
-L["Talent Frame"] = "Talent Frame"
 L["Talent Tree"] = "Talent Tree"
 L["Tank"] = "Tank"
 L["Tank Frames"] = "Tank Frames"
@@ -643,7 +735,6 @@ L["Target"] = "Target"
 L["Targeted By:"] = "Targeted By:"
 L["Target Frame"] = "Target Frame"
 L["TargetTarget Frame"] = "TargetTarget Frame"
-L["Taxi Frame"] = "Taxi Frame"
 L["Testing:"] = "Testing:"
 L["Text"] = "Text"
 L["Text Format"] = "Text Format"
@@ -686,12 +777,6 @@ L["This resolution doesn't require that you change settings for the UI to fit on
 L["This resolution requires that you change some settings to get everything to fit on your screen."] = "This resolution requires that you change some settings to get everything to fit on your screen."
 L["This texture will get used on objects like chat windows and dropdown menus."] = "This texture will get used on objects like chat windows and dropdown menus."
 L["This will change the layout of your unitframes, raidframes, and datatexts."] = "This will change the layout of your unitframes, raidframes, and datatexts."
-L[ [=[This works like a macro, you can run different situations to get the actionbar to page differently.
- Example: '[combat] 2;']=] ] = [=[This works like a macro, you can run different situations to get the actionbar to page differently.
- Example: '[combat] 2;']=]
-L[ [=[This works like a macro, you can run different situations to get the actionbar to show/hide differently.
- Example: '[combat] show;hide']=] ] = [=[This works like a macro, you can run different situations to get the actionbar to show/hide differently.
- Example: '[combat] show;hide']=]
 L["Threat"] = "Threat"
 L["Threshold before text turns red and is in decimal form. Set to -1 for it to never turn red"] = "Threshold before text turns red and is in decimal form. Set to -1 for it to never turn red"
 L["Ticks"] = "Ticks"
@@ -713,9 +798,6 @@ L["Top to Bottom"] = "Top to Bottom"
 L["Total: "] = "Total: "
 L["Total CPU:"] = "Total CPU:"
 L["Total Memory:"] = "Total Memory:"
-L["Trade Frame"] = "Trade Frame"
-L["TradeSkill Frame"] = "TradeSkill Frame"
-L["Trainer Frame"] = "Trainer Frame"
 L["Tree Exception"] = "Tree Exception"
 L["UF Hide"] = "UF Hide"
 L["Unhittable:"] = "Unhittable:"
@@ -738,12 +820,10 @@ L["Visibility"] = "Visibility"
 L["Visibility State"] = "Visibility State"
 L["Waist"] = "Waist"
 L["Weapon"] = "Weapon"
-L["Welcome to ElvUI version %s!"] = "Welcome to ElvUI version %s!"
 L["What each frame should attach itself to, example setting it to TOP every unit will attach its top to the last point bottom."] = "What each frame should attach itself to, example setting it to TOP every unit will attach its top to the last point bottom."
 L["What point to anchor to the frame you set to attach to."] = "What point to anchor to the frame you set to attach to."
 L["What to attach the buff anchor frame to."] = "What to attach the buff anchor frame to."
 L["When in a raid group display if anyone in your raid is targetting the current tooltip unit."] = "When in a raid group display if anyone in your raid is targetting the current tooltip unit."
-L["When opening the Chat Editbox to type a message having this option set means it will retain the last channel you spoke in. If this option is turned off opening the Chat Editbox should always default to the SAY channel."] = "When opening the Chat Editbox to type a message having this option set means it will retain the last channel you spoke in. If this option is turned off opening the Chat Editbox should always default to the SAY channel."
 L["When true, the group header is shown when the player is in a party."] = "When true, the group header is shown when the player is in a party."
 L["When true, the group header is shown when the player is in a raid."] = "When true, the group header is shown when the player is in a raid."
 L["When true, the header includes the player when not in a raid."] = "When true, the header includes the player when not in a raid."
@@ -815,23 +895,6 @@ L['Raid-10 Frames'] = true;
 L['Raid-40 Frames'] = true;
 L["Priority"] = true;
 L['Show Auras'] = true;
-L['Max Paging'] = true;
-L['When enabled the main actionbar will use the maximum amount of pages available. This means if you have another actionbar disabled, the actionbar page will become available on the main actionbar. Having this disabled will limit the main actionbar to two pages.'] = true;
-L['List of words to color in chat if found in a message. If you wish to add multiple words you must seperate the word with a comma. To search for your current name you can use %MYNAME%.\n\nExample:\n%MYNAME%, ElvUI, RBGs, Tank'] = true;
-L['Keywords'] = true;
-L['Flags Captured'] = true;
-L['Flags Returned'] = true;
-L['Graveyards Assaulted'] = true;
-L['Graveyards Defended'] = true;
-L['Towers Assaulted'] = true;
-L['Towers Defended'] = true;
-L['Demolishers Destroyed'] = true;
-L['Gates Destroyed'] = true;
-L['Bases Assaulted'] = true;
-L['Bases Defended'] = true;
-L['Battleground datatexts temporarily hidden, to show type /bgstats or right click the "C" icon near the minimap.'] = true;
-L['Toggle Configuration'] = true;
-L['Show BG Texts'] = true;
 L['Battleground datatexts will now show again if you are inside a battleground.'] = true;
 L['Battleground Texts'] = true;
 L['When inside a battleground display personal scoreboard information on the main datatext bars.'] = true;
@@ -840,22 +903,4 @@ L['Location Text'] = true;
 L['Change settings for the display of the location text that is on the minimap.'] = true;
 L['Minimap Mouseover'] = true;
 L['Always Display'] = true;
-L['Theme Set'] = true;
-L['Theme Setup'] = true;
-L['Choose a theme layout you wish to use for your initial setup.'] = true;
-L['You can always change fonts and colors of any element of elvui from the in-game configuration.'] = true;
-L['Classic'] = true;
-L['Classic Pixel'] = true;
-L['The spell "%s" has been added to the DebuffBlacklist unitframe filter.'] = true;
-L['Hold shift + right click to blacklist this aura.'] = true;
 L['Stats For:'] = true;
-L['Aura Bars'] = true;
-L['The point of which you are anchoring to in relation to the attach to object.'] = true;
-L['Anchor To'] = true;
-L['The object you want to attach to.'] = true;
-L['No Duration'] = true;
-L['Allow displaying of aura bars that do not have a duration.'] = true;
-L['No Consolidated'] = true;
-L['Allow displaying of aura bars that are considered consolidated by Blizzard.'] = true;
-L['Above'] = true;
-L['Below'] = true;
