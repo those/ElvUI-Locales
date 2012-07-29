@@ -2,6 +2,58 @@
 local L = AceLocale:NewLocale("ElvUI", "ruRU")
 if not L then return; end
 
+--ActionBars
+L["Color when the text is about to expire"] = "Цвет текста почти завершившегося восстановления."
+L["Color when the text is in the days format."] = "Цвет текста времени восстановления в днях."
+L["Color when the text is in the hours format."] = "Цвет текста времени восстановления в часах."
+L["Color when the text is in the minutes format."] = "Цвет текста времени восстановления в минутах."
+L["Color when the text is in the seconds format."] = "Цвет текста времени восстановления в секундах."
+L['Max Paging'] = "Макс-ное переключение"
+L['When enabled the main actionbar will use the maximum amount of pages available. This means if you have another actionbar disabled, the actionbar page will become available on the main actionbar. Having this disabled will limit the main actionbar to two pages.'] = "При активации основная панель будет использовать максимальное кол-во панелей для переключения. Это означает, что если какая-то из панелей отключена, то она будет доступна для переключения. Отключение опции ограничит переключение двумя панелями."
+L[ [=[This works like a macro, you can run different situations to get the actionbar to page differently.
+ Example: '[combat] 2;']=] ] = [=[Работает как макрос. Вы можете установить различные условия для отображения разных панелей.
+ Пример: '[combat] 2;']=]
+L[ [=[This works like a macro, you can run different situations to get the actionbar to show/hide differently.
+ Example: '[combat] show;hide']=] ] = [=[Работает как макрос. Вы можете установить различные условия для показа/скрытия панели.
+ Пример: '[combat] show;hide']=]
+L["Binding"] = "Назначение"
+L["ActionBars"] = "Панели команд"
+L["Action Paging"] = "Переключение панелей"
+L["Anchor Point"] = "Точка фиксации"
+L["Backdrop"] = "Фон"
+
+--Bags
+
+--Buffs and Debuffs
+
+--Chat
+
+--Config / Install
+
+--Credits
+
+--DataTexts
+
+--DebugTools
+
+--General
+
+--NamePlates
+
+--Reminders
+
+--Skins
+
+--Static Popups
+
+--Tooltip
+
+--Tutorials
+
+--UnitFrames
+
+--Unused O_o
+
 L["Whisper Alert"] = "Звук шепота";
 L["Keyword Alert"] = "Звук ключевых слов";
 L['AURAS_DESC'] = 'Настройка иконок эффектов, находящихся у миникарты.';
@@ -62,8 +114,6 @@ L["24-Hour Time"] = "24х часовой формат"
 L["Accept Invites"] = "Принимать приглашения"
 L["Achievement Frame"] = "Достижения"
 L["Achievement Popup Frames"] = "Сообщения о достижении"
-L["ActionBars"] = "Панели команд"
-L["Action Paging"] = "Переключение панелей"
 L["Add a spell to the filter."] = "Добавить заклинание в фильтр"
 L["Add Group"] = "Добавить группу"
 L["Add Name"] = "Добавить имя"
@@ -76,7 +126,6 @@ L["All keybindings cleared for |cff00ff00%s|r."] = "Сброшены все на
 L["Alt-Power"] = "Доп. Ресурс"
 L["Anchor"] = "Фиксатор"
 L["Anchor Mode"] = "Прикреплять к"
-L["Anchor Point"] = "Точка фиксации"
 L["Announce Interrupts"] = "Объявлять о прерываниях"
 L["Announce when you interrupt a spell to the specified chat channel."] = "Объявлять о прерванных Вами заклинаниях в указанный канал чата."
 L["An X offset (in pixels) to be used when anchoring new frames."] = "Отступ по оси Х (в пикселях) при добавлении новых рамок"
@@ -104,7 +153,6 @@ L["Auto Repair"] = "Автоматический ремонт"
 L["Auto Scale"] = "Автоматический масштаб"
 L["AVD: "] = "Защита: "
 L["Avoidance Breakdown"] = "Распределение защиты"
-L["Backdrop"] = "Фон"
 L["Backdrop Color"] = "Цвет фона"
 L["Backdrop color of transparent frames"] = "Цвет фона прозрачных фреймов"
 L["Backdrop Faded Color"] = "Цвет прозрачного фона"
@@ -127,7 +175,6 @@ L["BG"] = "ПБ"
 L["BGL"] = "Лидер ПБ"
 L["BG Map"] = "Карта ПБ"
 L["BG Score"] = "Таблица ПБ"
-L["Binding"] = "Назначение"
 L["Binds Discarded"] = "Назначения отменены"
 L["Binds Saved"] = "Назначения сохранены"
 L["Blacklist"] = "Черный список"
@@ -177,11 +224,6 @@ L["Color the health backdrop by class or reaction."] = "Окрасить фон 
 L["Color the icon to their set color in the filters section, otherwise use the icon texture."] = "Окрашивает иконки в установленный в фильтре цвет. В противном случае использует текстуру иконки."
 L["Color the nameplate's healthbar by your current threat, Example: good threat color is used if your a tank when you have threat, opposite for DPS."] = 'Окрашивать индикатор, основываясь на текущем уровне угрозы. Например: "хороший" цвет используется, когда Вы танк с наивысшим уровнем угрозы, наоборот для дпс/лекаря.'
 L["Color the unit healthbar if there is a debuff that can be dispelled by you."] = "Изменять цвет полосы здоровья, если на юните есть дебафф, который Вы можете снять."
-L["Color when the text is about to expire"] = "Цвет текста почти завершившегося восстановления."
-L["Color when the text is in the days format."] = "Цвет текста времени восстановления в днях."
-L["Color when the text is in the hours format."] = "Цвет текста времени восстановления в часах."
-L["Color when the text is in the minutes format."] = "Цвет текста времени восстановления в минутах."
-L["Color when the text is in the seconds format."] = "Цвет текста времени восстановления в секундах."
 L["Column Point"] = "Точка столбца"
 L["Column Spacing"] = "Отступ столбцов"
 L["Combat"] = "В бою"
@@ -668,12 +710,6 @@ L["This resolution doesn't require that you change settings for the UI to fit on
 L["This resolution requires that you change some settings to get everything to fit on your screen."] = "Для соответствия интерфейса вашему экрану требуется изменение некоторых настроек."
 L["This texture will get used on objects like chat windows and dropdown menus."] = "Эта текстура будет использоваться для таких объектов как окно чата и выпадающие меню."
 L["This will change the layout of your unitframes, raidframes, and datatexts."] = "Это изменит расположение ваших рамок юнитов, рейда и информационных текстов"
-L[ [=[This works like a macro, you can run different situations to get the actionbar to page differently.
- Example: '[combat] 2;']=] ] = [=[Работает как макрос. Вы можете установить различные условия для отображения разных панелей.
- Пример: '[combat] 2;']=]
-L[ [=[This works like a macro, you can run different situations to get the actionbar to show/hide differently.
- Example: '[combat] show;hide']=] ] = [=[Работает как макрос. Вы можете установить различные условия для показа/скрытия панели.
- Пример: '[combat] show;hide']=]
 L["Threat"] = "Угроза"
 L["Threshold before text turns red and is in decimal form. Set to -1 for it to never turn red"] = "Время, после которого текст станет красным и начнет отображать доли секунды. Установите -1, чтобы не отображать текст в такой форме."
 L["Ticks"] = "Тики"
@@ -795,8 +831,6 @@ L['Show Auras'] = "Показать ауры"
 L['Raid-25 Frames'] = "Рейд 25";
 L['Raid-10 Frames'] = "Рейд 10";
 L['Raid-40 Frames'] = "Рейд 40";
-L['Max Paging'] = "Макс-ное переключение";
-L['When enabled the main actionbar will use the maximum amount of pages available. This means if you have another actionbar disabled, the actionbar page will become available on the main actionbar. Having this disabled will limit the main actionbar to two pages.'] = "При активации основная панель будет использовать максимальное кол-во панелей для переключения. Это означает, что если какая-то из панелей отключена, то она будет доступна для переключения. Отключение опции ограничит переключение двумя панелями.";
 L['List of words to color in chat if found in a message. If you wish to add multiple words you must seperate the word with a comma. To search for your current name you can use %MYNAME%.\n\nExample:\n%MYNAME%, ElvUI, RBGs, Tank'] = "Список слов для окрашивания, если они обнаружены в чате. Если Вы хотите добавить несколько слов, то разделяйте их запятыми. Для поиска имени Вашего текущего персонажа используйте %MYNAME%.\n\nПример:\n%MYNAME%, ElvUI, РБГ, Танк";
 L['Keywords'] = "Ключевые слова";
 L['Flags Captured'] = "Захваты флага";
