@@ -10,6 +10,7 @@ end
 if not L then return; end
 
 --ActionBars
+L["Expiring"] = "Expiring"
 L["Display bind names on action buttons."] = "Display bind names on action buttons."
 L["Display cooldown text on anything with the cooldown spiril."] = "Display cooldown text on anything with the cooldown spiril."
 L["Display macro names on action buttons."] = "Display macro names on action buttons."
@@ -106,6 +107,8 @@ L['No Sorting'] = true;
 L['Your Auras First'] = true;
 
 --Chat
+L["Font"] = "Font"
+L["Font Outline"] = "Font Outline" --Also used in UnitFrames section
 L["Display the hyperlink tooltip while hovering over a hyperlink."] = "Display the hyperlink tooltip while hovering over a hyperlink."
 L["DND"] = "DND"
 L["Keyword Alert"] = true;
@@ -128,6 +131,7 @@ L['says'] = true;
 L['yells'] = true;
 
 --Config / Install
+L["Finished"] = "Finished"
 L['Config Mode:'] = true;
 L['Classic'] = true;
 L['Classic Pixel'] = true;
@@ -152,10 +156,14 @@ L["CVars"] = "CVars"
 L["CVars Set"] = "CVars Set"
 
 --Credits
+L["ELVUI_CREDITS"] = "I would like to give out a special shout out to the following people for helping me maintain this addon with testing and coding and people who also have helped me through donations. Please note for donations I'm only posting the names of people who PM'd me on the forums, if your name is missing and you wish to have your name added please PM me."
 L["Donations:"] = "Donations:"
 L["Coding:"] = "Coding:"
 
 --DataTexts
+L["Friends List"] = "Friends List"
+L["Feet"] = "Feet"
+L["Earned:"] = "Earned:"
 L["Character: "] = true
 L["DPS"] = "DPS"
 L['Flags Captured'] = true;
@@ -189,6 +197,9 @@ L["No locals to dump"] = true;
 L["%s: %s tried to call the protected function '%s'."] = true;
 
 --General
+L["Fonts"] = "Fonts"
+L["Exp/Rep Position"] = "Exp/Rep Position"
+L["ELVUI_DESC"] = "ElvUI is a complete User Interface replacement addon for World of Warcraft."
 L["Disband Group"] = "Disband Group"
 L["Default Font"] = "Default Font"
 L["General"] = "General"
@@ -252,7 +263,17 @@ L["Change the position of the experience/reputation bar."] = "Change the positio
 L["CombatText Font"] = "CombatText Font"
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = "Controls what the transparency of the worldmap will be set to when you are moving."
 
+--Misc
+L["Fishy Loot"] = "Fishy Loot" --modules\misc\loot.lua
+L["Empty Slot"] = "Empty Slot" --modules\misc\loot.lua
+L["Enable"] = "Enable" --Doesn't fit a section since it's used a lot of places
+
 --NamePlates
+L["Enemy"] = "Enemy"
+L["Enhance Threat"] = "Enhance Threat"
+L["Filter already exists!"] = "Filter already exists!"
+L["Friendly NPC"] = "Friendly NPC"
+L["Friendly Player"] = "Friendly Player"
 L["Display a healer icon over known healers inside battlegrounds."] = "Display a healer icon over known healers inside battlegrounds."
 L["Display level text on nameplate for nameplates that belong to units that aren't your level."] = "Display level text on nameplate for nameplates that belong to units that aren't your level."
 L["Display your personal debuffs over the nameplate."] = "Display your personal debuffs over the nameplate."
@@ -283,6 +304,9 @@ L["Custom Color"] = "Custom Color"
 L["Custom Scale"] = "Custom Scale"
 
 --Skins
+L["Encounter Journal"] = "Encounter Journal"
+L["Embedded Bar Height"] = "Embedded Bar Height"
+L["Friends"] = "Friends"
 L["Dressing Room"] = "Dressing Room"
 L["Debug Tools"] = "Debug Tools"
 L["Embedded Addon"] = "Embedded Addon"
@@ -336,6 +360,7 @@ L["Can't buy anymore slots!"] = "Can't buy anymore slots!"
 
 --Tooltip
 L['Bars'] = true; --ExpRepBar Tooltip. Don't have a better place for it.
+L["Experience"] = "Experience" --ExpRepBar Tooltip. Don't have a better place for it.
 L["Don't display the tooltip when mousing over a unitframe."] = "Don't display the tooltip when mousing over a unitframe."
 L["AFK"] = "AFK"
 L["Anchor"] = "Anchor"
@@ -363,6 +388,13 @@ L['To setup which channels appear in which chat frame, right click the chat tab 
 L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the blizzard actionbar options menu.'] = true;
 
 --UnitFrames
+L["Fill"] = "Fill"
+L["Filled"] = "Filled"
+L["Filters"] = "Filters"
+L["Filter Type"] = "Filter Type"
+L["Format"] = "Format"
+L["Frequent Updates"] = "Frequent Updates"
+L["Fade the unitframe when out of combat, not casting, no target exists."] = "Fade the unitframe when out of combat, not casting, no target exists."
 L['Aura Bars'] = true;
 L['The point of which you are anchoring to in relation to the attach to object.'] = true;
 L['Anchor To'] = true;
@@ -503,40 +535,9 @@ L["Achievement Popup Frames"] = "Achievement Popup Frames" --This appears in liv
 -------------------------------------------------
 -------------------------------------------------
 
-L["Earned:"] = "Earned:"
-L["ELVUI_CREDITS"] = "I would like to give out a special shout out to the following people for helping me maintain this addon with testing and coding and people who also have helped me through donations. Please note for donations I'm only posting the names of people who PM'd me on the forums, if your name is missing and you wish to have your name added please PM me."
-L["ELVUI_DESC"] = "ElvUI is a complete User Interface replacement addon for World of Warcraft."
-L["Embedded Bar Height"] = "Embedded Bar Height"
-L["Empty Slot"] = "Empty Slot"
-L["Enable"] = "Enable"
-L["Encounter Journal"] = "Encounter Journal"
-L["Enemy"] = "Enemy"
-L["Enhance Threat"] = "Enhance Threat"
-L["Experience"] = "Experience"
-L["Expiring"] = "Expiring"
-L["Exp/Rep Position"] = "Exp/Rep Position"
-L["Fade the unitframe when out of combat, not casting, no target exists."] = "Fade the unitframe when out of combat, not casting, no target exists."
-L["Feet"] = "Feet"
-L["Fill"] = "Fill"
-L["Filled"] = "Filled"
-L["Filter already exists!"] = "Filter already exists!"
-L["Filters"] = "Filters"
-L["Filter Type"] = "Filter Type"
-L["Finished"] = "Finished"
-L["Fishy Loot"] = "Fishy Loot"
-L["Font"] = "Font"
-L["Font Outline"] = "Font Outline"
-L["Fonts"] = "Fonts"
-L["Format"] = "Format"
-L["Frequent Updates"] = "Frequent Updates"
-L["Friendly NPC"] = "Friendly NPC"
-L["Friendly Player"] = "Friendly Player"
-L["Friends"] = "Friends"
-L["Friends List"] = "Friends List"
 L["Ghost"] = "Ghost"
 L["goldabbrev"] = "|cffffd700g|r"
 L["Grid Size:"] = "Grid Size:"
-
 L["Group By"] = "Group By"
 L["Group Point"] = "Group Point"
 L["Growth Direction"] = "Growth Direction"
