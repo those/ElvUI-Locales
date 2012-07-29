@@ -10,6 +10,7 @@ end
 if not L then return; end
 
 --ActionBars
+L["Hours"] = "Hours"
 L["Expiring"] = "Expiring"
 L["Display bind names on action buttons."] = "Display bind names on action buttons."
 L["Display cooldown text on anything with the cooldown spiril."] = "Display cooldown text on anything with the cooldown spiril."
@@ -51,6 +52,8 @@ L["Cooldown Text"] = "Cooldown Text"
 L["Days"] = "Days"
 
 --Bags
+L["goldabbrev"] = "|cffffd700g|r" --Also used in gold datatext
+L["Hold Shift:"] = "Hold Shift:"
 L["Direction the bag sorting will use to allocate the items."] = "Direction the bag sorting will use to allocate the items."
 L["Deleted %d gray items. Total Worth: %s"] = "Deleted %d gray items. Total Worth: %s"
 L["Delete Grays"] = "Delete Grays"
@@ -107,6 +110,7 @@ L['No Sorting'] = true;
 L['Your Auras First'] = true;
 
 --Chat
+L["Hyperlink Hover"] = "Hyperlink Hover"
 L["Font"] = "Font"
 L["Font Outline"] = "Font Outline" --Also used in UnitFrames section
 L["Display the hyperlink tooltip while hovering over a hyperlink."] = "Display the hyperlink tooltip while hovering over a hyperlink."
@@ -131,6 +135,9 @@ L['says'] = true;
 L['yells'] = true;
 
 --Config / Install
+L["Grid Size:"] = "Grid Size:"
+L["Healer"] = "Healer"
+L["high"] = "high"
 L["Finished"] = "Finished"
 L['Config Mode:'] = true;
 L['Classic'] = true;
@@ -161,6 +168,13 @@ L["Donations:"] = "Donations:"
 L["Coding:"] = "Coding:"
 
 --DataTexts
+L["Hands"] = "Hands"
+L["Head"] = "Head"
+L["Hit"] = "Hit"
+L["(Hold Shift) Memory Usage"] = "(Hold Shift) Memory Usage"
+L["Home Latency:"] = "Home Latency:"
+L["HP"] = "HP"
+L["HPS"] = "HPS"
 L["Friends List"] = "Friends List"
 L["Feet"] = "Feet"
 L["Earned:"] = "Earned:"
@@ -197,6 +211,7 @@ L["No locals to dump"] = true;
 L["%s: %s tried to call the protected function '%s'."] = true;
 
 --General
+L["Hide Both"] = "Hide Both"
 L["Fonts"] = "Fonts"
 L["Exp/Rep Position"] = "Exp/Rep Position"
 L["ELVUI_DESC"] = "ElvUI is a complete User Interface replacement addon for World of Warcraft."
@@ -269,6 +284,9 @@ L["Empty Slot"] = "Empty Slot" --modules\misc\loot.lua
 L["Enable"] = "Enable" --Doesn't fit a section since it's used a lot of places
 
 --NamePlates
+L["Healer Icon"] = "Healer Icon"
+L["Hide"] = "Hide"
+L["Holy"] = "Holy"
 L["Enemy"] = "Enemy"
 L["Enhance Threat"] = "Enhance Threat"
 L["Filter already exists!"] = "Filter already exists!"
@@ -304,6 +322,8 @@ L["Custom Color"] = "Custom Color"
 L["Custom Scale"] = "Custom Scale"
 
 --Skins
+L["Guild Bank"] = "Guild Bank"
+L["Guild Registrar"] = "Guild Registrar"
 L["Encounter Journal"] = "Encounter Journal"
 L["Embedded Bar Height"] = "Embedded Bar Height"
 L["Friends"] = "Friends"
@@ -352,6 +372,7 @@ L["BG Map"] = "BG Map"
 L["BG Score"] = "BG Score"
 
 --Static Popups
+L["Hover your mouse over any actionbutton or spellbook button to bind it. Press the escape key or right click to clear the current actionbutton's keybinding."] = "Hover your mouse over any actionbutton or spellbook button to bind it. Press the escape key or right click to clear the current actionbutton's keybinding."
 L["A setting you have changed will change an option for this character only. This setting that you have changed will be uneffected by changing user profiles. Changing this setting requires that you reload your User Interface."] = true;
 L["Are you sure you want to delete all your gray items?"] = "Are you sure you want to delete all your gray items?"
 L["Are you sure you want to disband the group?"] = "Are you sure you want to disband the group?"
@@ -359,6 +380,7 @@ L["Are you sure you want to reset every mover back to it's default position?"] =
 L["Can't buy anymore slots!"] = "Can't buy anymore slots!"
 
 --Tooltip
+L["Hide tooltip while in combat."] = "Hide tooltip while in combat."
 L['Bars'] = true; --ExpRepBar Tooltip. Don't have a better place for it.
 L["Experience"] = "Experience" --ExpRepBar Tooltip. Don't have a better place for it.
 L["Don't display the tooltip when mousing over a unitframe."] = "Don't display the tooltip when mousing over a unitframe."
@@ -388,6 +410,16 @@ L['To setup which channels appear in which chat frame, right click the chat tab 
 L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the blizzard actionbar options menu.'] = true;
 
 --UnitFrames
+L["Ghost"] = "Ghost"
+L["Group By"] = "Group By"
+L["Group Point"] = "Group Point"
+L["Growth Direction"] = "Growth Direction"
+L["Health"] = "Health"
+L["Health Backdrop"] = "Health Backdrop"
+L["Health By Value"] = "Health By Value"
+L["Health Text"] = "Health Text"
+L["Height"] = "Height"
+L["Horizontal"] = "Horizontal" --Also used in bags module
 L["Fill"] = "Fill"
 L["Filled"] = "Filled"
 L["Filters"] = "Filters"
@@ -535,38 +567,6 @@ L["Achievement Popup Frames"] = "Achievement Popup Frames" --This appears in liv
 -------------------------------------------------
 -------------------------------------------------
 
-L["Ghost"] = "Ghost"
-L["goldabbrev"] = "|cffffd700g|r"
-L["Grid Size:"] = "Grid Size:"
-L["Group By"] = "Group By"
-L["Group Point"] = "Group Point"
-L["Growth Direction"] = "Growth Direction"
-L["Guild Bank"] = "Guild Bank"
-L["Guild Registrar"] = "Guild Registrar"
-L["Hands"] = "Hands"
-L["Head"] = "Head"
-L["Healer"] = "Healer"
-L["Healer Icon"] = "Healer Icon"
-L["Health"] = "Health"
-L["Health Backdrop"] = "Health Backdrop"
-L["Health By Value"] = "Health By Value"
-L["Health Text"] = "Health Text"
-L["Height"] = "Height"
-L["Hide"] = "Hide"
-L["Hide Both"] = "Hide Both"
-L["Hide tooltip while in combat."] = "Hide tooltip while in combat."
-L["high"] = "high"
-L["Hit"] = "Hit"
-L["Hold Shift:"] = "Hold Shift:"
-L["(Hold Shift) Memory Usage"] = "(Hold Shift) Memory Usage"
-L["Holy"] = "Holy"
-L["Home Latency:"] = "Home Latency:"
-L["Horizontal"] = "Horizontal"
-L["Hours"] = "Hours"
-L["Hover your mouse over any actionbutton or spellbook button to bind it. Press the escape key or right click to clear the current actionbutton's keybinding."] = "Hover your mouse over any actionbutton or spellbook button to bind it. Press the escape key or right click to clear the current actionbutton's keybinding."
-L["HP"] = "HP"
-L["HPS"] = "HPS"
-L["Hyperlink Hover"] = "Hyperlink Hover"
 L["Icon"] = "Icon"
 L["If not set to true then the server time will be displayed instead."] = "If not set to true then the server time will be displayed instead."
 L["Importance: |cff07D400High|r"] = "Importance: |cff07D400High|r"
