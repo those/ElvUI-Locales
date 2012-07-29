@@ -10,6 +10,9 @@ end
 if not L then return; end
 
 --ActionBars
+L["Macro Text"] = "Macro Text"
+L["Minutes"] = "Minutes"
+L["No bindings set."] = "No bindings set."
 L["Key"] = "Key"
 L["KEY_ALT"] = "A"
 L["Keybind Mode"] = "Keybind Mode"
@@ -129,6 +132,7 @@ L['No Sorting'] = true;
 L['Your Auras First'] = true;
 
 --Chat
+L["O"] = "O"
 L["Hyperlink Hover"] = "Hyperlink Hover"
 L["Font"] = "Font"
 L["Font Outline"] = "Font Outline" --Also used in UnitFrames section
@@ -154,6 +158,7 @@ L['says'] = true;
 L['yells'] = true;
 
 --Config / Install
+L["Movers unlocked. Move them now and click Lock when you are done."] = "Movers unlocked. Move them now and click Lock when you are done."
 L["Importance: |cff07D400High|r"] = "Importance: |cff07D400High|r"
 L["Importance: |cffD3CF00Medium|r"] = "Importance: |cffD3CF00Medium|r"
 L["Importance: |cffFF0000Low|r"] = "Importance: |cffFF0000Low|r"
@@ -196,6 +201,8 @@ L["Donations:"] = "Donations:"
 L["Coding:"] = "Coding:"
 
 --DataTexts
+L["Offhand"] = "Offhand"
+L["Main Hand"] = "Main Hand"
 L["If not set to true then the server time will be displayed instead."] = "If not set to true then the server time will be displayed instead."
 L["Legs"] = "Legs"
 L["Local Time"] = "Local Time"
@@ -243,6 +250,11 @@ L["No locals to dump"] = true;
 L["%s: %s tried to call the protected function '%s'."] = true;
 
 --General
+L["Main backdrop color of the UI."] = "Main backdrop color of the UI."
+L["Main border color of the UI."] = "Main border color of the UI."
+L['Map Alpha While Moving'] = 'Map Alpha While Moving'
+L["Media"] = "Media"
+L["Minimap Size"] = "Minimap Size"
 L["Left Only"] = "Left Only"
 L["Hide Both"] = "Hide Both"
 L["Fonts"] = "Fonts"
@@ -319,6 +331,7 @@ L["Enable"] = "Enable" --Doesn't fit a section since it's used a lot of places
 L["INCOMPATIBLE_ADDON"] = "The addon %s is not compatible with ElvUI's %s module. Please disable the incompatible addon or module."
 
 --NamePlates
+L["NamePlates"] = "NamePlates"
 L["Healer Icon"] = "Healer Icon"
 L["Hide"] = "Hide"
 L["Holy"] = "Holy"
@@ -358,6 +371,7 @@ L["Custom Scale"] = "Custom Scale"
 
 --Skins
 L["Mounts & Pets"] = true;
+L["Misc Frames"] = "Misc Frames"
 L["Guild Bank"] = "Guild Bank"
 L["Guild Registrar"] = "Guild Registrar"
 L["Encounter Journal"] = "Encounter Journal"
@@ -446,6 +460,17 @@ L['To setup which channels appear in which chat frame, right click the chat tab 
 L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the blizzard actionbar options menu.'] = true;
 
 --UnitFrames
+L["Offline"] = "Offline"
+L["Offset"] = "Offset"
+L["Offset of the powerbar to the healthbar, set to 0 to disable."] = "Offset of the powerbar to the healthbar, set to 0 to disable."
+L["OOR Alpha"] = "OOR Alpha"
+L["Orientation"] = "Orientation"
+L["Override any custom visibility setting in certain situations, EX: Only show groups 1 and 2 inside a 10 man instance."] = "Override any custom visibility setting in certain situations, EX: Only show groups 1 and 2 inside a 10 man instance."
+L["Main statusbar texture."] = "Main statusbar texture."
+L["Max Columns"] = "Max Columns"
+L["Name"] = "Name"
+L["None"] = "None" --Also used in chat
+L["Not valid spell id"] = "Not valid spell id"
 L["Icon"] = "Icon"
 L["Low Mana Threshold"] = "Low Mana Threshold"
 L["Ghost"] = "Ghost"
@@ -604,37 +629,12 @@ L["Display the rested icon on the unitframe."] = "Display the rested icon on the
 L["Achievement Popup Frames"] = "Achievement Popup Frames" --This appears in live but not beta
 L["LeftChatDataPanel"] = "Left Chat"
 L["LeftMiniPanel"] = "Minimap Left"
+L["middle"] = "Middle"
+L["New ID"] = "New ID"
+L["Only check if the buff is coming from you."] = "Only check if the buff is coming from you."
 -------------------------------------------------
 -------------------------------------------------
 
-L["Macro Text"] = "Macro Text"
-L["Main backdrop color of the UI."] = "Main backdrop color of the UI."
-L["Main border color of the UI."] = "Main border color of the UI."
-L["Main Hand"] = "Main Hand"
-L["Main statusbar texture."] = "Main statusbar texture."
-L['Map Alpha While Moving'] = 'Map Alpha While Moving'
-L["Max Columns"] = "Max Columns"
-L["Media"] = "Media"
-L["middle"] = "Middle"
-L["Minimap Size"] = "Minimap Size"
-L["Minutes"] = "Minutes"
-L["Misc Frames"] = "Misc Frames"
-L["Movers unlocked. Move them now and click Lock when you are done."] = "Movers unlocked. Move them now and click Lock when you are done."
-L["Name"] = "Name"
-L["NamePlates"] = "NamePlates"
-L["New ID"] = "New ID"
-L["No bindings set."] = "No bindings set."
-L["None"] = "None"
-L["Not valid spell id"] = "Not valid spell id"
-L["O"] = "O"
-L["Offhand"] = "Offhand"
-L["Offline"] = "Offline"
-L["Offset"] = "Offset"
-L["Offset of the powerbar to the healthbar, set to 0 to disable."] = "Offset of the powerbar to the healthbar, set to 0 to disable."
-L["Only check if the buff is coming from you."] = "Only check if the buff is coming from you."
-L["OOR Alpha"] = "OOR Alpha"
-L["Orientation"] = "Orientation"
-L["Override any custom visibility setting in certain situations, EX: Only show groups 1 and 2 inside a 10 man instance."] = "Override any custom visibility setting in certain situations, EX: Only show groups 1 and 2 inside a 10 man instance."
 L["P"] = "P"
 L["Panel Backdrop"] = "Panel Backdrop"
 L["PANEL_DESC"] = "Adjust the size of your left and right panels, this will effect your chat and bags."
