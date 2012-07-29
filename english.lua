@@ -10,6 +10,7 @@ end
 if not L then return; end
 
 --ActionBars
+L["Pet Bar"] = "Pet Bar"
 L["Macro Text"] = "Macro Text"
 L["Minutes"] = "Minutes"
 L["No bindings set."] = "No bindings set."
@@ -74,6 +75,7 @@ L["Cooldown Text"] = "Cooldown Text"
 L["Days"] = "Days"
 
 --Bags
+L["Purchase"] = "Purchase"
 L["goldabbrev"] = "|cffffd700g|r" --Also used in gold datatext
 L["Hold Shift:"] = "Hold Shift:"
 L["Direction the bag sorting will use to allocate the items."] = "Direction the bag sorting will use to allocate the items."
@@ -132,6 +134,10 @@ L['No Sorting'] = true;
 L['Your Auras First'] = true;
 
 --Chat
+L["P"] = "P"
+L["PG"] = "PG"
+L["PL"] = "PL"
+L["Prevent the same messages from displaying in chat more than once within this set amount of seconds, set to zero to disable."] = "Prevent the same messages from displaying in chat more than once within this set amount of seconds, set to zero to disable."
 L["O"] = "O"
 L["Hyperlink Hover"] = "Hyperlink Hover"
 L["Font"] = "Font"
@@ -158,6 +164,7 @@ L['says'] = true;
 L['yells'] = true;
 
 --Config / Install
+L["Physical DPS"] = "Physical DPS"
 L["Movers unlocked. Move them now and click Lock when you are done."] = "Movers unlocked. Move them now and click Lock when you are done."
 L["Importance: |cff07D400High|r"] = "Importance: |cff07D400High|r"
 L["Importance: |cffD3CF00Medium|r"] = "Importance: |cffD3CF00Medium|r"
@@ -201,6 +208,8 @@ L["Donations:"] = "Donations:"
 L["Coding:"] = "Coding:"
 
 --DataTexts
+L["Panels"] = "Panels"
+L["Profit:"] = "Profit:"
 L["Offhand"] = "Offhand"
 L["Main Hand"] = "Main Hand"
 L["If not set to true then the server time will be displayed instead."] = "If not set to true then the server time will be displayed instead."
@@ -250,6 +259,13 @@ L["No locals to dump"] = true;
 L["%s: %s tried to call the protected function '%s'."] = true;
 
 --General
+L["Panel Backdrop"] = "Panel Backdrop"
+L["PANEL_DESC"] = "Adjust the size of your left and right panels, this will effect your chat and bags."
+L["Panel Height"] = "Panel Height"
+L["Panel Texture (Left)"] = "Panel Texture (Left)"
+L["Panel Texture (Right)"] = "Panel Texture (Right)"
+L["Panel Width"] = "Panel Width"
+L["Primary Texture"] = "Primary Texture"
 L["Main backdrop color of the UI."] = "Main backdrop color of the UI."
 L["Main border color of the UI."] = "Main border color of the UI."
 L['Map Alpha While Moving'] = 'Map Alpha While Moving'
@@ -331,6 +347,8 @@ L["Enable"] = "Enable" --Doesn't fit a section since it's used a lot of places
 L["INCOMPATIBLE_ADDON"] = "The addon %s is not compatible with ElvUI's %s module. Please disable the incompatible addon or module."
 
 --NamePlates
+L["Personal Debuffs"] = "Personal Debuffs"
+L["Prevent any nameplate with this unit name from showing."] = "Prevent any nameplate with this unit name from showing."
 L["NamePlates"] = "NamePlates"
 L["Healer Icon"] = "Healer Icon"
 L["Hide"] = "Hide"
@@ -370,6 +388,8 @@ L["Custom Color"] = "Custom Color"
 L["Custom Scale"] = "Custom Scale"
 
 --Skins
+L["PvP Frames"] = "PvP Frames"
+L["Quest Frames"] = "Quest Frames"
 L["Mounts & Pets"] = true;
 L["Misc Frames"] = "Misc Frames"
 L["Guild Bank"] = "Guild Bank"
@@ -460,6 +480,14 @@ L['To setup which channels appear in which chat frame, right click the chat tab 
 L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the blizzard actionbar options menu.'] = true;
 
 --UnitFrames
+L["Party Frames"] = "Party Frames"
+L["Party Pets"] = "Party Pets"
+L["Party Targets"] = "Party Targets"
+L["PetTarget Frame"] = "PetTarget Frame"
+L["Player Frame"] = "Player Frame"
+L["Portrait"] = "Portrait"
+L["Power"] = "Power"
+L["Powers"] = "Powers"
 L["Offline"] = "Offline"
 L["Offset"] = "Offset"
 L["Offset of the powerbar to the healthbar, set to 0 to disable."] = "Offset of the powerbar to the healthbar, set to 0 to disable."
@@ -632,38 +660,10 @@ L["LeftMiniPanel"] = "Minimap Left"
 L["middle"] = "Middle"
 L["New ID"] = "New ID"
 L["Only check if the buff is coming from you."] = "Only check if the buff is coming from you."
+L["Personal Buffs"] = "Personal Buffs"
 -------------------------------------------------
 -------------------------------------------------
 
-L["P"] = "P"
-L["Panel Backdrop"] = "Panel Backdrop"
-L["PANEL_DESC"] = "Adjust the size of your left and right panels, this will effect your chat and bags."
-L["Panel Height"] = "Panel Height"
-L["Panels"] = "Panels"
-L["Panel Texture (Left)"] = "Panel Texture (Left)"
-L["Panel Texture (Right)"] = "Panel Texture (Right)"
-L["Panel Width"] = "Panel Width"
-L["Party Frames"] = "Party Frames"
-L["Party Pets"] = "Party Pets"
-L["Party Targets"] = "Party Targets"
-L["Personal Buffs"] = "Personal Buffs"
-L["Personal Debuffs"] = "Personal Debuffs"
-L["Pet Bar"] = "Pet Bar"
-L["PetTarget Frame"] = "PetTarget Frame"
-L["PG"] = "PG"
-L["Physical DPS"] = "Physical DPS"
-L["PL"] = "PL"
-L["Player Frame"] = "Player Frame"
-L["Portrait"] = "Portrait"
-L["Power"] = "Power"
-L["Powers"] = "Powers"
-L["Prevent any nameplate with this unit name from showing."] = "Prevent any nameplate with this unit name from showing."
-L["Prevent the same messages from displaying in chat more than once within this set amount of seconds, set to zero to disable."] = "Prevent the same messages from displaying in chat more than once within this set amount of seconds, set to zero to disable."
-L["Primary Texture"] = "Primary Texture"
-L["Profit:"] = "Profit:"
-L["Purchase"] = "Purchase"
-L["PvP Frames"] = "PvP Frames"
-L["Quest Frames"] = "Quest Frames"
 L["R"] = "R"
 L["RaidDebuff Indicator"] = "RaidDebuff Indicator"
 L["Raid Menu"] = "Raid Menu"
