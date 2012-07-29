@@ -134,6 +134,9 @@ L['No Sorting'] = true;
 L['Your Auras First'] = true;
 
 --Chat
+L["R"] = "R"
+L["RL"] = "RL"
+L["RW"] = "RW"
 L["P"] = "P"
 L["PG"] = "PG"
 L["PL"] = "PL"
@@ -164,6 +167,11 @@ L['says'] = true;
 L['yells'] = true;
 
 --Config / Install
+L["Resolution"] = "Resolution"
+L["High Resolution"] = true;
+L['Low Resolution'] = true;
+L["Resolution Style Set"] = "Resolution Style Set"
+L["Run the installation process."] = "Run the installation process."
 L["Physical DPS"] = "Physical DPS"
 L["Movers unlocked. Move them now and click Lock when you are done."] = "Movers unlocked. Move them now and click Lock when you are done."
 L["Importance: |cff07D400High|r"] = "Importance: |cff07D400High|r"
@@ -208,6 +216,13 @@ L["Donations:"] = "Donations:"
 L["Coding:"] = "Coding:"
 
 --DataTexts
+L["RightChatDataPanel"] = "Right Chat"
+L["RightMiniPanel"] = "Minimap Right"
+L["LeftChatDataPanel"] = "Left Chat"
+L["LeftMiniPanel"] = "Minimap Left"
+L["left"] = "Left"
+L["middle"] = "Middle"
+L["right"] = "Right"
 L["Panels"] = "Panels"
 L["Profit:"] = "Profit:"
 L["Offhand"] = "Offhand"
@@ -259,6 +274,9 @@ L["No locals to dump"] = true;
 L["%s: %s tried to call the protected function '%s'."] = true;
 
 --General
+L["Reset all frames to their original positions."] = "Reset all frames to their original positions."
+L["Reset Anchors"] = "Reset Anchors"
+L["Right Only"] = "Right Only"
 L["Panel Backdrop"] = "Panel Backdrop"
 L["PANEL_DESC"] = "Adjust the size of your left and right panels, this will effect your chat and bags."
 L["Panel Height"] = "Panel Height"
@@ -340,13 +358,21 @@ L["CombatText Font"] = "CombatText Font"
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = "Controls what the transparency of the worldmap will be set to when you are moving."
 
 --Misc
+L["Raid Menu"] = "Raid Menu"
+L["Remaining:"] = "Remaining:"
+L["Rested:"] = "Rested:"
+L["Right Click:"] = "Right Click:" --layout\layout.lua
+L['Bars'] = true;
+L["Experience"] = "Experience"
 L["Left Click:"] = "Left Click:" --layout\layout.lua
-L["Fishy Loot"] = "Fishy Loot" --modules\misc\loot.lua
-L["Empty Slot"] = "Empty Slot" --modules\misc\loot.lua
+L["Fishy Loot"] = "Fishy Loot"
+L["Empty Slot"] = "Empty Slot"
 L["Enable"] = "Enable" --Doesn't fit a section since it's used a lot of places
 L["INCOMPATIBLE_ADDON"] = "The addon %s is not compatible with ElvUI's %s module. Please disable the incompatible addon or module."
 
 --NamePlates
+L["Remove Name"] = "Remove Name"
+L["Restoration"] = "Restoration"
 L["Personal Debuffs"] = "Personal Debuffs"
 L["Prevent any nameplate with this unit name from showing."] = "Prevent any nameplate with this unit name from showing."
 L["NamePlates"] = "NamePlates"
@@ -451,8 +477,6 @@ L["Can't buy anymore slots!"] = "Can't buy anymore slots!"
 
 --Tooltip
 L["Hide tooltip while in combat."] = "Hide tooltip while in combat."
-L['Bars'] = true; --ExpRepBar Tooltip. Don't have a better place for it.
-L["Experience"] = "Experience" --ExpRepBar Tooltip. Don't have a better place for it.
 L["Don't display the tooltip when mousing over a unitframe."] = "Don't display the tooltip when mousing over a unitframe."
 L["AFK"] = "AFK"
 L["Anchor"] = "Anchor"
@@ -480,6 +504,16 @@ L['To setup which channels appear in which chat frame, right click the chat tab 
 L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the blizzard actionbar options menu.'] = true;
 
 --UnitFrames
+L["RaidDebuff Indicator"] = "RaidDebuff Indicator"
+L["Rapidly update the health, uses more memory and cpu. Only recommended for healing."] = "Rapidly update the health, uses more memory and cpu. Only recommended for healing."
+L["Reactions"] = "Reactions"
+L["Remaining"] = "Remaining"
+L["Remove a spell from the filter."] = "Remove a spell from the filter."
+L["Remove Spell"] = "Remove Spell"
+L["Remove SpellID"] = "Remove SpellID"
+L["Rest Icon"] = "Rest Icon"
+L["Restore Defaults"] = "Restore Defaults" --Also used in General and ActionBars sections
+L["Role Icon"] = "Role Icon"
 L["Party Frames"] = "Party Frames"
 L["Party Pets"] = "Party Pets"
 L["Party Targets"] = "Party Targets"
@@ -578,9 +612,7 @@ L["Bad"] = "Bad"
 L["Good"] = "Good"
 L["Neutral"] = "Neutral"
 L["Down"] = "Down"
-L["left"] = "Left" --You have a double
 L["Left"] = "Left"
-L["right"] = "Right" --You have a double
 L["Right"] = "Right"
 L["X-Growth"] = "X-Growth"
 L["Y-Growth"] = "Y-Growth"
@@ -655,46 +687,14 @@ L["Display the rested icon on the unitframe."] = "Display the rested icon on the
 ------Locales that don't appear to be used.------
 -------------------------------------------------
 L["Achievement Popup Frames"] = "Achievement Popup Frames" --This appears in live but not beta
-L["LeftChatDataPanel"] = "Left Chat"
-L["LeftMiniPanel"] = "Minimap Left"
-L["middle"] = "Middle"
 L["New ID"] = "New ID"
 L["Only check if the buff is coming from you."] = "Only check if the buff is coming from you."
 L["Personal Buffs"] = "Personal Buffs"
+L["Remove Group"] = "Remove Group"
+L["Remove ID"] = "Remove ID"
 -------------------------------------------------
 -------------------------------------------------
 
-L["R"] = "R"
-L["RaidDebuff Indicator"] = "RaidDebuff Indicator"
-L["Raid Menu"] = "Raid Menu"
-L["Rapidly update the health, uses more memory and cpu. Only recommended for healing."] = "Rapidly update the health, uses more memory and cpu. Only recommended for healing."
-L["Reactions"] = "Reactions"
-L["Remaining"] = "Remaining"
-L["Remaining:"] = "Remaining:"
-L["Remove a spell from the filter."] = "Remove a spell from the filter."
-L["Remove Group"] = "Remove Group"
-L["Remove ID"] = "Remove ID"
-L["Remove Name"] = "Remove Name"
-L["Remove Spell"] = "Remove Spell"
-L["Remove SpellID"] = "Remove SpellID"
-L["Reset all frames to their original positions."] = "Reset all frames to their original positions."
-L["Reset Anchors"] = "Reset Anchors"
-L["Resolution"] = "Resolution"
-L["High Resolution"] = true;
-L['Low Resolution'] = true;
-L["Resolution Style Set"] = "Resolution Style Set"
-L["Rested:"] = "Rested:"
-L["Rest Icon"] = "Rest Icon"
-L["Restoration"] = "Restoration"
-L["Restore Defaults"] = "Restore Defaults"
-L["RightChatDataPanel"] = "Right Chat"
-L["Right Click:"] = "Right Click:"
-L["RightMiniPanel"] = "Minimap Right"
-L["Right Only"] = "Right Only"
-L["RL"] = "RL"
-L["Role Icon"] = "Role Icon"
-L["Run the installation process."] = "Run the installation process."
-L["RW"] = "RW"
 L["Save"] = "Save"
 L["Saved Raid(s)"] = "Saved Raid(s)"
 L["Scroll Interval"] = "Scroll Interval"
