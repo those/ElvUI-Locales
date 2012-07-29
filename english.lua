@@ -10,6 +10,8 @@ end
 if not L then return; end
 
 --ActionBars
+L["The size of the action buttons."] = "The size of the action buttons."
+L["Threshold before text turns red and is in decimal form. Set to -1 for it to never turn red"] = "Threshold before text turns red and is in decimal form. Set to -1 for it to never turn red"
 L["Seconds"] = "Seconds"
 L["Set the font size of the action buttons."] = "Set the font size of the action buttons."
 L["ShapeShift Bar"] = "ShapeShift Bar"
@@ -78,6 +80,9 @@ L["Cooldown Text"] = "Cooldown Text"
 L["Days"] = "Days"
 
 --Bags
+L["The direction that the bag frames be (Horizontal or Vertical)."] = "The direction that the bag frames be (Horizontal or Vertical)."
+L["Toggle Bags"] = "Toggle Bags"
+L["Top to Bottom"] = "Top to Bottom"
 L["silverabbrev"] = "|cffc7c7cfs|r" --Also used in gold datatext
 L["Sort Bags"] = "Sort Bags"
 L["Sort Orientation"] = "Sort Orientation"
@@ -182,6 +187,17 @@ L['says'] = true;
 L['yells'] = true;
 
 --Config / Install
+L["Tank"] = "Tank"
+L["The chat windows function the same as Blizzard standard chat windows, you can right click the tabs and drag them around, rename, etc. Please click the button below to setup your chat windows."] = "The chat windows function the same as Blizzard standard chat windows, you can right click the tabs and drag them around, rename, etc. Please click the button below to setup your chat windows."
+L["The in-game configuration menu can be accesses by typing the /ec command or by clicking the 'C' button on the minimap. Press the button below if you wish to skip the installation process."] = "The in-game configuration menu can be accesses by typing the /ec command or by clicking the 'C' button on the minimap. Press the button below if you wish to skip the installation process."
+L["This install process will help you learn some of the features in ElvUI has to offer and also prepare your user interface for usage."] = "This install process will help you learn some of the features in ElvUI has to offer and also prepare your user interface for usage."
+L["This is completely optional."] = "This is completely optional."
+L["This part of the installation process sets up your chat windows names, positions and colors."] = "This part of the installation process sets up your chat windows names, positions and colors."
+L["This part of the installation process sets up your World of Warcraft default options it is recommended you should do this step for everything to behave properly."] = "This part of the installation process sets up your World of Warcraft default options it is recommended you should do this step for everything to behave properly."
+L["This resolution doesn't require that you change settings for the UI to fit on your screen."] = "This resolution doesn't require that you change settings for the UI to fit on your screen."
+L["This resolution requires that you change some settings to get everything to fit on your screen."] = "This resolution requires that you change some settings to get everything to fit on your screen."
+L["This will change the layout of your unitframes, raidframes, and datatexts."] = "This will change the layout of your unitframes, raidframes, and datatexts."
+L["Toggle Anchors"] = "Toggle Anchors"
 L["Setup Chat"] = "Setup Chat"
 L["Setup CVars"] = "Setup CVars"
 L["Skip Process"] = "Skip Process"
@@ -230,11 +246,16 @@ L["CVars"] = "CVars"
 L["CVars Set"] = "CVars Set"
 
 --Credits
+L["Testing:"] = "Testing:"
 L["ELVUI_CREDITS"] = "I would like to give out a special shout out to the following people for helping me maintain this addon with testing and coding and people who also have helped me through donations. Please note for donations I'm only posting the names of people who PM'd me on the forums, if your name is missing and you wish to have your name added please PM me."
 L["Donations:"] = "Donations:"
 L["Coding:"] = "Coding:"
 
 --DataTexts
+L["Toggle 24-hour mode for the time datatext."] = "Toggle 24-hour mode for the time datatext."
+L["Total: "] = "Total: "
+L["Total CPU:"] = "Total CPU:"
+L["Total Memory:"] = "Total Memory:"
 L["Saved Raid(s)"] = "Saved Raid(s)"
 L["Server: "] = "Server: "
 L["Session:"] = "Session:"
@@ -299,6 +320,13 @@ L["No locals to dump"] = true;
 L["%s: %s tried to call the protected function '%s'."] = true;
 
 --General
+L["Textures"] = "Textures"
+L["The font that combat text will use. |cffFF0000WARNING: This requires a game restart or re-log for this change to take effect.|r"] = "The font that combat text will use. |cffFF0000WARNING: This requires a game restart or re-log for this change to take effect.|r"
+L["The font that the core of the UI will use."] = "The font that the core of the UI will use."
+L["The texture that will be used mainly for statusbars."] = "The texture that will be used mainly for statusbars."
+L["This texture will get used on objects like chat windows and dropdown menus."] = "This texture will get used on objects like chat windows and dropdown menus."
+L["Toggle showing of the left and right chat panels."] = "Toggle showing of the left and right chat panels."
+L["Top Screen"] = "Top Screen"
 L["Secondary Texture"] = "Secondary Texture"
 L["Set the font size for everything in UI. Note: This doesn't effect somethings that have their own seperate options (UnitFrame Font, Datatext Font, ect..)"] = "Set the font size for everything in UI. Note: This doesn't effect somethings that have their own seperate options (UnitFrame Font, Datatext Font, ect..)"
 L["Show Both"] = "Show Both"
@@ -386,6 +414,8 @@ L["CombatText Font"] = "CombatText Font"
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = "Controls what the transparency of the worldmap will be set to when you are moving."
 
 --Misc
+L["Toggle Chat Frame"] = "Toggle Chat Frame" --layout\layout.lua
+L["Toggle Embedded Addon"] = "Toggle Embedded Addon" --layout\layout.lua
 L["Raid Menu"] = "Raid Menu"
 L["Remaining:"] = "Remaining:"
 L["Rested:"] = "Rested:"
@@ -399,6 +429,12 @@ L["Enable"] = "Enable" --Doesn't fit a section since it's used a lot of places
 L["INCOMPATIBLE_ADDON"] = "The addon %s is not compatible with ElvUI's %s module. Please disable the incompatible addon or module."
 
 --NamePlates
+L["This color is displayed when gaining/losing threat, for a tank it would be displayed when gaining threat, for a dps/healer it would be displayed when losing threat"] = "This color is displayed when gaining/losing threat, for a tank it would be displayed when gaining threat, for a dps/healer it would be displayed when losing threat"
+L["This color is displayed when gaining/losing threat, for a tank it would be displayed when losing threat, for a dps/healer it would be displayed when gaining threat"] = "This color is displayed when gaining/losing threat, for a tank it would be displayed when losing threat, for a dps/healer it would be displayed when gaining threat"
+L["This is displayed when you don't have threat as a tank, if you do have threat it is displayed as a DPS/Healer"] = "This is displayed when you don't have threat as a tank, if you do have threat it is displayed as a DPS/Healer"
+L["This is displayed when you have threat as a tank, if you don't have threat it is displayed as a DPS/Healer"] = "This is displayed when you have threat as a tank, if you don't have threat it is displayed as a DPS/Healer"
+L["Threat"] = "Threat"
+L["Toggles the nameplates off when not in combat."] = "Toggles the nameplates off when not in combat."
 L["Select a filter to use. These are imported from the unitframe aura filter."] = "Select a filter to use. These are imported from the unitframe aura filter." --This one is not visible in the GUI since desc is not used on select groups. Keep for dropdown based menus?
 L["Set the scale of the nameplate."] = "Set the scale of the nameplate."
 L["Remove Name"] = "Remove Name"
@@ -444,6 +480,9 @@ L["Custom Color"] = "Custom Color"
 L["Custom Scale"] = "Custom Scale"
 
 --Skins
+L["The height of the bars while skada is embedded."] = "The height of the bars while skada is embedded."
+L["Time Manager"] = "Time Manager"
+L["TOGGLESKIN_DESC"] = "Enable/Disable this skin."
 L["Select an addon to embed to the right chat window. This will resize the addon to fit perfectly into the chat window, it will also parent it to the chat window so hiding the chat window will also hide the addon."] = "Select an addon to embed to the right chat window. This will resize the addon to fit perfectly into the chat window, it will also parent it to the chat window so hiding the chat window will also hide the addon."
 L["Skins"] = "Skins"
 L["SKINS_DESC"] = "Adjust Skin settings."
@@ -513,6 +552,9 @@ L["Are you sure you want to reset every mover back to it's default position?"] =
 L["Can't buy anymore slots!"] = "Can't buy anymore slots!"
 
 --Tooltip
+L["Targeted By:"] = "Targeted By:"
+L["Tooltip"] = "Tooltip"
+L["TOOLTIP_DESC"] = "Setup options for the Tooltip."
 L["Set the type of anchor mode the tooltip should use."] = "Set the type of anchor mode the tooltip should use."
 L["Smart"] = "Smart"
 L["Hide tooltip while in combat."] = "Hide tooltip while in combat."
@@ -543,6 +585,20 @@ L['To setup which channels appear in which chat frame, right click the chat tab 
 L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the blizzard actionbar options menu.'] = true;
 
 --UnitFrames
+L["Tank Frames"] = "Tank Frames"
+L["Tapped"] = "Tapped"
+L["TargetTarget Frame"] = "TargetTarget Frame"
+L["Text"] = "Text"
+L["Text Format"] = "Text Format"
+L["The alpha to set units that are out of range to."] = "The alpha to set units that are out of range to."
+L["The amount of space (in pixels) between the columns."] = "The amount of space (in pixels) between the columns."
+L["The anchor point for each new column. A value of LEFT will cause the columns to grow to the right."] = "The anchor point for each new column. A value of LEFT will cause the columns to grow to the right."
+L["The aura must be below this duration for the buff to show, set to 0 to disable. Note: This is in seconds."] = "The aura must be below this duration for the buff to show, set to 0 to disable. Note: This is in seconds."
+L["The following macro must be true in order for the group to be shown, in addition to any filter that may already be set."] = "The following macro must be true in order for the group to be shown, in addition to any filter that may already be set."
+L["The font that the unitframes will use."] = "The font that the unitframes will use."
+L["The maximum number of columns that the header will create."] = "The maximum number of columns that the header will create."
+L["The maximum number of units that will be displayed in a single column."] = "The maximum number of units that will be displayed in a single column."
+L["Toggles health text display"] = "Toggles health text display"
 L["Select a filter to use."] = "Select a filter to use." --Also used in NamePlates
 L["Set the filter type, blacklisted filters hide any aura on the like and show all else, whitelisted filters show any aura on the filter and hide all else."] = "Set the filter type, blacklisted filters hide any aura on the like and show all else, whitelisted filters show any aura on the filter and hide all else."
 L["Set the font size for unitframes."] = "Set the font size for unitframes."
@@ -750,67 +806,11 @@ L["Spell already exists in filter."] = "Spell already exists in filter."
 L["Spell not found."] = "Spell not found."
 L["Spell not found in list"] = "Spell not found in list" --duplicate exists which ends with a "." (dot) and is used in UnitFrames
 L["Spells"] = "Spells"
+L["Target"] = "Target"
+L["This can't be right, you must of broke something! Please turn on lua errors and report the issue to Elv http://www.tukui.org/forums/forum.php?id=146"] = "This can't be right, you must of broke something! Please turn on lua errors and report the issue to Elv http://www.tukui.org/forums/forum.php?id=146"
 -------------------------------------------------
 -------------------------------------------------
 
-L["Tank"] = "Tank"
-L["Tank Frames"] = "Tank Frames"
-L["Tapped"] = "Tapped"
-L["Target"] = "Target"
-L["Targeted By:"] = "Targeted By:"
-L["TargetTarget Frame"] = "TargetTarget Frame"
-L["Testing:"] = "Testing:"
-L["Text"] = "Text"
-L["Text Format"] = "Text Format"
-L["Textures"] = "Textures"
-L["The alpha to set units that are out of range to."] = "The alpha to set units that are out of range to."
-L["The amount of space (in pixels) between the columns."] = "The amount of space (in pixels) between the columns."
-L["The anchor point for each new column. A value of LEFT will cause the columns to grow to the right."] = "The anchor point for each new column. A value of LEFT will cause the columns to grow to the right."
-L["The aura must be below this duration for the buff to show, set to 0 to disable. Note: This is in seconds."] = "The aura must be below this duration for the buff to show, set to 0 to disable. Note: This is in seconds."
-L["The chat windows function the same as Blizzard standard chat windows, you can right click the tabs and drag them around, rename, etc. Please click the button below to setup your chat windows."] = "The chat windows function the same as Blizzard standard chat windows, you can right click the tabs and drag them around, rename, etc. Please click the button below to setup your chat windows."
-L["The direction that the bag frames be (Horizontal or Vertical)."] = "The direction that the bag frames be (Horizontal or Vertical)."
-L["The following macro must be true in order for the group to be shown, in addition to any filter that may already be set."] = "The following macro must be true in order for the group to be shown, in addition to any filter that may already be set."
-L["The font that combat text will use. |cffFF0000WARNING: This requires a game restart or re-log for this change to take effect.|r"] = "The font that combat text will use. |cffFF0000WARNING: This requires a game restart or re-log for this change to take effect.|r"
-L["The font that the core of the UI will use."] = "The font that the core of the UI will use."
-L["The font that the unitframes will use."] = "The font that the unitframes will use."
-L["The height of the bars while skada is embedded."] = "The height of the bars while skada is embedded."
-L["The in-game configuration menu can be accesses by typing the /ec command or by clicking the 'C' button on the minimap. Press the button below if you wish to skip the installation process."] = "The in-game configuration menu can be accesses by typing the /ec command or by clicking the 'C' button on the minimap. Press the button below if you wish to skip the installation process."
-L["The maximum number of columns that the header will create."] = "The maximum number of columns that the header will create."
-L["The maximum number of units that will be displayed in a single column."] = "The maximum number of units that will be displayed in a single column."
-L["The size of the action buttons."] = "The size of the action buttons."
-L["The texture that will be used mainly for statusbars."] = "The texture that will be used mainly for statusbars."
-L["This can't be right, you must of broke something! Please turn on lua errors and report the issue to Elv http://www.tukui.org/forums/forum.php?id=146"] = "This can't be right, you must of broke something! Please turn on lua errors and report the issue to Elv http://www.tukui.org/forums/forum.php?id=146"
-L["This color is displayed when gaining/losing threat, for a tank it would be displayed when gaining threat, for a dps/healer it would be displayed when losing threat"] = "This color is displayed when gaining/losing threat, for a tank it would be displayed when gaining threat, for a dps/healer it would be displayed when losing threat"
-L["This color is displayed when gaining/losing threat, for a tank it would be displayed when losing threat, for a dps/healer it would be displayed when gaining threat"] = "This color is displayed when gaining/losing threat, for a tank it would be displayed when losing threat, for a dps/healer it would be displayed when gaining threat"
-L["This install process will help you learn some of the features in ElvUI has to offer and also prepare your user interface for usage."] = "This install process will help you learn some of the features in ElvUI has to offer and also prepare your user interface for usage."
-L["This is completely optional."] = "This is completely optional."
-L["This is displayed when you don't have threat as a tank, if you do have threat it is displayed as a DPS/Healer"] = "This is displayed when you don't have threat as a tank, if you do have threat it is displayed as a DPS/Healer"
-L["This is displayed when you have threat as a tank, if you don't have threat it is displayed as a DPS/Healer"] = "This is displayed when you have threat as a tank, if you don't have threat it is displayed as a DPS/Healer"
-L["This part of the installation process sets up your chat windows names, positions and colors."] = "This part of the installation process sets up your chat windows names, positions and colors."
-L["This part of the installation process sets up your World of Warcraft default options it is recommended you should do this step for everything to behave properly."] = "This part of the installation process sets up your World of Warcraft default options it is recommended you should do this step for everything to behave properly."
-L["This resolution doesn't require that you change settings for the UI to fit on your screen."] = "This resolution doesn't require that you change settings for the UI to fit on your screen."
-L["This resolution requires that you change some settings to get everything to fit on your screen."] = "This resolution requires that you change some settings to get everything to fit on your screen."
-L["This texture will get used on objects like chat windows and dropdown menus."] = "This texture will get used on objects like chat windows and dropdown menus."
-L["This will change the layout of your unitframes, raidframes, and datatexts."] = "This will change the layout of your unitframes, raidframes, and datatexts."
-L["Threat"] = "Threat"
-L["Threshold before text turns red and is in decimal form. Set to -1 for it to never turn red"] = "Threshold before text turns red and is in decimal form. Set to -1 for it to never turn red"
-L["Time Manager"] = "Time Manager"
-L["Toggle 24-hour mode for the time datatext."] = "Toggle 24-hour mode for the time datatext."
-L["Toggle Anchors"] = "Toggle Anchors"
-L["Toggle Bags"] = "Toggle Bags"
-L["Toggle Chat Frame"] = "Toggle Chat Frame"
-L["Toggle Embedded Addon"] = "Toggle Embedded Addon"
-L["Toggles health text display"] = "Toggles health text display"
-L["Toggle showing of the left and right chat panels."] = "Toggle showing of the left and right chat panels."
-L["TOGGLESKIN_DESC"] = "Enable/Disable this skin."
-L["Toggles the nameplates off when not in combat."] = "Toggles the nameplates off when not in combat."
-L["Tooltip"] = "Tooltip"
-L["TOOLTIP_DESC"] = "Setup options for the Tooltip."
-L["Top Screen"] = "Top Screen"
-L["Top to Bottom"] = "Top to Bottom"
-L["Total: "] = "Total: "
-L["Total CPU:"] = "Total CPU:"
-L["Total Memory:"] = "Total Memory:"
 L["UF Hide"] = "UF Hide"
 L["Unhittable:"] = "Unhittable:"
 L["UnitFrames"] = "UnitFrames"
