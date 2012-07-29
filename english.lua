@@ -67,6 +67,8 @@ L["Bags"] = "Bags"
 L["BAGS_DESC"] = "Adjust bag settings for ElvUI."
 L["Bag Columns"] = "Bag Columns"
 L["Bank Columns"] = "Bank Columns"
+L["Bar Direction"] = "Bar Direction"
+L["Bottom to Top"] = "Bottom to Top"
 
 --Buffs and Debuffs
 L['AURAS_DESC'] = 'Configure the aura icons that appear near the minimap.';
@@ -106,6 +108,7 @@ L["BG"] = "BG"
 L["BGL"] = "BGL"
 L["Attempt to create URL links inside the chat."] = "Attempt to create URL links inside the chat."
 L["G"] = "G"
+L["BN:"] = "BN:"
 
 --Config / Install
 L['Config Mode:'] = true;
@@ -153,6 +156,7 @@ L["AP"] = "AP"
 L["AVD: "] = "AVD: "
 L["Avoidance Breakdown"] = "Avoidance Breakdown"
 L["Bandwidth"] = "Bandwidth"
+L["Deficit:"] = "Deficit:"
 
 --DebugTools
 L["No locals to dump"] = true;
@@ -168,7 +172,6 @@ L["LOGIN_MSG"] = "Welcome to %sElvUI|r version %s%s|r, type /ec to access the in
 L["Loot"] = "Loot"
 L["Loot Roll"] = "Loot Roll"
 L['Toggle Tutorials'] = true;
-L["Loot Frames"] = true;
 L['Emotion Icons'] = true;
 L["Enable/Disable the loot frame."] = "Enable/Disable the loot frame."
 L["Enable/Disable the loot roll frame."] = "Enable/Disable the loot roll frame."
@@ -215,6 +218,8 @@ L["Announce when you interrupt a spell to the specified chat channel."] = "Annou
 L["Backdrop Color"] = "Backdrop Color"
 L["Backdrop color of transparent frames"] = "Backdrop color of transparent frames"
 L["Backdrop Faded Color"] = "Backdrop Faded Color"
+L["Below Minimap"] = "Below Minimap"
+L["Border Color"] = "Border Color"
 
 --NamePlates
 L["NAMEPLATE_DESC"] = "Modify the nameplate settings."
@@ -286,6 +291,9 @@ L["Trainer Frame"] = "Trainer Frame"
 L["Pet Battle"] = true;
 L['Alert Frames'] = true;
 L["World Map"] = "World Map"
+L["Loot Frames"] = true;
+L["BG Map"] = "BG Map"
+L["BG Score"] = "BG Score"
 
 --Static Popups
 L["A setting you have changed will change an option for this character only. This setting that you have changed will be uneffected by changing user profiles. Changing this setting requires that you reload your User Interface."] = true;
@@ -315,7 +323,6 @@ L['If you accidently remove a chat frame you can always go the in-game configura
 L['If your experience and reputation bars disappear, mouse over the place where they were and click them again.'] = true;
 L['To setup which channels appear in which chat frame, right click the chat tab and go to settings.'] = true;
 L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the blizzard actionbar options menu.'] = true;
-
 
 --UnitFrames
 L['Aura Bars'] = true;
@@ -384,6 +391,15 @@ L["Right"] = "Right"
 L["X-Growth"] = "X-Growth"
 L["Y-Growth"] = "Y-Growth"
 L["Up"] = "Up"
+L["Bars will transition smoothly."] = "Bars will transition smoothly."
+L["Blacklist"] = "Blacklist"
+L["Blank"] = "Blank"
+L["Percent"] = "Percent"
+L["Deficit"] = "Deficit"
+L["Current"] = "Current"
+L["Boss Frames"] = "Boss Frames"
+L["Buff Indicator"] = "Buff Indicator"
+L["Buffs"] = "Buffs"
 
 -------------------------------------------------
 ------Locales that don't appear to be used.------
@@ -391,20 +407,6 @@ L["Up"] = "Up"
 L["Achievement Popup Frames"] = "Achievement Popup Frames" --This appears in live but not beta
 -------------------------------------------------
 -------------------------------------------------
-
-L["Bar Direction"] = "Bar Direction"
-L["Bars will transition smoothly."] = "Bars will transition smoothly."
-L["Below Minimap"] = "Below Minimap"
-L["BG Map"] = "BG Map"
-L["BG Score"] = "BG Score"
-L["Blacklist"] = "Blacklist"
-L["Blank"] = "Blank"
-L["BN:"] = "BN:"
-L["Border Color"] = "Border Color"
-L["Boss Frames"] = "Boss Frames"
-L["Bottom to Top"] = "Bottom to Top"
-L["Buff Indicator"] = "Buff Indicator"
-L["Buffs"] = "Buffs"
 L["Camera Distance Scale"] = "Camera Distance Scale"
 L["Can't buy anymore slots!"] = "Can't buy anymore slots!"
 L["Can't Roll"] = "Can't Roll"
@@ -439,7 +441,6 @@ L["Count"] = "Count"
 L["Create a filter, once created a filter can be set inside the buffs/debuffs section of each unit."] = "Create a filter, once created a filter can be set inside the buffs/debuffs section of each unit."
 L["Create Filter"] = "Create Filter"
 L["Credits"] = "Credits"
-L["Current"] = "Current"
 L["Current - Max"] = "Current - Max"
 L["Current / Max"] = "Current / Max"
 L["Current - Percent"] = "Current - Percent"
@@ -456,8 +457,6 @@ L["Debuff Highlighting"] = "Debuff Highlighting"
 L["Debuffs"] = "Debuffs"
 L["Debug Tools"] = "Debug Tools"
 L["Default Font"] = "Default Font"
-L["Deficit"] = "Deficit"
-L["Deficit:"] = "Deficit:"
 L["Delete a created filter, you cannot delete pre-existing filters, only custom ones."] = "Delete a created filter, you cannot delete pre-existing filters, only custom ones."
 L["Deleted %d gray items. Total Worth: %s"] = "Deleted %d gray items. Total Worth: %s"
 L["Delete Filter"] = "Delete Filter"
@@ -658,7 +657,6 @@ L["Panel Width"] = "Panel Width"
 L["Party Frames"] = "Party Frames"
 L["Party Pets"] = "Party Pets"
 L["Party Targets"] = "Party Targets"
-L["Percent"] = "Percent"
 L["Per Row"] = "Per Row"
 L["Personal Auras"] = "Personal Auras"
 L["Personal Buffs"] = "Personal Buffs"
