@@ -1,4 +1,4 @@
-﻿-- English localization file for enUS and enGB.
+-- English localization file for enUS and enGB.
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L 
 if UnitName('player') ~= 'Elvz' and UnitName('player') ~= 'Gronckle' then
@@ -115,7 +115,10 @@ L['Bases Defended'] = true;
 L['Battleground datatexts temporarily hidden, to show type /bgstats or right click the "C" icon near the minimap.'] = true;
 L['Show BG Texts'] = true;
 L["24-Hour Time"] = "24-Hour Time"
-
+L['Stats For:'] = true;
+L['When inside a battleground display personal scoreboard information on the main datatext bars.'] = true;
+L['Battleground Texts'] = true;
+L['Battleground datatexts will now show again if you are inside a battleground.'] = true;
 
 --General
 L["Login Message"] = "Login Message"
@@ -156,7 +159,10 @@ L["Auto Scale"] = "Auto Scale"
 L['Display emotion icons in chat.'] = true;
 L["Accept Invites"] = "Accept Invites"
 L["Adjust the size of the minimap."] = "Adjust the size of the minimap."
-
+L['Always Display'] = true;
+L['Minimap Mouseover'] = true;
+L['Change settings for the display of the location text that is on the minimap.'] = true;
+L['Location Text'] = true;
 
 --NamePlates
 L["NAMEPLATE_DESC"] = "Modify the nameplate settings."
@@ -266,9 +272,9 @@ L['Hold shift + right click to blacklist this aura.'] = true;
 L["Add a spell to the filter."] = "Add a spell to the filter."
 L["Add Spell"] = "Add Spell"
 L["Add SpellID"] = "Add SpellID"
-
-
-
+L['RL / ML Icons'] = true;
+L['Show Auras'] = true;
+L["Priority"] = true;
 
 
 
@@ -906,14 +912,3 @@ L["Set the priority order of the spell, please note that prioritys are only used
 L['Raid-25 Frames'] = true;
 L['Raid-10 Frames'] = true;
 L['Raid-40 Frames'] = true;
-L["Priority"] = true;
-L['Show Auras'] = true;
-L['Battleground datatexts will now show again if you are inside a battleground.'] = true;
-L['Battleground Texts'] = true;
-L['When inside a battleground display personal scoreboard information on the main datatext bars.'] = true;
-L['RL / ML Icons'] = true;
-L['Location Text'] = true;
-L['Change settings for the display of the location text that is on the minimap.'] = true;
-L['Minimap Mouseover'] = true;
-L['Always Display'] = true;
-L['Stats For:'] = true;
