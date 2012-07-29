@@ -26,7 +26,7 @@ L[ [=[This works like a macro, you can run different situations to get the actio
 L["Binding"] = "Binding"
 L["ActionBars"] = "ActionBars"
 L["Action Paging"] = "Action Paging"
-
+L["Anchor Point"] = "Anchor Point" --also in unitframes
 
 --Bags
 L["Enable Bag-Bar"] = "Enable Bag-Bar"
@@ -122,6 +122,7 @@ L['Battleground datatexts will now show again if you are inside a battleground.'
 
 --DebugTools
 L["No locals to dump"] = true;
+L["%s: %s tried to call the protected function '%s'."] = true;
 
 --General
 L["Login Message"] = "Login Message"
@@ -171,6 +172,8 @@ L["Don't scale the large world map to block out sides of the screen."] = true;
 L["Tiny Map"] = true;
 L["Send ADDON_ACTION_BLOCKED errors to the Lua Error frame. These errors are less important in most cases and will not effect your game performance. Also a lot of these errors cannot be fixed. Please only report these errors if you notice a Defect in gameplay."] = true;
 L["Log Taints"] = true;
+L["Announce Interrupts"] = "Announce Interrupts"
+L["Announce when you interrupt a spell to the specified chat channel."] = "Announce when you interrupt a spell to the specified chat channel."
 
 --NamePlates
 L["NAMEPLATE_DESC"] = "Modify the nameplate settings."
@@ -236,6 +239,8 @@ L["A setting you have changed will change an option for this character only. Thi
 
 --Tooltip
 L["AFK"] = "AFK"
+L["Anchor"] = "Anchor"
+L["Anchor Mode"] = "Anchor Mode"
 
 --Tutorials
 L['Using the /farmmode <size> command will spawn a larger minimap on your screen that can be moved around, very useful when farming.'] = true;
@@ -300,6 +305,7 @@ L["Medium"] = true;
 L["Long"] = true;
 L['Color the name text by class or reaction.'] = true;
 L['Class Names'] = true;
+L["Length"] = true;
 
 -------------------------------------------------
 ------Locales that don't appear to be used.------
@@ -308,17 +314,12 @@ L["Achievement Popup Frames"] = "Achievement Popup Frames" --This one seem to be
 L['Raid-25 Frames'] = true;
 L['Raid-10 Frames'] = true;
 L['Raid-40 Frames'] = true;
-L["Length"] = true;
 L["Alt-Power"] = "Alt-Power"
-L["Anchor"] = "Anchor"
-L["Anchor Mode"] = "Anchor Mode"
-L["Anchor Point"] = "Anchor Point"
 -------------------------------------------------
 -------------------------------------------------
 
 
-L["Announce Interrupts"] = "Announce Interrupts"
-L["Announce when you interrupt a spell to the specified chat channel."] = "Announce when you interrupt a spell to the specified chat channel."
+
 L["An X offset (in pixels) to be used when anchoring new frames."] = "An X offset (in pixels) to be used when anchoring new frames."
 L["Any"] = "Any"
 L["An Y offset (in pixels) to be used when anchoring new frames."] = "An Y offset (in pixels) to be used when anchoring new frames."
@@ -906,4 +907,3 @@ L["Your items have been repaired for: "] = "Your items have been repaired for: "
 L["Your items have been repaired using guild bank funds for: "] = "Your items have been repaired using guild bank funds for: "
 L["Your version of ElvUI is out of date. You can download the latest version from www.tukui.org"] = "Your version of ElvUI is out of date. You can download the latest version from www.tukui.org"
 L['|cFFE30000Lua error recieved. You can view the error message when you exit combat.'] = true;
-L["%s: %s tried to call the protected function '%s'."] = true;
