@@ -110,6 +110,9 @@ L["BGL"] = "BGL"
 L["Attempt to create URL links inside the chat."] = "Attempt to create URL links inside the chat."
 L["G"] = "G"
 L["BN:"] = "BN:"
+L['whispers'] = true;
+L['says'] = true;
+L['yells'] = true;
 
 --Config / Install
 L['Config Mode:'] = true;
@@ -898,3 +901,8 @@ L["Your items have been repaired for: "] = "Your items have been repaired for: "
 L["Your items have been repaired using guild bank funds for: "] = "Your items have been repaired using guild bank funds for: "
 L["Your version of ElvUI is out of date. You can download the latest version from www.tukui.org"] = "Your version of ElvUI is out of date. You can download the latest version from www.tukui.org"
 L['|cFFE30000Lua error recieved. You can view the error message when you exit combat.'] = true;
+
+L['Bars'] = true;
+L['Spacing'] = true;
+L['The spacing in between bars.'] = true;
+L['Character: '] = true
