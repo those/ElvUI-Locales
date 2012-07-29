@@ -10,6 +10,25 @@ end
 if not L then return; end
 
 --ActionBars
+L["Key"] = "Key"
+L["KEY_ALT"] = "A"
+L["Keybind Mode"] = "Keybind Mode"
+L["Keybind Text"] = "Keybind Text"
+L["KEY_BUTTON3"] = "M3"
+L["KEY_CTRL"] = "C"
+L["KEY_DELETE"] = "Del"
+L["KEY_HOME"] = "Hm"
+L["KEY_INSERT"] = "Ins"
+L["KEY_MOUSEBUTTON"] = "M"
+L["KEY_MOUSEWHEELDOWN"] = "MwD"
+L["KEY_MOUSEWHEELUP"] = "MwU"
+L["KEY_NUMPAD"] = "N"
+L["KEY_PAGEDOWN"] = "PD"
+L["KEY_PAGEUP"] = "PU"
+L["KEY_SHIFT"] = "S"
+L["KEY_SPACE"] = "SpB"
+L["LOCK_AB_ERROR"] = "It has come to our attention that you do not have your actionbars locked. This may cause abilities to be used while dragging buttons to differant slots. Please run the Set CVar portion of the Installation process (Step 2). This can be done by typing /ec and clicking the Install button."
+L["Low Threshold"] = "Low Threshold"
 L["Hours"] = "Hours"
 L["Expiring"] = "Expiring"
 L["Display bind names on action buttons."] = "Display bind names on action buttons."
@@ -135,6 +154,15 @@ L['says'] = true;
 L['yells'] = true;
 
 --Config / Install
+L["Importance: |cff07D400High|r"] = "Importance: |cff07D400High|r"
+L["Importance: |cffD3CF00Medium|r"] = "Importance: |cffD3CF00Medium|r"
+L["Importance: |cffFF0000Low|r"] = "Importance: |cffFF0000Low|r"
+L["Install"] = "Install"
+L["Installation Complete"] = "Installation Complete"
+L["Layout"] = "Layout"
+L["Layout Set"] = "Layout Set"
+L["Lock"] = "Lock"
+L["low"] = "low"
 L["Grid Size:"] = "Grid Size:"
 L["Healer"] = "Healer"
 L["high"] = "high"
@@ -168,6 +196,10 @@ L["Donations:"] = "Donations:"
 L["Coding:"] = "Coding:"
 
 --DataTexts
+L["If not set to true then the server time will be displayed instead."] = "If not set to true then the server time will be displayed instead."
+L["Legs"] = "Legs"
+L["Local Time"] = "Local Time"
+L["lvl"] = "lvl"
 L["Hands"] = "Hands"
 L["Head"] = "Head"
 L["Hit"] = "Hit"
@@ -211,6 +243,7 @@ L["No locals to dump"] = true;
 L["%s: %s tried to call the protected function '%s'."] = true;
 
 --General
+L["Left Only"] = "Left Only"
 L["Hide Both"] = "Hide Both"
 L["Fonts"] = "Fonts"
 L["Exp/Rep Position"] = "Exp/Rep Position"
@@ -279,9 +312,11 @@ L["CombatText Font"] = "CombatText Font"
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = "Controls what the transparency of the worldmap will be set to when you are moving."
 
 --Misc
+L["Left Click:"] = "Left Click:" --layout\layout.lua
 L["Fishy Loot"] = "Fishy Loot" --modules\misc\loot.lua
 L["Empty Slot"] = "Empty Slot" --modules\misc\loot.lua
 L["Enable"] = "Enable" --Doesn't fit a section since it's used a lot of places
+L["INCOMPATIBLE_ADDON"] = "The addon %s is not compatible with ElvUI's %s module. Please disable the incompatible addon or module."
 
 --NamePlates
 L["Healer Icon"] = "Healer Icon"
@@ -322,6 +357,7 @@ L["Custom Color"] = "Custom Color"
 L["Custom Scale"] = "Custom Scale"
 
 --Skins
+L["Mounts & Pets"] = true;
 L["Guild Bank"] = "Guild Bank"
 L["Guild Registrar"] = "Guild Registrar"
 L["Encounter Journal"] = "Encounter Journal"
@@ -410,6 +446,8 @@ L['To setup which channels appear in which chat frame, right click the chat tab 
 L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the blizzard actionbar options menu.'] = true;
 
 --UnitFrames
+L["Icon"] = "Icon"
+L["Low Mana Threshold"] = "Low Mana Threshold"
 L["Ghost"] = "Ghost"
 L["Group By"] = "Group By"
 L["Group Point"] = "Group Point"
@@ -564,49 +602,11 @@ L["Display the rested icon on the unitframe."] = "Display the rested icon on the
 ------Locales that don't appear to be used.------
 -------------------------------------------------
 L["Achievement Popup Frames"] = "Achievement Popup Frames" --This appears in live but not beta
+L["LeftChatDataPanel"] = "Left Chat"
+L["LeftMiniPanel"] = "Minimap Left"
 -------------------------------------------------
 -------------------------------------------------
 
-L["Icon"] = "Icon"
-L["If not set to true then the server time will be displayed instead."] = "If not set to true then the server time will be displayed instead."
-L["Importance: |cff07D400High|r"] = "Importance: |cff07D400High|r"
-L["Importance: |cffD3CF00Medium|r"] = "Importance: |cffD3CF00Medium|r"
-L["Importance: |cffFF0000Low|r"] = "Importance: |cffFF0000Low|r"
-L["INCOMPATIBLE_ADDON"] = "The addon %s is not compatible with ElvUI's %s module. Please disable the incompatible addon or module."
-L["Install"] = "Install"
-L["Installation Complete"] = "Installation Complete"
-L["Key"] = "Key"
-L["KEY_ALT"] = "A"
-L["Keybind Mode"] = "Keybind Mode"
-L["Keybind Text"] = "Keybind Text"
-L["KEY_BUTTON3"] = "M3"
-L["KEY_CTRL"] = "C"
-L["KEY_DELETE"] = "Del"
-L["KEY_HOME"] = "Hm"
-L["KEY_INSERT"] = "Ins"
-L["KEY_MOUSEBUTTON"] = "M"
-L["KEY_MOUSEWHEELDOWN"] = "MwD"
-L["KEY_MOUSEWHEELUP"] = "MwU"
-L["KEY_NUMPAD"] = "N"
-L["KEY_PAGEDOWN"] = "PD"
-L["KEY_PAGEUP"] = "PU"
-L["KEY_SHIFT"] = "S"
-L["KEY_SPACE"] = "SpB"
-L["Layout"] = "Layout"
-L["Layout Set"] = "Layout Set"
-L["LeftChatDataPanel"] = "Left Chat"
-L["Left Click:"] = "Left Click:"
-L["LeftMiniPanel"] = "Minimap Left"
-L["Left Only"] = "Left Only"
-L["Legs"] = "Legs"
-L["Mounts & Pets"] = true;
-L["Local Time"] = "Local Time"
-L["Lock"] = "Lock"
-L["LOCK_AB_ERROR"] = "It has come to our attention that you do not have your actionbars locked. This may cause abilities to be used while dragging buttons to differant slots. Please run the Set CVar portion of the Installation process (Step 2). This can be done by typing /ec and clicking the Install button."
-L["low"] = "low"
-L["Low Mana Threshold"] = "Low Mana Threshold"
-L["Low Threshold"] = "Low Threshold"
-L["lvl"] = "lvl"
 L["Macro Text"] = "Macro Text"
 L["Main backdrop color of the UI."] = "Main backdrop color of the UI."
 L["Main border color of the UI."] = "Main border color of the UI."
