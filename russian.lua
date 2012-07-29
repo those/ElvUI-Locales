@@ -8,7 +8,12 @@ L["Action Paging"] = "Переключение панелей"
 L["All keybindings cleared for |cff00ff00%s|r."] = "Сброшены все назначения для |cff00ff00%s|r."
 L["Anchor Point"] = "Точка фиксации"
 L["Backdrop"] = "Фон"
+L["Bar "] = "Панель "
 L["Binding"] = "Назначение"
+L["Binds Discarded"] = "Назначения отменены"
+L["Binds Saved"] = "Назначения сохранены"
+L["Buttons"] = "Кнопок"
+L["Buttons Per Row"] = "Кнопок в ряду"
 L["Button Size"] = "Размер кнопок"
 L["Button Spacing"] = "Отступ кнопок"
 L["Color when the text is about to expire"] = "Цвет текста почти завершившегося восстановления."
@@ -28,9 +33,12 @@ L[ [=[This works like a macro, you can run different situations to get the actio
 
 --Bags
 L["Ascending"] = "Восходящее"
-
+L["Bag-Bar"] = "Панель сумок"
+L["Bags"] = "Сумки"
+L["BAGS_DESC"] = "Настройки сумок ElvUI"
 L["Bag Columns"] = "Столбцов в сумке"
 L["Bank Columns"] = "Столбцов в банке"
+L["Bar Direction"] = "Направление панели"
 L["Bottom to Top"] = "Снизу вверх"
 
 L["Click to search.."] = "Нажмите для поиска"
@@ -79,7 +87,8 @@ L['Your Auras First'] = "Сначала свои"
 
 --Chat
 L["Attempt to create URL links inside the chat."] = "Пытаться создавать интернет-ссылки в чате."
-
+L["BG"] = "ПБ"
+L["BGL"] = "Лидер ПБ"
 L['Display emotion icons in chat.'] = "Показывать смайлы в чате"
 L['Emotion Icons'] = "Иконки эмоций";
 
@@ -96,6 +105,10 @@ L["24-Hour Time"] = "24х часовой формат"
 L["AP"] = "Сила Ат."
 L["AVD: "] = "Защита: "
 L["Avoidance Breakdown"] = "Распределение защиты"
+L["Bandwidth"] = "Канал"
+L['Bases Assaulted'] = "Штурмы баз"
+L['Bases Defended'] = "Оборона баз"
+L['Battleground datatexts temporarily hidden, to show type /bgstats or right click the "C" icon near the minimap.'] = 'Информация поля боя временно скрыта. Для отображения введите /bgstat или ПКМ на иконке "С" у миникарты.'
 
 --DebugTools
 
@@ -113,6 +126,11 @@ L["Automatically scale the User Interface based on your screen resolution"] = "�
 L["Automatically vendor gray items when visiting a vendor."] = "Автоматически продавать предметы серого качества при посещении торговца."
 L["Auto Repair"] = "Автоматический ремонт"
 L["Auto Scale"] = "Автоматический масштаб"
+L["Backdrop Color"] = "Цвет фона"
+L["Backdrop color of transparent frames"] = "Цвет фона прозрачных фреймов"
+L["Backdrop Faded Color"] = "Цвет прозрачного фона"
+L["Below Minimap"] = "Под миникартой"
+L["Border Color"] = "Цвет окантовки"
 
 L['Config Mode:'] = "Режим настройки:"
 
@@ -122,6 +140,9 @@ L['Toggle Tutorials'] = "Показать помощь"
 L["Add Name"] = "Добавить имя"
 L["All"] = "Все"
 L["Auras"] = "Ауры"
+L["Bad Color"] = '"Плохой" цвет'
+L["Bad Scale"] = '"Плохой" масштаб'
+L["Bad Transition Color"] = 'Цвет "плохого" перехода'
 
 L['Color the border of the nameplate yellow when it reaches the threshold point on these types of frames.'] = "Окрашивать границу индикатора желтым, когда уровень здоровья достигает порогового значения на этих типах юнитов"
 L['Color the border of the nameplate yellow when it reaches this point, it will be colored red when it reaches half this value.'] = "Окрашивать границу индикатора желтым, когда уровень здоровья достигает этого значения. Окраска сменится на красную при достижении половины этого значения."
@@ -141,6 +162,10 @@ L["Achievement Frame"] = "Достижения"
 L['Alert Frames'] = "Предупреждения"
 L["Archaeology Frame"] = "Археология"
 L["Auction Frame"] = "Аукцион"
+L["Barbershop Frame"] = "Парикмахерская"
+L["BG Map"] = "Карта ПБ"
+L["BG Score"] = "Таблица ПБ"
+L["BN:"] = "BN:"
 
 L["Loot Frames"] = "Добыча"
 L['Mounts & Pets'] = "Транспорт и питомцы"
@@ -189,6 +214,14 @@ L["Arena Frames"] = "Арена"
 L["Assist Frames"] = "Помощники"
 L["Attach To"] = "Прикрепить к"
 L['Aura Bars'] = "Полосы аур"
+L["Bad"] = "Плохое"
+L["Bars will transition smoothly."] = "Полосы будут изменяться плавно"
+L['Below'] = "Снизу"
+L["Blacklist"] = "Черный список"
+L["Blank"] = "Пусто"
+L["Boss Frames"] = "Боссы"
+L["Buff Indicator"] = "Индикатор баффов"
+L["Buffs"] = "Баффы"
 
 --Unused O_o
 L["Achievement Popup Frames"] = "Сообщения о достижении"
@@ -196,37 +229,6 @@ L["Alt-Power"] = "Доп. Ресурс"
 L['Anchor To'] = "Прикреплять к" --Possybly meant to be in aura bars section of unitframes
 
 --Not Sorted
-L["Backdrop Color"] = "Цвет фона"
-L["Backdrop color of transparent frames"] = "Цвет фона прозрачных фреймов"
-L["Backdrop Faded Color"] = "Цвет прозрачного фона"
-L["Bad"] = "Плохое"
-L["Bad Color"] = '"Плохой" цвет'
-L["Bad Scale"] = '"Плохой" масштаб'
-L["Bad Transition Color"] = 'Цвет "плохого" перехода'
-L["Bag-Bar"] = "Панель сумок"
-L["Bags"] = "Сумки"
-L["BAGS_DESC"] = "Настройки сумок ElvUI"
-L["Bandwidth"] = "Канал"
-L["Bar "] = "Панель "
-L["Barbershop Frame"] = "Парикмахерская"
-L["Bar Direction"] = "Направление панели"
-L["Bars will transition smoothly."] = "Полосы будут изменяться плавно"
-L["Below Minimap"] = "Под миникартой"
-L["BG"] = "ПБ"
-L["BGL"] = "Лидер ПБ"
-L["BG Map"] = "Карта ПБ"
-L["BG Score"] = "Таблица ПБ"
-L["Binds Discarded"] = "Назначения отменены"
-L["Binds Saved"] = "Назначения сохранены"
-L["Blacklist"] = "Черный список"
-L["Blank"] = "Пусто"
-L["BN:"] = "BN:"
-L["Border Color"] = "Цвет окантовки"
-L["Boss Frames"] = "Боссы"
-L["Buff Indicator"] = "Индикатор баффов"
-L["Buffs"] = "Баффы"
-L["Buttons"] = "Кнопок"
-L["Buttons Per Row"] = "Кнопок в ряду"
 L["Calendar Frame"] = "Календарь"
 L["Camera Distance Scale"] = "Дистанция камеры"
 L["Can't buy anymore slots!"] = "Невозможно приобрести больше слотов!"
@@ -863,9 +865,6 @@ L['Towers Assaulted'] = "Штурмы башен";
 L['Towers Defended'] = "Оборона башен";
 L['Demolishers Destroyed'] = "Разрушителей уничтожено";
 L['Gates Destroyed'] = "Врат разрушено";
-L['Bases Assaulted'] = "Штурмы баз";
-L['Bases Defended'] = "Оборона баз";
-L['Battleground datatexts temporarily hidden, to show type /bgstats or right click the "C" icon near the minimap.'] = 'Информация поля боя временно скрыта. Для отображения введите /bgstat или ПКМ на иконке "С" у миникарты'
 L['Toggle Configuration'] = "Конфигурация"
 L['Show BG Texts'] = "Показать текст ПБ";
 L['Battleground datatexts will now show again if you are inside a battleground.'] = "Информация поля боя снова будет отображаться, если Вы находитесь на них.";
@@ -886,6 +885,5 @@ L['The point of which you are anchoring to in relation to the attach to object.'
 L['The object you want to attach to.'] = "Объект, к которому Вы хотите прикрепить полосы";
 L['No Duration'] = "Без длительности";
 L['No Consolidated'] = "Без объединенных";
-L['Below'] = "Снизу";
 L['The spell "%s" has been added to the DebuffBlacklist unitframe filter.'] = 'Заклинание "%s" было добавлено в фильтр DebuffBlacklist рамок юнитов.';
 L['Hold shift + right click to blacklist this aura.'] = "Зажмите shift и кликните правой кнопкой, чтобы занести эту ауру в черный список.";
