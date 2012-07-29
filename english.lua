@@ -10,6 +10,9 @@ end
 if not L then return; end
 
 --ActionBars
+L["Seconds"] = "Seconds"
+L["Set the font size of the action buttons."] = "Set the font size of the action buttons."
+L["ShapeShift Bar"] = "ShapeShift Bar"
 L["Pet Bar"] = "Pet Bar"
 L["Macro Text"] = "Macro Text"
 L["Minutes"] = "Minutes"
@@ -75,6 +78,12 @@ L["Cooldown Text"] = "Cooldown Text"
 L["Days"] = "Days"
 
 --Bags
+L["silverabbrev"] = "|cffc7c7cfs|r" --Also used in gold datatext
+L["Sort Bags"] = "Sort Bags"
+L["Sort Orientation"] = "Sort Orientation"
+L["Sort Special"] = "Sort Special"
+L["Stack Items"] = "Stack Items"
+L["Stack Special"] = "Stack Special"
 L["Purchase"] = "Purchase"
 L["goldabbrev"] = "|cffffd700g|r" --Also used in gold datatext
 L["Hold Shift:"] = "Hold Shift:"
@@ -107,7 +116,7 @@ L["Bag Columns"] = "Bag Columns"
 L["Bank Columns"] = "Bank Columns"
 L["Bar Direction"] = "Bar Direction"
 L["Bottom to Top"] = "Bottom to Top"
-L["copperabbrev"] = "|cffeda55fc|r"
+L["copperabbrev"] = "|cffeda55fc|r" --Also used in gold datatext
 
 --Buffs and Debuffs
 L['AURAS_DESC'] = 'Configure the aura icons that appear near the minimap.';
@@ -134,6 +143,12 @@ L['No Sorting'] = true;
 L['Your Auras First'] = true;
 
 --Chat
+L["Scroll Interval"] = "Scroll Interval"
+L["Set the font outline."] = "Set the font outline." --Also used in UnitFrames section
+L["Short Channels"] = "Short Channels"
+L["Shorten the channel names in chat."] = "Shorten the channel names in chat."
+L["Spam Interval"] = "Spam Interval"
+L["Sticky Chat"] = "Sticky Chat"
 L["R"] = "R"
 L["RL"] = "RL"
 L["RW"] = "RW"
@@ -167,6 +182,10 @@ L['says'] = true;
 L['yells'] = true;
 
 --Config / Install
+L["Setup Chat"] = "Setup Chat"
+L["Setup CVars"] = "Setup CVars"
+L["Skip Process"] = "Skip Process"
+L["Sticky Frames"] = "Sticky Frames"
 L["Resolution"] = "Resolution"
 L["High Resolution"] = true;
 L['Low Resolution'] = true;
@@ -216,6 +235,12 @@ L["Donations:"] = "Donations:"
 L["Coding:"] = "Coding:"
 
 --DataTexts
+L["Saved Raid(s)"] = "Saved Raid(s)"
+L["Server: "] = "Server: "
+L["Session:"] = "Session:"
+L["Shoulder"] = "Shoulder"
+L["SP"] = "SP"
+L["Spent:"] = "Spent:"
 L["RightChatDataPanel"] = "Right Chat"
 L["RightMiniPanel"] = "Minimap Right"
 L["LeftChatDataPanel"] = "Left Chat"
@@ -274,6 +299,9 @@ L["No locals to dump"] = true;
 L["%s: %s tried to call the protected function '%s'."] = true;
 
 --General
+L["Secondary Texture"] = "Secondary Texture"
+L["Set the font size for everything in UI. Note: This doesn't effect somethings that have their own seperate options (UnitFrame Font, Datatext Font, ect..)"] = "Set the font size for everything in UI. Note: This doesn't effect somethings that have their own seperate options (UnitFrame Font, Datatext Font, ect..)"
+L["Show Both"] = "Show Both"
 L["Reset all frames to their original positions."] = "Reset all frames to their original positions."
 L["Reset Anchors"] = "Reset Anchors"
 L["Right Only"] = "Right Only"
@@ -371,6 +399,8 @@ L["Enable"] = "Enable" --Doesn't fit a section since it's used a lot of places
 L["INCOMPATIBLE_ADDON"] = "The addon %s is not compatible with ElvUI's %s module. Please disable the incompatible addon or module."
 
 --NamePlates
+L["Select a filter to use. These are imported from the unitframe aura filter."] = "Select a filter to use. These are imported from the unitframe aura filter." --This one is not visible in the GUI since desc is not used on select groups. Keep for dropdown based menus?
+L["Set the scale of the nameplate."] = "Set the scale of the nameplate."
 L["Remove Name"] = "Remove Name"
 L["Restoration"] = "Restoration"
 L["Personal Debuffs"] = "Personal Debuffs"
@@ -414,6 +444,12 @@ L["Custom Color"] = "Custom Color"
 L["Custom Scale"] = "Custom Scale"
 
 --Skins
+L["Select an addon to embed to the right chat window. This will resize the addon to fit perfectly into the chat window, it will also parent it to the chat window so hiding the chat window will also hide the addon."] = "Select an addon to embed to the right chat window. This will resize the addon to fit perfectly into the chat window, it will also parent it to the chat window so hiding the chat window will also hide the addon."
+L["Skins"] = "Skins"
+L["SKINS_DESC"] = "Adjust Skin settings."
+L["Skin the blizzard chat bubbles."] = "Skin the blizzard chat bubbles."
+L["Spellbook"] = "Spellbook"
+L["Stable"] = "Stable"
 L["PvP Frames"] = "PvP Frames"
 L["Quest Frames"] = "Quest Frames"
 L["Mounts & Pets"] = true;
@@ -468,6 +504,7 @@ L["BG Map"] = "BG Map"
 L["BG Score"] = "BG Score"
 
 --Static Popups
+L["Save"] = "Save"
 L["Hover your mouse over any actionbutton or spellbook button to bind it. Press the escape key or right click to clear the current actionbutton's keybinding."] = "Hover your mouse over any actionbutton or spellbook button to bind it. Press the escape key or right click to clear the current actionbutton's keybinding."
 L["A setting you have changed will change an option for this character only. This setting that you have changed will be uneffected by changing user profiles. Changing this setting requires that you reload your User Interface."] = true;
 L["Are you sure you want to delete all your gray items?"] = "Are you sure you want to delete all your gray items?"
@@ -476,6 +513,8 @@ L["Are you sure you want to reset every mover back to it's default position?"] =
 L["Can't buy anymore slots!"] = "Can't buy anymore slots!"
 
 --Tooltip
+L["Set the type of anchor mode the tooltip should use."] = "Set the type of anchor mode the tooltip should use."
+L["Smart"] = "Smart"
 L["Hide tooltip while in combat."] = "Hide tooltip while in combat."
 L["Don't display the tooltip when mousing over a unitframe."] = "Don't display the tooltip when mousing over a unitframe."
 L["AFK"] = "AFK"
@@ -504,6 +543,21 @@ L['To setup which channels appear in which chat frame, right click the chat tab 
 L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the blizzard actionbar options menu.'] = true;
 
 --UnitFrames
+L["Select a filter to use."] = "Select a filter to use." --Also used in NamePlates
+L["Set the filter type, blacklisted filters hide any aura on the like and show all else, whitelisted filters show any aura on the filter and hide all else."] = "Set the filter type, blacklisted filters hide any aura on the like and show all else, whitelisted filters show any aura on the filter and hide all else."
+L["Set the font size for unitframes."] = "Set the font size for unitframes."
+L["Set the order that the group will sort."] = "Set the order that the group will sort."
+L["%s frame(s) has a conflicting anchor point, please change either the buff or debuff anchor point so they are not attached to each other. Forcing the debuffs to be attached to the main unitframe until fixed."] = "%s frame(s) has a conflicting anchor point, please change either the buff or debuff anchor point so they are not attached to each other. Forcing the debuffs to be attached to the main unitframe until fixed."
+L["Show Party"] = "Show Party"
+L["Show Raid"] = "Show Raid"
+L["Show Solo"] = "Show Solo"
+L["Size"] = "Size"
+L["Size of the indicator icon."] = "Size of the indicator icon."
+L["Smart Raid Filter"] = "Smart Raid Filter"
+L["Smooth Bars"] = "Smooth Bars"
+L["Spaced"] = "Spaced"
+L["Spell not found in list."] = "Spell not found in list."
+L["StatusBar Texture"] = "StatusBar Texture"
 L["RaidDebuff Indicator"] = "RaidDebuff Indicator"
 L["Rapidly update the health, uses more memory and cpu. Only recommended for healing."] = "Rapidly update the health, uses more memory and cpu. Only recommended for healing."
 L["Reactions"] = "Reactions"
@@ -692,67 +746,13 @@ L["Only check if the buff is coming from you."] = "Only check if the buff is com
 L["Personal Buffs"] = "Personal Buffs"
 L["Remove Group"] = "Remove Group"
 L["Remove ID"] = "Remove ID"
+L["Spell already exists in filter."] = "Spell already exists in filter."
+L["Spell not found."] = "Spell not found."
+L["Spell not found in list"] = "Spell not found in list" --duplicate exists which ends with a "." (dot) and is used in UnitFrames
+L["Spells"] = "Spells"
 -------------------------------------------------
 -------------------------------------------------
 
-L["Save"] = "Save"
-L["Saved Raid(s)"] = "Saved Raid(s)"
-L["Scroll Interval"] = "Scroll Interval"
-L["Secondary Texture"] = "Secondary Texture"
-L["Seconds"] = "Seconds"
-L["Select a filter to use."] = "Select a filter to use."
-L["Select a filter to use. These are imported from the unitframe aura filter."] = "Select a filter to use. These are imported from the unitframe aura filter."
-L["Select an addon to embed to the right chat window. This will resize the addon to fit perfectly into the chat window, it will also parent it to the chat window so hiding the chat window will also hide the addon."] = "Select an addon to embed to the right chat window. This will resize the addon to fit perfectly into the chat window, it will also parent it to the chat window so hiding the chat window will also hide the addon."
-L["Server: "] = "Server: "
-L["Session:"] = "Session:"
-L["Set the filter type, blacklisted filters hide any aura on the like and show all else, whitelisted filters show any aura on the filter and hide all else."] = "Set the filter type, blacklisted filters hide any aura on the like and show all else, whitelisted filters show any aura on the filter and hide all else."
-L["Set the font outline."] = "Set the font outline."
-L["Set the font size for everything in UI. Note: This doesn't effect somethings that have their own seperate options (UnitFrame Font, Datatext Font, ect..)"] = "Set the font size for everything in UI. Note: This doesn't effect somethings that have their own seperate options (UnitFrame Font, Datatext Font, ect..)"
-L["Set the font size for unitframes."] = "Set the font size for unitframes."
-L["Set the font size of the action buttons."] = "Set the font size of the action buttons."
-L["Set the order that the group will sort."] = "Set the order that the group will sort."
-L["Set the scale of the nameplate."] = "Set the scale of the nameplate."
-L["Set the type of anchor mode the tooltip should use."] = "Set the type of anchor mode the tooltip should use."
-L["Setup Chat"] = "Setup Chat"
-L["Setup CVars"] = "Setup CVars"
-L["%s frame(s) has a conflicting anchor point, please change either the buff or debuff anchor point so they are not attached to each other. Forcing the debuffs to be attached to the main unitframe until fixed."] = "%s frame(s) has a conflicting anchor point, please change either the buff or debuff anchor point so they are not attached to each other. Forcing the debuffs to be attached to the main unitframe until fixed."
-L["ShapeShift Bar"] = "ShapeShift Bar"
-L["Short Channels"] = "Short Channels"
-L["Shorten the channel names in chat."] = "Shorten the channel names in chat."
-L["Shoulder"] = "Shoulder"
-L["Show Both"] = "Show Both"
-L["Show Party"] = "Show Party"
-L["Show Raid"] = "Show Raid"
-L["Show Solo"] = "Show Solo"
-L["silverabbrev"] = "|cffc7c7cfs|r"
-L["Size"] = "Size"
-L["Size of the indicator icon."] = "Size of the indicator icon."
-L["Skins"] = "Skins"
-L["SKINS_DESC"] = "Adjust Skin settings."
-L["Skin the blizzard chat bubbles."] = "Skin the blizzard chat bubbles."
-L["Skip Process"] = "Skip Process"
-L["Smart"] = "Smart"
-L["Smart Raid Filter"] = "Smart Raid Filter"
-L["Smooth Bars"] = "Smooth Bars"
-L["Sort Bags"] = "Sort Bags"
-L["Sort Orientation"] = "Sort Orientation"
-L["Sort Special"] = "Sort Special"
-L["SP"] = "SP"
-L["Spaced"] = "Spaced"
-L["Spam Interval"] = "Spam Interval"
-L["Spell already exists in filter."] = "Spell already exists in filter."
-L["Spellbook"] = "Spellbook"
-L["Spell not found."] = "Spell not found."
-L["Spell not found in list"] = "Spell not found in list"
-L["Spell not found in list."] = "Spell not found in list."
-L["Spells"] = "Spells"
-L["Spent:"] = "Spent:"
-L["Stable"] = "Stable"
-L["Stack Items"] = "Stack Items"
-L["Stack Special"] = "Stack Special"
-L["StatusBar Texture"] = "StatusBar Texture"
-L["Sticky Chat"] = "Sticky Chat"
-L["Sticky Frames"] = "Sticky Frames"
 L["Tank"] = "Tank"
 L["Tank Frames"] = "Tank Frames"
 L["Tapped"] = "Tapped"
