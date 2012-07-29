@@ -27,6 +27,7 @@ L["Binding"] = "Binding"
 L["ActionBars"] = "ActionBars"
 L["Action Paging"] = "Action Paging"
 L["Anchor Point"] = "Anchor Point" --also in unitframes
+L["Backdrop"] = "Backdrop"
 
 --Bags
 L["Enable Bag-Bar"] = "Enable Bag-Bar"
@@ -64,7 +65,6 @@ L["Other's First"] = true;
 L['No Sorting'] = true;
 L['Your Auras First'] = true;
 
-
 --Chat
 L["Keyword Alert"] = true;
 L["Whisper Alert"] = true;
@@ -77,6 +77,7 @@ L["When opening the Chat Editbox to type a message having this option set means 
 L["Number of time in seconds to scroll down to the bottom of the chat window if you are not scrolled down completely."] = "Number of time in seconds to scroll down to the bottom of the chat window if you are not scrolled down completely."
 L["BG"] = "BG"
 L["BGL"] = "BGL"
+L["Attempt to create URL links inside the chat."] = "Attempt to create URL links inside the chat."
 
 --Config / Install
 L['Config Mode:'] = true;
@@ -327,22 +328,21 @@ L["Arena Frames"] = "Arena Frames"
 L["Assist Frames"] = "Assist Frames"
 L["Attach To"] = "Attach To"
 L["yOffset"] = "yOffset"  --Another variation in bags section  Y Offset
-
+L["Alt-Power"] = "Alt-Power" --Not in beta but is in live version
+L['Raid-25 Frames'] = true;
+L['Raid-10 Frames'] = true;
+L['Raid-40 Frames'] = true;
 
 -------------------------------------------------
 ------Locales that don't appear to be used.------
 -------------------------------------------------
 L["Achievement Popup Frames"] = "Achievement Popup Frames" --This one seem to be unused!!!
-L['Raid-25 Frames'] = true;
-L['Raid-10 Frames'] = true;
-L['Raid-40 Frames'] = true;
-L["Alt-Power"] = "Alt-Power"
 -------------------------------------------------
 -------------------------------------------------
 
 
-L["Attempt to create URL links inside the chat."] = "Attempt to create URL links inside the chat."
-L["Backdrop"] = "Backdrop"
+
+
 L["Backdrop Color"] = "Backdrop Color"
 L["Backdrop color of transparent frames"] = "Backdrop color of transparent frames"
 L["Backdrop Faded Color"] = "Backdrop Faded Color"
