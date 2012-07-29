@@ -120,6 +120,9 @@ L['When inside a battleground display personal scoreboard information on the mai
 L['Battleground Texts'] = true;
 L['Battleground datatexts will now show again if you are inside a battleground.'] = true;
 
+--DebugTools
+L["No locals to dump"] = true;
+
 --General
 L["Login Message"] = "Login Message"
 L["LOGIN_MSG"] = "Welcome to %sElvUI|r version %s%s|r, type /ec to access the in-game configuration menu. If you are in need of technical support you can visit us at www.tukui.org. You can report bugs, add suggestions here: http://www.tukui.org/tickets/elvui/."
@@ -163,6 +166,11 @@ L['Always Display'] = true;
 L['Minimap Mouseover'] = true;
 L['Change settings for the display of the location text that is on the minimap.'] = true;
 L['Location Text'] = true;
+L['Minimap Panels'] = true;
+L["Don't scale the large world map to block out sides of the screen."] = true;
+L["Tiny Map"] = true;
+L["Send ADDON_ACTION_BLOCKED errors to the Lua Error frame. These errors are less important in most cases and will not effect your game performance. Also a lot of these errors cannot be fixed. Please only report these errors if you notice a Defect in gameplay."] = true;
+L["Log Taints"] = true;
 
 --NamePlates
 L["NAMEPLATE_DESC"] = "Modify the nameplate settings."
@@ -180,7 +188,10 @@ L["All"] = "All"
 L["Reminders"] = "Reminders"
 L["Select Group"] = "Select Group"
 L["Add Group"] = "Add Group"
-
+L["Spell ID"] = true;
+L['On Cooldown'] = true;
+L["Cooldown"] = true;
+L['CD Fade'] = true;
 
 --Skins
 L["Character Frame"] = "Character Frame"
@@ -220,6 +231,8 @@ L["Trainer Frame"] = "Trainer Frame"
 L["Pet Battle"] = true;
 L['Alert Frames'] = true;
 
+--Static Popups
+L["A setting you have changed will change an option for this character only. This setting that you have changed will be uneffected by changing user profiles. Changing this setting requires that you reload your User Interface."] = true;
 
 --Tooltip
 L["AFK"] = "AFK"
@@ -275,25 +288,35 @@ L["Add SpellID"] = "Add SpellID"
 L['RL / ML Icons'] = true;
 L['Show Auras'] = true;
 L["Priority"] = true;
+L["Set the priority order of the spell, please note that prioritys are only used for the raid debuff module, not the standard buff/debuff module. If you want to disable set to zero."] = true;
+L['Force the frames to show, they will act as if they are the player frame.'] = true;
+L['Display Frames'] = true;
+L['If not set to 0 then override the size of the aura icon to this.'] = true;
+L['Size Override'] = true;
+L["MT, MA First"] = true;
+L["Long (Include Level)"] = true;
+L["Short"] = true;
+L["Medium"] = true;
+L["Long"] = true;
+L['Color the name text by class or reaction.'] = true;
+L['Class Names'] = true;
 
-
-
------------------------------------------------------------------------
+-------------------------------------------------
+------Locales that don't appear to be used.------
+-------------------------------------------------
 L["Achievement Popup Frames"] = "Achievement Popup Frames" --This one seem to be unused!!!
-
-
-
-
-
-
-
-
-
-
+L['Raid-25 Frames'] = true;
+L['Raid-10 Frames'] = true;
+L['Raid-40 Frames'] = true;
+L["Length"] = true;
 L["Alt-Power"] = "Alt-Power"
 L["Anchor"] = "Anchor"
 L["Anchor Mode"] = "Anchor Mode"
 L["Anchor Point"] = "Anchor Point"
+-------------------------------------------------
+-------------------------------------------------
+
+
 L["Announce Interrupts"] = "Announce Interrupts"
 L["Announce when you interrupt a spell to the specified chat channel."] = "Announce when you interrupt a spell to the specified chat channel."
 L["An X offset (in pixels) to be used when anchoring new frames."] = "An X offset (in pixels) to be used when anchoring new frames."
@@ -884,31 +907,3 @@ L["Your items have been repaired using guild bank funds for: "] = "Your items ha
 L["Your version of ElvUI is out of date. You can download the latest version from www.tukui.org"] = "Your version of ElvUI is out of date. You can download the latest version from www.tukui.org"
 L['|cFFE30000Lua error recieved. You can view the error message when you exit combat.'] = true;
 L["%s: %s tried to call the protected function '%s'."] = true;
-L['Class Names'] = true;
-L['CD Fade'] = true;
-L['Color the name text by class or reaction.'] = true;
-L["No locals to dump"] = true;
-L["Log Taints"] = true;
-L["Send ADDON_ACTION_BLOCKED errors to the Lua Error frame. These errors are less important in most cases and will not effect your game performance. Also a lot of these errors cannot be fixed. Please only report these errors if you notice a Defect in gameplay."] = true;
-L["Tiny Map"] = true;
-L["Short"] = true;
-L["Medium"] = true;
-L["Long"] = true;
-L["Long (Include Level)"] = true;
-L["Length"] = true;
-L["MT, MA First"] = true;
-L["A setting you have changed will change an option for this character only. This setting that you have changed will be uneffected by changing user profiles. Changing this setting requires that you reload your User Interface."] = true;
-L["Cooldown"] = true;
-L['On Cooldown'] = true;
-L['Size Override'] = true;
-L['If not set to 0 then override the size of the aura icon to this.'] = true;
-L["Spell ID"] = true;
-L["Don't scale the large world map to block out sides of the screen."] = true;
-L['Minimap Panels'] = true;
-L['Display minimap panels below the minimap, used for datatexts.'] = true;
-L['Display Frames'] = true;
-L['Force the frames to show, they will act as if they are the player frame.'] = true;
-L["Set the priority order of the spell, please note that prioritys are only used for the raid debuff module, not the standard buff/debuff module. If you want to disable set to zero."] = true;
-L['Raid-25 Frames'] = true;
-L['Raid-10 Frames'] = true;
-L['Raid-40 Frames'] = true;
