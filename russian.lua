@@ -21,12 +21,58 @@ L["ActionBars"] = "Панели команд"
 L["Action Paging"] = "Переключение панелей"
 L["Anchor Point"] = "Точка фиксации"
 L["Backdrop"] = "Фон"
+L["Button Size"] = "Размер кнопок"
+L["Button Spacing"] = "Отступ кнопок"
+L["Mouse Over"] = "При наведении"
 
 --Bags
+L["Enable Bag-Bar"] = "Включить панель сумок"
+L["Enable/Disable the all-in-one bag."] = 'Включить/выключить режим сумки "все в одной". '
+L["Enable/Disable the Bag-Bar."] = "Включить/выключить панель сумок"
+L["Click to search.."] = "Нажмите для поиска"
+L["Number of columns (width) of bags. Set it to 0 to match the width of the chat panels."] = "Количество столбцов (ширина окна) в сумках. Установите на 0 для соответствия ширине панелей чата."
+L["Number of columns (width) of the bank. Set it to 0 to match the width of the chat panels."] = "Количество столбцов (ширина окна) в банке. Установите на 0 для соответствия ширине панелей чата."
+L["No gray items to delete."] = "Нет предметов серого качества для удаления."
+L["No gray items to sell."] = "Нет предметов серого качества для продажи."
+L["Ascending"] = "Восходящее"
+L["Descending"] = "Нисходящее"
+L["X Offset"] = "Отступ по Х"
+L["Y Offset"] = "Отступ по Y"
+L["Bag Columns"] = "Столбцов в сумке"
+L["Bank Columns"] = "Столбцов в банке"
+L["Sort Orientation"] = "Направление сортировки"
+L["Direction the bag sorting will use to allocate the items."] = "Направление расположения предметов при сортировке."
+L["Bottom to Top"] = "Снизу вверх"
+L["Top to Bottom"] = "Сверху вниз"
 
 --Buffs and Debuffs
+L['AURAS_DESC'] = 'Настройка иконок эффектов, находящихся у миникарты.'
+L['Consolidated Buffs'] = "Объединенные эффекты"
+L['Display the consolidated buffs bar.'] = "Отображать полосу объединенных эффектов.";
+L['Set the size of the individual auras.'] = "Устанавливает размер аур"
+L['Wrap After'] = "Размер ряда"
+L['Begin a new row or column after this many auras.'] = "Начинать новый ряд/столбец после этого количества аур."
+L['X Spacing'] = "Отступ по X"
+L['Y Spacing'] = "Отступ по Y"
+L['Sort Method'] = "Метод сортировки"
+L['Defines how the group is sorted.'] = "Определяет условия сортировки"
+L['Index'] = "Порядок наложения"
+L['Time'] = "Время"
+L['Sort Direction'] = "Направление сортировки"
+L['Defines the sort order of the selected sort method.'] = "Определяет порядок в выбранном методе сортировки."
+L['Max Wraps'] = "Максимум рядов"
+L['Limit the number of rows or columns.'] = "Определяет максимальное количество рядов/столбцов."
+L['Seperate'] = "Разделение"
+L['Indicate whether buffs you cast yourself should be separated before or after.'] = "Определяет должны ли Ваши баффы находиться отдельно перед или после остальных."
+L["Other's First"] = "Сначала чужие"
+L['No Sorting'] = "Без сортировки"
+L['Your Auras First'] = "Сначала свои"
 
 --Chat
+L["Whisper Alert"] = "Звук шепота"
+L["Keyword Alert"] = "Звук ключевых слов"
+L['Emotion Icons'] = "Иконки эмоций";
+L['Display emotion icons in chat.'] = "Показывать смайлы в чате";
 
 --Config / Install
 
@@ -37,47 +83,29 @@ L["Backdrop"] = "Фон"
 --DebugTools
 
 --General
+L['Toggle Tutorials'] = "Показать помощь";
 
 --NamePlates
+L['Low Health Warning'] = "Предупреждение о низком здоровье";
+L['Color the border of the nameplate yellow when it reaches the threshold point on these types of frames.'] = "Окрашивать границу индикатора желтым, когда уровень здоровья достигает порогового значения на этих типах юнитов";
+L['Players'] = "Игроки";
+L['Low Health Threshold'] = "Пороговое значение здоровья";
+L['Color the border of the nameplate yellow when it reaches this point, it will be colored red when it reaches half this value.'] = "Окрашивать границу индикатора желтым, когда уровень здоровья достигает этого значения. Окраска сменится на красную при достижении половины этого значения.";
+
 
 --Reminders
 
 --Skins
+L["Pet Battle"] = "Битвы питомцев"
+L['Mounts & Pets'] = "Транспорт и питомцы"
+L['Alert Frames'] = "Предупреждения"
+L["Loot Frames"] = "Добыча"
 
 --Static Popups
 
 --Tooltip
 
 --Tutorials
-
---UnitFrames
-
---Unused O_o
-
-L["Whisper Alert"] = "Звук шепота";
-L["Keyword Alert"] = "Звук ключевых слов";
-L['AURAS_DESC'] = 'Настройка иконок эффектов, находящихся у миникарты.';
-L['Consolidated Buffs'] = "Объединенные эффекты";
-L['Display the consolidated buffs bar.'] = "Отображать полосу объединенных эффектов.";
-L['Set the size of the individual auras.'] = "Устанавливает размер аур";
-L['Wrap After'] = "Размер ряда";
-L['Begin a new row or column after this many auras.'] = "Начинать новый ряд/столбец после этого количества аур.";
-L['X Spacing'] = "Отступ по X";
-L['Y Spacing'] = "Отступ по Y";
-L['Sort Method'] = "Метод сортировки";
-L['Defines how the group is sorted.'] = "Определяет условия сортировки";
-L['Index'] = "Порядок наложения";
-L['Time'] = "Время";
-L['Sort Direction'] = "Направление сортировки";
-L['Defines the sort order of the selected sort method.'] = "Определяет порядок в выбранном методе сортировки.";
-L['Max Wraps'] = "Максимум рядов";
-L['Limit the number of rows or columns.'] = "Определяет максимальное количество рядов/столбцов.";
-L['Seperate'] = "Разделение";
-L['Indicate whether buffs you cast yourself should be separated before or after.'] = "Определяет должны ли Ваши баффы находиться отдельно перед или после остальных.";
-L["Other's First"] = "Сначала чужие";
-L['No Sorting'] = "Без сортировки";
-L['Your Auras First'] = "Сначала свои";
-
 L['Using the /farmmode <size> command will spawn a larger minimap on your screen that can be moved around, very useful when farming.'] = 'Использование команды /farmmode <размер> откроет миникарту большего размера, которую можно свободно перемещать по экрану. Очень полезно при фарме.';
 L['You can use the /resetui command to reset all of your movers. You can also use the command to reset a specific mover, /resetui <mover name>.\nExample: /resetui Player Frame'] = 'Вы можете использовать команду /resetui чтобы сбросить положения всех фиксаторов. Вы также можете использовать команду /resetui <имя фиксатора> для сброса определенного фиксатора.\nПример: /resetui Player Frame';
 L['Config Mode:'] = "Режим настройки:";
@@ -96,20 +124,11 @@ L['If your experience and reputation bars disappear, mouse over the place where 
 L['To setup which channels appear in which chat frame, right click the chat tab and go to settings.'] = 'Для настройки отображения каналов в чате кликните правой кнопкой мыши на закладке нужного чата и выберите пункт "параметры".';
 L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the blizzard actionbar options menu.'] = 'Для перемещения способностей по панелям команд нужно перемещать их с зажатой клавишей shift. Вы можете поменять модификатор в опциях панелей команд Blizzard.';
 
+--UnitFrames
 
-L['Low Health Warning'] = "Предупреждение о низком здоровье";
-L['Color the border of the nameplate yellow when it reaches the threshold point on these types of frames.'] = "Окрашивать границу индикатора желтым, когда уровень здоровья достигает порогового значения на этих типах юнитов";
-L['Players'] = "Игроки";
-L['Low Health Threshold'] = "Пороговое значение здоровья";
-L['Color the border of the nameplate yellow when it reaches this point, it will be colored red when it reaches half this value.'] = "Окрашивать границу индикатора желтым, когда уровень здоровья достигает этого значения. Окраска сменится на красную при достижении половины этого значения.";
-L['Toggle Tutorials'] = "Показать помощь";
-L["Pet Battle"] = "Битвы питомцев";
-L['Alert Frames'] = "Предупреждения";
-L["Loot Frames"] = "Добыча";
-L['Emotion Icons'] = "Иконки эмоций";
-L['Display emotion icons in chat.'] = "Показывать смайлы в чате";
-L['Mounts & Pets'] = "Транспорт и питомцы"
+--Unused O_o
 
+--Not Sorted
 L["24-Hour Time"] = "24х часовой формат"
 L["Accept Invites"] = "Принимать приглашения"
 L["Achievement Frame"] = "Достижения"
@@ -138,7 +157,6 @@ L["Arena Frames"] = "Арена"
 L["Are you sure you want to delete all your gray items?"] = "Вы уверенны, что хотите удалить все предметы серого качества?"
 L["Are you sure you want to disband the group?"] = "Вы уверены, что хотите распустить группу?"
 L["Are you sure you want to reset every mover back to it's default position?"] = "Вы уверены, что хотите сбросить все фиксаторы на позиции по умолчанию?"
-L["Ascending"] = "Восходящее"
 L["Assist Frames"] = "Помощники"
 L["Attach To"] = "Прикрепить к"
 L["Attempted to show a reminder icon that does not have any spells. You must add a spell first."] = "Попытка отобразить напоминание, которое не содержит заклинаний. Сперва Вы должны добавить заклинание в список."
@@ -161,11 +179,9 @@ L["Bad Color"] = '"Плохой" цвет'
 L["Bad Scale"] = '"Плохой" масштаб'
 L["Bad Transition Color"] = 'Цвет "плохого" перехода'
 L["Bag-Bar"] = "Панель сумок"
-L["Bag Columns"] = "Столбцов в сумке"
 L["Bags"] = "Сумки"
 L["BAGS_DESC"] = "Настройки сумок ElvUI"
 L["Bandwidth"] = "Канал"
-L["Bank Columns"] = "Столбцов в банке"
 L["Bar "] = "Панель "
 L["Barbershop Frame"] = "Парикмахерская"
 L["Bar Direction"] = "Направление панели"
@@ -182,12 +198,9 @@ L["Blank"] = "Пусто"
 L["BN:"] = "BN:"
 L["Border Color"] = "Цвет окантовки"
 L["Boss Frames"] = "Боссы"
-L["Bottom to Top"] = "Снизу вверх"
 L["Buff Indicator"] = "Индикатор баффов"
 L["Buffs"] = "Баффы"
 L["Buttons"] = "Кнопок"
-L["Button Size"] = "Размер кнопок"
-L["Button Spacing"] = "Отступ кнопок"
 L["Buttons Per Row"] = "Кнопок в ряду"
 L["Calendar Frame"] = "Календарь"
 L["Camera Distance Scale"] = "Дистанция камеры"
@@ -211,7 +224,6 @@ L["Classbar"] = "Полоса класса"
 L["Class Health"] = "Здоровье по классу"
 L["Class Power"] = "Ресурс по классу"
 L["Click the button below to resize your chat frames, unitframes, and reposition your actionbars."] = "Нажмите кнопку ниже для изменения размеров вашего чата, рамок юнитов и перемещения ваших панелей действий."
-L["Click to search.."] = "Нажмите для поиска"
 L["Coding:"] = "Кодинг:"
 L["Color"] = "Цвет"
 L["Color health by ammount remaining."] = "Окрашивает полосу здоровья в зависимости от оставшегося его количества."
@@ -267,8 +279,8 @@ L["Delete a created filter, you cannot delete pre-existing filters, only custom 
 L["Deleted %d gray items. Total Worth: %s"] = "Удалено %d предметов серого качества. Общая стоимость: %s"
 L["Delete Filter"] = "Удалить фильтр"
 L["Delete Grays"] = "Удалить предметы серого качества"
-L["Descending"] = "Нисходящее"
-L["Direction the bag sorting will use to allocate the items."] = "Направление расположения предметов при сортировке."
+
+
 L["Direction the health bar moves when gaining/losing health."] = "Направление, в котором заполняется полоса при потере/восполнении здоровья."
 L["Disable Blizzard"] = "Отключить фреймы Blizard"
 L["Disable Sound"] = "Отключить звук"
@@ -307,9 +319,6 @@ L["Embedded Addon"] = "Встроенный аддон"
 L["Embedded Bar Height"] = "Высота полос"
 L["Empty Slot"] = "Пустой слот"
 L["Enable"] = "Включить"
-L["Enable Bag-Bar"] = "Включить панель сумок"
-L["Enable/Disable the all-in-one bag."] = 'Включить/выключить режим сумки "все в одной". '
-L["Enable/Disable the Bag-Bar."] = "Включить/выключить панель сумок"
 L["Enable/Disable the loot frame."] = "Включить/выключить окно добычи ElvUI."
 L["Enable/Disable the loot roll frame."] = "Включить/выключить фрейм распределения добычи ElvUI."
 L["Encounter Journal"] = "Атлас подземелий"
@@ -450,7 +459,6 @@ L["middle"] = "В центре"
 L["Minimap Size"] = "Размер миникарты"
 L["Minutes"] = "Минуты"
 L["Misc Frames"] = "Прочие фреймы"
-L["Mouse Over"] = "При наведении"
 L["Movers unlocked. Move them now and click Lock when you are done."] = "Блокировка отключена. Передвиньте фреймы и нажмите 'Закрепить', когда закончите."
 L["Multiply the backdrops height or width by this value. This is usefull if you wish to have more than one bar behind a backdrop."] = "Умножает высоту или ширину фона панели на это значение. Это полезно, когда Вы хотите иметь более одной панели на данном фоне."
 L["Name"] = "Имя"
@@ -461,13 +469,9 @@ L["Neutral"] = "Нейтральный"
 L["New ID"] = "Новый ID"
 L["New ID (Negate)"] = "Новый ID (игнорирующий)"
 L["No bindings set."] = "Нет назначений"
-L["No gray items to delete."] = "Нет предметов серого качества для удаления."
-L["No gray items to sell."] = "Нет предметов серого качества для продажи."
 L["None"] = "Нет"
 L["Non-Raid Frame"] = "Не рейдовые фреймы"
 L["Not valid spell id"] = "Неверный ID заклинания"
-L["Number of columns (width) of bags. Set it to 0 to match the width of the chat panels."] = "Количество столбцов (ширина окна) в сумках. Установите на 0 для соответствия ширине панелей чата."
-L["Number of columns (width) of the bank. Set it to 0 to match the width of the chat panels."] = "Количество столбцов (ширина окна) в банке. Установите на 0 для соответствия ширине панелей чата."
 L["Number of time in seconds to scroll down to the bottom of the chat window if you are not scrolled down completely."] = "Время в секундах, через которое чат автоматически покрутится вниз до конца, если Вы не сделаете это вручную."
 L["Num Rows"] = "Рядов"
 L["O"] = "Оф"
@@ -615,7 +619,6 @@ L["Smart Raid Filter"] = "Умный фильтр рейда"
 L["Smooth Bars"] = "Плавные полосы"
 L["Socket Frame"] = "Инкрустирование"
 L["Sort Bags"] = "Сортировать"
-L["Sort Orientation"] = "Направление сортировки"
 L["Sort Special"] = "Сортировать в спецсумках"
 L["Sound"] = "Звук"
 L["Sound that will play when you have a warning icon displayed."] = "Звук, проигрываемый при появлении предупреждающей иконки."
@@ -727,7 +730,6 @@ L["Toggles the nameplates off when not in combat."] = "Не отображать
 L["Tooltip"] = "Подсказка"
 L["TOOLTIP_DESC"] = "Опций подсказки"
 L["Top Screen"] = "Вверху экрана"
-L["Top to Bottom"] = "Сверху вниз"
 L["Total: "] = "Всего:"
 L["Total CPU:"] = "Использование процессора:"
 L["Total Memory:"] = "Всего памяти: "
@@ -775,11 +777,9 @@ L["World Map"] = "Карта мира"
 L["Wrist"] = "Запястья"
 L["X-Growth"] = "Рост по Х"
 L["xOffset"] = "Отступ по Х"
-L["X Offset"] = "Отступ по Х"
 L["XP:"] = "Опыт:"
 L["Y-Growth"] = "Рост по Y"
 L["yOffset"] = "Отступ по Y"
-L["Y Offset"] = "Отступ по Y"
 L["You are now finished with the installation process. Bonus Hint: If you wish to access blizzard micro menu, middle click on the minimap. If you don't have a middle click button then hold down shift and right click the minimap. If you are in need of technical support please visit us at www.tukui.org."] = "Вы завершили процесс установки. Если Вам требуется техническая поддержка, посетите сайт www.tukui.org. Дополнительный совет: если Вы хотите получить доступ к микроменю blizzard, нажмите средней кнопкой мыши на миникарте. Если у вас нет средней кнопки, то нажмите правой с зажатой клавишей shift."
 L["You cannot copy settings from the same unit."] = "Вы не можете копировать установки из того же юнита."
 L["You cannot remove a spell that is default, disabling the spell for you however."] = "Вы не можете удалить заклинание по умолчанию. Отключаю его для Вас"
