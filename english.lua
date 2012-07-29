@@ -80,6 +80,10 @@ L["Cooldown Text"] = "Cooldown Text"
 L["Days"] = "Days"
 
 --Bags
+L["Vendored gray items for:"] = "Vendored gray items for:"
+L["Vendor Grays"] = "Vendor Grays"
+L["X Offset"] = "X Offset"
+L["You must be at a vendor."] = "You must be at a vendor."
 L["The direction that the bag frames be (Horizontal or Vertical)."] = "The direction that the bag frames be (Horizontal or Vertical)."
 L["Toggle Bags"] = "Toggle Bags"
 L["Top to Bottom"] = "Top to Bottom"
@@ -148,6 +152,7 @@ L['No Sorting'] = true;
 L['Your Auras First'] = true;
 
 --Chat
+L["URL Links"] = "URL Links"
 L["Scroll Interval"] = "Scroll Interval"
 L["Set the font outline."] = "Set the font outline." --Also used in UnitFrames section
 L["Short Channels"] = "Short Channels"
@@ -187,6 +192,13 @@ L['says'] = true;
 L['yells'] = true;
 
 --Config / Install
+L["Unlock various elements of the UI to be repositioned."] = "Unlock various elements of the UI to be repositioned."
+L["Using the healer layout it is highly recommended you download the addon Clique to work side by side with ElvUI."] = "Using the healer layout it is highly recommended you download the addon Clique to work side by side with ElvUI."
+L["Version"] = "Version"
+L["You are now finished with the installation process. Bonus Hint: If you wish to access blizzard micro menu, middle click on the minimap. If you don't have a middle click button then hold down shift and right click the minimap. If you are in need of technical support please visit us at www.tukui.org."] = "You are now finished with the installation process. Bonus Hint: If you wish to access blizzard micro menu, middle click on the minimap. If you don't have a middle click button then hold down shift and right click the minimap. If you are in need of technical support please visit us at www.tukui.org."
+L["You can now choose what layout you wish to use based on your combat role."] = "You can now choose what layout you wish to use based on your combat role."
+L["You may need to further alter these settings depending how low you resolution is."] = "You may need to further alter these settings depending how low you resolution is."
+L["Your current resolution is %s, this is considered a %s resolution."] = "Your current resolution is %s, this is considered a %s resolution."
 L["Tank"] = "Tank"
 L["The chat windows function the same as Blizzard standard chat windows, you can right click the tabs and drag them around, rename, etc. Please click the button below to setup your chat windows."] = "The chat windows function the same as Blizzard standard chat windows, you can right click the tabs and drag them around, rename, etc. Please click the button below to setup your chat windows."
 L["The in-game configuration menu can be accesses by typing the /ec command or by clicking the 'C' button on the minimap. Press the button below if you wish to skip the installation process."] = "The in-game configuration menu can be accesses by typing the /ec command or by clicking the 'C' button on the minimap. Press the button below if you wish to skip the installation process."
@@ -252,6 +264,9 @@ L["Donations:"] = "Donations:"
 L["Coding:"] = "Coding:"
 
 --DataTexts
+L["Unhittable:"] = "Unhittable:"
+L["Waist"] = "Waist"
+L["Wrist"] = "Wrist"
 L["Toggle 24-hour mode for the time datatext."] = "Toggle 24-hour mode for the time datatext."
 L["Total: "] = "Total: "
 L["Total CPU:"] = "Total CPU:"
@@ -316,10 +331,12 @@ L["DATATEXT_DESC"] = "Setup the on-screen display of info-texts."
 L["DataTexts"] = "DataTexts"
 
 --DebugTools
+L['|cFFE30000Lua error recieved. You can view the error message when you exit combat.'] = true;
 L["No locals to dump"] = true;
 L["%s: %s tried to call the protected function '%s'."] = true;
 
 --General
+L["Value Color"] = "Value Color"
 L["Textures"] = "Textures"
 L["The font that combat text will use. |cffFF0000WARNING: This requires a game restart or re-log for this change to take effect.|r"] = "The font that combat text will use. |cffFF0000WARNING: This requires a game restart or re-log for this change to take effect.|r"
 L["The font that the core of the UI will use."] = "The font that the core of the UI will use."
@@ -414,6 +431,11 @@ L["CombatText Font"] = "CombatText Font"
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = "Controls what the transparency of the worldmap will be set to when you are moving."
 
 --Misc
+L["You don't have enough money to repair."] = "You don't have enough money to repair."
+L["You don't have permission to mark targets."] = "You don't have permission to mark targets."
+L["Your items have been repaired for: "] = "Your items have been repaired for: "
+L["Your items have been repaired using guild bank funds for: "] = "Your items have been repaired using guild bank funds for: "
+L["Your version of ElvUI is out of date. You can download the latest version from www.tukui.org"] = "Your version of ElvUI is out of date. You can download the latest version from www.tukui.org" --core\core.lua
 L["Toggle Chat Frame"] = "Toggle Chat Frame" --layout\layout.lua
 L["Toggle Embedded Addon"] = "Toggle Embedded Addon" --layout\layout.lua
 L["Raid Menu"] = "Raid Menu"
@@ -429,6 +451,8 @@ L["Enable"] = "Enable" --Doesn't fit a section since it's used a lot of places
 L["INCOMPATIBLE_ADDON"] = "The addon %s is not compatible with ElvUI's %s module. Please disable the incompatible addon or module."
 
 --NamePlates
+L["Use this filter."] = "Use this filter."
+L["You can't remove a default name from the filter, disabling the name."] = "You can't remove a default name from the filter, disabling the name."
 L["This color is displayed when gaining/losing threat, for a tank it would be displayed when gaining threat, for a dps/healer it would be displayed when losing threat"] = "This color is displayed when gaining/losing threat, for a tank it would be displayed when gaining threat, for a dps/healer it would be displayed when losing threat"
 L["This color is displayed when gaining/losing threat, for a tank it would be displayed when losing threat, for a dps/healer it would be displayed when gaining threat"] = "This color is displayed when gaining/losing threat, for a tank it would be displayed when losing threat, for a dps/healer it would be displayed when gaining threat"
 L["This is displayed when you don't have threat as a tank, if you do have threat it is displayed as a DPS/Healer"] = "This is displayed when you don't have threat as a tank, if you do have threat it is displayed as a DPS/Healer"
@@ -480,6 +504,8 @@ L["Custom Color"] = "Custom Color"
 L["Custom Scale"] = "Custom Scale"
 
 --Skins
+L['Spacing'] = true;
+L['The spacing in between bars.'] = true;
 L["The height of the bars while skada is embedded."] = "The height of the bars while skada is embedded."
 L["Time Manager"] = "Time Manager"
 L["TOGGLESKIN_DESC"] = "Enable/Disable this skin."
@@ -543,6 +569,8 @@ L["BG Map"] = "BG Map"
 L["BG Score"] = "BG Score"
 
 --Static Popups
+L["You have changed your UIScale, however you still have the AutoScale option enabled in ElvUI. Press accept if you would like to disable the Auto Scale option."] = "You have changed your UIScale, however you still have the AutoScale option enabled in ElvUI. Press accept if you would like to disable the Auto Scale option."
+L["You must purchase a bank slot first!"] = "You must purchase a bank slot first!"
 L["Save"] = "Save"
 L["Hover your mouse over any actionbutton or spellbook button to bind it. Press the escape key or right click to clear the current actionbutton's keybinding."] = "Hover your mouse over any actionbutton or spellbook button to bind it. Press the escape key or right click to clear the current actionbutton's keybinding."
 L["A setting you have changed will change an option for this character only. This setting that you have changed will be uneffected by changing user profiles. Changing this setting requires that you reload your User Interface."] = true;
@@ -552,6 +580,9 @@ L["Are you sure you want to reset every mover back to it's default position?"] =
 L["Can't buy anymore slots!"] = "Can't buy anymore slots!"
 
 --Tooltip
+L["UF Hide"] = "UF Hide"
+L["When in a raid group display if anyone in your raid is targetting the current tooltip unit."] = "When in a raid group display if anyone in your raid is targetting the current tooltip unit."
+L["Who's targetting who?"] = "Who's targetting who?"
 L["Targeted By:"] = "Targeted By:"
 L["Tooltip"] = "Tooltip"
 L["TOOLTIP_DESC"] = "Setup options for the Tooltip."
@@ -585,6 +616,26 @@ L['To setup which channels appear in which chat frame, right click the chat tab 
 L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the blizzard actionbar options menu.'] = true;
 
 --UnitFrames
+L["UnitFrames"] = "UnitFrames"
+L["Units Per Column"] = "Units Per Column"
+L["Use Filter"] = "Use Filter"
+L["Use the custom health backdrop color instead of a multiple of the main health color."] = "Use the custom health backdrop color instead of a multiple of the main health color."
+L["Value must be a number"] = "Value must be a number"
+L["Vertical"] = "Vertical" --Also used in bags section
+L["Visibility"] = "Visibility"
+L["What each frame should attach itself to, example setting it to TOP every unit will attach its top to the last point bottom."] = "What each frame should attach itself to, example setting it to TOP every unit will attach its top to the last point bottom."
+L["When true, the group header is shown when the player is in a party."] = "When true, the group header is shown when the player is in a party."
+L["When true, the group header is shown when the player is in a raid."] = "When true, the group header is shown when the player is in a raid."
+L["When true, the header includes the player when not in a raid."] = "When true, the header includes the player when not in a raid."
+L["When true, the header is shown when the player is not in any group."] = "When true, the header is shown when the player is not in any group."
+L["When you mana falls below this point, text will flash on the player frame."] = "When you mana falls below this point, text will flash on the player frame."
+L["Whitelist"] = "Whitelist"
+L["Width"] = "Width" --Also used in NamePlates module
+L["xOffset"] = "xOffset"
+L["You cannot copy settings from the same unit."] = "You cannot copy settings from the same unit."
+L["You cannot set the Group Point and Column Point so they are opposite of each other."] = "You cannot set the Group Point and Column Point so they are opposite of each other."
+L["You can't remove a pre-existing filter."] = "You can't remove a pre-existing filter."
+L["You may not remove a spell from a default filter that is not customly added. Setting spell to false instead."] = "You may not remove a spell from a default filter that is not customly added. Setting spell to false instead."
 L["Tank Frames"] = "Tank Frames"
 L["Tapped"] = "Tapped"
 L["TargetTarget Frame"] = "TargetTarget Frame"
@@ -808,61 +859,6 @@ L["Spell not found in list"] = "Spell not found in list" --duplicate exists whic
 L["Spells"] = "Spells"
 L["Target"] = "Target"
 L["This can't be right, you must of broke something! Please turn on lua errors and report the issue to Elv http://www.tukui.org/forums/forum.php?id=146"] = "This can't be right, you must of broke something! Please turn on lua errors and report the issue to Elv http://www.tukui.org/forums/forum.php?id=146"
--------------------------------------------------
--------------------------------------------------
-
-L["UF Hide"] = "UF Hide"
-L["Unhittable:"] = "Unhittable:"
-L["UnitFrames"] = "UnitFrames"
-L["Units Per Column"] = "Units Per Column"
-L["Unlock various elements of the UI to be repositioned."] = "Unlock various elements of the UI to be repositioned."
-L["URL Links"] = "URL Links"
-L["Use Filter"] = "Use Filter"
-L["Use the custom health backdrop color instead of a multiple of the main health color."] = "Use the custom health backdrop color instead of a multiple of the main health color."
-L["Use this filter."] = "Use this filter."
-L["Using the healer layout it is highly recommended you download the addon Clique to work side by side with ElvUI."] = "Using the healer layout it is highly recommended you download the addon Clique to work side by side with ElvUI."
-L["Value Color"] = "Value Color"
-L["Value must be a number"] = "Value must be a number"
-L["Vendored gray items for:"] = "Vendored gray items for:"
-L["Vendor Grays"] = "Vendor Grays"
-L["Version"] = "Version"
-L["Vertical"] = "Vertical"
-L["Visibility"] = "Visibility"
-L["Waist"] = "Waist"
-L["What each frame should attach itself to, example setting it to TOP every unit will attach its top to the last point bottom."] = "What each frame should attach itself to, example setting it to TOP every unit will attach its top to the last point bottom."
-L["When in a raid group display if anyone in your raid is targetting the current tooltip unit."] = "When in a raid group display if anyone in your raid is targetting the current tooltip unit."
-L["When true, the group header is shown when the player is in a party."] = "When true, the group header is shown when the player is in a party."
-L["When true, the group header is shown when the player is in a raid."] = "When true, the group header is shown when the player is in a raid."
-L["When true, the header includes the player when not in a raid."] = "When true, the header includes the player when not in a raid."
-L["When true, the header is shown when the player is not in any group."] = "When true, the header is shown when the player is not in any group."
-L["When you mana falls below this point, text will flash on the player frame."] = "When you mana falls below this point, text will flash on the player frame."
-L["Whitelist"] = "Whitelist"
-L["Who's targetting who?"] = "Who's targetting who?"
-L["Width"] = "Width"
-L["Wrist"] = "Wrist"
-L["xOffset"] = "xOffset"
-L["X Offset"] = "X Offset"
-L["You are now finished with the installation process. Bonus Hint: If you wish to access blizzard micro menu, middle click on the minimap. If you don't have a middle click button then hold down shift and right click the minimap. If you are in need of technical support please visit us at www.tukui.org."] = "You are now finished with the installation process. Bonus Hint: If you wish to access blizzard micro menu, middle click on the minimap. If you don't have a middle click button then hold down shift and right click the minimap. If you are in need of technical support please visit us at www.tukui.org."
-L["You cannot copy settings from the same unit."] = "You cannot copy settings from the same unit."
 L["You cannot remove a spell that is default, disabling the spell for you however."] = "You cannot remove a spell that is default, disabling the spell for you however."
-L["You cannot set the Group Point and Column Point so they are opposite of each other."] = "You cannot set the Group Point and Column Point so they are opposite of each other."
-L["You can now choose what layout you wish to use based on your combat role."] = "You can now choose what layout you wish to use based on your combat role."
-L["You can't remove a default name from the filter, disabling the name."] = "You can't remove a default name from the filter, disabling the name."
-L["You can't remove a pre-existing filter."] = "You can't remove a pre-existing filter."
-L["You don't have enough money to repair."] = "You don't have enough money to repair."
-L["You don't have permission to mark targets."] = "You don't have permission to mark targets."
-L["You have changed your UIScale, however you still have the AutoScale option enabled in ElvUI. Press accept if you would like to disable the Auto Scale option."] = "You have changed your UIScale, however you still have the AutoScale option enabled in ElvUI. Press accept if you would like to disable the Auto Scale option."
-L["You may need to further alter these settings depending how low you resolution is."] = "You may need to further alter these settings depending how low you resolution is."
-L["You may not remove a spell from a default filter that is not customly added. Setting spell to false instead."] = "You may not remove a spell from a default filter that is not customly added. Setting spell to false instead."
-L["You must be at a vendor."] = "You must be at a vendor."
-L["You must purchase a bank slot first!"] = "You must purchase a bank slot first!"
-L["Your current resolution is %s, this is considered a %s resolution."] = "Your current resolution is %s, this is considered a %s resolution."
-L["Your items have been repaired for: "] = "Your items have been repaired for: "
-L["Your items have been repaired using guild bank funds for: "] = "Your items have been repaired using guild bank funds for: "
-L["Your version of ElvUI is out of date. You can download the latest version from www.tukui.org"] = "Your version of ElvUI is out of date. You can download the latest version from www.tukui.org"
-L['|cFFE30000Lua error recieved. You can view the error message when you exit combat.'] = true;
-
-
-L['Spacing'] = true;
-L['The spacing in between bars.'] = true;
-
+-------------------------------------------------
+-------------------------------------------------
