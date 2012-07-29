@@ -37,7 +37,8 @@ L["Number of columns (width) of bags. Set it to 0 to match the width of the chat
 L["Number of columns (width) of the bank. Set it to 0 to match the width of the chat panels."] = "Number of columns (width) of the bank. Set it to 0 to match the width of the chat panels."
 L["No gray items to delete."] = "No gray items to delete."
 L["No gray items to sell."] = "No gray items to sell."
-
+L["Ascending"] = "Ascending"
+L["Y Offset"] = "Y Offset"  --Another variation in unitframes yOffset
 
 --Buffs and Debuffs
 L['AURAS_DESC'] = 'Configure the aura icons that appear near the minimap.';
@@ -74,7 +75,8 @@ L["Chat Bubbles"] = "Chat Bubbles"
 L["CHAT_DESC"] = "Adjust chat settings for ElvUI."
 L["When opening the Chat Editbox to type a message having this option set means it will retain the last channel you spoke in. If this option is turned off opening the Chat Editbox should always default to the SAY channel."] = "When opening the Chat Editbox to type a message having this option set means it will retain the last channel you spoke in. If this option is turned off opening the Chat Editbox should always default to the SAY channel."
 L["Number of time in seconds to scroll down to the bottom of the chat window if you are not scrolled down completely."] = "Number of time in seconds to scroll down to the bottom of the chat window if you are not scrolled down completely."
-
+L["BG"] = "BG"
+L["BGL"] = "BGL"
 
 --Config / Install
 L['Config Mode:'] = true;
@@ -95,11 +97,10 @@ L["One or more of the changes you have made will effect all characters using thi
 L["Binds Discarded"] = "Binds Discarded"
 L["Binds Saved"] = "Binds Saved"
 L["All keybindings cleared for |cff00ff00%s|r."] = "All keybindings cleared for |cff00ff00%s|r."
-
+L["ElvUI Installation"] = "ElvUI Installation"
 
 --Credits
 L["Coding:"] = "Coding:"
-
 
 --DataTexts
 L['Flags Captured'] = true;
@@ -119,12 +120,16 @@ L['Stats For:'] = true;
 L['When inside a battleground display personal scoreboard information on the main datatext bars.'] = true;
 L['Battleground Texts'] = true;
 L['Battleground datatexts will now show again if you are inside a battleground.'] = true;
+L["AP"] = "AP"
+L["AVD: "] = "AVD: "
+L["Avoidance Breakdown"] = "Avoidance Breakdown"
 
 --DebugTools
 L["No locals to dump"] = true;
 L["%s: %s tried to call the protected function '%s'."] = true;
 
 --General
+L["General"] = "General"
 L["Login Message"] = "Login Message"
 L["LOGIN_MSG"] = "Welcome to %sElvUI|r version %s%s|r, type /ec to access the in-game configuration menu. If you are in need of technical support you can visit us at www.tukui.org. You can report bugs, add suggestions here: http://www.tukui.org/tickets/elvui/."
 L["Loot"] = "Loot"
@@ -185,7 +190,7 @@ L['Low Health Threshold'] = true;
 L['Color the border of the nameplate yellow when it reaches this point, it will be colored red when it reaches half this value.'] = true;
 L["Add Name"] = "Add Name"
 L["All"] = "All"
-
+L["Auras"] = "Auras"
 
 --Reminders
 L["Reminders"] = "Reminders"
@@ -195,8 +200,13 @@ L["Spell ID"] = true;
 L['On Cooldown'] = true;
 L["Cooldown"] = true;
 L['CD Fade'] = true;
+L["Any"] = "Any"
+L["Role"] = "Role"
+L["Combat"] = "Combat"
+L["Attempted to show a reminder icon that does not have any spells. You must add a spell first."] = "Attempted to show a reminder icon that does not have any spells. You must add a spell first."
 
 --Skins
+L["Embedded Addon"] = "Embedded Addon"
 L["Character Frame"] = "Character Frame"
 L["Achievement Frame"] = "Achievement Frame"
 L["Achievement Frame"] = "Achievement Frame"
@@ -233,9 +243,13 @@ L["TradeSkill Frame"] = "TradeSkill Frame"
 L["Trainer Frame"] = "Trainer Frame"
 L["Pet Battle"] = true;
 L['Alert Frames'] = true;
+L["World Map"] = "World Map"
 
 --Static Popups
 L["A setting you have changed will change an option for this character only. This setting that you have changed will be uneffected by changing user profiles. Changing this setting requires that you reload your User Interface."] = true;
+L["Are you sure you want to delete all your gray items?"] = "Are you sure you want to delete all your gray items?"
+L["Are you sure you want to disband the group?"] = "Are you sure you want to disband the group?"
+L["Are you sure you want to reset every mover back to it's default position?"] = "Are you sure you want to reset every mover back to it's default position?"
 
 --Tooltip
 L["AFK"] = "AFK"
@@ -306,6 +320,14 @@ L["Long"] = true;
 L['Color the name text by class or reaction.'] = true;
 L['Class Names'] = true;
 L["Length"] = true;
+L["An X offset (in pixels) to be used when anchoring new frames."] = "An X offset (in pixels) to be used when anchoring new frames."
+L["An Y offset (in pixels) to be used when anchoring new frames."] = "An Y offset (in pixels) to be used when anchoring new frames."
+L["Any Unit"] = "Any Unit"
+L["Arena Frames"] = "Arena Frames"
+L["Assist Frames"] = "Assist Frames"
+L["Attach To"] = "Attach To"
+L["yOffset"] = "yOffset"  --Another variation in bags section  Y Offset
+
 
 -------------------------------------------------
 ------Locales that don't appear to be used.------
@@ -319,24 +341,7 @@ L["Alt-Power"] = "Alt-Power"
 -------------------------------------------------
 
 
-
-L["An X offset (in pixels) to be used when anchoring new frames."] = "An X offset (in pixels) to be used when anchoring new frames."
-L["Any"] = "Any"
-L["An Y offset (in pixels) to be used when anchoring new frames."] = "An Y offset (in pixels) to be used when anchoring new frames."
-L["Any Unit"] = "Any Unit"
-L["AP"] = "AP"
-L["Arena Frames"] = "Arena Frames"
-L["Are you sure you want to delete all your gray items?"] = "Are you sure you want to delete all your gray items?"
-L["Are you sure you want to disband the group?"] = "Are you sure you want to disband the group?"
-L["Are you sure you want to reset every mover back to it's default position?"] = "Are you sure you want to reset every mover back to it's default position?"
-L["Ascending"] = "Ascending"
-L["Assist Frames"] = "Assist Frames"
-L["Attach To"] = "Attach To"
-L["Attempted to show a reminder icon that does not have any spells. You must add a spell first."] = "Attempted to show a reminder icon that does not have any spells. You must add a spell first."
 L["Attempt to create URL links inside the chat."] = "Attempt to create URL links inside the chat."
-L["Auras"] = "Auras"
-L["AVD: "] = "AVD: "
-L["Avoidance Breakdown"] = "Avoidance Breakdown"
 L["Backdrop"] = "Backdrop"
 L["Backdrop Color"] = "Backdrop Color"
 L["Backdrop color of transparent frames"] = "Backdrop color of transparent frames"
@@ -355,8 +360,6 @@ L["Bar "] = "Bar "
 L["Bar Direction"] = "Bar Direction"
 L["Bars will transition smoothly."] = "Bars will transition smoothly."
 L["Below Minimap"] = "Below Minimap"
-L["BG"] = "BG"
-L["BGL"] = "BGL"
 L["BG Map"] = "BG Map"
 L["BG Score"] = "BG Score"
 L["Blacklist"] = "Blacklist"
@@ -388,7 +391,6 @@ L["Class Health"] = "Class Health"
 L["Class Power"] = "Class Power"
 L["Column Point"] = "Column Point"
 L["Column Spacing"] = "Column Spacing"
-L["Combat"] = "Combat"
 L["Combat Fade"] = "Combat Fade"
 L["Combat Hide"] = "Combat Hide"
 L["CombatText Font"] = "CombatText Font"
@@ -464,8 +466,6 @@ L["Duration Limit"] = "Duration Limit"
 L["Earned:"] = "Earned:"
 L["ELVUI_CREDITS"] = "I would like to give out a special shout out to the following people for helping me maintain this addon with testing and coding and people who also have helped me through donations. Please note for donations I'm only posting the names of people who PM'd me on the forums, if your name is missing and you wish to have your name added please PM me."
 L["ELVUI_DESC"] = "ElvUI is a complete User Interface replacement addon for World of Warcraft."
-L["ElvUI Installation"] = "ElvUI Installation"
-L["Embedded Addon"] = "Embedded Addon"
 L["Embedded Bar Height"] = "Embedded Bar Height"
 L["Empty Slot"] = "Empty Slot"
 L["Enable"] = "Enable"
@@ -496,7 +496,6 @@ L["Friendly Player"] = "Friendly Player"
 L["Friends"] = "Friends"
 L["Friends List"] = "Friends List"
 L["G"] = "G"
-L["General"] = "General"
 L["Ghost"] = "Ghost"
 L["goldabbrev"] = "|cffffd700g|r"
 L["Good"] = "Good"
@@ -699,7 +698,6 @@ L["Right Click:"] = "Right Click:"
 L["RightMiniPanel"] = "Minimap Right"
 L["Right Only"] = "Right Only"
 L["RL"] = "RL"
-L["Role"] = "Role"
 L["Role Icon"] = "Role Icon"
 L["Run the installation process."] = "Run the installation process."
 L["RW"] = "RW"
@@ -876,15 +874,12 @@ L["Whitelist"] = "Whitelist"
 L["Who's targetting who?"] = "Who's targetting who?"
 L["Width"] = "Width"
 L["Width Multiplier"] = "Width Multiplier"
-L["World Map"] = "World Map"
 L["Wrist"] = "Wrist"
 L["X-Growth"] = "X-Growth"
 L["xOffset"] = "xOffset"
 L["X Offset"] = "X Offset"
 L["XP:"] = "XP:"
 L["Y-Growth"] = "Y-Growth"
-L["yOffset"] = "yOffset"
-L["Y Offset"] = "Y Offset"
 L["You are now finished with the installation process. Bonus Hint: If you wish to access blizzard micro menu, middle click on the minimap. If you don't have a middle click button then hold down shift and right click the minimap. If you are in need of technical support please visit us at www.tukui.org."] = "You are now finished with the installation process. Bonus Hint: If you wish to access blizzard micro menu, middle click on the minimap. If you don't have a middle click button then hold down shift and right click the minimap. If you are in need of technical support please visit us at www.tukui.org."
 L["You cannot copy settings from the same unit."] = "You cannot copy settings from the same unit."
 L["You cannot remove a spell that is default, disabling the spell for you however."] = "You cannot remove a spell that is default, disabling the spell for you however."
