@@ -10,6 +10,10 @@ end
 if not L then return; end
 
 --ActionBars
+L["Display bind names on action buttons."] = "Display bind names on action buttons."
+L["Display cooldown text on anything with the cooldown spiril."] = "Display cooldown text on anything with the cooldown spiril."
+L["Display macro names on action buttons."] = "Display macro names on action buttons."
+L["Discard"] = "Discard"
 L["Color when the text is about to expire"] = "Color when the text is about to expire"
 L["Color when the text is in the days format."] = "Color when the text is in the days format."
 L["Color when the text is in the hours format."] = "Color when the text is in the hours format."
@@ -42,8 +46,13 @@ L["Multiply the backdrops height or width by this value. This is usefull if you 
 L["Width Multiplier"] = "Width Multiplier"
 L["Visibility State"] = "Visibility State"
 L[" |cff00ff00bound to |r"] = " |cff00ff00bound to |r"
+L["Cooldown Text"] = "Cooldown Text"
+L["Days"] = "Days"
 
 --Bags
+L["Direction the bag sorting will use to allocate the items."] = "Direction the bag sorting will use to allocate the items."
+L["Deleted %d gray items. Total Worth: %s"] = "Deleted %d gray items. Total Worth: %s"
+L["Delete Grays"] = "Delete Grays"
 L["Enable Bag-Bar"] = "Enable Bag-Bar"
 L["Enable/Disable the all-in-one bag."] = "Enable/Disable the all-in-one bag."
 L["Enable/Disable the Bag-Bar."] = "Enable/Disable the Bag-Bar."
@@ -70,6 +79,7 @@ L["Bag Columns"] = "Bag Columns"
 L["Bank Columns"] = "Bank Columns"
 L["Bar Direction"] = "Bar Direction"
 L["Bottom to Top"] = "Bottom to Top"
+L["copperabbrev"] = "|cffeda55fc|r"
 
 --Buffs and Debuffs
 L['AURAS_DESC'] = 'Configure the aura icons that appear near the minimap.';
@@ -96,11 +106,14 @@ L['No Sorting'] = true;
 L['Your Auras First'] = true;
 
 --Chat
+L["Display the hyperlink tooltip while hovering over a hyperlink."] = "Display the hyperlink tooltip while hovering over a hyperlink."
+L["DND"] = "DND"
 L["Keyword Alert"] = true;
 L["Whisper Alert"] = true;
 L['List of words to color in chat if found in a message. If you wish to add multiple words you must seperate the word with a comma. To search for your current name you can use %MYNAME%.\n\nExample:\n%MYNAME%, ElvUI, RBGs, Tank'] = true;
 L['Keywords'] = true;
 L["Chat"] = "Chat"
+L["Copy Text"] = "Copy Text"
 L["Chat Bubbles"] = "Chat Bubbles"
 L["CHAT_DESC"] = "Adjust chat settings for ElvUI."
 L["When opening the Chat Editbox to type a message having this option set means it will retain the last channel you spoke in. If this option is turned off opening the Chat Editbox should always default to the SAY channel."] = "When opening the Chat Editbox to type a message having this option set means it will retain the last channel you spoke in. If this option is turned off opening the Chat Editbox should always default to the SAY channel."
@@ -135,11 +148,16 @@ L["Binds Saved"] = "Binds Saved"
 L["All keybindings cleared for |cff00ff00%s|r."] = "All keybindings cleared for |cff00ff00%s|r."
 L["ElvUI Installation"] = "ElvUI Installation"
 L["Caster DPS"] = "Caster DPS"
+L["CVars"] = "CVars"
+L["CVars Set"] = "CVars Set"
 
 --Credits
+L["Donations:"] = "Donations:"
 L["Coding:"] = "Coding:"
 
 --DataTexts
+L["Character: "] = true
+L["DPS"] = "DPS"
 L['Flags Captured'] = true;
 L['Flags Returned'] = true;
 L['Graveyards Assaulted'] = true;
@@ -162,12 +180,17 @@ L["AVD: "] = "AVD: "
 L["Avoidance Breakdown"] = "Avoidance Breakdown"
 L["Bandwidth"] = "Bandwidth"
 L["Deficit:"] = "Deficit:"
+L["Chest"] = "Chest"
+L["DATATEXT_DESC"] = "Setup the on-screen display of info-texts."
+L["DataTexts"] = "DataTexts"
 
 --DebugTools
 L["No locals to dump"] = true;
 L["%s: %s tried to call the protected function '%s'."] = true;
 
 --General
+L["Disband Group"] = "Disband Group"
+L["Default Font"] = "Default Font"
 L["General"] = "General"
 L["Login Message"] = "Login Message"
 L["LOGIN_MSG"] = "Welcome to %sElvUI|r version %s%s|r, type /ec to access the in-game configuration menu. If you are in need of technical support you can visit us at www.tukui.org. You can report bugs, add suggestions here: http://www.tukui.org/tickets/elvui/."
@@ -225,8 +248,16 @@ L["Border Color"] = "Border Color"
 L["Font Size"] = "Font Size"
 L["XP:"] = "XP:"
 L["Can't Roll"] = "Can't Roll"
+L["Change the position of the experience/reputation bar."] = "Change the position of the experience/reputation bar."
+L["CombatText Font"] = "CombatText Font"
+L["Controls what the transparency of the worldmap will be set to when you are moving."] = "Controls what the transparency of the worldmap will be set to when you are moving."
 
 --NamePlates
+L["Display a healer icon over known healers inside battlegrounds."] = "Display a healer icon over known healers inside battlegrounds."
+L["Display level text on nameplate for nameplates that belong to units that aren't your level."] = "Display level text on nameplate for nameplates that belong to units that aren't your level."
+L["Display your personal debuffs over the nameplate."] = "Display your personal debuffs over the nameplate."
+L["Discipline"] = "Discipline"
+L["Disable threat coloring for this plate and use the custom color."] = "Disable threat coloring for this plate and use the custom color."
 L["NAMEPLATE_DESC"] = "Modify the nameplate settings."
 L["Color the nameplate's healthbar by your current threat, Example: good threat color is used if your a tank when you have threat, opposite for DPS."] = "Color the nameplate's healthbar by your current threat, Example: good threat color is used if your a tank when you have threat, opposite for DPS."
 L['Low Health Warning'] = true;
@@ -244,8 +275,16 @@ L["Good Scale"] = "Good Scale"
 L["Good Transition Color"] = "Good Transition Color"
 L["Bad Transition Color"] = "Bad Transition Color"
 L["Castbar Height"] = "Castbar Height"
+L["Combat Toggle"] = "Combat Toggle"
+L["Controls the height of the nameplate"] = "Controls the height of the nameplate"
+L["Controls the height of the nameplate's castbar"] = "Controls the height of the nameplate's castbar"
+L["Controls the width of the nameplate"] = "Controls the width of the nameplate"
+L["Custom Color"] = "Custom Color"
+L["Custom Scale"] = "Custom Scale"
 
 --Skins
+L["Dressing Room"] = "Dressing Room"
+L["Debug Tools"] = "Debug Tools"
 L["Embedded Addon"] = "Embedded Addon"
 L["Character Frame"] = "Character Frame"
 L["Achievement Frame"] = "Achievement Frame"
@@ -296,9 +335,14 @@ L["Are you sure you want to reset every mover back to it's default position?"] =
 L["Can't buy anymore slots!"] = "Can't buy anymore slots!"
 
 --Tooltip
+L['Bars'] = true; --ExpRepBar Tooltip. Don't have a better place for it.
+L["Don't display the tooltip when mousing over a unitframe."] = "Don't display the tooltip when mousing over a unitframe."
 L["AFK"] = "AFK"
 L["Anchor"] = "Anchor"
 L["Anchor Mode"] = "Anchor Mode"
+L["Count"] = "Count"
+L["Combat Hide"] = "Combat Hide"
+L["Cursor"] = "Cursor"
 
 --Tutorials
 L['Using the /farmmode <size> command will spawn a larger minimap on your screen that can be moved around, very useful when farming.'] = true;
@@ -330,6 +374,7 @@ L['Allow displaying of aura bars that are considered consolidated by Blizzard.']
 L['Above'] = true;
 L['Below'] = true;
 L["Color"] = "Color"
+L["Copy From"] = "Copy From"
 L["Color health by ammount remaining."] = "Color health by ammount remaining."
 L["Color health by classcolor or reaction."] = "Color health by classcolor or reaction."
 L["Color power by classcolor or reaction."] = "Color power by classcolor or reaction."
@@ -427,6 +472,29 @@ L["Show a incomming heal prediction bar on the unitframe. Also display a slightl
 L["Text Toggle On NPC"] = "Text Toggle On NPC"
 L["Power text will be hidden on NPC targets, in addition the name text will be repositioned to the power texts anchor point."] = "Power text will be hidden on NPC targets, in addition the name text will be repositioned to the power texts anchor point."
 L["Position"] = "Position"
+L["Class Backdrop"] = "Class Backdrop"
+L["Class Health"] = "Class Health"
+L["Class Power"] = "Class Power"
+L["Column Point"] = "Column Point"
+L["Column Spacing"] = "Column Spacing"
+L["Combat Fade"] = "Combat Fade"
+L["Combobar"] = "Combobar"
+L["Create a filter, once created a filter can be set inside the buffs/debuffs section of each unit."] = "Create a filter, once created a filter can be set inside the buffs/debuffs section of each unit."
+L["Create Filter"] = "Create Filter"
+L["Credits"] = "Credits"
+L["Current - Max"] = "Current - Max"
+L["Current / Max"] = "Current / Max"
+L["Current - Percent"] = "Current - Percent"
+L["Custom Health Backdrop"] = "Custom Health Backdrop"
+L["Debuff Highlighting"] = "Debuff Highlighting"
+L["Delete a created filter, you cannot delete pre-existing filters, only custom ones."] = "Delete a created filter, you cannot delete pre-existing filters, only custom ones."
+L["Delete Filter"] = "Delete Filter"
+L["Direction the health bar moves when gaining/losing health."] = "Direction the health bar moves when gaining/losing health."
+L["Disable Blizzard"] = "Disable Blizzard"
+L["Disables the blizzard party/raid frames."] = "Disables the blizzard party/raid frames."
+L["Disconnected"] = "Disconnected"
+L["Display Player"] = "Display Player"
+L["Display the rested icon on the unitframe."] = "Display the rested icon on the unitframe."
 
 -------------------------------------------------
 ------Locales that don't appear to be used.------
@@ -435,73 +503,6 @@ L["Achievement Popup Frames"] = "Achievement Popup Frames" --This appears in liv
 -------------------------------------------------
 -------------------------------------------------
 
-L["Change the position of the experience/reputation bar."] = "Change the position of the experience/reputation bar."
-L["Chest"] = "Chest"
-L["Class Backdrop"] = "Class Backdrop"
-L["Class Health"] = "Class Health"
-L["Class Power"] = "Class Power"
-L["Column Point"] = "Column Point"
-L["Column Spacing"] = "Column Spacing"
-L["Combat Fade"] = "Combat Fade"
-L["Combat Hide"] = "Combat Hide"
-L["CombatText Font"] = "CombatText Font"
-L["Combat Toggle"] = "Combat Toggle"
-L["Combobar"] = "Combobar"
-L["Controls the height of the nameplate"] = "Controls the height of the nameplate"
-L["Controls the height of the nameplate's castbar"] = "Controls the height of the nameplate's castbar"
-L["Controls the width of the nameplate"] = "Controls the width of the nameplate"
-L["Controls what the transparency of the worldmap will be set to when you are moving."] = "Controls what the transparency of the worldmap will be set to when you are moving."
-L["Cooldown Text"] = "Cooldown Text"
-L["copperabbrev"] = "|cffeda55fc|r"
-L["Copy From"] = "Copy From"
-L["Copy Text"] = "Copy Text"
-L["Count"] = "Count"
-L["Create a filter, once created a filter can be set inside the buffs/debuffs section of each unit."] = "Create a filter, once created a filter can be set inside the buffs/debuffs section of each unit."
-L["Create Filter"] = "Create Filter"
-L["Credits"] = "Credits"
-L["Current - Max"] = "Current - Max"
-L["Current / Max"] = "Current / Max"
-L["Current - Percent"] = "Current - Percent"
-L["Cursor"] = "Cursor"
-L["Custom Color"] = "Custom Color"
-L["Custom Health Backdrop"] = "Custom Health Backdrop"
-L["Custom Scale"] = "Custom Scale"
-L["CVars"] = "CVars"
-L["CVars Set"] = "CVars Set"
-L["DATATEXT_DESC"] = "Setup the on-screen display of info-texts."
-L["DataTexts"] = "DataTexts"
-L["Days"] = "Days"
-L["Debuff Highlighting"] = "Debuff Highlighting"
-L["Debug Tools"] = "Debug Tools"
-L["Default Font"] = "Default Font"
-L["Delete a created filter, you cannot delete pre-existing filters, only custom ones."] = "Delete a created filter, you cannot delete pre-existing filters, only custom ones."
-L["Deleted %d gray items. Total Worth: %s"] = "Deleted %d gray items. Total Worth: %s"
-L["Delete Filter"] = "Delete Filter"
-L["Delete Grays"] = "Delete Grays"
-L["Direction the bag sorting will use to allocate the items."] = "Direction the bag sorting will use to allocate the items."
-L["Direction the health bar moves when gaining/losing health."] = "Direction the health bar moves when gaining/losing health."
-L["Disable Blizzard"] = "Disable Blizzard"
-L["Disables the blizzard party/raid frames."] = "Disables the blizzard party/raid frames."
-L["Disable threat coloring for this plate and use the custom color."] = "Disable threat coloring for this plate and use the custom color."
-L["Disband Group"] = "Disband Group"
-L["Discard"] = "Discard"
-L["Discipline"] = "Discipline"
-L["Disconnected"] = "Disconnected"
-L["Display a healer icon over known healers inside battlegrounds."] = "Display a healer icon over known healers inside battlegrounds."
-L["Display bind names on action buttons."] = "Display bind names on action buttons."
-L["Display cooldown text on anything with the cooldown spiril."] = "Display cooldown text on anything with the cooldown spiril."
-L["Display level text on nameplate for nameplates that belong to units that aren't your level."] = "Display level text on nameplate for nameplates that belong to units that aren't your level."
-L["Display macro names on action buttons."] = "Display macro names on action buttons."
-L["Display Player"] = "Display Player"
-L["Display the hyperlink tooltip while hovering over a hyperlink."] = "Display the hyperlink tooltip while hovering over a hyperlink."
-L["Display the rested icon on the unitframe."] = "Display the rested icon on the unitframe."
-L["Display your personal debuffs over the nameplate."] = "Display your personal debuffs over the nameplate."
-L["DND"] = "DND"
-L["Donations:"] = "Donations:"
-L["Don't display the tooltip when mousing over a unitframe."] = "Don't display the tooltip when mousing over a unitframe."
-
-L["DPS"] = "DPS"
-L["Dressing Room"] = "Dressing Room"
 L["Earned:"] = "Earned:"
 L["ELVUI_CREDITS"] = "I would like to give out a special shout out to the following people for helping me maintain this addon with testing and coding and people who also have helped me through donations. Please note for donations I'm only posting the names of people who PM'd me on the forums, if your name is missing and you wish to have your name added please PM me."
 L["ELVUI_DESC"] = "ElvUI is a complete User Interface replacement addon for World of Warcraft."
@@ -860,7 +861,7 @@ L["Your items have been repaired using guild bank funds for: "] = "Your items ha
 L["Your version of ElvUI is out of date. You can download the latest version from www.tukui.org"] = "Your version of ElvUI is out of date. You can download the latest version from www.tukui.org"
 L['|cFFE30000Lua error recieved. You can view the error message when you exit combat.'] = true;
 
-L['Bars'] = true;
+
 L['Spacing'] = true;
 L['The spacing in between bars.'] = true;
-L['Character: '] = true
+
