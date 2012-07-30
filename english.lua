@@ -76,8 +76,7 @@ L[ [=[This works like a macro, you can run different situations to get the actio
  Example: '[combat] 2;']=] ] = [=[This works like a macro, you can run different situations to get the actionbar to page differently.
  Example: '[combat] 2;']=]
 L[ [=[This works like a macro, you can run different situations to get the actionbar to show/hide differently.
- Example: '[combat] show;hide']=] ] = [=[This works like a macro, you can run different situations to get the actionbar to show/hide differently.
- Example: '[combat] show;hide']=]
+ Example: '[combat] show;hide']=] ] = true;
 
 --Bags
 L["Ascending"] = true;
@@ -419,16 +418,7 @@ Please Note:
 
 Example: Interface\AddOns\ElvUI\media\textures\copy
 
-Or for most users it would be easier to simply put a tga file into your WoW folder, then type the name of the file here.]=] ] = [=[Specify a filename located inside the World of Warcraft directory. Textures folder that you wish to have set as a panel background.
-
-Please Note:
--The image size recommended is 256x128
--You must do a complete game restart after adding a file to the folder.
--The file type must be tga format.
-
-Example: Interface\AddOns\ElvUI\media\textures\copy
-
-Or for most users it would be easier to simply put a tga file into your WoW folder, then type the name of the file here.]=]
+Or for most users it would be easier to simply put a tga file into your WoW folder, then type the name of the file here.]=] ] = true;
 
 --Misc
 L['Bars'] = true;
