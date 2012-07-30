@@ -13,10 +13,13 @@ if not L then return; end
 L[" |cff00ff00bound to |r"] = true;
 L["Action Paging"] = true;
 L["ActionBars"] = true;
+L["All keybindings cleared for |cff00ff00%s|r."] = true;
 L["Anchor Point"] = true; --also in unitframes
 L["Backdrop"] = true;
 L["Bar "] = true;
 L["Binding"] = true;
+L["Binds Discarded"] = true;
+L["Binds Saved"] = true;
 L["Buttons Per Row"] = true;
 L["Buttons"] = true;
 L["Color when the text is about to expire"] = true;
@@ -108,7 +111,7 @@ L["Purchase"] = true;
 L["Set the size of your bag buttons."] = true;
 L["silverabbrev"] = "|cffc7c7cfs|r" --Also used in gold datatext
 L["Sort Bags"] = true;
-L["Sort Direction"] = true;
+L["Sort Direction"] = true; --Also used in Buffs and Debuffs
 L["Sort Orientation"] = true;
 L["Sort Special"] = true;
 L["Stack Items"] = true;
@@ -190,9 +193,6 @@ L['whispers'] = true;
 L['yells'] = true;
 
 --Config / Install
-L["All keybindings cleared for |cff00ff00%s|r."] = true;
-L["Binds Discarded"] = true;
-L["Binds Saved"] = true;
 L["Caster DPS"] = true;
 L["Chat Set"] = true;
 L['Choose a theme layout you wish to use for your initial setup.'] = true;
