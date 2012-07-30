@@ -159,7 +159,7 @@ L["Chat"] = true;
 L["CHAT_DESC"] = "Adjust chat settings for ElvUI."
 L["Copy Text"] = true;
 L["Display the hyperlink tooltip while hovering over a hyperlink."] = true;
-L["DND"] = true;
+L['DND'] = true;
 L["Font Outline"] = true; --Also used in UnitFrames section
 L["Font"] = true;
 L["G"] = true;
@@ -330,6 +330,7 @@ L["Wrist"] = true;
 
 --DebugTools
 L["%s: %s tried to call the protected function '%s'."] = true;
+L["INCOMPATIBLE_ADDON"] = "The addon %s is not compatible with ElvUI's %s module. Please disable the incompatible addon or module."
 L["No locals to dump"] = true;
 L['|cFFE30000Lua error recieved. You can view the error message when you exit combat.'] = true;
 
@@ -419,13 +420,11 @@ Example: Interface\AddOns\ElvUI\media\textures\copy
 Or for most users it would be easier to simply put a tga file into your WoW folder, then type the name of the file here.]=] ] = true;
 
 --Misc
-L['Bars'] = true; --Used in Unitframes options only
 L["Can't Roll"] = true;
 L["Empty Slot"] = true;
 L["Enable"] = true; --Doesn't fit a section since it's used a lot of places
 L["Experience"] = true;
 L["Fishy Loot"] = true;
-L["INCOMPATIBLE_ADDON"] = "The addon %s is not compatible with ElvUI's %s module. Please disable the incompatible addon or module." --Debug maybe?
 L["Left Click:"] = true; --layout\layout.lua
 L["Raid Menu"] = true;
 L["Remaining:"] = true;
@@ -434,7 +433,7 @@ L["Right Click:"] = true; --layout\layout.lua
 L["Toggle Chat Frame"] = true; --layout\layout.lua
 L["Toggle Embedded Addon"] = true; --layout\layout.lua
 L["XP:"] = true;
-L["You don't have enough money to repair."] = true; 
+L["You don't have enough money to repair."] = true;
 L["You don't have permission to mark targets."] = true;
 L["Your items have been repaired for: "] = true;
 L["Your items have been repaired using guild bank funds for: "] = true;
@@ -624,6 +623,7 @@ L["Attach To"] = true;
 L['Aura Bars'] = true;
 L["Bad"] = true;
 L["Bars will transition smoothly."] = true;
+L['Bars'] = true; --Also used in Unitframes
 L['Below'] = true;
 L["Blacklist"] = true;
 L["Blank"] = true;
@@ -840,7 +840,7 @@ L["You may not remove a spell from a default filter that is not customly added. 
 L["Achievement Popup Frames"] = true; --This appears in live but not beta
 L["New ID"] = true;
 L["Only check if the buff is coming from you."] = true;
-L["Personal Buffs"] = true; 
+L["Personal Buffs"] = true;
 L["Remove Group"] = true;
 L["Remove ID"] = true;
 L["Spell already exists in filter."] = true;
