@@ -1,6 +1,9 @@
 ﻿local AceLocale = LibStub:GetLibrary("AceLocale-3.0")
 local L = AceLocale:NewLocale("ElvUI", "zhCN")
 if not L then return end
+
+--ActionBars
+
 L["24-Hour Time"] = "24小时制"
 L["Accept Invites"] = "接受邀请"
 L["Achievement Frame"] = "成就"
