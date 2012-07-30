@@ -613,6 +613,7 @@ L["Add Spell"] = true;
 L["Add SpellID"] = true;
 L['Allow displaying of auras that are considered consolidated by Blizzard.'] = true;
 L['Allow displaying of auras that do not have a duration.'] = true;
+L["An X offset (in pixels) to be used when anchoring new frames."] = true;
 L["An Y offset (in pixels) to be used when anchoring new frames."] = true;
 L["Any Unit"] = true;
 L["Arena Frames"] = true;
