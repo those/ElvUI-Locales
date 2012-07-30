@@ -692,7 +692,6 @@ L["Ghost"] = true;
 L["Good"] = true;
 L["Group By"] = true;
 L["Group Point"] = true;
-L["Growth direction of the buffs"] = true;
 L["Growth Direction"] = true;
 L["Heal Prediction"] = true;
 L["Health Backdrop"] = true;
@@ -706,10 +705,8 @@ L["How far away the portrait is from the camera."] = true;
 L["Icon"] = true;
 L['If not set to 0 then override the size of the aura icon to this.'] = true;
 L["If set only auras belonging to yourself in addition to any aura that passes the set filter may be shown."] = true;
-L["Initial Anchor"] = true;
 L["Interrupt Color"] = true;
 L["Latency"] = true;
-L["Left"] = true;
 L["Length"] = true;
 L["Long (Include Level)"] = true;
 L["Long"] = true;
@@ -760,7 +757,6 @@ L["Remove Spell"] = true;
 L["Remove SpellID"] = true;
 L["Rest Icon"] = true;
 L["Restore Defaults"] = true; --Also used in General and ActionBars sections
-L["Right"] = true;
 L['RL / ML Icons'] = true;
 L["Role Icon"] = true;
 L["Select a filter to use."] = true; --Also used in NamePlates
@@ -799,7 +795,6 @@ L["The anchor point for each new column. A value of LEFT will cause the columns 
 L["The aura must be below this duration for the buff to show, set to 0 to disable. Note: This is in seconds."] = true;
 L["The following macro must be true in order for the group to be shown, in addition to any filter that may already be set."] = true;
 L["The font that the unitframes will use."] = true;
-L["The initial anchor point of the buffs on the frame"] = true;
 L["The maximum number of columns that the header will create."] = true;
 L["The maximum number of units that will be displayed in a single column."] = true;
 L['The object you want to attach to.'] = true;
@@ -825,7 +820,6 @@ L["When true, the header is shown when the player is not in any group."] = true;
 L["When you mana falls below this point, text will flash on the player frame."] = true;
 L["Whitelist"] = true;
 L["Width"] = true; --Also used in NamePlates module
-L["X-Growth"] = true;
 L["xOffset"] = true;
 L["Y-Growth"] = true;
 L["yOffset"] = true; --Another variation in bags section Y Offset
@@ -833,22 +827,3 @@ L["You can't remove a pre-existing filter."] = true;
 L["You cannot copy settings from the same unit."] = true;
 L["You cannot set the Group Point and Column Point so they are opposite of each other."] = true;
 L["You may not remove a spell from a default filter that is not customly added. Setting spell to false instead."] = true;
-
--------------------------------------------------
-------Locales that don't appear to be used.------
--------------------------------------------------
-L["Achievement Popup Frames"] = true; --This appears in live but not beta
-L["New ID"] = true;
-L["Only check if the buff is coming from you."] = true;
-L["Personal Buffs"] = true;
-L["Remove Group"] = true;
-L["Remove ID"] = true;
-L["Spell already exists in filter."] = true;
-L["Spell not found in list"] = true; --duplicate exists which ends with a "." (dot) and is used in UnitFrames
-L["Spell not found."] = true;
-L["Spells"] = true;
-L["Target"] = true;
-L["This can't be right, you must of broke something! Please turn on lua errors and report the issue to Elv http://www.tukui.org/forums/forum.php?id=146"] = true;
-L["You cannot remove a spell that is default, disabling the spell for you however."] = true;
--------------------------------------------------
--------------------------------------------------
