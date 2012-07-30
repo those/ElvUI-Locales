@@ -358,6 +358,7 @@ L["Controls what the transparency of the worldmap will be set to when you are mo
 L["Default Font"] = true;
 L["Disband Group"] = true;
 L['Display emotion icons in chat.'] = true;
+L['Display minimap panels below the minimap, used for datatexts.'] = true;
 L["Don't scale the large world map to block out sides of the screen."] = true;
 L["ELVUI_DESC"] = "ElvUI is a complete User Interface replacement addon for World of Warcraft."
 L['Emotion Icons'] = true;
