@@ -82,47 +82,53 @@ L[ [=[This works like a macro, you can run different situations to get the actio
 Exemple: '[combat] show;hide']=]
 
 --Bags
-L["The direction that the bag frames be (Horizontal or Vertical)."] = "The direction that the bag frames be (Horizontal or Vertical)."
-L["Toggle Bags"] = "Afficher les sacs"
-L["Top to Bottom"] = "Du haut vers le bas"
+L["Ascending"] = "Ascending"
+L["Bag Columns"] = "Bag Columns"
+L["Bag-Bar"] = "Bag-Bar"
+L["Bags"] = "Sacs"
+L["BAGS_DESC"] = "Adjust bag settings for ElvUI."
+L["Bank Columns"] = "Bank Columns"
+L["Bar Direction"] = "Bar Direction"
+L["Bottom to Top"] = "Du bas vers le haut"
+L["Click to search.."] = "Cliquez pour chercher..."
+L["copperabbrev"] = "|cffeda55fc|r" --Also used in gold datatext
+L["Delete Grays"] = "Détruire les Objets Gris."
+L["Deleted %d gray items. Total Worth: %s"] = "%d Objet(s) Gris Détruit(s). Valeur totale perdue :%s"
+L["Descending"] = true;
+L["Direction the bag sorting will use to allocate the items."] = "Direction the bag sorting will use to allocate the items."
+L["Enable Bag-Bar"] = "Enable Bag-Bar"
+L["Enable/Disable the all-in-one bag."] = "Activer/désactiver le sac tout-en-un."
+L["Enable/Disable the Bag-Bar."] = "Enable/Disable the Bag-Bar."
+L["goldabbrev"] = "|cffffd700g|r" --Also used in gold datatext
+L["Hold Shift:"] = "Maintenir MAJ : "
+L["No gray items to delete."] = "Aucun objet gris à détruire."
+L["No gray items to sell."] = "Aucun objet gris à vendre."
+L["Number of columns (width) of bags. Set it to 0 to match the width of the chat panels."] = "Number of columns (width) of bags. Set it to 0 to match the width of the chat panels."
+L["Number of columns (width) of the bank. Set it to 0 to match the width of the chat panels."] = "Number of columns (width) of the bank. Set it to 0 to match the width of the chat panels."
+L["Purchase"] = "Acheter"
+L["Set the size of your bag buttons."] = "Set the size of your bag buttons."
 L["silverabbrev"] = "|cffc7c7cfs|r" --Also used in gold datatext
 L["Sort Bags"] = "Trier les sacs"
+L["Sort Direction"] = "Sort Direction" --Also used in Buffs and Debuffs
 L["Sort Orientation"] = "Type d'orientation"
 L["Sort Special"] = "Triage Spécial"
 L["Stack Items"] = "Empiler les objets"
 L["Stack Special"] = "Empilement Spécial"
-L["Purchase"] = "Acheter"
-L["goldabbrev"] = "|cffffd700g|r" --Also used in gold datatext
-L["Hold Shift:"] = "Maintenir MAJ : "
-L["Direction the bag sorting will use to allocate the items."] = "Direction the bag sorting will use to allocate the items."
-L["Deleted %d gray items. Total Worth: %s"] = "%d Objet(s) Gris Détruit(s). Valeur totale perdue :%s"
-L["Delete Grays"] = "Détruire les Objets Gris."
-L["Enable Bag-Bar"] = "Enable Bag-Bar"
-L["Enable/Disable the all-in-one bag."] = "Activer/désactiver le sac tout-en-un."
-L["Enable/Disable the Bag-Bar."] = "Enable/Disable the Bag-Bar."
-L["Click to search.."] = "Cliquez pour chercher..."
-L["Number of columns (width) of bags. Set it to 0 to match the width of the chat panels."] = "Number of columns (width) of bags. Set it to 0 to match the width of the chat panels."
-L["Number of columns (width) of the bank. Set it to 0 to match the width of the chat panels."] = "Number of columns (width) of the bank. Set it to 0 to match the width of the chat panels."
-L["No gray items to delete."] = "Aucun objet gris à détruire."
-L["No gray items to sell."] = "Aucun objet gris à vendre."
-L["Ascending"] = "Ascending"
-L["Y Offset"] = "Décalage Y"  --Another variation in unitframes yOffset
-L["Bag-Bar"] = "Bag-Bar"
-L["Set the size of your bag buttons."] = "Set the size of your bag buttons."
+L["The direction that the bag frames be (Horizontal or Vertical)."] = "The direction that the bag frames be (Horizontal or Vertical)."
+L["The direction that the bag frames will grow from the anchor."] = true;
 L["The frame is not shown unless you mouse over the frame."] = "Le cadre est invisible tant que vous n'avez pas passé votre souris dessus."
-L["e anchor."] = "The direction that the bag frames will grow from the anchor."
-L["Sort Direction"] = "Sort Direction"
-L["Bags"] = "Sacs"
-L["BAGS_DESC"] = "Adjust bag settings for ElvUI."
-L["Bag Columns"] = "Bag Columns"
-L["Bank Columns"] = "Bank Columns"
-L["Bar Direction"] = "Bar Direction"
-L["Bottom to Top"] = "Du bas vers le haut"
-L["copperabbrev"] = "|cffeda55fc|r" --Also used in gold datatext
+L["The spacing between buttons."] = "Règle l'espacement entre deux boutons."
+L["Toggle Bags"] = "Afficher les sacs"
+L["Top to Bottom"] = "Du haut vers le bas"
+L["Vendor Grays"] = "Vendre les objets gris"
+L["Vendored gray items for:"] = "Objets gris vendus pour : "
+L["X Offset"] = "Décalage X"
+L["Y Offset"] = "Décalage Y"  --Another variation in unitframes yOffset
+L["You must be at a vendor."] = "Vous devez être chez un marchand."
+ -- Ends
 
 
-
-
+-- To Do
 L["24-Hour Time"] = "Mode 24 Heures"
 L["Accept Invites"] = "Invitations automatiques"
 L["Achievement Frame"] = "Haut Fait"
@@ -643,7 +649,6 @@ L["The in-game configuration menu can be accesses by typing the /ec command or b
 L["The initial anchor point of the buffs on the frame"] = "Le point d'ancrage initial des améliorations de ce cadre."
 L["The maximum number of columns that the header will create."] = "Nombre maximum de colonne que l'en-tête va créer."
 L["The maximum number of units that will be displayed in a single column."] = "Maximum d'unités affichées dans une seule colonne"
-L["The spacing between buttons."] = "Règle l'espacement entre deux boutons."
 L["The spacing in between bars."] = "Espacement entre 2 barres."
 L["The texture that will be used mainly for statusbars."] = "La texture qui sera utilisé principalement pour la barre de statut."
 L["This can't be right, you must of broke something! Please turn on lua errors and report the issue to Elv http://www.tukui.org/forums/forum.php?id=146"] = "Une erreur est survenue et ce n'est pas normal ! Merci d'activer l'affichage des erreurs LUA et de signaler celles-ci à Elv sur http://www.tukui.org/forums/forum.php?id=146"
@@ -701,8 +706,6 @@ L["Use the custom health backdrop color instead of a multiple of the main health
 L["Use this filter."] = "Utiliser ce filtre."
 L["Using the healer layout it is highly recommended you download the addon Clique to work side by side with ElvUI."] = "Using the healer layout it is highly recommended you download the addon Clique to work side by side with ElvUI." -- Needs review
 L["Value Color"] = "Couleur des Textes d'informations"
-L["Vendored gray items for:"] = "Objets gris vendus pour : "
-L["Vendor Grays"] = "Vendre les objets gris"
 L["Version"] = "Version"
 L["Vertical"] = "Verticale"
 L["Visibility"] = "Visibilité"
@@ -727,7 +730,6 @@ L["World Map"] = "Carte du monde"
 L["Wrist"] = "Poignets"
 L["X-Growth"] = "Développement de l'axe X"
 L["xOffset"] = "Décallage de l'axe X"
-L["X Offset"] = "Décalage X"
 L["XP:"] = "XP: "
 L["yells"] = "crie"
 L["Y-Growth"] = "Développement de l'axe Y"
@@ -746,7 +748,6 @@ L["You have changed your UIScale, however you still have the AutoScale option en
 L["You have reached the maximum amount of friends, remove 2 for this module to function properly."] = "Vous avez atteint le nombre maximum d'amis, retirez en 2 pour que le module fonctionne correctement"
 L["You may need to further alter these settings depending how low you resolution is."] = "Vous devrez peut-être encore modifier ces paramètres en fonction d'un changement de résolution."
 L["You may not remove a spell from a default filter that is not customly added. Setting spell to false instead."] = "Vous ne pouvez pas supprimer un sort du filtre qui est par défaut. Le sort est maintenant désactivé."
-L["You must be at a vendor."] = "Vous devez être chez un marchand."
 L["You must purchase a bank slot first!"] = "Vous devez d'abord acheter un emplacement de banque !"
 L["You need to be at least level %d to whisper me."] = "Tu dois être au-dessus du niveau %d pour pouvoir me chuchoter."
 L["Your current resolution is %s, this is considered a %s resolution."] = "Votre résolution actuelle est %s, elle est donc considérée comme une %s résolution."
