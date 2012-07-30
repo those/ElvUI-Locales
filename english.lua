@@ -830,6 +830,3 @@ L["You can't remove a pre-existing filter."] = true;
 L["You cannot copy settings from the same unit."] = true;
 L["You cannot set the Group Point and Column Point so they are opposite of each other."] = true;
 L["You may not remove a spell from a default filter that is not customly added. Setting spell to false instead."] = true;
-
---Unused O_o
-L['Anchor To'] = true; --Possybly meant to be in aura bars section of unitframes
