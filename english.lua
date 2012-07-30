@@ -350,7 +350,6 @@ L["Backdrop Color"] = true;
 L["Backdrop Faded Color"] = true;
 L["Below Minimap"] = true;
 L["Border Color"] = true;
-L["Can't Roll"] = true;
 L['Change settings for the display of the location text that is on the minimap.'] = true;
 L["Change the position of the experience/reputation bar."] = true;
 L["CombatText Font"] = true;
@@ -365,7 +364,7 @@ L['Emotion Icons'] = true;
 L["Enable/Disable the loot frame."] = true;
 L["Enable/Disable the loot roll frame."] = true;
 L["Exp/Rep Position"] = true;
-L["Font Size"] = true;
+L["Font Size"] = true; --Also used in UnitFrames
 L["Fonts"] = true;
 L["General"] = true;
 L["Hide Both"] = true;
@@ -408,7 +407,6 @@ L['Toggle Tutorials'] = true;
 L["Top Screen"] = true;
 L["Value Color"] = true;
 L["Welcome to ElvUI version %s!"] = true;
-L["XP:"] = true;
 L[ [=[Specify a filename located inside the World of Warcraft directory. Textures folder that you wish to have set as a panel background.
 
 Please Note:
@@ -422,6 +420,7 @@ Or for most users it would be easier to simply put a tga file into your WoW fold
 
 --Misc
 L['Bars'] = true;
+L["Can't Roll"] = true;
 L["Empty Slot"] = true;
 L["Enable"] = true; --Doesn't fit a section since it's used a lot of places
 L["Experience"] = true;
@@ -434,6 +433,7 @@ L["Rested:"] = true;
 L["Right Click:"] = true; --layout\layout.lua
 L["Toggle Chat Frame"] = true; --layout\layout.lua
 L["Toggle Embedded Addon"] = true; --layout\layout.lua
+L["XP:"] = true;
 L["You don't have enough money to repair."] = true;
 L["You don't have permission to mark targets."] = true;
 L["Your items have been repaired for: "] = true;
