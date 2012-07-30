@@ -73,8 +73,7 @@ L["Visibility State"] = true;
 L['When enabled the main actionbar will use the maximum amount of pages available. This means if you have another actionbar disabled, the actionbar page will become available on the main actionbar. Having this disabled will limit the main actionbar to two pages.'] = true;
 L["Width Multiplier"] = true;
 L[ [=[This works like a macro, you can run different situations to get the actionbar to page differently.
- Example: '[combat] 2;']=] ] = [=[This works like a macro, you can run different situations to get the actionbar to page differently.
- Example: '[combat] 2;']=]
+ Example: '[combat] 2;']=] ] = true;
 L[ [=[This works like a macro, you can run different situations to get the actionbar to show/hide differently.
  Example: '[combat] show;hide']=] ] = true;
 
@@ -296,18 +295,18 @@ L["Home Latency:"] = true;
 L["HP"] = true;
 L["HPS"] = true;
 L["If not set to true then the server time will be displayed instead."] = true;
-L["left"] = true;
+L["left"] = "Left"
 L["LeftChatDataPanel"] = "Left Chat"
 L["LeftMiniPanel"] = "Minimap Left"
 L["Legs"] = true;
 L["Local Time"] = true;
 L["lvl"] = true;
 L["Main Hand"] = true;
-L["middle"] = true;
+L["middle"] = "Middle"
 L["Offhand"] = true;
 L["Panels"] = true;
 L["Profit:"] = true;
-L["right"] = true;
+L["right"] = "Right"
 L["RightChatDataPanel"] = "Right Chat"
 L["RightMiniPanel"] = "Minimap Right"
 L["Saved Raid(s)"] = true;
@@ -378,7 +377,7 @@ L["Loot Roll"] = true;
 L["Loot"] = true;
 L["Main backdrop color of the UI."] = true;
 L["Main border color of the UI."] = true;
-L['Map Alpha While Moving'] = true;
+L["Map Alpha While Moving"] = true;
 L["Media"] = true;
 L['Minimap Mouseover'] = true;
 L['Minimap Panels'] = true;
