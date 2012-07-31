@@ -124,7 +124,7 @@ L["X Offset"] = "X 軸位移";
 L["Y Offset"] = "Y 軸位移"; --Another variation in unitframes yOffset
 L["You must be at a vendor."] = "你必須與商人對話。";
 
---Buffs and Debuffs
+--Buffs and Debuffs (Needs translation)
 L['AURAS_DESC'] = 'Configure the aura icons that appear near the minimap.';
 L['Begin a new row or column after this many auras.'] = true;
 L['Consolidated Buffs'] = true;
