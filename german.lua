@@ -116,7 +116,7 @@ L["Top to Bottom"] = "Oben nach Unten"
 L["Vendor Grays"] = "Graue Items verkaufen"
 L["Vendored gray items for:"] = "Graue Gegenstände verkauft für: "
 L["X Offset"] = "X Versatz"
-L["Y Offset"] = "Y Versatz"  --Another variation in unitframes yOffset
+L["Y Offset"] = "Y Versatz" --Another variation in unitframes yOffset
 L["You must be at a vendor."] = "Du musst bei einen Verkäufer sein."
 
 --Buffs and Debuffs
@@ -411,7 +411,7 @@ Please Note:
 
 Example: Interface\AddOns\ElvUI\media\textures\copy
 
-Or for most users it would be easier to simply put a tga file into your WoW folder, then type the name of the file here.]=] ] = [=[Gib einen Dateinamen im  World of Warcraft Verzeichnis an. Textures Ordner, den du als Fenster-Hintergrund eingestellt haben willst.
+Or for most users it would be easier to simply put a tga file into your WoW folder, then type the name of the file here.]=] ] = [=[Gib einen Dateinamen im World of Warcraft Verzeichnis an. Textures Ordner, den du als Fenster-Hintergrund eingestellt haben willst.
 
 Bitte beachten Sie:
 -Die Bildgröße 256x128 wird empfohlen.
@@ -668,7 +668,7 @@ L["Debuffs"] = "Debuffs"
 L["Deficit"] = "Unterschied"
 L["Delete a created filter, you cannot delete pre-existing filters, only custom ones."] = "Entferne einen erstellten Filter, du kannst keine Standart Filter entfernen, nur benutzerdefinierte."
 L["Delete Filter"] = "Filter löschen"
-L["Direction the health bar moves when gaining/losing health."] = "Anzeige der richtung  der Lebensleiste wenn man Leben gewinnt oder verliert."
+L["Direction the health bar moves when gaining/losing health."] = "Anzeige der richtung der Lebensleiste wenn man Leben gewinnt oder verliert."
 L['Disabled'] = 'Deaktivieren'
 L["Disable Blizzard"] = "Blizzard deaktivieren"
 L["Disables the blizzard party/raid frames."] = "Deaktiviere das Blizzard Gruppen/Schlachtzugsfenster"
@@ -817,7 +817,7 @@ L["Use the custom health backdrop color instead of a multiple of the main health
 L["Value must be a number"] = "Der Wert muss eine Zahl sein"
 L["Vertical"] = "Vertikal" --Also used in bags section
 L["Visibility"] = "Sichtbarkeit"
-L["What each frame should attach itself to, example setting it to TOP every unit will attach its top to the last point bottom."] = "Woran sich jedes Fenster anheften soll; zB, wenn es auf OBEN eingestellt ist, wird sich jede Einheit mit ihrem oberen Bereich am  unteren Bereich der letzten Einheit anheften."
+L["What each frame should attach itself to, example setting it to TOP every unit will attach its top to the last point bottom."] = "Woran sich jedes Fenster anheften soll; zB, wenn es auf OBEN eingestellt ist, wird sich jede Einheit mit ihrem oberen Bereich am unteren Bereich der letzten Einheit anheften."
 L["What point to anchor to the frame you set to attach to."] = "Wo willst du deine Classtimer Leisten angezeigt haben."
 L["What to attach the buff anchor frame to."] = "Wo sollen die Buffs angehängt werden."
 L['When set the Buffs and Debuffs will toggle being displayed depending on if the unit is friendly or an enemy. This will not effect the aurabars module.'] = true;
