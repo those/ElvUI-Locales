@@ -142,8 +142,6 @@ L['Set the size of the individual auras.'] = true;
 L['Sort Method'] = true;
 L['Time'] = true;
 L['Wrap After'] = true;
-L['X Spacing'] = true;
-L['Y Spacing'] = true;
 L['Your Auras First'] = true;
 
 --Chat 對話視窗框架
@@ -429,7 +427,6 @@ L["Remaining:"] = true;
 L["Rested:"] = true;
 L["Right Click:"] = true; --layout\layout.lua
 L["Toggle Chat Frame"] = true; --layout\layout.lua
-L["Toggle Embedded Addon"] = true; --layout\layout.lua
 L["XP:"] = true;
 L["You don't have enough money to repair."] = true;
 L["You don't have permission to mark targets."] = true;

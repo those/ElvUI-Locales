@@ -144,8 +144,6 @@ L['Set the size of the individual auras.'] = true;
 L['Sort Method'] = true;
 L['Time'] = true;
 L['Wrap After'] = true;
-L['X Spacing'] = true;
-L['Y Spacing'] = true;
 L['Your Auras First'] = true;
  
  --Chat => Partly translated, in progress (10)
@@ -440,7 +438,6 @@ L["Remaining:"] = "Restant: "
 L["Rested:"] = "Reposé: "
 L["Right Click:"] = "Clic Droit:" --layout\layout.lua
 L["Toggle Chat Frame"] = "Activer la feneêtre de discussion" --layout\layout.lua
-L["Toggle Embedded Addon"] = "Activer l'addon embarqué" --layout\layout.lua
 L["XP:"] = "XP: "
 L["You don't have enough money to repair."] = "Vous n'avez pas assez d'argent pour réparer votre équipement."
 L["You don't have permission to mark targets."] = "Vous n'avez pas la permission de marquer les cibles."

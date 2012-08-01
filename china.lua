@@ -141,8 +141,6 @@ L['Set the size of the individual auras.'] = true;
 L['Sort Method'] = true;
 L['Time'] = true;
 L['Wrap After'] = true;
-L['X Spacing'] = true;
-L['Y Spacing'] = true;
 L['Your Auras First'] = true;
 
 --Chat
@@ -437,7 +435,6 @@ L["Remaining:"] = "剩余:"
 L["Rested:"] = "休息:"
 L["Right Click:"] = "鼠标右键：" -- Needs review --layout\layout.lua
 L["Toggle Chat Frame"] = "开关聊天框架" -- Needs review --layout\layout.lua
-L["Toggle Embedded Addon"] = "开关内置的插件" -- Needs review --layout\layout.lua
 L["XP:"] = "经验:"
 L["You don't have enough money to repair."] = "没有足够的资金来修复."
 L["You don't have permission to mark targets."] = "你没有标记目标的权限"
