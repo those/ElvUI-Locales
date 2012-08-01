@@ -246,14 +246,14 @@ L["You can now choose what layout you wish to use based on your combat role."] =
 L["You may need to further alter these settings depending how low you resolution is."] = "你必須依據解析度值，進一步調整這些設定。";
 L["Your current resolution is %s, this is considered a %s resolution."] = "你目前的解析度為 %s，系統判定為 %s 解析度。";
 
---Credits
+--Credits 特別感謝
 L["Coding:"] = "編碼：";
 L["Credits"] = "特別感謝";
 L["Donations:"] = "捐款：";
 L["ELVUI_CREDITS"] = "我想透過這個特別方式，向那些協助測試、編碼及透過捐款協助過我的人表達感謝，請曾提供協助的朋友至論壇傳私訊給我，我會將你的名字添加至此處。";
 L["Testing:"] = "測試：";
 
---DataTexts
+--DataTexts 資料文字
 L["(Hold Shift) Memory Usage"] = "(按住 Shift) 記憶體使用量";
 L["24-Hour Time"] = "24 小時制";
 L["AP"] = "攻擊強度";
@@ -327,7 +327,7 @@ L["INCOMPATIBLE_ADDON"] = "插件 %s 不相容於 ElvUI 的 %s 模組。請停�
 L["No locals to dump"] = "無可供傾印的本機資料";
 L['|cFFE30000Lua error recieved. You can view the error message when you exit combat.'] = "|cFFE30000收到 LUA 錯誤報告，你可以在脫離戰鬥時檢視錯誤訊息。";
 
---General
+--General 一般
 L["Accept Invites"] = "接受組隊邀請";
 L["Adjust the size of the minimap."] = "調整小地圖尺寸。";
 L['Always Display'] = true;
@@ -424,78 +424,78 @@ Or for most users it would be easier to simply put a tga file into your WoW fold
 
 對多數玩家來說，較簡易的方式是將 tga 檔放入 WoW 資料夾中，然後在此處輸入檔案名稱。]=];
 
---Misc
-L["Can't Roll"] = true;
-L["Empty Slot"] = true;
-L["Enable"] = true; --Doesn't fit a section since it's used a lot of places
-L["Experience"] = true;
-L["Fishy Loot"] = true;
-L["Left Click:"] = true; --layout\layout.lua
-L["Raid Menu"] = true;
-L["Remaining:"] = true;
-L["Rested:"] = true;
-L["Right Click:"] = true; --layout\layout.lua
-L["Toggle Chat Frame"] = true; --layout\layout.lua
-L["XP:"] = true;
-L["You don't have enough money to repair."] = true;
-L["You don't have permission to mark targets."] = true;
-L["Your items have been repaired for: "] = true;
-L["Your items have been repaired using guild bank funds for: "] = true;
-L["Your version of ElvUI is out of date. You can download the latest version from www.tukui.org"] = true; --core\core.lua
+--Misc 其他
+L["Can't Roll"] = "無法需求此裝備";
+L["Empty Slot"] = "空白欄位";
+L["Enable"] = "啟用"; --Doesn't fit a section since it's used a lot of places
+L["Experience"] = "經驗/聲望條";
+L["Fishy Loot"] = "貪婪";
+L["Left Click:"] = "點按左鍵："; --layout\layout.lua
+L["Raid Menu"] = "團隊選單";
+L["Remaining:"] = "剩餘：";
+L["Rested:"] = "充分休息：";
+L["Right Click:"] = "點按右鍵："; --layout\layout.lua
+L["Toggle Chat Frame"] = "顯示/隱藏對話框架"; --layout\layout.lua
+L["XP:"] = "經驗：";
+L["You don't have enough money to repair."] = "資金不足，無法修復裝備。";
+L["You don't have permission to mark targets."] = "你沒有標記目標的權限。";
+L["Your items have been repaired for: "] = "已修復裝備，共支出：";
+L["Your items have been repaired using guild bank funds for: "] = "已使用公會資金修復裝備，共支出：";
+L["Your version of ElvUI is out of date. You can download the latest version from www.tukui.org"] = "ElvUI 版本已過期，請至 www.tukui.org 下載最新版"; --core\core.lua
 
 --NamePlates
-L["Add Name"] = true;
-L["All"] = true;
-L["Auras"] = true;
-L["Bad Color"] = true;
-L["Bad Scale"] = true;
-L["Bad Transition Color"] = true;
-L["Castbar Height"] = true;
+L["Add Name"] = "新增名稱";
+L["All"] = "所有人";
+L["Auras"] = "光環";
+L["Bad Color"] = "仇恨異常色";
+L["Bad Scale"] = "仇恨異常比例";
+L["Bad Transition Color"] = "仇恨異常轉換色";
+L["Castbar Height"] = "施法條高度";
 L['Color the border of the nameplate yellow when it reaches the threshold point on these types of frames.'] = true;
 L['Color the border of the nameplate yellow when it reaches this point, it will be colored red when it reaches half this value.'] = true;
-L["Color the nameplate's healthbar by your current threat, Example: good threat color is used if your a tank when you have threat, opposite for DPS."] = true;
-L["Combat Toggle"] = true;
-L["Controls the height of the nameplate"] = true;
-L["Controls the height of the nameplate's castbar"] = true;
-L["Controls the width of the nameplate"] = true;
-L["Custom Color"] = true;
-L["Custom Scale"] = true;
-L["Disable threat coloring for this plate and use the custom color."] = true;
-L["Discipline"] = true;
-L["Display a healer icon over known healers inside battlegrounds."] = true;
-L["Display level text on nameplate for nameplates that belong to units that aren't your level."] = true;
-L["Display your personal debuffs over the nameplate."] = true;
-L["Enemy"] = true;
-L["Enhance Threat"] = true;
-L["Filter already exists!"] = true;
-L["Filters"] = true; --Also used in UnitFrames
-L["Friendly NPC"] = true;
-L["Friendly Player"] = true;
-L["Good Color"] = true;
-L["Good Scale"] = true;
-L["Good Transition Color"] = true;
-L["Healer Icon"] = true;
-L["Hide"] = true;
-L["Holy"] = true;
+L["Color the nameplate's healthbar by your current threat, Example: good threat color is used if your a tank when you have threat, opposite for DPS."] = "依據目前仇恨狀況改變血條的顏色，如坦職為仇恨目標，則顯示仇恨正常色，輸出職則相反。";
+L["Combat Toggle"] = "戰鬥顯示";
+L["Controls the height of the nameplate"] = "血條的高度設定";
+L["Controls the height of the nameplate's castbar"] = "控制血條的施法條高度";
+L["Controls the width of the nameplate"] = "血條的寬度設定";
+L["Custom Color"] = "自訂顏色";
+L["Custom Scale"] = "自訂比例";
+L["Disable threat coloring for this plate and use the custom color."] = "此血條停用仇恨顏色，並使用自訂顏色。";
+L["Discipline"] = "戒律";
+L["Display a healer icon over known healers inside battlegrounds."] = "戰場隊伍中，為確認為補職的玩家標上補職圖示。";
+L["Display level text on nameplate for nameplates that belong to units that aren't your level."] = "若單位目標等級不同於己，在血條上顯示其等級。";
+L["Display your personal debuffs over the nameplate."] = "在目標血條上顯示自己施放的減益光環。";
+L["Enemy"] = "敵對";
+L["Enhance Threat"] = "仇恨強化顯示";
+L["Filter already exists!"] = "已存在篩選器！";
+L["Filters"] = "篩選器"; --Also used in UnitFrames
+L["Friendly NPC"] = "友好 NPC";
+L["Friendly Player"] = "友好玩家";
+L["Good Color"] = "仇恨正常色";
+L["Good Scale"] = "仇恨正常比例";
+L["Good Transition Color"] = "仇恨正常轉換色";
+L["Healer Icon"] = "補職圖示";
+L["Hide"] = "隱藏";
+L["Holy"] = "神聖";
 L['Low Health Threshold'] = true;
 L['Low Health Warning'] = true;
-L["NamePlates"] = true;
-L["NAMEPLATE_DESC"] = "Modify the nameplate settings."
-L["Personal Debuffs"] = true;
+L["NamePlates"] = "血條";
+L["NAMEPLATE_DESC"] = "修改血條設定。";
+L["Personal Debuffs"] = "己方減益光環";
 L['Players'] = true;
-L["Prevent any nameplate with this unit name from showing."] = true;
-L["Remove Name"] = true;
-L["Restoration"] = true;
-L["Select a filter to use. These are imported from the unitframe aura filter."] = true; --This one is not visible in the GUI since desc is not used on select groups. Keep for dropdown based menus?
-L["Set the scale of the nameplate."] = true;
-L["This color is displayed when gaining/losing threat, for a tank it would be displayed when gaining threat, for a dps/healer it would be displayed when losing threat"] = true;
-L["This color is displayed when gaining/losing threat, for a tank it would be displayed when losing threat, for a dps/healer it would be displayed when gaining threat"] = true;
-L["This is displayed when you don't have threat as a tank, if you do have threat it is displayed as a DPS/Healer"] = true;
-L["This is displayed when you have threat as a tank, if you don't have threat it is displayed as a DPS/Healer"] = true;
-L["Threat"] = true;
-L["Toggles the nameplates off when not in combat."] = true;
-L["Use this filter."] = true;
-L["You can't remove a default name from the filter, disabling the name."] = true;
+L["Prevent any nameplate with this unit name from showing."] = "若血條含有此單位名稱，則不予顯示。";
+L["Remove Name"] = "移除名稱";
+L["Restoration"] = "恢復";
+L["Select a filter to use. These are imported from the unitframe aura filter."] = "此由單位框架光環篩選器所匯入，選擇欲使用的篩選器。"; --This one is not visible in the GUI since desc is not used on select groups. Keep for dropdown based menus?
+L["Set the scale of the nameplate."] = "設定血條的比例。";
+L["This color is displayed when gaining/losing threat, for a tank it would be displayed when gaining threat, for a dps/healer it would be displayed when losing threat"] = "坦職將成為仇恨目標，或輸出/補職將成為非仇恨目標時所顯示的顏色";
+L["This color is displayed when gaining/losing threat, for a tank it would be displayed when losing threat, for a dps/healer it would be displayed when gaining threat"] = "坦職將成為非仇恨目標，或輸出/補職將成為仇恨目標時所顯示的顏色";
+L["This is displayed when you don't have threat as a tank, if you do have threat it is displayed as a DPS/Healer"] = "坦職非仇恨目標，或輸出/補職為仇恨目標時所顯示的顏色";
+L["This is displayed when you have threat as a tank, if you don't have threat it is displayed as a DPS/Healer"] = "坦職為仇恨目標，或輸出/補職非仇恨目標時所顯示的顏色";
+L["Threat"] = "仇恨";
+L["Toggles the nameplates off when not in combat."] = "脫離戰鬥時，自動隱藏血條。";
+L["Use this filter."] = "使用此篩選器。";
+L["You can't remove a default name from the filter, disabling the name."] = "你無法自篩選器移除或停用預設名稱。";
 
 --Skins
 L["Achievement Frame"] = true;
