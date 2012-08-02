@@ -162,17 +162,26 @@ L['DND'] = true;
 L["Font Outline"] = true; --Also used in UnitFrames section
 L["Font"] = true;
 L["G"] = true;
+L['Hide Both'] = true;
 L["Hyperlink Hover"] = true;
 L["Keyword Alert"] = true;
 L['Keywords'] = true;
+L['Left Only'] = true;
 L['List of words to color in chat if found in a message. If you wish to add multiple words you must seperate the word with a comma. To search for your current name you can use %MYNAME%.\n\nExample:\n%MYNAME%, ElvUI, RBGs, Tank'] = true;
 L["Number of time in seconds to scroll down to the bottom of the chat window if you are not scrolled down completely."] = true;
 L["O"] = true;
 L["P"] = true;
+L["Panel Backdrop"] = true;
+L["Panel Height"] = true;
+L["Panel Texture (Left)"] = true;
+L["Panel Texture (Right)"] = true;
+L['Panel Width'] = true;
+L['PANEL_DESC'] = "Adjust the size of your left and right panels, this will effect your chat and bags."
 L["PG"] = true;
 L["PL"] = true;
 L["Prevent the same messages from displaying in chat more than once within this set amount of seconds, set to zero to disable."] = true;
 L["R"] = true;
+L['Right Only'] = true;
 L["RL"] = true;
 L["RW"] = true;
 L['says'] = true;
@@ -180,14 +189,26 @@ L["Scroll Interval"] = true;
 L["Set the font outline."] = true; --Also used in UnitFrames section
 L["Short Channels"] = true;
 L["Shorten the channel names in chat."] = true;
+L['Show Both'] = true;
 L["Spam Interval"] = true;
 L["Sticky Chat"] = true;
+L['Toggle showing of the left and right chat panels.'] = true;
 L['Trade'] = true;
 L["URL Links"] = true;
 L["When opening the Chat Editbox to type a message having this option set means it will retain the last channel you spoke in. If this option is turned off opening the Chat Editbox should always default to the SAY channel."] = true;
 L["Whisper Alert"] = true;
 L['whispers'] = true;
 L['yells'] = true;
+L[ [=[Specify a filename located inside the World of Warcraft directory. Textures folder that you wish to have set as a panel background.
+
+Please Note:
+-The image size recommended is 256x128
+-You must do a complete game restart after adding a file to the folder.
+-The file type must be tga format.
+
+Example: Interface\AddOns\ElvUI\media\textures\copy
+
+Or for most users it would be easier to simply put a tga file into your WoW folder, then type the name of the file here.]=] ] = true;
 
 --Config / Install
 L['Bar'] = true;
@@ -260,6 +281,7 @@ L["Testing:"] = true;
 --DataTexts
 L["(Hold Shift) Memory Usage"] = true;
 L["24-Hour Time"] = true;
+L['Always Display'] = true;
 L["AP"] = true;
 L["AVD: "] = true;
 L["Avoidance Breakdown"] = true;
@@ -269,12 +291,14 @@ L['Bases Defended'] = true;
 L['Battleground datatexts temporarily hidden, to show type /bgstats or right click the "C" icon near the minimap.'] = true;
 L['Battleground datatexts will now show again if you are inside a battleground.'] = true;
 L['Battleground Texts'] = true;
+L['Change settings for the display of the location text that is on the minimap.'] = true;
 L["Character: "] = true
 L["Chest"] = true;
 L["DataTexts"] = true;
 L["DATATEXT_DESC"] = "Setup the on-screen display of info-texts."
 L["Deficit:"] = true;
 L['Demolishers Destroyed'] = true;
+L['Display minimap panels below the minimap, used for datatexts.'] = true;
 L["DPS"] = true;
 L["Earned:"] = true;
 L["Feet"] = true;
@@ -296,9 +320,12 @@ L["LeftChatDataPanel"] = "Left Chat"
 L["LeftMiniPanel"] = "Minimap Left"
 L["Legs"] = true;
 L["Local Time"] = true;
+L['Location Text'] = true;
 L["lvl"] = true;
 L["Main Hand"] = true;
 L["middle"] = "Middle"
+L['Minimap Mouseover'] = true;
+L['Minimap Panels'] = true;
 L['Mitigation By Level: '] = true;
 L["Offhand"] = true;
 L["Panels"] = true;
@@ -334,7 +361,6 @@ L['|cFFE30000Lua error recieved. You can view the error message when you exit co
 --General
 L["Accept Invites"] = true;
 L["Adjust the size of the minimap."] = true;
-L['Always Display'] = true;
 L["Announce Interrupts"] = true;
 L["Announce when you interrupt a spell to the specified chat channel."] = true;
 L["Auto Repair"] = true;
@@ -344,13 +370,11 @@ L["Automatically repair using the following method when visiting a merchant."] =
 L["Automatically scale the User Interface based on your screen resolution"] = true;
 L["Automatically vendor gray items when visiting a vendor."] = true;
 L["Below Minimap"] = true;
-L['Change settings for the display of the location text that is on the minimap.'] = true;
 L["Change the position of the experience/reputation bar."] = true;
 L["Chat Bubbles"] = true;
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = true;
 L["Disband Group"] = true;
 L['Display emotion icons in chat.'] = true;
-L['Display minimap panels below the minimap, used for datatexts.'] = true;
 L["Don't scale the large world map to block out sides of the screen."] = true;
 L["ELVUI_DESC"] = "ElvUI is a complete User Interface replacement addon for World of Warcraft."
 L['Emotion Icons'] = true;
@@ -358,9 +382,6 @@ L["Enable/Disable the loot frame."] = true;
 L["Enable/Disable the loot roll frame."] = true;
 L["Exp/Rep Position"] = true;
 L["General"] = true;
-L["Hide Both"] = true;
-L["Left Only"] = true;
-L['Location Text'] = true;
 L["Log Taints"] = true;
 L["Login Message"] = true;
 L["LOGIN_MSG"] = "Welcome to %sElvUI|r version %s%s|r, type /ec to access the in-game configuration menu. If you are in need of technical support you can visit us at www.tukui.org. You can report bugs, add suggestions here: http://www.tukui.org/tickets/elvui/."
@@ -368,35 +389,14 @@ L["Loot Roll"] = true;
 L["Loot"] = true;
 L["Map Alpha While Moving"] = true;
 L["Media"] = true;
-L['Minimap Mouseover'] = true;
-L['Minimap Panels'] = true;
 L["Minimap Size"] = true;
-L["Panel Backdrop"] = true;
-L["Panel Height"] = true;
-L["Panel Texture (Left)"] = true;
-L["Panel Texture (Right)"] = true;
-L["Panel Width"] = true;
-L["PANEL_DESC"] = "Adjust the size of your left and right panels, this will effect your chat and bags."
 L["Reset all frames to their original positions."] = true;
 L["Reset Anchors"] = true;
-L["Right Only"] = true;
 L["Send ADDON_ACTION_BLOCKED errors to the Lua Error frame. These errors are less important in most cases and will not effect your game performance. Also a lot of these errors cannot be fixed. Please only report these errors if you notice a Defect in gameplay."] = true;
-L["Show Both"] = true;
 L["Tiny Map"] = true;
-L["Toggle showing of the left and right chat panels."] = true;
 L['Toggle Tutorials'] = true;
 L["Top Screen"] = true;
 L["Welcome to ElvUI version %s!"] = true;
-L[ [=[Specify a filename located inside the World of Warcraft directory. Textures folder that you wish to have set as a panel background.
-
-Please Note:
--The image size recommended is 256x128
--You must do a complete game restart after adding a file to the folder.
--The file type must be tga format.
-
-Example: Interface\AddOns\ElvUI\media\textures\copy
-
-Or for most users it would be easier to simply put a tga file into your WoW folder, then type the name of the file here.]=] ] = true;
 
 --Media
 L["Backdrop color of transparent frames"] = true;
@@ -472,7 +472,7 @@ L["Good Color"] = true;
 L["Good Scale"] = true;
 L["Good Transition Color"] = true;
 L["Healer Icon"] = true;
-L["Hide"] = true;
+L["Hide"] = true; --Also used in DataTexts
 L["Holy"] = true;
 L['Low Health Threshold'] = true;
 L['Low Health Warning'] = true;
