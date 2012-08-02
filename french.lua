@@ -158,19 +158,28 @@ L["Copy Text"] = "Copier le texte"
 L["Display the hyperlink tooltip while hovering over a hyperlink."] = "Afficher une info-bulle pour le survol d'un lien d'objet, sort, etc...."
 L['DND'] = "NPD"
 L["Font Outline"] = "Contours de la police" --Also used in UnitFrames section
+L['Hide Both'] = "Masquer les deux"
 L["Font"] = "Police"
 L["G"] = "G"
 L["Hyperlink Hover"] = "Survol des liens"
 L["Keyword Alert"] = true;
 L['Keywords'] = true;
+L["Left Only"] = "Gauche seulement"
 L['List of words to color in chat if found in a message. If you wish to add multiple words you must seperate the word with a comma. To search for your current name you can use %MYNAME%.\n\nExample:\n%MYNAME%, ElvUI, RBGs, Tank'] = true;
 L["Number of time in seconds to scroll down to the bottom of the chat window if you are not scrolled down completely."] = "Temps en secondes pour faire défiler vers le bas de la fenêtre de discussion si vous ne l'avez pas fait défiler jusqu'en bas."
 L["O"] = "O"
 L["P"] = "Gr"
+L["Panel Backdrop"] = "Arrière-plan fenêtre de Chat"
+L["Panel Height"] = "Hauteur fenêtre de Chat"
+L["Panel Texture (Left)"] = "Texture fenêtre de Chat (gauche)"
+L["Panel Texture (Right)"] = "Texture fenêtre de Chat (droit)"
+L["Panel Width"] = "Largeur fenêtre de Chat"
+L["PANEL_DESC"] = "Ajuste la largeur et la hauteur des fenêtres de chat, cela ajuste aussi les sacs."
 L["PG"] = "PG"
 L["PL"] = "CdG"
 L["Prevent the same messages from displaying in chat more than once within this set amount of seconds, set to zero to disable."] = "Temps en secondes où un message ne sera affiché qu'une fois dans la fenêtre de discussion si il est répété de multiples fois."
 L["R"] = "R"
+L["Right Only"] = "Droite seulement"
 L["RL"] = "RL"
 L["RW"] = "RW"
 L['says'] = "dit"
@@ -178,14 +187,35 @@ L["Scroll Interval"] = "Intervalle de défilement"
 L["Set the font outline."] = "Configure le contour de la police d'écriture." --Also used in UnitFrames section
 L["Short Channels"] = "Raccourcis canaux"
 L["Shorten the channel names in chat."] = "Minimise le nom des canaux de discussion."
+L["Show Both"] = "Montrer les deux"
 L["Spam Interval"] = "Intervalle considérant le Spam"
 L["Sticky Chat"] = true;
+L["Toggle showing of the left and right chat panels."] = "Afficher ou masquer le côté gauche / droite des panneaux de discussion."
 L['Trade'] = "Métiers"
 L["URL Links"] = "Liens des URL"
 L["When opening the Chat Editbox to type a message having this option set means it will retain the last channel you spoke in. If this option is turned off opening the Chat Editbox should always default to the SAY channel."] = true;
 L["Whisper Alert"] = true;
 L['whispers'] = "Chuchote"
 L['yells'] = true;
+L[ [=[Specify a filename located inside the World of Warcraft directory. Textures folder that you wish to have set as a panel background.
+
+Please Note:
+-The image size recommended is 256x128
+-You must do a complete game restart after adding a file to the folder.
+-The file type must be tga format.
+
+Example: Interface\AddOns\ElvUI\media\textures\copy
+
+Or for most users it would be easier to simply put a tga file into your WoW folder, then type the name of the file here.]=] ] = [=[Indiquez un nom de fichier situé dans le répertoire World of Warcraft, le dossier des Textures que vous souhaitez utiliser en fond de panneau.
+
+Notez:
+La taille de l'image recommandée est 256x128 pixels
+Vous devez redémarrer le jeu après avoir ajouter un fichier dans le dossier.
+Le format du fichier doit être en .tga
+
+Exemple: Interface\AddOns\ElvUI\media\textures\copy
+
+Ou pour la majorité des utilsateurs, il serait plus simple de mettre le fichier tga dans le dossier de World of Warcraft puis de taper son nom ici.]=]
 
 --Config / Install => Partly translated, in progress (9)
 L['Bar'] = true;
@@ -258,6 +288,7 @@ L["Testing:"] = "Testeurs: "
 --DataTexts => Partly translated, in progress (16)
 L["(Hold Shift) Memory Usage"] = "Maintenir MAJ : Utilisation de la Mémoire."
 L["24-Hour Time"] = "Mode 24 Heures"
+L['Always Display'] = true;
 L["AP"] = "PA"
 L["AVD: "] = "AVD:  "
 L["Avoidance Breakdown"] = "Répartition de l'évitement"
@@ -267,12 +298,14 @@ L['Bases Defended'] = true;
 L['Battleground datatexts temporarily hidden, to show type /bgstats or right click the "C" icon near the minimap.'] = true;
 L['Battleground datatexts will now show again if you are inside a battleground.'] = true;
 L['Battleground Texts'] = true;
+L['Change settings for the display of the location text that is on the minimap.'] = true;
 L["Character: "] = "Personnage: "
 L["Chest"] = "Torse"
 L["DataTexts"] = "Textes d'informations"
 L["DATATEXT_DESC"] = "Affiche à l'écran des textes d'informations"
 L["Deficit:"] = "Déficit: "
 L['Demolishers Destroyed'] = true;
+L['Display minimap panels below the minimap, used for datatexts.'] = true;
 L["DPS"] = "DPS"
 L["Earned:"] = "Gagné: "
 L["Feet"] = "Pieds"
@@ -294,9 +327,12 @@ L["LeftChatDataPanel"] = "Fenêtre de Chat à Gauche"
 L["LeftMiniPanel"] = "Minimap à Gauche"
 L["Legs"] = "Jambes"
 L["Local Time"] = "Heure Locale"
+L['Location Text'] = true;
 L["lvl"] = "niv"
 L["Main Hand"] = "Main droite"
 L["middle"] = "Milieu"
+L['Minimap Mouseover'] = true;
+L['Minimap Panels'] = true;
 L['Mitigation By Level: '] = "Mitigation par niveau: "
 L["Offhand"] = "Main gauche"
 L["Panels"] = "Fenêtre"
@@ -332,7 +368,6 @@ L['|cFFE30000Lua error recieved. You can view the error message when you exit co
 --General => Partly translated, in progress (12)
 L["Accept Invites"] = "Invitations automatiques"
 L["Adjust the size of the minimap."] = "Ajuster la taille de la mini-carte."
-L['Always Display'] = true;
 L["Announce Interrupts"] = "Annoncer les Interruptions"
 L["Announce when you interrupt a spell to the specified chat channel."] = "Annonce quand vous interrompez un sort dans le canal de chat spécifié."
 L["Auto Repair"] = "Réparation automatique"
@@ -341,90 +376,57 @@ L["Automatically accept invites from guild/friends."] = "Accepter les Invitation
 L["Automatically repair using the following method when visiting a merchant."] = "Répare automatiquement votre équipement chez le marchand selon le mode de réparation sélectionné."
 L["Automatically scale the User Interface based on your screen resolution"] = "Redimensionne automatiquement l'Interface Utilisateur en fonction de votre résolution d'écran."
 L["Automatically vendor gray items when visiting a vendor."] = true;
-L["Backdrop color of transparent frames"] = "Couleur de fond pour les cadres estompés."
-L["Backdrop Color"] = "Couleur de fond"
-L["Backdrop Faded Color"] = "Couleur de fond estompé"
 L["Below Minimap"] = "En dessous de la Minimap"
-L["Border Color"] = "Couleur de la bordure"
-L['Change settings for the display of the location text that is on the minimap.'] = true;
 L["Change the position of the experience/reputation bar."] = "Permet de changer l'emplacement de la barre d'expérience / réputation."
 L["Chat Bubbles"] = true;
-L["Color some texts use."] = "Couleur utilisée par les Textes d'informations."
-L["Colors"] = "Couleur de ..." --Also used in UnitFrames
-L["CombatText Font"] = "Police des textes de combat"
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = "Contrôle le niveau de transparence de la carte du monde lorsque vous bougez."
-L["Default Font"] = "Police par défaut"
 L["Disband Group"] = "Dissoudre le groupe"
 L['Display emotion icons in chat.'] = true;
-L['Display minimap panels below the minimap, used for datatexts.'] = true;
 L["Don't scale the large world map to block out sides of the screen."] = "Ne pas mettre à l'échelle la grande carte du monde pour bloquer les bords de l'écran.";
 L["ELVUI_DESC"] = "ElvUI est une interface de remplacement complète pour World of Warcraft"
 L['Emotion Icons'] = true;
 L["Enable/Disable the loot frame."] = "Activer/désactiver le cadre de butin."
 L["Enable/Disable the loot roll frame."] = "Activer/désactiver le cadre du tirage au sort du butin."
 L["Exp/Rep Position"] = "Position barre Exp/Rep"
-L["Font Size"] = "Taille de la police" --Also used in UnitFrames
-L["Fonts"] = "Polices"
 L["General"] = "Général"
-L["Hide Both"] = "Masquer les deux"
-L["Left Only"] = "Gauche seulement"
-L['Location Text'] = true;
 L["Log Taints"] = "Enregistrer les modifications";
 L["Login Message"] = "Message de connexion"
 L["LOGIN_MSG"] = "Bienvenue sur %sElvUI|r version %s%s|r, tapez /ec afin d'accéder au menu de configuration en jeu. Si vous avez besoin d'un support technique, vous pouvez nous rejoindre sur http://www.tukui.org ou poster un ticket sur: http://www.tukui.org/tickets/elvui/."
 L["Loot Roll"] = "Cadre de butin"
 L["Loot"] = "Butin"
-L["Main backdrop color of the UI."] = "Couleur principale de fond de l'Interface."
-L["Main border color of the UI."] = "Couleur principale de la bordure de l'Interface."
 L["Map Alpha While Moving"] = true;
 L["Media"] = "Média"
-L['Minimap Mouseover'] = true;
-L['Minimap Panels'] = true;
 L["Minimap Size"] = "Taille de la mini-map"
-L["Panel Backdrop"] = "Arrière-plan fenêtre de Chat"
-L["Panel Height"] = "Hauteur fenêtre de Chat"
-L["Panel Texture (Left)"] = "Texture fenêtre de Chat (gauche)"
-L["Panel Texture (Right)"] = "Texture fenêtre de Chat (droit)"
-L["Panel Width"] = "Largeur fenêtre de Chat"
-L["PANEL_DESC"] = "Ajuste la largeur et la hauteur des fenêtres de chat, cela ajuste aussi les sacs."
-L["Primary Texture"] = "Texture primaire"
 L["Reset all frames to their original positions."] = "Réinitialiser les cadres à leurs positions initiales."
 L["Reset Anchors"] = "Réinitialiser les ancres"
-L["Right Only"] = "Droite seulement"
-L["Secondary Texture"] = "Texture secondaire"
 L["Send ADDON_ACTION_BLOCKED errors to the Lua Error frame. These errors are less important in most cases and will not effect your game performance. Also a lot of these errors cannot be fixed. Please only report these errors if you notice a Defect in gameplay."] = "Envoyer les ADDON_ACTION_BLOCKED dans la fenêtre d'erreur LUA. Ces erreurs sont minimes dans la plupart des cas et n'affecteront pas votre expérience de jeu. Tenez compte que nombreuses de celles-ci ne peuvent être fixé. Signalez-les uniquement si cela affecte grandement le jeu.";
+L["Tiny Map"] = "Petite Carte";
+L['Toggle Tutorials'] = true;
+L["Top Screen"] = "En haut de l'écran"
+L["Welcome to ElvUI version %s!"] = "Bienvenue sur ElvUI version %s !"
+
+--Media
+L["Backdrop color of transparent frames"] = "Couleur de fond pour les cadres estompés."
+L["Backdrop Color"] = "Couleur de fond"
+L["Backdrop Faded Color"] = "Couleur de fond estompé"
+L["Border Color"] = "Couleur de la bordure"
+L["Color some texts use."] = "Couleur utilisée par les Textes d'informations."
+L["Colors"] = "Couleur de ..." --Also used in UnitFrames
+L["CombatText Font"] = "Police des textes de combat"
+L["Default Font"] = "Police par défaut"
+L["Font Size"] = "Taille de la police" --Also used in UnitFrames
+L["Fonts"] = "Polices"
+L["Main backdrop color of the UI."] = "Couleur principale de fond de l'Interface."
+L["Main border color of the UI."] = "Couleur principale de la bordure de l'Interface."
+L["Primary Texture"] = "Texture primaire"
+L["Secondary Texture"] = "Texture secondaire"
 L["Set the font size for everything in UI. Note: This doesn't effect somethings that have their own seperate options (UnitFrame Font, Datatext Font, ect..)"] = "Définie la taille de la police d'écriture pour toute l'interface utilisateur. Note: Ceci n'affecte pas les modules qui ont leurs propres paramètres (Portait d'unité, Textes d'Informations, etc)"
-L["Show Both"] = "Montrer les deux"
 L["Textures"] = "Textures"
 L["The font that combat text will use. |cffFF0000WARNING: This requires a game restart or re-log for this change to take effect.|r"] = "La police qui sera utilisée pour les textes de combat. |cffFF0000Note : Ce changement nécessite de relancer le jeu ou d'une reconnexion pour prendre effet.|r"
 L["The font that the core of the UI will use."] = "La police du cœur de l'Interface qui sera utilisée."
 L["The texture that will be used mainly for statusbars."] = "La texture qui sera utilisé principalement pour la barre de statut."
 L["This texture will get used on objects like chat windows and dropdown menus."] = "Cette texture sera utilisée pour les fenêtres de discussion et les menus déroulants."
-L["Tiny Map"] = "Petite Carte";
-L["Toggle showing of the left and right chat panels."] = "Afficher ou masquer le côté gauche / droite des panneaux de discussion."
-L['Toggle Tutorials'] = true;
-L["Top Screen"] = "En haut de l'écran"
 L["Value Color"] = "Couleur des Textes d'informations"
-L["Welcome to ElvUI version %s!"] = "Bienvenue sur ElvUI version %s !"
-L[ [=[Specify a filename located inside the World of Warcraft directory. Textures folder that you wish to have set as a panel background.
-
-Please Note:
--The image size recommended is 256x128
--You must do a complete game restart after adding a file to the folder.
--The file type must be tga format.
-
-Example: Interface\AddOns\ElvUI\media\textures\copy
-
-Or for most users it would be easier to simply put a tga file into your WoW folder, then type the name of the file here.]=] ] = [=[Indiquez un nom de fichier situé dans le répertoire World of Warcraft, le dossier des Textures que vous souhaitez utiliser en fond de panneau.
-
-Notez:
-La taille de l'image recommandée est 256x128 pixels
-Vous devez redémarrer le jeu après avoir ajouter un fichier dans le dossier.
-Le format du fichier doit être en .tga
-
-Exemple: Interface\AddOns\ElvUI\media\textures\copy
-
-Ou pour la majorité des utilsateurs, il serait plus simple de mettre le fichier tga dans le dossier de World of Warcraft puis de taper son nom ici.]=]
 
 --Misc
 L["Can't Roll"] = "Ne peut pas jeter les dés"
@@ -477,7 +479,7 @@ L["Good Color"] = "Bonne couleur"
 L["Good Scale"] = "Bonne échelle"
 L["Good Transition Color"] = "Bonne couleur de transition"
 L["Healer Icon"] = "Icône de soigneur"
-L["Hide"] = "Masquer"
+L["Hide"] = "Masquer" --Also used in DataTexts
 L["Holy"] = "Sacré"
 L['Low Health Threshold'] = true;
 L['Low Health Warning'] = true;
@@ -760,7 +762,7 @@ L["Remove a spell from the filter."] = "Supprimer un sort depuis le filtre."
 L["Remove Spell"] = "Supprimer un sort"
 L["Remove SpellID"] = "Supprimer l'identifiant d'un sort"
 L["Rest Icon"] = "Icône reposé"
-L["Restore Defaults"] = "Restaurer les paramètres par défaut"
+L["Restore Defaults"] = "Restaurer les paramètres par défaut" --Also used in Media and ActionBars sections
 L['RL / ML Icons'] = true;
 L["Role Icon"] = "Icône de rôle"
 L["Select a filter to use."] = "Sélectionner un filtre à utiliser."
