@@ -185,6 +185,7 @@ L['whispers'] = true;
 L['yells'] = true;
 
 --Config / Install
+L['Bar'] = true;
 L["Caster DPS"] = "法系输出"
 L["Chat Set"] = "聊天设定"
 L['Choose a theme layout you wish to use for your initial setup.'] = true;

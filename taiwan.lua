@@ -186,6 +186,7 @@ L['whispers'] = "悄悄話";
 L['yells'] = "大喊";
 
 --Config / Install | 設定 / 安裝設定
+L['Bar'] = true;
 L["Caster DPS"] = "遠程輸出";
 L["Chat Set"] = "聊天設定完畢";
 L['Choose a theme layout you wish to use for your initial setup.'] = true;

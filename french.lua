@@ -188,6 +188,7 @@ L['whispers'] = "Chuchote"
 L['yells'] = true;
 
 --Config / Install => Partly translated, in progress (9)
+L['Bar'] = true;
 L["Caster DPS"] = "DPS Distance"
 L["Chat Set"] = "Chat configuré"
 L['Choose a theme layout you wish to use for your initial setup.'] = true;

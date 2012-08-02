@@ -184,6 +184,7 @@ L['whispers'] = 'flüstern'
 L['yells'] = 'schreien'
 
 --Config / Install
+L['Bar'] = true;
 L["Caster DPS"] = "Fernkampf DD"
 L["Chat Set"] = "Chat gesetzt"
 L['Choose a theme layout you wish to use for your initial setup.'] = 'Wähle ein Themen Layout das du bei deinem ersten Setup verwenden willst.'

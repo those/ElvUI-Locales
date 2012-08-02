@@ -190,6 +190,7 @@ L['whispers'] = true;
 L['yells'] = true;
 
 --Config / Install
+L['Bar'] = true;
 L["Caster DPS"] = true;
 L["Chat Set"] = true;
 L['Choose a theme layout you wish to use for your initial setup.'] = true;

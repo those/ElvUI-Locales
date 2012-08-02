@@ -185,6 +185,7 @@ L['whispers'] = true;
 L['yells'] = true;
 
 --Config / Install
+L['Bar'] = true;
 L["Caster DPS"] = "원거리 딜러"
 L["Chat Set"] = "대화창 설정"
 L['Choose a theme layout you wish to use for your initial setup.'] = true;

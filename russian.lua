@@ -185,6 +185,7 @@ L['whispers'] = "шепчет"
 L['yells'] = "кричит"
 
 --Config / Install
+L['Bar'] = true;
 L["Caster DPS"] = "Заклинатель"
 L["Chat Set"] = "Чат настроен"
 L['Choose a theme layout you wish to use for your initial setup.'] = "Выберите тему, которую Вы хотите использовать."
