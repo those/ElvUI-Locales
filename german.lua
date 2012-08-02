@@ -1,4 +1,9 @@
-﻿--ActionBars
+﻿-- German localisation file for deDE
+local AceLocale = LibStub:GetLibrary("AceLocale-3.0")
+local L = AceLocale:NewLocale("ElvUI", "deDE")
+if not L then return end
+
+--ActionBars
 L[" |cff00ff00bound to |r"] = " |cff00ff00gebunden zu |r"
 L["Action Paging"] = "Aktionsleisten Umschaltung"
 L["ActionBars"] = "Aktionsleisten"
