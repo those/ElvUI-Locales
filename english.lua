@@ -824,7 +824,7 @@ L["When you mana falls below this point, text will flash on the player frame."] 
 L["Whitelist"] = true;
 L["Width"] = true; --Also used in NamePlates module
 L["xOffset"] = true;
-L["yOffset"] = true; --Another variation in bags section Y Offset
+L["yOffset"] = true;
 L["You can't remove a pre-existing filter."] = true;
 L["You cannot copy settings from the same unit."] = true;
 L["You cannot set the Group Point and Column Point so they are opposite of each other."] = true;
