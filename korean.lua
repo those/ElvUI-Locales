@@ -157,17 +157,26 @@ L['DND'] = true;
 L["Font Outline"] = "글꼴 외곽선" --Also used in UnitFrames section
 L["Font"] = "글꼴"
 L["G"] = "G"
+L["Hide Both"] = "모두 숨기기"
 L["Hyperlink Hover"] = "하이퍼링크 마우스오버"
 L["Keyword Alert"] = true;
 L['Keywords'] = true;
+L["Left Only"] = "왼쪽만"
 L['List of words to color in chat if found in a message. If you wish to add multiple words you must seperate the word with a comma. To search for your current name you can use %MYNAME%.\n\nExample:\n%MYNAME%, ElvUI, RBGs, Tank'] = true;
 L["Number of time in seconds to scroll down to the bottom of the chat window if you are not scrolled down completely."] = "만약 채팅창이 맨 밑으로 스크롤 되지 않았다면 설정한 시간 후 채팅창의 맨 아래로 스크롤됩니다."
 L["O"] = "O"
 L["P"] = "P"
+L["Panel Backdrop"] = "대화창 배경"
+L["Panel Height"] = true;
+L["Panel Texture (Left)"] = "패널 텍스쳐 (왼쪽)"
+L["Panel Texture (Right)"] = "패널 텍스쳐 (오른쪽)"
+L["Panel Width"] = "패널 너비"
+L["PANEL_DESC"] = "좌우 패널의 너비를 조절합니다. 이 값에 따라 대화창과 가방의 크기가 변경됩니다."
 L["PG"] = "PG"
 L["PL"] = "PL"
 L["Prevent the same messages from displaying in chat more than once within this set amount of seconds, set to zero to disable."] = "똑같은 메시지는 정해진 시간 내 한번 이상 표시되지 않도록 막습니다. 0으로 설정하면 이 기능을 끕니다."
 L["R"] = "R"
+L["Right Only"] = "오른쪽 만"
 L["RL"] = "RL"
 L["RW"] = "RW"
 L['says'] = true;
@@ -175,14 +184,35 @@ L["Scroll Interval"] = "스크롤 간격"
 L["Set the font outline."] = "글꼴 외곽선 설정." --Also used in UnitFrames section
 L["Short Channels"] = "짧은 채널이름"
 L["Shorten the channel names in chat."] = "대화창의 채널이름을 짧게 표시합니다."
+L["Show Both"] = "모두 보이기"
 L["Spam Interval"] = "스팸 간격"
 L["Sticky Chat"] = true;
+L["Toggle showing of the left and right chat panels."] = "왼쪽과 오른쪽의 대화창 패널의 표시방법을 전환합니다."
 L['Trade'] = true;
 L["URL Links"] = "URL 링크"
 L["When opening the Chat Editbox to type a message having this option set means it will retain the last channel you spoke in. If this option is turned off opening the Chat Editbox should always default to the SAY channel."] = true;
 L["Whisper Alert"] = true;
 L['whispers'] = true;
 L['yells'] = true;
+L[ [=[Specify a filename located inside the World of Warcraft directory. Textures folder that you wish to have set as a panel background.
+
+Please Note:
+-The image size recommended is 256x128
+-You must do a complete game restart after adding a file to the folder.
+-The file type must be tga format.
+
+Example: Interface\AddOns\ElvUI\media\textures\copy
+
+Or for most users it would be easier to simply put a tga file into your WoW folder, then type the name of the file here.]=] ] = [=[월드오브워크래프트 폴더안에 판넬의 배경으로 사용하고자 하는 텍스쳐 파일을 위치시킨후 이를 지정해 주어야 합니다.
+
+주의
+-이미지 파일의 사이즈는 256X128픽셀을 권장합니다.
+-폴더안에 파일을 추가한 후 게임을 반드시 재시작해야 합니다.
+-파일의 종류는 tga포맷이어야 합니다.
+
+예시:Interface\AddOns\ElvUI\media\textures\copy
+
+혹은 간단히 사용하고자 하는 tga파일을 당신의 와우 폴더에 넣은후 이곳에 파일이름을 적어도 됩니다.]=]
 
 --Config / Install
 L['Bar'] = true;
@@ -256,6 +286,7 @@ L["Testing:"] = "테스트:"
 --DataTexts
 L["(Hold Shift) Memory Usage"] = "(Shift 고정시) 메모리 사용량"
 L["24-Hour Time"] = "24시간제"
+L['Always Display'] = true;
 L["AP"] = "전투력"
 L["AVD: "] = "완방: "
 L["Avoidance Breakdown"] = "방어합 수치"
@@ -265,12 +296,14 @@ L['Bases Defended'] = true;
 L['Battleground datatexts temporarily hidden, to show type /bgstats or right click the "C" icon near the minimap.'] = true;
 L['Battleground datatexts will now show again if you are inside a battleground.'] = true;
 L['Battleground Texts'] = true;
+L['Change settings for the display of the location text that is on the minimap.'] = true;
 L["Character: "] = "캐릭터:"
 L["Chest"] = "가슴"
 L["DataTexts"] = "정보문자"
 L["DATATEXT_DESC"] = "정보문자를 설정합니다."
 L["Deficit:"] = "적자:"
 L['Demolishers Destroyed'] = true;
+L['Display minimap panels below the minimap, used for datatexts.'] = true;
 L["DPS"] = "DPS"
 L["Earned:"] = "수입:"
 L["Feet"] = "발"
@@ -292,9 +325,12 @@ L["LeftChatDataPanel"] = "왼쪽 대화창"
 L["LeftMiniPanel"] = "미니맵 왼쪽"
 L["Legs"] = "다리"
 L["Local Time"] = "지역 시간"
+L['Location Text'] = true;
 L["lvl"] = "레벨"
 L["Main Hand"] = "주장비"
 L["middle"] = "중앙"
+L['Minimap Mouseover'] = true;
+L['Minimap Panels'] = true;
 L['Mitigation By Level: '] = true;
 L["Offhand"] = "보조장비"
 L["Panels"] = "패널"
@@ -330,7 +366,6 @@ L['|cFFE30000Lua error recieved. You can view the error message when you exit co
 --General
 L["Accept Invites"] = "초대 수락"
 L["Adjust the size of the minimap."] = "미니맵의 크기를 조정합니다."
-L['Always Display'] = true;
 L["Announce Interrupts"] = "방해/차단 알림"
 L["Announce when you interrupt a spell to the specified chat channel."] = "주문 차단/방해를 하면 특정 대화채널로 알립니다."
 L["Auto Repair"] = "자동 수리"
@@ -339,92 +374,59 @@ L["Automatically accept invites from guild/friends."] = "길드원/친구 초대
 L["Automatically repair using the following method when visiting a merchant."] = "상인 방문 시 다음과 같은 방법으로 장비을 자동 수리합니다."
 L["Automatically scale the User Interface based on your screen resolution"] = "사용자의 화면 해상도에 따라 자동으로 UI 크기를 맞춥니다."
 L["Automatically vendor gray items when visiting a vendor."] = true;
-L["Backdrop color of transparent frames"] = "투명한 프레임의 배경 색상"
-L["Backdrop Color"] = "배경 색상"
-L["Backdrop Faded Color"] = "사라질 때 배경 색상"
 L["Below Minimap"] = "미니맵 아래"
-L["Border Color"] = "테두리 색상"
-L['Change settings for the display of the location text that is on the minimap.'] = true;
 L["Change the position of the experience/reputation bar."] = "경험치/평판 바의 위치를 변경합니다."
 L["Chat Bubbles"] = "말풍선 대화" -- Needs review
-L["Color some texts use."] = "일부 문자에 이 색상을 사용합니다."
-L["Colors"] = "색상" --Also used in UnitFrames
-L["CombatText Font"] = "전투문자 글꼴"
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = "캐릭터 이동시 전체지도의 투명 상태를 설정합니다."
-L["Default Font"] = "기본 글꼴"
 L["Disband Group"] = "그룹 해체"
 L['Display emotion icons in chat.'] = true;
-L['Display minimap panels below the minimap, used for datatexts.'] = true;
 L["Don't scale the large world map to block out sides of the screen."] = true;
 L["ELVUI_DESC"] = "ElvUI는 WoW의 애드온을 대신하는 완전한 애드온입니다."
 L['Emotion Icons'] = true;
 L["Enable/Disable the loot frame."] = "전리품 획득창 사용/중지"
 L["Enable/Disable the loot roll frame."] = "주사위 창 사용/중지"
 L["Exp/Rep Position"] = "경험치/평판 위치 설정"
-L["Font Size"] = "글꼴 크기" --Also used in UnitFrames
-L["Fonts"] = "글꼴"
 L["General"] = "일반"
-L["Hide Both"] = "모두 숨기기"
-L["Left Only"] = "왼쪽만"
-L['Location Text'] = true;
 L["Log Taints"] = true;
 L["Login Message"] = "로그인 메세지"
 L["LOGIN_MSG"] = "Welcome to %sElvUI|r version %s%s|r, type /ec to access the in-game configuration menu. If you are in need of technical support you can visit us at www.tukui.org. You can report bugs, add suggestions here: http://www.tukui.org/tickets/elvui/." --Reset since it was using outdated URLs. Needs new translation
 L["Loot Roll"] = "주사위"
 L["Loot"] = "전리품"
-L["Main backdrop color of the UI."] = "UI의 기본 배경 색상."
-L["Main border color of the UI."] = "UI의 기본 테두리 색상."
 L["Map Alpha While Moving"] = true;
 L["Media"] = "미디어"
-L['Minimap Mouseover'] = true;
-L['Minimap Panels'] = true;
 L["Minimap Size"] = "미니맵 크기"
-L["Panel Backdrop"] = "대화창 배경"
-L["Panel Height"] = true;
-L["Panel Texture (Left)"] = "패널 텍스쳐 (왼쪽)"
-L["Panel Texture (Right)"] = "패널 텍스쳐 (오른쪽)"
-L["Panel Width"] = "패널 너비"
-L["PANEL_DESC"] = "좌우 패널의 너비를 조절합니다. 이 값에 따라 대화창과 가방의 크기가 변경됩니다."
-L["Primary Texture"] = "기본 텍스쳐"
 L["Reset all frames to their original positions."] = "원래 위치로 모든 프레임을 초기화합니다."
 L["Reset Anchors"] = "앵커 초기화"
-L["Right Only"] = "오른쪽 만"
-L["Secondary Texture"] = "보조 텍스쳐"
 L["Send ADDON_ACTION_BLOCKED errors to the Lua Error frame. These errors are less important in most cases and will not effect your game performance. Also a lot of these errors cannot be fixed. Please only report these errors if you notice a Defect in gameplay."] = true;
+L["Tiny Map"] = true;
+L['Toggle Tutorials'] = true;
+L["Top Screen"] = "화면 상단"
+L["Welcome to ElvUI version %s!"] = "ElvUI 버전 %s에 오신 것을 환영합니다!"
+
+--Media
+L["Backdrop color of transparent frames"] = "투명한 프레임의 배경 색상"
+L["Backdrop Color"] = "배경 색상"
+L["Backdrop Faded Color"] = "사라질 때 배경 색상"
+L["Border Color"] = "테두리 색상"
+L["Color some texts use."] = "일부 문자에 이 색상을 사용합니다."
+L["Colors"] = "색상" --Also used in UnitFrames
+L["CombatText Font"] = "전투문자 글꼴"
+L["Default Font"] = "기본 글꼴"
+L["Font Size"] = "글꼴 크기" --Also used in UnitFrames
+L["Fonts"] = "글꼴"
+L["Main backdrop color of the UI."] = "UI의 기본 배경 색상."
+L["Main border color of the UI."] = "UI의 기본 테두리 색상."
+L["Primary Texture"] = "기본 텍스쳐"
+L["Secondary Texture"] = "보조 텍스쳐"
 L["Set the font size for everything in UI. Note: This doesn't effect somethings that have their own seperate options (UnitFrame Font, Datatext Font, ect..)"] = [=[UI의 모든 글꼴 크기를 설정합니다.
 (참고로 유닛프레임이나 정보문자는 적용되지 않습니다.)]=]
-L["Show Both"] = "모두 보이기"
 L["Textures"] = "텍스처"
 L["The font that combat text will use. |cffFF0000WARNING: This requires a game restart or re-log for this change to take effect.|r"] = [=[이 글꼴은 화면에 표시되는 전투문자입니다.
 |cffFF0000경고: 이 효과는 게임을 재시작하거나 다시 로그인해야 활성화 됩니다.|r]=]
 L["The font that the core of the UI will use."] = "UI의 기본 글꼴입니다."
 L["The texture that will be used mainly for statusbars."] = "상태바에 기본적으로 사용되는 텍스쳐입니다."
 L["This texture will get used on objects like chat windows and dropdown menus."] = "대화창이나 드롭메뉴에 사용되는 텍스쳐입니다."
-L["Tiny Map"] = true;
-L["Toggle showing of the left and right chat panels."] = "왼쪽과 오른쪽의 대화창 패널의 표시방법을 전환합니다."
-L['Toggle Tutorials'] = true;
-L["Top Screen"] = "화면 상단"
 L["Value Color"] = "색상 값"
-L["Welcome to ElvUI version %s!"] = "ElvUI 버전 %s에 오신 것을 환영합니다!"
-L[ [=[Specify a filename located inside the World of Warcraft directory. Textures folder that you wish to have set as a panel background.
-
-Please Note:
--The image size recommended is 256x128
--You must do a complete game restart after adding a file to the folder.
--The file type must be tga format.
-
-Example: Interface\AddOns\ElvUI\media\textures\copy
-
-Or for most users it would be easier to simply put a tga file into your WoW folder, then type the name of the file here.]=] ] = [=[월드오브워크래프트 폴더안에 판넬의 배경으로 사용하고자 하는 텍스쳐 파일을 위치시킨후 이를 지정해 주어야 합니다.
-
-주의
--이미지 파일의 사이즈는 256X128픽셀을 권장합니다.
--폴더안에 파일을 추가한 후 게임을 반드시 재시작해야 합니다.
--파일의 종류는 tga포맷이어야 합니다.
-
-예시:Interface\AddOns\ElvUI\media\textures\copy
-
-혹은 간단히 사용하고자 하는 tga파일을 당신의 와우 폴더에 넣은후 이곳에 파일이름을 적어도 됩니다.]=]
 
 --Misc
 L["Can't Roll"] = "주사위를 굴릴 수 없습니다."
