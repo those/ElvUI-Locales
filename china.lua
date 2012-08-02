@@ -188,7 +188,6 @@ L['yells'] = true;
 L["Caster DPS"] = "法系输出"
 L["Chat Set"] = "聊天设定"
 L['Choose a theme layout you wish to use for your initial setup.'] = true;
-L['Classic Pixel'] = true;
 L['Classic'] = true;
 L["Click the button below to resize your chat frames, unitframes, and reposition your actionbars."] = "点击下面的按钮调整聊天框、单位框架的尺寸，以及移动动作条位置" -- Needs review
 L['Config Mode:'] = true;

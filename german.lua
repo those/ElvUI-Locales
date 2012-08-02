@@ -187,7 +187,6 @@ L['yells'] = 'schreien'
 L["Caster DPS"] = "Fernkampf DD"
 L["Chat Set"] = "Chat gesetzt"
 L['Choose a theme layout you wish to use for your initial setup.'] = 'Wähle ein Themen Layout das du bei deinem ersten Setup verwenden willst.'
-L['Classic Pixel'] = 'Classic Pixel'
 L['Classic'] = 'Classic'
 L["Click the button below to resize your chat frames, unitframes, and reposition your actionbars."] = "Klicke auf die Taste unten um die Größe deiner Chatfenster, Einheitenfenster, und die umpositionierung deiner Aktionsleisten durchzuführen."
 L['Config Mode:'] = 'Config Mode:'

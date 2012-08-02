@@ -189,7 +189,6 @@ L['yells'] = "大喊";
 L["Caster DPS"] = "遠程輸出";
 L["Chat Set"] = "聊天設定完畢";
 L['Choose a theme layout you wish to use for your initial setup.'] = true;
-L['Classic Pixel'] = true;
 L['Classic'] = true;
 L["Click the button below to resize your chat frames, unitframes, and reposition your actionbars."] = "按一下下方按鈕，重新調整對話視窗、單位框架的大小，並調整快捷列的位置。";
 L['Config Mode:'] = true;

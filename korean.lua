@@ -188,7 +188,6 @@ L['yells'] = true;
 L["Caster DPS"] = "원거리 딜러"
 L["Chat Set"] = "대화창 설정"
 L['Choose a theme layout you wish to use for your initial setup.'] = true;
-L['Classic Pixel'] = true;
 L['Classic'] = true;
 L["Click the button below to resize your chat frames, unitframes, and reposition your actionbars."] = "채팅창, 유닛프레임 크기를 조정하거나 행동 단축바 위치를 조정하려면 하단 버튼을 클릭하세요.";
 L['Config Mode:'] = true;

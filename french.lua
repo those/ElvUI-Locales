@@ -191,7 +191,6 @@ L['yells'] = true;
 L["Caster DPS"] = "DPS Distance"
 L["Chat Set"] = "Chat configuré"
 L['Choose a theme layout you wish to use for your initial setup.'] = true;
-L['Classic Pixel'] = true;
 L['Classic'] = true;
 L["Click the button below to resize your chat frames, unitframes, and reposition your actionbars."] = "Cliquez sur le bouton ci-dessous pour redimensionner vos fenêtres de chat, vos cadres d'unités et repositionner vos barres d'actions."
 L['Config Mode:'] = true;
