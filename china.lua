@@ -155,19 +155,28 @@ L["Copy Text"] = true;
 L["Display the hyperlink tooltip while hovering over a hyperlink."] = "鼠标悬停在超链接上时显示链接提示框" -- Needs review
 L['DND']
 L["Font Outline"] = "字体描边" --Also used in UnitFrames section
+L["Hide Both"] = "全部隐藏"
 L["Font"] = "字体" -- Needs review
 L["G"] = "公会"
 L["Hyperlink Hover"] = "超链接悬停" -- Needs review
 L["Keyword Alert"] = true;
 L['Keywords'] = true;
+L["Left Only"] = "仅显示左边"
 L['List of words to color in chat if found in a message. If you wish to add multiple words you must seperate the word with a comma. To search for your current name you can use %MYNAME%.\n\nExample:\n%MYNAME%, ElvUI, RBGs, Tank'] = true;
 L["Number of time in seconds to scroll down to the bottom of the chat window if you are not scrolled down completely."] = "聊天框滚动到底部所需要的滚动时间（秒）" -- Needs review
 L["O"] = "干部"
 L["P"] = "队伍"
+L["Panel Backdrop"] = "对话框背景"
+L["Panel Height"] = "对话框高度"
+L["Panel Texture (Left)"] = "对话框材质 (左)"
+L["Panel Texture (Right)"] = "对话框材质 (右)"
+L["Panel Width"] = "对话框寛度"
+L["PANEL_DESC"] = "调整左、右对话框的大小，此设定将会影响对话与背包框架的大小."
 L["PG"] = "队员"
 L["PL"] = "队长"
 L["Prevent the same messages from displaying in chat more than once within this set amount of seconds, set to zero to disable."] = "单位时间（秒）内屏蔽重复聊天信息，0为禁用此功能" -- Needs review
 L["R"] = "团队"
+L["Right Only"] = "仅显示右边"
 L["RL"] = "团队队长"
 L["RW"] = "团队警告"
 L['says'] = true;
@@ -175,14 +184,35 @@ L["Scroll Interval"] = "滚动间隔" -- Needs review
 L["Set the font outline."] = "设定字体的描边" --Also used in UnitFrames section
 L["Short Channels"] = "隐藏频道名称"
 L["Shorten the channel names in chat."] = "在对话视窗中隐藏频道名称."
+L["Show Both"] = "全部显示"
 L["Spam Interval"] = "垃圾间隔" -- Needs review
 L["Sticky Chat"] = true;
+L["Toggle showing of the left and right chat panels."] = "切换左/右对话框显示与否."
 L['Trade'] = true;
 L["URL Links"] = "网址连结"
 L["When opening the Chat Editbox to type a message having this option set means it will retain the last channel you spoke in. If this option is turned off opening the Chat Editbox should always default to the SAY channel."] = true;
 L["Whisper Alert"] = true;
 L['whispers'] = true;
 L['yells'] = true;
+L[ [=[Specify a filename located inside the World of Warcraft directory. Textures folder that you wish to have set as a panel background.
+
+Please Note:
+-The image size recommended is 256x128
+-You must do a complete game restart after adding a file to the folder.
+-The file type must be tga format.
+
+Example: Interface\AddOns\ElvUI\media\textures\copy
+
+Or for most users it would be easier to simply put a tga file into your WoW folder, then type the name of the file here.]=] ] = [=[若要设定对话框背景，请将你希望设定为背景的档案置放于 WoW 目录底下的「Textures」资料夹中，并指定该档名。
+
+请注意：
+- 影像尺寸建议为 256 x 128
+- 在此资料夹新增档案后，请务必重新启动游戏。
+- 档案必须为 tga 格式。
+
+范例：Interface\AddOns\ElvUI\media\textures\copy
+
+对多数玩家来说，较简易的方式是将 tga 档放入 WoW 资料夹中，然后在此处输入档案名称。]=]
 
 --Config / Install
 L['Bar'] = true;
@@ -255,6 +285,7 @@ L["Testing:"] = "测试:"
 --DataTexts
 L["(Hold Shift) Memory Usage"] = "(按住Shift)内存占用"
 L["24-Hour Time"] = "24小时制"
+L['Always Display'] = true;
 L["AP"] = "攻击强度"
 L["AVD: "] = "免伤: "
 L["Avoidance Breakdown"] = "免伤统计"
@@ -264,12 +295,14 @@ L['Bases Defended'] = true;
 L['Battleground datatexts temporarily hidden, to show type /bgstats or right click the "C" icon near the minimap.'] = true;
 L['Battleground datatexts will now show again if you are inside a battleground.'] = true;
 L['Battleground Texts'] = true;
+L['Change settings for the display of the location text that is on the minimap.'] = true;
 L["Character: "] = "角色: "
 L["Chest"] = "胸"
 L["DataTexts"] = "资讯文字"
 L["DATATEXT_DESC"] = "设定萤幕所显示的部份资讯文字."
 L["Deficit:"] = "赤字:"
 L['Demolishers Destroyed'] = true;
+L['Display minimap panels below the minimap, used for datatexts.'] = true;
 L["DPS"] = "伤害输出"
 L["Earned:"] = "赚取:"
 L["Feet"] = "脚"
@@ -291,9 +324,12 @@ L["LeftChatDataPanel"] = "对话视窗左方"
 L["LeftMiniPanel"] = "小地图左方"
 L["Legs"] = "腿"
 L["Local Time"] = "本地时间"
+L['Location Text'] = true;
 L["lvl"] = "等级"
 L["Main Hand"] = "主手"
 L["middle"] = "中"
+L['Minimap Mouseover'] = true;
+L['Minimap Panels'] = true;
 L['Mitigation By Level: '] = "等级减伤: "
 L["Offhand"] = "副手"
 L["Panels"] = "对话框"
@@ -329,7 +365,6 @@ L['|cFFE30000Lua error recieved. You can view the error message when you exit co
 --General
 L["Accept Invites"] = "接受邀请"
 L["Adjust the size of the minimap."] = "调整小地图尺寸。" -- Needs review
-L['Always Display'] = true;
 L["Announce Interrupts"] = "打断通告"
 L["Announce when you interrupt a spell to the specified chat channel."] = "在指定聊天频道通知打断信息."
 L["Auto Repair"] = "自动修装"
@@ -338,90 +373,57 @@ L["Automatically accept invites from guild/friends."] = "自动接受工会或�
 L["Automatically repair using the following method when visiting a merchant."] = "使用以下方式来自动修理装备."
 L["Automatically scale the User Interface based on your screen resolution"] = "依据屏幕分辨率度自动缩放介面"
 L["Automatically vendor gray items when visiting a vendor."] = true;
-L["Backdrop color of transparent frames"] = "透明框架的背景颜色"
-L["Backdrop Color"] = "背景颜色"
-L["Backdrop Faded Color"] = "背景透明色"
 L["Below Minimap"] = "小地图下方"
-L["Border Color"] = "边框颜色"
-L['Change settings for the display of the location text that is on the minimap.'] = true;
 L["Change the position of the experience/reputation bar."] = "改变 经验条/声望条 位置"
 L["Chat Bubbles"] = true;
-L["Color some texts use."] = "数值(非文字)使用的颜色"
-L["Colors"] = "颜色" --Also used in UnitFrames
-L["CombatText Font"] = "战斗文字字体"
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = "进行移动时，世界地图的透明度显示。"
-L["Default Font"] = "预设字体"
-L["Disband Group"] = "解散队伍"
+L["Disband oup"] = "解散队伍"
 L['Display emotion icons in chat.'] = true;
-L['Display minimap panels below the minimap, used for datatexts.'] = true;
 L["Don't scale the large world map to block out sides of the screen."] = true;
 L["ELVUI_DESC"] = "ElvUI 为一套功能完整，可用来替换 WOW 原始介面的套件"
 L['Emotion Icons'] = true;
 L["Enable/Disable the loot frame."] = "开/关物品掉落框架。" -- Needs review
 L["Enable/Disable the loot roll frame."] = "开/关掷骰子框架。" -- Needs review
 L["Exp/Rep Position"] = "经验条\\声望条位置"
-L["Font Size"] = "字体大小" --Also used in UnitFrames
-L["Fonts"] = "字体"
 L["General"] = "一般"
-L["Hide Both"] = "全部隐藏"
-L["Left Only"] = "仅显示左边"
-L['Location Text'] = true;
 L["Log Taints"] = true;
 L["Login Message"] = "登入资讯"
 L["LOGIN_MSG"] = "欢迎使用 %sElvUI|r %s%s|r 版，请输入 /ec 进入设定介面。如需技术支援，请至 www.tukui.org。若想回报错误、提供建议，请至 http://www.tukui.org/tickets/elvui/"
 L["Loot Roll"] = "掷骰"
 L["Loot"] = "拾取"
-L["Main backdrop color of the UI."] = "介面背景主色"
-L["Main border color of the UI."] = "介面边框主色"
 L["Map Alpha While Moving"] = true;
 L["Media"] = "材质"
-L['Minimap Mouseover'] = true;
-L['Minimap Panels'] = true;
 L["Minimap Size"] = true;
-L["Panel Backdrop"] = "对话框背景"
-L["Panel Height"] = "对话框高度"
-L["Panel Texture (Left)"] = "对话框材质 (左)"
-L["Panel Texture (Right)"] = "对话框材质 (右)"
-L["Panel Width"] = "对话框寛度"
-L["PANEL_DESC"] = "调整左、右对话框的大小，此设定将会影响对话与背包框架的大小."
-L["Primary Texture"] = "主要材质"
 L["Reset all frames to their original positions."] = "重设所有框架至预设位置."
 L["Reset Anchors"] = "重置定位"
-L["Right Only"] = "仅显示右边"
-L["Secondary Texture"] = "次要材质"
 L["Send ADDON_ACTION_BLOCKED errors to the Lua Error frame. These errors are less important in most cases and will not effect your game performance. Also a lot of these errors cannot be fixed. Please only report these errors if you notice a Defect in gameplay."] = true;
+L["Tiny Map"] = true;
+L['Toggle Tutorials'] = true;
+L["Top Screen"] = "画面最上方"
+L["Welcome to ElvUI version %s!"] = "欢迎使用 ElvUI 版本 %s!"
+
+--Media
+L["Backdrop color of transparent frames"] = "透明框架的背景颜色"
+L["Backdrop Color"] = "背景颜色"
+L["Backdrop Faded Color"] = "背景透明色"
+L["Border Color"] = "边框颜色"
+L["Color some texts use."] = "数值(非文字)使用的颜色"
+L["Colors"] = "颜色" --Also used in UnitFrames
+L["CombatText Font"] = "战斗文字字体"
+L["Default Font"] = "预设字体"
+L["Font Size"] = "字体大小" --Also used in UnitFrames
+L["Fonts"] = "字体"
+L["Main backdrop color of the UI."] = "介面背景主色"
+L["Main border color of the UI."] = "介面边框主色"
+L["Primary Texture"] = "主要材质"
+L["Secondary Texture"] = "次要材质"
 L["Set the font size for everything in UI. Note: This doesn't effect somethings that have their own seperate options (UnitFrame Font, Datatext Font, ect..)"] = "设定介面上所有字体的大小，但不包含本身有独立设定的字体(如单位框架字体、资讯文字字体等...)"
-L["Show Both"] = "全部显示"
 L["Textures"] = "材质"
 L["The font that combat text will use. |cffFF0000WARNING: This requires a game restart or re-log for this change to take effect.|r"] = "战斗资讯将使用此字体, |cffFF0000警告:需重启游戏或重新登入才可使此变更生效.|r"
 L["The font that the core of the UI will use."] = "核心 UI 所使用的字体."
 L["The texture that will be used mainly for statusbars."] = "此材质主用于状态列上。"
 L["This texture will get used on objects like chat windows and dropdown menus."] = "主要用于对话视窗及下拉选单等物件的材质"
-L["Tiny Map"] = true;
-L["Toggle showing of the left and right chat panels."] = "切换左/右对话框显示与否."
-L['Toggle Tutorials'] = true;
-L["Top Screen"] = "画面最上方"
 L["Value Color"] = "数值颜色"
-L["Welcome to ElvUI version %s!"] = "欢迎使用 ElvUI 版本 %s!"
-L[ [=[Specify a filename located inside the World of Warcraft directory. Textures folder that you wish to have set as a panel background.
-
-Please Note:
--The image size recommended is 256x128
--You must do a complete game restart after adding a file to the folder.
--The file type must be tga format.
-
-Example: Interface\AddOns\ElvUI\media\textures\copy
-
-Or for most users it would be easier to simply put a tga file into your WoW folder, then type the name of the file here.]=] ] = [=[若要设定对话框背景，请将你希望设定为背景的档案置放于 WoW 目录底下的「Textures」资料夹中，并指定该档名。
-
-请注意：
-- 影像尺寸建议为 256 x 128
-- 在此资料夹新增档案后，请务必重新启动游戏。
-- 档案必须为 tga 格式。
-
-范例：Interface\AddOns\ElvUI\media\textures\copy
-
-对多数玩家来说，较简易的方式是将 tga 档放入 WoW 资料夹中，然后在此处输入档案名称。]=]
 
 --Misc
 L["Can't Roll"] = "无法需求此装备"
