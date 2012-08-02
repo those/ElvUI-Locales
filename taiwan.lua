@@ -184,6 +184,25 @@ L["When opening the Chat Editbox to type a message having this option set means 
 L["Whisper Alert"] = true;
 L['whispers'] = "悄悄話";
 L['yells'] = "大喊";
+L[ [=[Specify a filename located inside the World of Warcraft directory. Textures folder that you wish to have set as a panel background.
+
+Please Note:
+-The image size recommended is 256x128
+-You must do a complete game restart after adding a file to the folder.
+-The file type must be tga format.
+
+Example: Interface\AddOns\ElvUI\media\textures\copy
+
+Or for most users it would be easier to simply put a tga file into your WoW folder, then type the name of the file here.]=] ] = [=[若要設定對話框背景，請將你希望設定為背景的檔案置放於 WoW 目錄底下的「Textures」資料夾中，並於下欄指定該檔名。
+
+請注意：
+- 影像尺寸建議為 256 x 128
+- 在此資料夾新增檔案後，請務必重新啟動遊戲。
+- 檔案必須為 tga 格式。
+
+範例：Interface\AddOns\ElvUI\media\textures\copy
+
+對多數玩家來說，較簡易的方式是將 tga 檔放入 WoW 資料夾中，然後在此處輸入檔案名稱。]=];
 
 --Config / Install | 設定 / 安裝設定
 L['Bar'] = true;
@@ -339,19 +358,11 @@ L["Automatically accept invites from guild/friends."] = "自動接受公會成�
 L["Automatically repair using the following method when visiting a merchant."] = "與商人對話時，透過下列方式自動修復裝備。";
 L["Automatically scale the User Interface based on your screen resolution"] = "依螢幕解析度自動縮放 UI 介面";
 L["Automatically vendor gray items when visiting a vendor."] = "造訪商店時自動出售灰色物品。";
-L["Backdrop color of transparent frames"] = "透明框架的背景顏色";
-L["Backdrop Color"] = "背景顏色";
-L["Backdrop Faded Color"] = "透明框架背景色";
 L["Below Minimap"] = "小地圖下方";
-L["Border Color"] = "邊框顏色";
 L['Change settings for the display of the location text that is on the minimap.'] = true;
 L["Change the position of the experience/reputation bar."] = "變更經驗條/聲望條的位置。";
 L["Chat Bubbles"] = "對話泡泡";
-L["Color some texts use."] = "部份文字所使用的顏色。";
-L["Colors"] = "顏色"; --Also used in UnitFrames
-L["CombatText Font"] = "戰鬥文字字體";
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = "角色移動時，世界地圖的透明度。";
-L["Default Font"] = "預設字體";
 L["Disband Group"] = "解散隊伍";
 L['Display emotion icons in chat.'] = true;
 L['Display minimap panels below the minimap, used for datatexts.'] = true;
@@ -361,8 +372,6 @@ L['Emotion Icons'] = true;
 L["Enable/Disable the loot frame."] = "啟用/停用拾取框架";
 L["Enable/Disable the loot roll frame."] = "啟用/停用擲骰框架。";
 L["Exp/Rep Position"] = "經驗條/聲望條位置";
-L["Font Size"] = "字體大小"; --Also used in UnitFrames
-L["Fonts"] = "字體";
 L["General"] = "一般設定";
 L["Hide Both"] = "全部隱藏";
 L["Left Only"] = "僅顯示左框背景";
@@ -372,8 +381,6 @@ L["Login Message"] = "登入訊息";
 L["LOGIN_MSG"] = '歡迎使用 %sElvUI|r %s%s|r 版，請輸入 /ec 進入設定介面。如需技術支援，請至 www.tukui.org。若想回報錯誤、提供建議，請至 http://www.tukui.org/tickets/elvui/。';
 L["Loot Roll"] = "骰裝";
 L["Loot"] = "拾取";
-L["Main backdrop color of the UI."] = "介面背景主色";
-L["Main border color of the UI."] = "介面邊框主色";
 L["Map Alpha While Moving"] = true;
 L["Media"] = "材質";
 L['Minimap Mouseover'] = true;
@@ -385,44 +392,39 @@ L["Panel Texture (Left)"] = "對話框材質 (左)";
 L["Panel Texture (Right)"] = "對話框材質 (右)";
 L["Panel Width"] = "對話框寬度";
 L["PANEL_DESC"] = '調整左、右對話框的大小，此設定將會影響對話與背包框架的大小。';
-L["Primary Texture"] = "主要材質";
 L["Reset all frames to their original positions."] = "將所有框架重設至原始位置。";
 L["Reset Anchors"] = "重設位置";
 L["Right Only"] = "僅顯示右框背景";
-L["Secondary Texture"] = "次要材質";
 L["Send ADDON_ACTION_BLOCKED errors to the Lua Error frame. These errors are less important in most cases and will not effect your game performance. Also a lot of these errors cannot be fixed. Please only report these errors if you notice a Defect in gameplay."] = true;
-L["Set the font size for everything in UI. Note: This doesn't effect somethings that have their own seperate options (UnitFrame Font, Datatext Font, ect..)"] = "設定介面上所有字體的大小，但不包含本身有獨立設定的字體 (如單位框架字體、資訊文字字體等…)";
 L["Show Both"] = "全部顯示";
+L["Tiny Map"] = true;
+L["Toggle showing of the left and right chat panels."] = "顯示/隱藏左、右對話框背景。";
+L['Toggle Tutorials'] = true;
+L["Top Screen"] = "畫面頂端";
+L["Welcome to ElvUI version %s!"] = "歡迎使用 ElvUI %s 版！";
+
+--Media
+L["Backdrop color of transparent frames"] = "透明框架的背景顏色";
+L["Backdrop Color"] = "背景顏色";
+L["Backdrop Faded Color"] = "透明框架背景色";
+L["Border Color"] = "邊框顏色";
+L["Color some texts use."] = "部份文字所使用的顏色。";
+L["Colors"] = "顏色"; --Also used in UnitFrames
+L["CombatText Font"] = "戰鬥文字字體";
+L["Default Font"] = "預設字體";
+L["Font Size"] = "字體大小"; --Also used in UnitFrames
+L["Fonts"] = "字體";
+L["Main backdrop color of the UI."] = "介面背景主色";
+L["Main border color of the UI."] = "介面邊框主色";
+L["Primary Texture"] = "主要材質";
+L["Secondary Texture"] = "次要材質";
+L["Set the font size for everything in UI. Note: This doesn't effect somethings that have their own seperate options (UnitFrame Font, Datatext Font, ect..)"] = "設定介面上所有字體的大小，但不包含本身有獨立設定的字體 (如單位框架字體、資訊文字字體等…)";
 L["Textures"] = "材質";
 L["The font that combat text will use. |cffFF0000WARNING: This requires a game restart or re-log for this change to take effect.|r"] = "戰鬥文字所使用的字體。|cffFF0000警告：需重啟遊戲或重新登入才可使此變更生效。|r";
 L["The font that the core of the UI will use."] = "核心 UI 所使用的字體。";
 L["The texture that will be used mainly for statusbars."] = "此材質主用於狀態列上。";
 L["This texture will get used on objects like chat windows and dropdown menus."] = "此材質適用於對話框、下拉式選單等物件上。";
-L["Tiny Map"] = true;
-L["Toggle showing of the left and right chat panels."] = "顯示/隱藏左、右對話框背景。";
-L['Toggle Tutorials'] = true;
-L["Top Screen"] = "畫面頂端";
 L["Value Color"] = "數值顏色";
-L["Welcome to ElvUI version %s!"] = "歡迎使用 ElvUI %s 版！";
-L[ [=[Specify a filename located inside the World of Warcraft directory. Textures folder that you wish to have set as a panel background.
-
-Please Note:
--The image size recommended is 256x128
--You must do a complete game restart after adding a file to the folder.
--The file type must be tga format.
-
-Example: Interface\AddOns\ElvUI\media\textures\copy
-
-Or for most users it would be easier to simply put a tga file into your WoW folder, then type the name of the file here.]=] ] = [=[若要設定對話框背景，請將你希望設定為背景的檔案置放於 WoW 目錄底下的「Textures」資料夾中，並於下欄指定該檔名。
-
-請注意：
-- 影像尺寸建議為 256 x 128
-- 在此資料夾新增檔案後，請務必重新啟動遊戲。
-- 檔案必須為 tga 格式。
-
-範例：Interface\AddOns\ElvUI\media\textures\copy
-
-對多數玩家來說，較簡易的方式是將 tga 檔放入 WoW 資料夾中，然後在此處輸入檔案名稱。]=];
 
 --Misc 其他
 L["Can't Roll"] = "無法需求此裝備";
