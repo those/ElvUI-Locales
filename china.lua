@@ -155,9 +155,9 @@ L["Copy Text"] = true;
 L["Display the hyperlink tooltip while hovering over a hyperlink."] = "鼠标悬停在超链接上时显示链接提示框" -- Needs review
 L['DND']
 L["Font Outline"] = "字体描边" --Also used in UnitFrames section
-L["Hide Both"] = "全部隐藏"
 L["Font"] = "字体" -- Needs review
 L["G"] = "公会"
+L["Hide Both"] = "全部隐藏"
 L["Hyperlink Hover"] = "超链接悬停" -- Needs review
 L["Keyword Alert"] = true;
 L['Keywords'] = true;
