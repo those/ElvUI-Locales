@@ -190,8 +190,7 @@ L["Chat Set"] = "대화창 설정"
 L['Choose a theme layout you wish to use for your initial setup.'] = true;
 L['Classic Pixel'] = true;
 L['Classic'] = true;
-L["Click the button below to resize your chat frames, unitframes, and reposition your actionbars."] = [=[채팅창, 유닛프레임 크기를 조정하거나 행동 단축바 위치를 조정하려면 하단 버튼을 클릭하세요.
-]=]
+L["Click the button below to resize your chat frames, unitframes, and reposition your actionbars."] = "채팅창, 유닛프레임 크기를 조정하거나 행동 단축바 위치를 조정하려면 하단 버튼을 클릭하세요.";
 L['Config Mode:'] = true;
 L["CVars Set"] = "CVars 설정"
 L["CVars"] = "게임 인터페이스 설정(CVars)"
@@ -288,7 +287,7 @@ L["Home Latency:"] = "지연 시간:"
 L["HP"] = "주문력"
 L["HPS"] = "HPS"
 L["If not set to true then the server time will be displayed instead."] = "만약 'TRUE\"값으로 설정하지 않을경우 대신 서버시간이 표시 될겁니다."
-L["Left"] = "왼쪽"
+L["left"] = "왼쪽"
 L["LeftChatDataPanel"] = "왼쪽 대화창"
 L["LeftMiniPanel"] = "미니맵 왼쪽"
 L["Legs"] = "다리"
@@ -300,7 +299,7 @@ L['Mitigation By Level: '] = true;
 L["Offhand"] = "보조장비"
 L["Panels"] = "패널"
 L["Profit:"] = "이익:"
-L["Right"] = "오른쪽"
+L["right"] = "오른쪽"
 L["RightChatDataPanel"] = "오른쪽 대화창 패널"
 L["RightMiniPanel"] = "미니맵 오른쪽 하단 패널"
 L["Saved Raid(s)"] = "귀속된 던전(s)"
@@ -370,9 +369,7 @@ L["Left Only"] = "왼쪽만"
 L['Location Text'] = true;
 L["Log Taints"] = true;
 L["Login Message"] = "로그인 메세지"
-L["LOGIN_MSG"] = [=[%sElvUI|r 버전 %s%s|r에 오신걸 환영합니다. /ec를 입력하시면 게임 내 설정창이 표시됩니다.
- 만약 기술지원이 필요하면 다음을 방문해주세요.
-http://www.tukui.org/forums/forum.php?id=84]=]
+L["LOGIN_MSG"] = "Welcome to %sElvUI|r version %s%s|r, type /ec to access the in-game configuration menu. If you are in need of technical support you can visit us at www.tukui.org. You can report bugs, add suggestions here: http://www.tukui.org/tickets/elvui/." --Reset since it was using outdated URLs. Needs new translation
 L["Loot Roll"] = "주사위"
 L["Loot"] = "전리품"
 L["Main backdrop color of the UI."] = "UI의 기본 배경 색상."
@@ -677,8 +674,7 @@ L["Disable Blizzard"] = "기본 블리자드 프레임 숨김"
 L['Disabled'] = true;
 L["Disables the blizzard party/raid frames."] = "기본 블리자드의 파티/공격대 프레임을 숨깁니다."
 L["Disconnected"] = "연결 끊김"
-L["Display a spark texture at the end of the castbar statusbar to help show the differance between castbar and backdrop."] = [=[시전바와 배경의 구분을 위해 시전바의 끝부분에 반짝임 텍스쳐를 표시합니다.
-]=]
+L["Display a spark texture at the end of the castbar statusbar to help show the differance between castbar and backdrop."] = "시전바와 배경의 구분을 위해 시전바의 끝부분에 반짝임 텍스쳐를 표시합니다."
 L['Display Frames'] = true;
 L["Display Player"] = "플레이어 표시"
 L["Display Target"] = "대상 표시" -- Needs review
@@ -702,7 +698,7 @@ L["Ghost"] = "유령"
 L["Good"] = "우호적"
 L["Group By"] = true;
 L["Group Point"] = "공격대 프레임 위치"
-L["Growth Direction"] = "확장 방향"
+L["Heal Prediction"] = true;
 L["Health Backdrop"] = "생명력 배경"
 L["Health By Value"] = "값에 따른 생명력"
 L["Health Text"] = "생명력 문자"
