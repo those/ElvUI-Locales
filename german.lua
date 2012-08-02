@@ -71,7 +71,7 @@ L["The size of the action buttons."] = "Die Größe der Aktionstaste."
 L["Threshold before text turns red and is in decimal form. Set to -1 for it to never turn red"] = "CD-Schwelle bevor der Text rot wird. Setze es zu -1 wenn es nie Rot werden soll"
 L["Toggles the display of the actionbars backdrop."] = "Aktiviere den Hintergrund der Aktionsleisten."
 L["Visibility State"] = "Sichbarkeits Zustand"
-L['When enabled the main actionbar will use the maximum amount of pages available. This means if you have another actionbar disabled, the actionbar page will become available on the main actionbar. Having this disabled will limit the main actionbar to two pages.'] = true;
+L['When enabled the main actionbar will use the maximum amount of pages available. This means if you have another actionbar disabled, the actionbar page will become available on the main actionbar. Having this disabled will limit the main actionbar to two pages.'] = 'Wenn aktiviert nutzt die Haupt Aktionsleiste das maximum der verfügbaren Seiten. Das bedeudet wenn eine andere Aktionsleiste deaktiviert ist, kann man diese auf der Haupt Aktionsleiste auswählenThis means if you have another actionbar. Ist dies deaktiviert wird die Haupt Aktionsleiste auf zwei Seiten begrenzt.'
 L["Width Multiplier"] = "Breiten multiplikator"
 L[ [=[This works like a macro, you can run different situations to get the actionbar to page differently.
  Example: '[combat] 2;']=] ] = "Das funktioniert wie ein Makro, du kannst verschiedene Situationen haben um die Aktionsleiste anzuzeigen und zu verbergen.\\n Beispiel: '[combat] show;hide'"
@@ -769,7 +769,7 @@ L["Select Spell"] = "Zauber auswählen"
 L["Set the filter type, blacklisted filters hide any aura on the like and show all else, whitelisted filters show any aura on the filter and hide all else."] = "Stelle den Filtertypus ein; Filter \"Schwarze Liste\" zeigt alle Aura und versteckt jene, die explizit im Filter angegeben wurden; im Gegensatz dazu verbirgt der Filter \"Weiße Liste\" alle Auren und zeigt nur jene an, die explizit im Filter angegeben wurden."
 L["Set the font size for unitframes."] = "Setzt die Schriftart für die Einheitenfenster."
 L["Set the order that the group will sort."] = "Wähle die richtung in welche die Gruppe sortiert werden soll."
-L["Set the priority order of the spell, please note that prioritys are only used for the raid debuff module, not the standard buff/debuff module. If you want to disable set to zero."] = true;
+L["Set the priority order of the spell, please note that prioritys are only used for the raid debuff module, not the standard buff/debuff module. If you want to disable set to zero."] = "Wähle die Priorität des Zaubers, bitte beachten das sich die Priorität nur auf das Schlachtzugs Schwächungszauber Modul auswirkt, nicht das Standart Stärkungs/Schwächungszauber Modul. Möchtest du es deaktivieren setze es auf 0."
 L["Short"] = "Kurz"
 L["Show a incomming heal prediction bar on the unitframe. Also display a slightly different colored bar for incoming overheals."] = "Zeige Eingehende Heilung in einer Leiste auf dem Einheitenfenster. Zeigt eine etwas andere farbige Leiste für eingehende Überheilung."
 L['Show Auras'] = 'Zeige Auren'
