@@ -369,8 +369,6 @@ L["Automatically accept invites from guild/friends."] = true;
 L["Automatically repair using the following method when visiting a merchant."] = true;
 L["Automatically scale the User Interface based on your screen resolution"] = true;
 L["Automatically vendor gray items when visiting a vendor."] = true;
-L["Below Minimap"] = true;
-L["Change the position of the experience/reputation bar."] = true;
 L["Chat Bubbles"] = true;
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = true;
 L["Disband Group"] = true;
@@ -380,7 +378,6 @@ L["ELVUI_DESC"] = "ElvUI is a complete User Interface replacement addon for Worl
 L['Emotion Icons'] = true;
 L["Enable/Disable the loot frame."] = true;
 L["Enable/Disable the loot roll frame."] = true;
-L["Exp/Rep Position"] = true;
 L["General"] = true;
 L["Log Taints"] = true;
 L["Login Message"] = true;
@@ -395,7 +392,6 @@ L["Reset Anchors"] = true;
 L["Send ADDON_ACTION_BLOCKED errors to the Lua Error frame. These errors are less important in most cases and will not effect your game performance. Also a lot of these errors cannot be fixed. Please only report these errors if you notice a Defect in gameplay."] = true;
 L["Tiny Map"] = true;
 L['Toggle Tutorials'] = true;
-L["Top Screen"] = true;
 L["Welcome to ElvUI version %s!"] = true;
 
 --Media

@@ -373,8 +373,6 @@ L["Automatically accept invites from guild/friends."] = "Автоматичес�
 L["Automatically repair using the following method when visiting a merchant."] = "Автоматически чинить экипировку за счет выбранного источника при посещении торговца."
 L["Automatically scale the User Interface based on your screen resolution"] = "Автоматически масштабировать UI в зависимости от вашего разрешения"
 L["Automatically vendor gray items when visiting a vendor."] = "Автоматически продавать предметы серого качества при посещении торговца."
-L["Below Minimap"] = "Под миникартой"
-L["Change the position of the experience/reputation bar."] = "Изменяет положение полосы опыта/репутации."
 L["Chat Bubbles"] = "Облачка сообщений"
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = "Устанавливает прозрачность карты мира при движении персонажа."
 L["Disband Group"] = "Распустить группу" --RU button
@@ -384,7 +382,6 @@ L["ELVUI_DESC"] = "ElvUI это аддон для полной замены по
 L['Emotion Icons'] = "Иконки эмоций";
 L["Enable/Disable the loot frame."] = "Включить/выключить окно добычи ElvUI."
 L["Enable/Disable the loot roll frame."] = "Включить/выключить фрейм распределения добычи ElvUI."
-L["Exp/Rep Position"] = "Позиция опыта/репутации"
 L["General"] = "Общие"
 L["Log Taints"] = "Отслеживать недочеты"
 L["Login Message"] = "Сообщение загрузки"
@@ -399,7 +396,6 @@ L["Reset Anchors"] = "Сбросить позиции"
 L["Send ADDON_ACTION_BLOCKED errors to the Lua Error frame. These errors are less important in most cases and will not effect your game performance. Also a lot of these errors cannot be fixed. Please only report these errors if you notice a Defect in gameplay."] = "Отображать ошибки типа ADDON_ACTION_BLOCKED в фрейме ошибок lua. Эти ошибки в большинстве случаев не сильно важны и не влияют на производительность. Также многие из этих ошибок не могут быть исправлены. Пожалуйста, сообщайте об этих ошибках только если Вы заметите дефект в игре."
 L["Tiny Map"] = "Маленькая карта"
 L['Toggle Tutorials'] = "Показать помощь"
-L["Top Screen"] = "Вверху экрана"
 L["Welcome to ElvUI version %s!"] = "Добро пожаловать в ElvUI версии %s!"
 
 --Media

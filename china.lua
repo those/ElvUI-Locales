@@ -373,8 +373,6 @@ L["Automatically accept invites from guild/friends."] = "自动接受工会或�
 L["Automatically repair using the following method when visiting a merchant."] = "使用以下方式来自动修理装备."
 L["Automatically scale the User Interface based on your screen resolution"] = "依据屏幕分辨率度自动缩放介面"
 L["Automatically vendor gray items when visiting a vendor."] = true;
-L["Below Minimap"] = "小地图下方"
-L["Change the position of the experience/reputation bar."] = "改变 经验条/声望条 位置"
 L["Chat Bubbles"] = true;
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = "进行移动时，世界地图的透明度显示。"
 L["Disband oup"] = "解散队伍"
@@ -384,7 +382,6 @@ L["ELVUI_DESC"] = "ElvUI 为一套功能完整，可用来替换 WOW 原始介�
 L['Emotion Icons'] = true;
 L["Enable/Disable the loot frame."] = "开/关物品掉落框架。" -- Needs review
 L["Enable/Disable the loot roll frame."] = "开/关掷骰子框架。" -- Needs review
-L["Exp/Rep Position"] = "经验条\\声望条位置"
 L["General"] = "一般"
 L["Log Taints"] = true;
 L["Login Message"] = "登入资讯"
@@ -399,7 +396,6 @@ L["Reset Anchors"] = "重置定位"
 L["Send ADDON_ACTION_BLOCKED errors to the Lua Error frame. These errors are less important in most cases and will not effect your game performance. Also a lot of these errors cannot be fixed. Please only report these errors if you notice a Defect in gameplay."] = true;
 L["Tiny Map"] = true;
 L['Toggle Tutorials'] = true;
-L["Top Screen"] = "画面最上方"
 L["Welcome to ElvUI version %s!"] = "欢迎使用 ElvUI 版本 %s!"
 
 --Media

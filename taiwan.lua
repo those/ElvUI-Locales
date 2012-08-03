@@ -358,9 +358,7 @@ L["Automatically accept invites from guild/friends."] = "自動接受公會成�
 L["Automatically repair using the following method when visiting a merchant."] = "與商人對話時，透過下列方式自動修復裝備。";
 L["Automatically scale the User Interface based on your screen resolution"] = "依螢幕解析度自動縮放 UI 介面";
 L["Automatically vendor gray items when visiting a vendor."] = "造訪商店時自動出售灰色物品。";
-L["Below Minimap"] = "小地圖下方";
 L['Change settings for the display of the location text that is on the minimap.'] = true;
-L["Change the position of the experience/reputation bar."] = "變更經驗條/聲望條的位置。";
 L["Chat Bubbles"] = "對話泡泡";
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = "角色移動時，世界地圖的透明度。";
 L["Disband Group"] = "解散隊伍";
@@ -371,7 +369,6 @@ L["ELVUI_DESC"] = "ElvUI 為一套功能完整，可用來替換 WoW 原始介�
 L['Emotion Icons'] = true;
 L["Enable/Disable the loot frame."] = "啟用/停用拾取框架";
 L["Enable/Disable the loot roll frame."] = "啟用/停用擲骰框架。";
-L["Exp/Rep Position"] = "經驗條/聲望條位置";
 L["General"] = "一般設定";
 L["Hide Both"] = "全部隱藏";
 L["Left Only"] = "僅顯示左框背景";
@@ -400,7 +397,6 @@ L["Show Both"] = "全部顯示";
 L["Tiny Map"] = true;
 L["Toggle showing of the left and right chat panels."] = "顯示/隱藏左、右對話框背景。";
 L['Toggle Tutorials'] = true;
-L["Top Screen"] = "畫面頂端";
 L["Welcome to ElvUI version %s!"] = "歡迎使用 ElvUI %s 版！";
 
 --Media

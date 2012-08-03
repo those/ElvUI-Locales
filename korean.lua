@@ -374,8 +374,6 @@ L["Automatically accept invites from guild/friends."] = "길드원/친구 초대
 L["Automatically repair using the following method when visiting a merchant."] = "상인 방문 시 다음과 같은 방법으로 장비을 자동 수리합니다."
 L["Automatically scale the User Interface based on your screen resolution"] = "사용자의 화면 해상도에 따라 자동으로 UI 크기를 맞춥니다."
 L["Automatically vendor gray items when visiting a vendor."] = true;
-L["Below Minimap"] = "미니맵 아래"
-L["Change the position of the experience/reputation bar."] = "경험치/평판 바의 위치를 변경합니다."
 L["Chat Bubbles"] = "말풍선 대화" -- Needs review
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = "캐릭터 이동시 전체지도의 투명 상태를 설정합니다."
 L["Disband Group"] = "그룹 해체"
@@ -385,7 +383,6 @@ L["ELVUI_DESC"] = "ElvUI는 WoW의 애드온을 대신하는 완전한 애드온
 L['Emotion Icons'] = true;
 L["Enable/Disable the loot frame."] = "전리품 획득창 사용/중지"
 L["Enable/Disable the loot roll frame."] = "주사위 창 사용/중지"
-L["Exp/Rep Position"] = "경험치/평판 위치 설정"
 L["General"] = "일반"
 L["Log Taints"] = true;
 L["Login Message"] = "로그인 메세지"
@@ -400,7 +397,6 @@ L["Reset Anchors"] = "앵커 초기화"
 L["Send ADDON_ACTION_BLOCKED errors to the Lua Error frame. These errors are less important in most cases and will not effect your game performance. Also a lot of these errors cannot be fixed. Please only report these errors if you notice a Defect in gameplay."] = true;
 L["Tiny Map"] = true;
 L['Toggle Tutorials'] = true;
-L["Top Screen"] = "화면 상단"
 L["Welcome to ElvUI version %s!"] = "ElvUI 버전 %s에 오신 것을 환영합니다!"
 
 --Media

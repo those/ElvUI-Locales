@@ -373,8 +373,6 @@ L["Automatically accept invites from guild/friends."] = "Automatisch Einladungen
 L["Automatically repair using the following method when visiting a merchant."] = "Repariere automatisch deine Ausrüstungsgegenstände, wenn du eine der folgenden Methoden auswählst."
 L["Automatically scale the User Interface based on your screen resolution"] = "Automatische Skalierung des Interfaces, angepasst an deine Bildschirm-Einstellung"
 L["Automatically vendor gray items when visiting a vendor."] = "Automatischer Verkauf von Grauen Items wenn man einen Händer aufsucht."
-L["Below Minimap"] = "Unter der Minimap"
-L["Change the position of the experience/reputation bar."] = "Ändert die Position der Erfahrungs-/Ruf Leiste"
 L["Chat Bubbles"] = "Chat Sprechblasen"
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = "Legt fest, welche Transparenz die Weltkarte haben soll, wenn du dich bewegst."
 L["Disband Group"] = "Gruppe auflösen"
@@ -384,7 +382,6 @@ L["ELVUI_DESC"] = "ElvUI ist ein komplettes Benutzerinterface AddOn für World o
 L['Emotion Icons'] = 'Emotion Icons'
 L["Enable/Disable the loot frame."] = "Aktiviere/Deaktiviere das Beute Fenster."
 L["Enable/Disable the loot roll frame."] = "Aktiviere/Deaktiviere das Würfel Fenster."
-L["Exp/Rep Position"] = "Erfahrungs-/Ruf-Leisten Position"
 L["General"] = "Allgemein"
 L["Log Taints"] = "Log Fehler"
 L["Login Message"] = "Login Nachricht"
@@ -399,7 +396,6 @@ L["Reset Anchors"] = "Ankerpunkte zurücksetzen"
 L["Send ADDON_ACTION_BLOCKED errors to the Lua Error frame. These errors are less important in most cases and will not effect your game performance. Also a lot of these errors cannot be fixed. Please only report these errors if you notice a Defect in gameplay."] = "Sende ADDON_ACTION_BLOCKED Fehler zu den Lua Fehler Fenster. Diese Fehler sind weniger wichtig und werden deine Spiel Leistung nicht beeinflussen. Viele dieser Fehler können nicht beseitigt werden. Bitte melde diese Fehler nur wenn es einen Defekt im Spiel verursacht."
 L["Tiny Map"] = "Winzige Karte"
 L['Toggle Tutorials'] = 'Tutorial umschalten'
-L["Top Screen"] = "Am Oberen Rand"
 L["Welcome to ElvUI version %s!"] = "Willkommen bei ElvUI version %s!"
 
 --Media
