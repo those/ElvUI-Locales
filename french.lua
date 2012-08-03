@@ -1,11 +1,8 @@
-﻿-- French localization file for frFR.
--- Thanks to: Alex, Zehir and Informpro
-
-local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
+﻿local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L = AceLocale:NewLocale("ElvUI", "frFR");
 if not L then return; end
 
---ActionBars => Partly translated, in progress (1)
+--ActionBars
 L[" |cff00ff00bound to |r"] = "|cff00ff00assigné à |r"
 L["Action Paging"] = "Pagination d'action"
 L["ActionBars"] = "Barres d'actions"
@@ -72,7 +69,7 @@ L["The size of the action buttons."] = "Taille des boutons de la barre d'actions
 L["Threshold before text turns red and is in decimal form. Set to -1 for it to never turn red"] = "Seuil avant que le texte devienne rouge sous forme de décimal. Mettre -1 pour qu'il ne devienne jamais rouge."
 L["Toggles the display of the actionbars backdrop."] = "Affiche ou non la couleur de fond de la barre d'action."
 L["Visibility State"] = "État de visibilité"
-L['When enabled the main actionbar will use the maximum amount of pages available. This means if you have another actionbar disabled, the actionbar page will become available on the main actionbar. Having this disabled will limit the main actionbar to two pages.'] = true;
+L['When enabled the main actionbar will use the maximum amount of pages available. This means if you have another actionbar disabled, the actionbar page will become available on the main actionbar. Having this disabled will limit the main actionbar to two pages.'] = "Lorsqu'elle est activée, la barre d'action principale utilisera le montant de pages disponibles. Cela signifie que su vous avez une autre barre d'actions désactivér, la barre d'action sera disponible dans la barre d'action principale. Avoir ce paramètre désactivé limitera la barre d'action principale à deux pages. "
 L["Width Multiplier"] = "Multiplicateur largeur"
 L[ [=[This works like a macro, you can run different situations to get the actionbar to page differently.
  Example: '[combat] 2;']=] ] = [=[Ceci fonctionne comme une macro, vous pouvez exécuter différentes situations pour avoir une pagination de la barre d'actions différente.
@@ -92,13 +89,13 @@ L["Bar Direction"] = "Direction de la Bar"
 L["Bottom to Top"] = "Du bas vers le haut"
 L["Click to search.."] = "Cliquez pour chercher..."
 L["copperabbrev"] = "|cffeda55fc|r" --Also used in gold datatext
-L["Delete Grays"] = "Détruire les Objets Gris."
-L["Deleted %d gray items. Total Worth: %s"] = "%d Objet(s) Gris Détruit(s). Valeur totale perdue :%s"
+L["Delete Grays"] = "Détruire les objets gris."
+L["Deleted %d gray items. Total Worth: %s"] = "%d Objet(s) gris détruit(s). Valeur totale perdue :%s"
 L["Descending"] = "Descendant"
-L["Direction the bag sorting will use to allocate the items."] = "Direction du sac qui sera utiliser pour allouer les articles."
+L["Direction the bag sorting will use to allocate the items."] = "Direction du sac qui sera utilisé pour allouer les articles."
 L["Enable Bag-Bar"] = "Activer le Sac-Bar"
-L["Enable/Disable the all-in-one bag."] = "Activer/désactiver le sac tout-en-un."
-L["Enable/Disable the Bag-Bar."] = "Activer/Désactiver le Sac-Bar."
+L["Enable/Disable the all-in-one bag."] = "Activer / désactiver le sac tout-en-un."
+L["Enable/Disable the Bag-Bar."] = "Activer / Désactiver le Sac-Bar."
 L["goldabbrev"] = "|cffffd700g|r" --Also used in gold datatext
 L["Hold Shift:"] = "Maintenir MAJ : "
 L["No gray items to delete."] = "Aucun objet gris à détruire."
@@ -126,27 +123,27 @@ L["X Offset"] = "Décalage X"
 L["Y Offset"] = "Décalage Y"  --Another variation in unitframes yOffset
 L["You must be at a vendor."] = "Vous devez être chez un marchand."
 
---Buffs and Debuffs => TRANSLATION TO DO. (19)
-L['AURAS_DESC'] = 'Configure the aura icons that appear near the minimap.';
-L['Begin a new row or column after this many auras.'] = true;
-L['Consolidated Buffs'] = true;
-L['Defines how the group is sorted.'] = true;
-L['Defines the sort order of the selected sort method.'] = true;
-L['Display the consolidated buffs bar.'] = true;
-L['Index'] = true;
-L['Indicate whether buffs you cast yourself should be separated before or after.'] = true;
-L['Limit the number of rows or columns.'] = true;
-L['Max Wraps'] = true;
-L['No Sorting'] = true;
-L["Other's First"] = true;
-L['Seperate'] = true;
-L['Set the size of the individual auras.'] = true;
-L['Sort Method'] = true;
-L['Time'] = true;
-L['Wrap After'] = true;
-L['Your Auras First'] = true;
+--Buffs and Debuffs
+L['AURAS_DESC'] = "Configure les icones qui apparaissent près de la Minicarte."
+L['Begin a new row or column after this many auras.'] = "Commencer une nouvelle ligne après ces nombreux auras" --Need review
+L['Consolidated Buffs'] = "Améliorations groupées"
+L['Defines how the group is sorted.'] = "Définit la façon dont le groupe est trié."
+L['Defines the sort order of the selected sort method.'] = "Définit l'odre de tri de la méthode de tri sléctionné." --Mindfuck
+L['Display the consolidated buffs bar.'] = "Affiche la barre d'améliorations groupées."
+L['Index'] = "Index"
+L['Indicate whether buffs you cast yourself should be separated before or after.'] = "Indique si les améliorations que vous lancez doivent être séparés avant ou après."
+L['Limit the number of rows or columns.'] = "Limiter le nombre de lignes ou de colonnes"
+L['Max Wraps'] = "Enroullage maximal" --Need review
+L['No Sorting'] = "Aucun tri"
+L["Other's First"] = "Autre Première" --Need review
+L['Seperate'] = "Séparer"
+L['Set the size of the individual auras.'] = "Définit la taille des auras individuelles."
+L['Sort Method'] = "Méthode de tri"
+L['Time'] = "Temps"
+L['Wrap After'] = "Enrouler Après"
+L['Your Auras First'] = "Vos Auras en premier"
  
- --Chat => Partly translated, in progress (10)
+ --Chat
 L["AFK"] = "ABS" --Also used in datatexts and tooltip
 L["Attempt to create URL links inside the chat."] = "Essaye de créer un lien pour les URLs dans les fenêtres de chat."
 L["BG"] = "BG"
@@ -162,10 +159,10 @@ L["Font"] = "Police"
 L["G"] = "G"
 L['Hide Both'] = "Masquer les deux"
 L["Hyperlink Hover"] = "Survol des liens"
-L["Keyword Alert"] = true;
-L['Keywords'] = true;
+L["Keyword Alert"] = "Alerte mots-clés"
+L['Keywords'] = "Mots-clés"
 L["Left Only"] = "Gauche seulement"
-L['List of words to color in chat if found in a message. If you wish to add multiple words you must seperate the word with a comma. To search for your current name you can use %MYNAME%.\n\nExample:\n%MYNAME%, ElvUI, RBGs, Tank'] = true;
+L['List of words to color in chat if found in a message. If you wish to add multiple words you must seperate the word with a comma. To search for your current name you can use %MYNAME%.\n\nExample:\n%MYNAME%, ElvUI, RBGs, Tank'] = "Liste des mots à colorer dans la fenêtre de discussion s'ils y sont trouvés. Si vous souhaitez ajouter plusieurs mots, vous devez séparer le mot avec une virgule. Pour rechercher votre nom actuel, vous pouvez utiliser %MYNAME%.\n\nExemple:\n%MYNAME%, ElvUI, RBG, Tank"
 L["Number of time in seconds to scroll down to the bottom of the chat window if you are not scrolled down completely."] = "Temps en secondes pour faire défiler vers le bas de la fenêtre de discussion si vous ne l'avez pas fait défiler jusqu'en bas."
 L["O"] = "O"
 L["P"] = "Gr"
@@ -189,14 +186,14 @@ L["Short Channels"] = "Raccourcis canaux"
 L["Shorten the channel names in chat."] = "Minimise le nom des canaux de discussion."
 L["Show Both"] = "Montrer les deux"
 L["Spam Interval"] = "Intervalle considérant le Spam"
-L["Sticky Chat"] = true;
+L["Sticky Chat"] = "Post-it Chat" --Need review
 L["Toggle showing of the left and right chat panels."] = "Afficher ou masquer le côté gauche / droite des panneaux de discussion."
 L['Trade'] = "Métiers"
 L["URL Links"] = "Liens des URL"
-L["When opening the Chat Editbox to type a message having this option set means it will retain the last channel you spoke in. If this option is turned off opening the Chat Editbox should always default to the SAY channel."] = true;
-L["Whisper Alert"] = true;
+L["When opening the Chat Editbox to type a message having this option set means it will retain the last channel you spoke in. If this option is turned off opening the Chat Editbox should always default to the SAY channel."] = "Permet de retenir le dernier canal de discussion que vous avez utilisé quand vous écrivez un message. Si cette option est désactivé, le canal utilisé par défaut sera Dire."
+L["Whisper Alert"] = "Alerte chuchotement"
 L['whispers'] = "Chuchote"
-L['yells'] = true;
+L['yells'] = "cris"
 L[ [=[Specify a filename located inside the World of Warcraft directory. Textures folder that you wish to have set as a panel background.
 
 Please Note:
@@ -217,21 +214,21 @@ Exemple: Interface\AddOns\ElvUI\media\textures\copy
 
 Ou pour la majorité des utilsateurs, il serait plus simple de mettre le fichier tga dans le dossier de World of Warcraft puis de taper son nom ici.]=]
 
---Config / Install => Partly translated, in progress (9)
-L['Bar'] = true;
+--Config / Install
+L['Bar'] = "Barre"
 L["Caster DPS"] = "DPS Distance"
 L["Chat Set"] = "Chat configuré"
-L['Choose a theme layout you wish to use for your initial setup.'] = true;
-L['Classic'] = true;
+L['Choose a theme layout you wish to use for your initial setup.'] = "Choisissez un modèle de thème que vous souhaitez utiliser pour votre configuration initiale."
+L['Classic'] = "Classique"
 L["Click the button below to resize your chat frames, unitframes, and reposition your actionbars."] = "Cliquez sur le bouton ci-dessous pour redimensionner vos fenêtres de chat, vos cadres d'unités et repositionner vos barres d'actions."
-L['Config Mode:'] = true;
+L['Config Mode:'] = "Mode Configuration:"
 L["CVars Set"] = "CVars configurés"
 L["CVars"] = "CVars"
 L["ElvUI Installation"] = "Installation d'ElvUI"
 L["Finished"] = "Terminé"
 L["Grid Size:"] = "Taille de la Grille:"
 L["Healer"] = "Soigneur"
-L["High Resolution"] = true;
+L["High Resolution"] = "Haute Résolution"
 L["high"] = "Haute"
 L["Importance: |cff07D400High|r"] = "Importance: |cff07D400Haute|r"
 L["Importance: |cffD3CF00Medium|r"] = "Importance: |cffD3CF00Moyenne|r"
@@ -241,7 +238,7 @@ L["Installation Complete"] = "Instalation terminée"
 L["Layout Set"] = "Disposition configurée"
 L["Layout"] = "Disposition"
 L["Lock"] = "Verrouiller"
-L['Low Resolution'] = true;
+L['Low Resolution'] = "Basse résolution"
 L["low"] = "Faible"
 L["Movers unlocked. Move them now and click Lock when you are done."] = "Cadres déverrouillés. Déplacez-les et cliquez sur Verrouiller une fois terminé."
 L["Physical DPS"] = "DPS Physique"
@@ -258,8 +255,8 @@ L["Sticky Frames"] = "Cadres adhésif"
 L["Tank"] = "Tank"
 L["The chat windows function the same as Blizzard standard chat windows, you can right click the tabs and drag them around, rename, etc. Please click the button below to setup your chat windows."] = "La fenêtre de chat d'ElvUi utilise les même fonctions que celle Blizzard, vous pouvez faire un clic droit sur un onglet pour le déplacer, le renommer, etc."
 L["The in-game configuration menu can be accesses by typing the /ec command or by clicking the 'C' button on the minimap. Press the button below if you wish to skip the installation process."] = "Le menu de configuration est accessible en tapant la commande /ec ou en cliquant sur le bouton 'C' sur la Minimap. Cliquez sur le bouton ci-dessous si vous voulez passer le processus d'installation."
-L['Theme Set'] = true;
-L['Theme Setup'] = true;
+L['Theme Set'] = "Choisir le thème"
+L['Theme Setup'] = "Configuration du thème"
 L["This install process will help you learn some of the features in ElvUI has to offer and also prepare your user interface for usage."] = "Ce programme d'installation vous aidera à découvrir quelques fonctions d'ElvUI et à vous offrir et préparera également votre interface à son utilisation."
 L["This is completely optional."] = "Ceci est totalement optionnel."
 L["This part of the installation process sets up your chat windows names, positions and colors."] = "Cette partie du processus d'installation configure les noms, positions et couleurs de vos fenêtres de chat."
@@ -268,12 +265,12 @@ L["This resolution doesn't require that you change settings for the UI to fit on
 L["This resolution requires that you change some settings to get everything to fit on your screen."] = "Cette résolution nécessite que vous modifiez les paramètres de l'interface utilisateur pour s'adapter sur votre écran."
 L["This will change the layout of your unitframes, raidframes, and datatexts."] = "Ceci affectera la disposition des cadres d'unités, des cadres de Raid et des Textes d'informations."
 L["Toggle Anchors"] = "Afficher les ancres"
-L['Toggle Configuration'] = true;
+L['Toggle Configuration'] = "Afficher la Configuration" --Need review Toogle
 L["Unlock various elements of the UI to be repositioned."] = "Déverrouille divers éléments de l'interface utilisateur pour être repositionné."
 L["Using the healer layout it is highly recommended you download the addon Clique to work side by side with ElvUI."] = "Using the healer layout it is highly recommended you download the addon Clique to work side by side with ElvUI." -- Needs review
 L["Version"] = "Version"
 L["You are now finished with the installation process. Bonus Hint: If you wish to access blizzard micro menu, middle click on the minimap. If you don't have a middle click button then hold down shift and right click the minimap. If you are in need of technical support please visit us at www.tukui.org."] = "Vous avez maintenant terminé le processus d'installation. Si vous avez besoin d'un support technique, merci de vous rendre sur www.tukui.org"
-L['You can always change fonts and colors of any element of elvui from the in-game configuration.'] = true;
+L['You can always change fonts and colors of any element of elvui from the in-game configuration.'] = "Vous pouvez toujours modifier les polices et les couleurs de n'importe quel élément d'Elvui dans la configuration du jeu."
 L["You can now choose what layout you wish to use based on your combat role."] = "Vous pouvez maintenant choisir quel disposition vous souhaitez utiliser en fonction de votre rôle de combat."
 L["You may need to further alter these settings depending how low you resolution is."] = "Vous devrez peut-être encore modifier ces paramètres en fonction d'un changement de résolution."
 L["Your current resolution is %s, this is considered a %s resolution."] = "Votre résolution actuelle est %s, elle est donc considérée comme une %s résolution."
