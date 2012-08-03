@@ -585,7 +585,7 @@ L["Who's targetting who?"] = true;
 --Tutorials
 L['A raid marker feature is available by pressing Escape -> Keybinds scroll to the bottom under ElvUI and setting a keybind for the raid marker.'] = true;
 L['ElvUI has a dual spec feature which allows you to load different profiles based on your current spec on the fly. You can enable this from the profiles tab.'] = true;
-L['For technical support visit us at www.tukui.org.'] = true;
+L['For technical support visit us at http://www.tukui.org.'] = true;
 L['If you accidently remove a chat frame you can always go the in-game configuration menu, press install, go to the chat portion and reset them.'] = true
 L['If you are experiencing issues with ElvUI try disabling all your addons except ElvUI, remember ElvUI is a full UI replacement addon, you cannot run two addons that do the same thing.'] = true;
 L['If you need to reset the gold datatext type /resetgold.'] = true;
