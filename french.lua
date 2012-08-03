@@ -282,7 +282,7 @@ L["Donations:"] = "Donateurs: "
 L["ELVUI_CREDITS"] = "Je voudrais remercier tout spécialement ceux qui m'ont aidé à maintenir cet addon avec les codeurs, testeurs et les personnes qui m’ont aussi aidé via les dons. Veuillez noter que pour les dons, je n’affiche seulement les noms des personnes qui m’ont envoyés un message privé sur le forum. Si votre nom est absent et que vous désirez que je l'ajoute, merci de m’envoyer un message privé."
 L["Testing:"] = "Testeurs: "
 
---DataTexts => Partly translated, in progress (16)
+--DataTexts
 L["(Hold Shift) Memory Usage"] = "Maintenir MAJ : Utilisation de la Mémoire."
 L["24-Hour Time"] = "Mode 24 Heures"
 L['Always Display'] = "Toujours afficher"
@@ -356,13 +356,13 @@ L["Waist"] = "Taille"
 L['When inside a battleground display personal scoreboard information on the main datatext bars.'] = "Lorsqu'à l'intérieur d'un Champs de bataill, afficher la tableau des scores personnel dans la barre de textes d'informations principale."
 L["Wrist"] = "Poignets"
 
---DebugTools => Partly translated, in progress (2)
+--DebugTools
 L["%s: %s tried to call the protected function '%s'."] = "%s: %s a essayé d'appeler la fonction protégée '%s'."
 L["INCOMPATIBLE_ADDON"] = "L'addon %s est incompatible avec le module %s d'ElvUi. Désactivez l'add-on ou le module incompatible."
-L["No locals to dump"] = "Aucunes données à vider"; -- A vérifier
+L["No locals to dump"] = "Aucunes données à vider"; -- Need review
 L['|cFFE30000Lua error recieved. You can view the error message when you exit combat.'] = "|cFFE30000Erreur Lua reçue. Vous pouvez voir ce message d'erreur quand vous sortez de combat."
 
---General => Partly translated, in progress (12)
+--General
 L["Accept Invites"] = "Invitations automatiques"
 L['Adjust the size of the minimap.'] = "Ajuster la taille de la mini-carte."
 L["Announce Interrupts"] = "Annoncer les Interruptions"
@@ -440,7 +440,7 @@ L["Your items have been repaired for: "] = "Votre équipement a été réparé p
 L["Your items have been repaired using guild bank funds for: "] = "Votre équipement a été réparé avec l'argent de la banque de guilde pour : "
 L["Your version of ElvUI is out of date. You can download the latest version from http://www.tukui.org"] = "Une version plus récente d'ElvUi est disponible. Vous pouvez télécharger la dernière version sur http://www.tukui.org"
 
---NamePlates => Partly translated, in progress (4)
+--NamePlates
 L["Add Name"] = "Ajouter un nom"
 L["All"] = "Tous"
 L["Auras"] = "Auras"
@@ -494,7 +494,7 @@ L["Toggles the nameplates off when not in combat."] = "Cache les cadres d'unité
 L["Use this filter."] = "Utiliser ce filtre."
 L["You can't remove a default name from the filter, disabling the name."] = "Vous ne pouvez pas supprimer un nom qui est par défaut, cependant celui-ci est désormais désactivé."
 
---Skins => Partly translated, in progress (10)
+--Skins
 L["Achievement Frame"] = "Haut Fait"
 L['Alert Frames'] = true;
 L["Archaeology Frame"] = "Fenêtre d'Archéologie"
@@ -556,7 +556,7 @@ L["TradeSkill Frame"] = "Métiers"
 L["Trainer Frame"] = "Entraîneur"
 L["World Map"] = "Carte du monde"
 
---Static Popups => Partly translated, in progress (1)
+--Static Popups
 L["A setting you have changed will change an option for this character only. This setting that you have changed will be uneffected by changing user profiles. Changing this setting requires that you reload your User Interface."] = true;
 L["Are you sure you want to delete all your gray items?"] = "Êtes-vous sûr de vouloir détruire tout vos Objets Gris ?"
 L["Are you sure you want to disband the group?"] = "Êtes-vous sûr de vouloir dissoudre le groupe ? "
@@ -586,7 +586,7 @@ L["UF Hide"] = "Portait d'unité caché"
 L["When in a raid group display if anyone in your raid is targetting the current tooltip unit."] = "Choisissez à quoi vous voulez attacher les améliorations sur le cadre."
 L["Who's targetting who?"] = "Qui est en train de cibler qui ?"
 
---Tutorials => TRANSLATION TO DO. (16)
+--Tutorials
 L['A raid marker feature is available by pressing Escape -> Keybinds scroll to the bottom under ElvUI and setting a keybind for the raid marker.'] = true;
 L['ElvUI has a dual spec feature which allows you to load different profiles based on your current spec on the fly. You can enable this from the profiles tab.'] = true;
 L['For technical support visit us at http://www.tukui.org.'] = true;
