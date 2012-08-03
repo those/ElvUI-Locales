@@ -215,7 +215,6 @@ Or for most users it would be easier to simply put a tga file into your WoW fold
 Для большинства пользователей будет легче просто положить tga файл в папку игры, а затем написать имя файла здесь.]=]
 
 --Config / Install
-L['Bar'] = true;
 L["Caster DPS"] = "Заклинатель"
 L["Chat Set"] = "Чат настроен"
 L['Choose a theme layout you wish to use for your initial setup.'] = "Выберите тему, которую Вы хотите использовать."
@@ -269,7 +268,7 @@ L['Toggle Configuration'] = "Конфигурация"
 L["Unlock various elements of the UI to be repositioned."] = "Разблокировать элементы интерфейса для их перемещения."
 L["Using the healer layout it is highly recommended you download the addon Clique to work side by side with ElvUI."] = "Для использования настроек лекаря крайне рекомендуется установка аддона Clique который всесторонне поддерживается ElvUI."
 L["Version"] = "Версия"
-L["You are now finished with the installation process. Bonus Hint: If you wish to access blizzard micro menu, middle click on the minimap. If you don't have a middle click button then hold down shift and right click the minimap. If you are in need of technical support please visit us at www.tukui.org."] = "Вы завершили процесс установки. Если Вам требуется техническая поддержка, посетите сайт www.tukui.org. Дополнительный совет: если Вы хотите получить доступ к микроменю blizzard, нажмите средней кнопкой мыши на миникарте. Если у вас нет средней кнопки, то нажмите правой с зажатой клавишей shift."
+L["You are now finished with the installation process. If you are in need of technical support please visit us at http://www.tukui.org."] = "Вы завершили процесс установки. Если Вам требуется техническая поддержка, посетите сайт http://www.tukui.org."
 L['You can always change fonts and colors of any element of elvui from the in-game configuration.'] = "Вы всегда можете изменить шрифты и цвета любого элемента ElvUI из меню конфигурации. Классическая и пиксельная темы не отличаются для русского клиента."
 L["You can now choose what layout you wish to use based on your combat role."] = "Вы можете выбрать используемое расположение, основываясь на Вашей роли."
 L["You may need to further alter these settings depending how low you resolution is."] = "Вам может понадобиться дальнейшее изменение этих настроек в зависимости от того, насколько низким является ваше разрешение."
@@ -382,7 +381,7 @@ L["ELVUI_DESC"] = "ElvUI это аддон для полной замены по
 L['Emotion Icons'] = "Иконки эмоций";
 L["Enable/Disable the loot frame."] = "Включить/выключить окно добычи ElvUI."
 L["Enable/Disable the loot roll frame."] = "Включить/выключить фрейм распределения добычи ElvUI."
-L['Enable/Disable the minimap. |cffFF0000Warning: This will prevent you from seeing the consolidated buffs bar, and prevent you from seeing the minimap datatexts.|r'] = true;
+L['Enable/Disable the minimap. |cffFF0000Warning: This will prevent you from seeing the consolidated buffs bar, and prevent you from seeing the minimap datatexts.|r'] = 'Включить/выключить миникарту. |cffFF0000ВНИМАНИЕ: Отключив карту, вы более не сможете видеть полосу объедененных эффектов и информационные тексты, привязанные к миникарте.|r';
 L["General"] = "Общие"
 L["Log Taints"] = "Отслеживать недочеты"
 L["Login Message"] = "Сообщение загрузки"
