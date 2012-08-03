@@ -365,7 +365,7 @@ L['|cFFE30000Lua error recieved. You can view the error message when you exit co
 
 --General
 L["Accept Invites"] = "초대 수락"
-L["Adjust the size of the minimap."] = "미니맵의 크기를 조정합니다."
+L['Adjust the size of the minimap.'] = "미니맵의 크기를 조정합니다."
 L["Announce Interrupts"] = "방해/차단 알림"
 L["Announce when you interrupt a spell to the specified chat channel."] = "주문 차단/방해를 하면 특정 대화채널로 알립니다."
 L["Auto Repair"] = "자동 수리"
@@ -383,6 +383,7 @@ L["ELVUI_DESC"] = "ElvUI는 WoW의 애드온을 대신하는 완전한 애드온
 L['Emotion Icons'] = true;
 L["Enable/Disable the loot frame."] = "전리품 획득창 사용/중지"
 L["Enable/Disable the loot roll frame."] = "주사위 창 사용/중지"
+L['Enable/Disable the minimap. |cffFF0000Warning: This will prevent you from seeing the consolidated buffs bar, and prevent you from seeing the minimap datatexts.|r'] = true;
 L["General"] = "일반"
 L["Log Taints"] = true;
 L["Login Message"] = "로그인 메세지"
@@ -391,7 +392,6 @@ L["Loot Roll"] = "주사위"
 L["Loot"] = "전리품"
 L["Map Alpha While Moving"] = true;
 L["Media"] = "미디어"
-L["Minimap Size"] = "미니맵 크기"
 L["Reset all frames to their original positions."] = "원래 위치로 모든 프레임을 초기화합니다."
 L["Reset Anchors"] = "앵커 초기화"
 L["Send ADDON_ACTION_BLOCKED errors to the Lua Error frame. These errors are less important in most cases and will not effect your game performance. Also a lot of these errors cannot be fixed. Please only report these errors if you notice a Defect in gameplay."] = true;
@@ -441,7 +441,7 @@ L["You don't have enough money to repair."] = "수리 비용이 부족합니다.
 L["You don't have permission to mark targets."] = "전술목표를 설정할 권한이 없습니다."
 L["Your items have been repaired for: "] = "수리 비용:"
 L["Your items have been repaired using guild bank funds for: "] = "길드금고에서 사용된 수리 비용:"
-L["Your version of ElvUI is out of date. You can download the latest version from www.tukui.org"] = "당신의 ElvUI 버전이 구버전입니다. 당신은 www.tukui.org에서 최신 버전을 다운로드하실 수 있습니다."
+L["Your version of ElvUI is out of date. You can download the latest version from http://www.tukui.org"] = "당신의 ElvUI 버전이 구버전입니다. 당신은 http://www.tukui.org에서 최신 버전을 다운로드하실 수 있습니다."
 
 --NamePlates
 L["Add Name"] = "이름 추가"

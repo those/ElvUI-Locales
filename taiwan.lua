@@ -348,7 +348,7 @@ L['|cFFE30000Lua error recieved. You can view the error message when you exit co
 
 --General 一般
 L["Accept Invites"] = "接受組隊邀請";
-L["Adjust the size of the minimap."] = "調整小地圖尺寸。";
+L['Adjust the size of the minimap.'] = "調整小地圖尺寸。";
 L['Always Display'] = true;
 L["Announce Interrupts"] = "斷法通知";
 L["Announce when you interrupt a spell to the specified chat channel."] = "斷法時在指定頻道傳送通知訊息。";
@@ -369,6 +369,7 @@ L["ELVUI_DESC"] = "ElvUI 為一套功能完整，可用來替換 WoW 原始介�
 L['Emotion Icons'] = true;
 L["Enable/Disable the loot frame."] = "啟用/停用拾取框架";
 L["Enable/Disable the loot roll frame."] = "啟用/停用擲骰框架。";
+L['Enable/Disable the minimap. |cffFF0000Warning: This will prevent you from seeing the consolidated buffs bar, and prevent you from seeing the minimap datatexts.|r'] = true;
 L["General"] = "一般設定";
 L["Hide Both"] = "全部隱藏";
 L["Left Only"] = "僅顯示左框背景";
@@ -382,7 +383,6 @@ L["Map Alpha While Moving"] = true;
 L["Media"] = "材質";
 L['Minimap Mouseover'] = true;
 L['Minimap Panels'] = true;
-L["Minimap Size"] = "小地圖尺寸";
 L["Panel Backdrop"] = "對話框背景";
 L["Panel Height"] = "對話框高度";
 L["Panel Texture (Left)"] = "對話框材質 (左)";
@@ -439,7 +439,7 @@ L["You don't have enough money to repair."] = "資金不足，無法修復裝備
 L["You don't have permission to mark targets."] = "你沒有標記目標的權限。";
 L["Your items have been repaired for: "] = "已修復裝備，共支出：";
 L["Your items have been repaired using guild bank funds for: "] = "已使用公會資金修復裝備，共支出：";
-L["Your version of ElvUI is out of date. You can download the latest version from www.tukui.org"] = "ElvUI 版本已過期，請至 www.tukui.org 下載最新版"; --core\core.lua
+L["Your version of ElvUI is out of date. You can download the latest version from http://www.tukui.org"] = "ElvUI 版本已過期，請至 http://www.tukui.org 下載最新版"; --core\core.lua
 
 --NamePlates
 L["Add Name"] = "新增名稱";

@@ -367,7 +367,7 @@ L['|cFFE30000Lua error recieved. You can view the error message when you exit co
 
 --General => Partly translated, in progress (12)
 L["Accept Invites"] = "Invitations automatiques"
-L["Adjust the size of the minimap."] = "Ajuster la taille de la mini-carte."
+L['Adjust the size of the minimap.'] = "Ajuster la taille de la mini-carte."
 L["Announce Interrupts"] = "Annoncer les Interruptions"
 L["Announce when you interrupt a spell to the specified chat channel."] = "Annonce quand vous interrompez un sort dans le canal de chat spécifié."
 L["Auto Repair"] = "Réparation automatique"
@@ -385,6 +385,7 @@ L["ELVUI_DESC"] = "ElvUI est une interface de remplacement complète pour World 
 L['Emotion Icons'] = true;
 L["Enable/Disable the loot frame."] = "Activer/désactiver le cadre de butin."
 L["Enable/Disable the loot roll frame."] = "Activer/désactiver le cadre du tirage au sort du butin."
+L['Enable/Disable the minimap. |cffFF0000Warning: This will prevent you from seeing the consolidated buffs bar, and prevent you from seeing the minimap datatexts.|r'] = true;
 L["General"] = "Général"
 L["Log Taints"] = "Enregistrer les modifications";
 L["Login Message"] = "Message de connexion"
@@ -393,7 +394,6 @@ L["Loot Roll"] = "Cadre de butin"
 L["Loot"] = "Butin"
 L["Map Alpha While Moving"] = true;
 L["Media"] = "Média"
-L["Minimap Size"] = "Taille de la mini-map"
 L["Reset all frames to their original positions."] = "Réinitialiser les cadres à leurs positions initiales."
 L["Reset Anchors"] = "Réinitialiser les ancres"
 L["Send ADDON_ACTION_BLOCKED errors to the Lua Error frame. These errors are less important in most cases and will not effect your game performance. Also a lot of these errors cannot be fixed. Please only report these errors if you notice a Defect in gameplay."] = "Envoyer les ADDON_ACTION_BLOCKED dans la fenêtre d'erreur LUA. Ces erreurs sont minimes dans la plupart des cas et n'affecteront pas votre expérience de jeu. Tenez compte que nombreuses de celles-ci ne peuvent être fixé. Signalez-les uniquement si cela affecte grandement le jeu.";
@@ -441,7 +441,7 @@ L["You don't have enough money to repair."] = "Vous n'avez pas assez d'argent po
 L["You don't have permission to mark targets."] = "Vous n'avez pas la permission de marquer les cibles."
 L["Your items have been repaired for: "] = "Votre équipement a été réparé pour : "
 L["Your items have been repaired using guild bank funds for: "] = "Votre équipement a été réparé avec l'argent de la banque de guilde pour : "
-L["Your version of ElvUI is out of date. You can download the latest version from www.tukui.org"] = "Une version plus récente d'ElvUi est disponible. Vous pouvez télécharger la dernière version sur www.tukui.org"
+L["Your version of ElvUI is out of date. You can download the latest version from http://www.tukui.org"] = "Une version plus récente d'ElvUi est disponible. Vous pouvez télécharger la dernière version sur http://www.tukui.org"
 
 --NamePlates => Partly translated, in progress (4)
 L["Add Name"] = "Ajouter un nom"

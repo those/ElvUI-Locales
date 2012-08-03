@@ -364,7 +364,7 @@ L['|cFFE30000Lua error recieved. You can view the error message when you exit co
 
 --General
 L["Accept Invites"] = "Принимать приглашения"
-L["Adjust the size of the minimap."] = "Изменяет размер миникарты"
+L['Adjust the size of the minimap.'] = "Изменяет размер миникарты"
 L["Announce Interrupts"] = "Объявлять о прерываниях"
 L["Announce when you interrupt a spell to the specified chat channel."] = "Объявлять о прерванных Вами заклинаниях в указанный канал чата."
 L["Auto Repair"] = "Автоматический ремонт"
@@ -382,6 +382,7 @@ L["ELVUI_DESC"] = "ElvUI это аддон для полной замены по
 L['Emotion Icons'] = "Иконки эмоций";
 L["Enable/Disable the loot frame."] = "Включить/выключить окно добычи ElvUI."
 L["Enable/Disable the loot roll frame."] = "Включить/выключить фрейм распределения добычи ElvUI."
+L['Enable/Disable the minimap. |cffFF0000Warning: This will prevent you from seeing the consolidated buffs bar, and prevent you from seeing the minimap datatexts.|r'] = true;
 L["General"] = "Общие"
 L["Log Taints"] = "Отслеживать недочеты"
 L["Login Message"] = "Сообщение загрузки"
@@ -390,7 +391,6 @@ L["Loot Roll"] = "Раздел добычи"
 L["Loot"] = "Добыча"
 L['Map Alpha While Moving'] = "Прозрачность карты в движении"
 L["Media"] = "Медиа"
-L["Minimap Size"] = "Размер миникарты"
 L["Reset all frames to their original positions."] = "Установить все фреймы на позиции по умолчанию"
 L["Reset Anchors"] = "Сбросить позиции"
 L["Send ADDON_ACTION_BLOCKED errors to the Lua Error frame. These errors are less important in most cases and will not effect your game performance. Also a lot of these errors cannot be fixed. Please only report these errors if you notice a Defect in gameplay."] = "Отображать ошибки типа ADDON_ACTION_BLOCKED в фрейме ошибок lua. Эти ошибки в большинстве случаев не сильно важны и не влияют на производительность. Также многие из этих ошибок не могут быть исправлены. Пожалуйста, сообщайте об этих ошибках только если Вы заметите дефект в игре."
@@ -438,7 +438,7 @@ L["You don't have enough money to repair."] = "У вас недостаточн�
 L["You don't have permission to mark targets."] = "У вас нет разрешения на установку меток"
 L["Your items have been repaired for: "] = "Ваши предметы отремонтированы на: "
 L["Your items have been repaired using guild bank funds for: "] = "Ваши предметы отремонтированы за счет гильдии на: "
-L["Your version of ElvUI is out of date. You can download the latest version from www.tukui.org"] = "Ваша версия ElvUI устарела. Вы можете скачать последнюю версию на www.tukui.org"
+L["Your version of ElvUI is out of date. You can download the latest version from http://www.tukui.org"] = "Ваша версия ElvUI устарела. Вы можете скачать последнюю версию на http://www.tukui.org"
 
 --NamePlates
 L["Add Name"] = "Добавить имя"
@@ -589,7 +589,7 @@ L["Who's targetting who?"] = "Кто кого выбрал?"
 --Tutorials
 L['A raid marker feature is available by pressing Escape -> Keybinds scroll to the bottom under ElvUI and setting a keybind for the raid marker.'] = 'Функция рейдовых меток доступна в Escape -> Назначение клавиш. Прокрутите вниз до раздела ElvUI и назначьте клавишу для рейдовых меток.';
 L['ElvUI has a dual spec feature which allows you to load different profiles based on your current spec on the fly. You can enable this from the profiles tab.'] = 'В ElvUI присутствует функция двойной специализации, которая позволит Вам использовать разные профили для разных наборов талантов. Вы можете включить эту функцию в разделе профилей.';
-L['For technical support visit us at http://www.tukui.org.'] = 'За технической поддержкой обращайтесь на www.tukui.org.';
+L['For technical support visit us at http://www.tukui.org.'] = 'За технической поддержкой обращайтесь на http://www.tukui.org.';
 L['If you accidently remove a chat frame you can always go the in-game configuration menu, press install, go to the chat portion and reset them.'] = 'Если Вы случайно удалили вкладку чата, всегда можно сделать следующее: зайти в конфигурацию, запустить установку, дойти до шага настроек чата и сбросить их.'
 L['If you are experiencing issues with ElvUI try disabling all your addons except ElvUI, remember ElvUI is a full UI replacement addon, you cannot run two addons that do the same thing.'] = 'Если Вы испытываете проблемы с ElvUI, попробуйте отключить все аддоны, кроме самого ElvUI. Помните, ElvUI это аддон, полностью заменяющий интерфейс, Вы не можете одновременно использовать два аддона, выполняющих одинаковые функции.';
 L['If you need to reset the gold datatext type /resetgold.'] = 'Если Вы хотите сбросить данные в инфо-тексте золота, введите команду /resetgold.';

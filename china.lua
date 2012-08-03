@@ -364,7 +364,7 @@ L['|cFFE30000Lua error recieved. You can view the error message when you exit co
 
 --General
 L["Accept Invites"] = "接受邀请"
-L["Adjust the size of the minimap."] = "调整小地图尺寸。" -- Needs review
+L['Adjust the size of the minimap.'] = "调整小地图尺寸。" -- Needs review
 L["Announce Interrupts"] = "打断通告"
 L["Announce when you interrupt a spell to the specified chat channel."] = "在指定聊天频道通知打断信息."
 L["Auto Repair"] = "自动修装"
@@ -382,6 +382,7 @@ L["ELVUI_DESC"] = "ElvUI 为一套功能完整，可用来替换 WOW 原始介�
 L['Emotion Icons'] = true;
 L["Enable/Disable the loot frame."] = "开/关物品掉落框架。" -- Needs review
 L["Enable/Disable the loot roll frame."] = "开/关掷骰子框架。" -- Needs review
+L['Enable/Disable the minimap. |cffFF0000Warning: This will prevent you from seeing the consolidated buffs bar, and prevent you from seeing the minimap datatexts.|r'] = true;
 L["General"] = "一般"
 L["Log Taints"] = true;
 L["Login Message"] = "登入资讯"
@@ -390,7 +391,6 @@ L["Loot Roll"] = "掷骰"
 L["Loot"] = "拾取"
 L["Map Alpha While Moving"] = true;
 L["Media"] = "材质"
-L["Minimap Size"] = true;
 L["Reset all frames to their original positions."] = "重设所有框架至预设位置."
 L["Reset Anchors"] = "重置定位"
 L["Send ADDON_ACTION_BLOCKED errors to the Lua Error frame. These errors are less important in most cases and will not effect your game performance. Also a lot of these errors cannot be fixed. Please only report these errors if you notice a Defect in gameplay."] = true;
@@ -438,7 +438,7 @@ L["You don't have enough money to repair."] = "没有足够的资金来修复."
 L["You don't have permission to mark targets."] = "你没有标记目标的权限"
 L["Your items have been repaired for: "] = "装备已修复: "
 L["Your items have been repaired using guild bank funds for: "] = "物品已使用公会银行资金修复: "
-L["Your version of ElvUI is out of date. You can download the latest version from www.tukui.org"] = "ElvUI 版本已过期，请至 www.tukui.org 下载最新版"
+L["Your version of ElvUI is out of date. You can download the latest version from http://www.tukui.org"] = "ElvUI 版本已过期，请至 http://www.tukui.org 下载最新版"
 
 --NamePlates
 L["Add Name"] = "添加名称"

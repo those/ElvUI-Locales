@@ -715,4 +715,4 @@ L["You need to be at least level %d to whisper me."] = "Você precisa de ser pel
 -- L["Your current resolution is %s, this is considered a %s resolution."] = ""
 L["Your items have been repaired for: "] = "Seus itens foram reparadas por:" -- Needs review
 L["Your items have been repaired using guild bank funds for: "] = "Seus itens foram reparados usando os fundos da guilda bancária por:" -- Needs review
-L["Your version of ElvUI is out of date. You can download the latest version from www.tukui.org"] = "Sua versão do ElvUI está desatualizada. Você pode baixar a versão mais recente www.tukui.org" -- Needs review
+L["Your version of ElvUI is out of date. You can download the latest version from http://www.tukui.org"] = "Sua versão do ElvUI está desatualizada. Você pode baixar a versão mais recente http://www.tukui.org" -- Needs review

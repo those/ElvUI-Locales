@@ -364,7 +364,7 @@ L['|cFFE30000Lua error recieved. You can view the error message when you exit co
 
 --General
 L["Accept Invites"] = "Einladungen akzeptieren"
-L["Adjust the size of the minimap."] = "Stelle die Größe der Minimap ein."
+L['Adjust the size of the minimap.'] = "Stelle die Größe der Minimap ein."
 L["Announce Interrupts"] = "Unterbrechungen Ankündigen"
 L["Announce when you interrupt a spell to the specified chat channel."] = "Melde wenn du einen Zauber unterbrochen hast in dem angegebenen Chatchannel."
 L["Auto Repair"] = "Automatische Reparatur"
@@ -382,6 +382,7 @@ L["ELVUI_DESC"] = "ElvUI ist ein komplettes Benutzerinterface AddOn für World o
 L['Emotion Icons'] = 'Emotion Icons'
 L["Enable/Disable the loot frame."] = "Aktiviere/Deaktiviere das Beute Fenster."
 L["Enable/Disable the loot roll frame."] = "Aktiviere/Deaktiviere das Würfel Fenster."
+L['Enable/Disable the minimap. |cffFF0000Warning: This will prevent you from seeing the consolidated buffs bar, and prevent you from seeing the minimap datatexts.|r'] = true;
 L["General"] = "Allgemein"
 L["Log Taints"] = "Log Fehler"
 L["Login Message"] = "Login Nachricht"
@@ -390,7 +391,6 @@ L["Loot Roll"] = "Würfel Fenster"
 L["Loot"] = "Loot"
 L["Map Alpha While Moving"] = "Karten Alpha während der Bewegung"
 L["Media"] = "Medien"
-L["Minimap Size"] = "Minimap Größe"
 L["Reset all frames to their original positions."] = "Setze alle Einheiten an Ihre ursprüngliche Position zurück."
 L["Reset Anchors"] = "Ankerpunkte zurücksetzen"
 L["Send ADDON_ACTION_BLOCKED errors to the Lua Error frame. These errors are less important in most cases and will not effect your game performance. Also a lot of these errors cannot be fixed. Please only report these errors if you notice a Defect in gameplay."] = "Sende ADDON_ACTION_BLOCKED Fehler zu den Lua Fehler Fenster. Diese Fehler sind weniger wichtig und werden deine Spiel Leistung nicht beeinflussen. Viele dieser Fehler können nicht beseitigt werden. Bitte melde diese Fehler nur wenn es einen Defekt im Spiel verursacht."
