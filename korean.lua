@@ -215,7 +215,6 @@ Or for most users it would be easier to simply put a tga file into your WoW fold
 혹은 간단히 사용하고자 하는 tga파일을 당신의 와우 폴더에 넣은후 이곳에 파일이름을 적어도 됩니다.]=]
 
 --Config / Install
-L['Bar'] = true;
 L["Caster DPS"] = "원거리 딜러"
 L["Chat Set"] = "대화창 설정"
 L['Choose a theme layout you wish to use for your initial setup.'] = true;

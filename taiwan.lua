@@ -205,7 +205,6 @@ Or for most users it would be easier to simply put a tga file into your WoW fold
 對多數玩家來說，較簡易的方式是將 tga 檔放入 WoW 資料夾中，然後在此處輸入檔案名稱。]=];
 
 --Config / Install | 設定 / 安裝設定
-L['Bar'] = true;
 L["Caster DPS"] = "遠程輸出";
 L["Chat Set"] = "聊天設定完畢";
 L['Choose a theme layout you wish to use for your initial setup.'] = true;

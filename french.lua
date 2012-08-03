@@ -217,7 +217,6 @@ Exemple: Interface\AddOns\ElvUI\media\textures\copy
 Ou pour la majorité des utilsateurs, il serait plus simple de mettre le fichier tga dans le dossier de World of Warcraft puis de taper son nom ici.]=]
 
 --Config / Install
-L['Bar'] = "Barre"
 L["Caster DPS"] = "DPS Distance"
 L["Chat Set"] = "Chat configuré"
 L['Choose a theme layout you wish to use for your initial setup.'] = "Choisissez un modèle de thème que vous souhaitez utiliser pour votre configuration initiale."
