@@ -132,7 +132,7 @@ L['Consolidated Buffs'] = "Améliorations groupées"
 L['Defines how the group is sorted.'] = "Définit la façon dont le groupe est trié."
 L['Defines the sort order of the selected sort method.'] = "Définit l'odre de tri de la méthode de tri sléctionné." --Mindfuck
 L['Display the consolidated buffs bar.'] = "Affiche la barre d'améliorations groupées."
-L["Fade Threshold"] = true;
+L["Fade Threshold"] = "Fondu de seuil"
 L['Index'] = "Index"
 L['Indicate whether buffs you cast yourself should be separated before or after.'] = "Indique si les améliorations que vous lancez doivent être séparés avant ou après."
 L['Limit the number of rows or columns.'] = "Limiter le nombre de lignes ou de colonnes"
@@ -362,7 +362,7 @@ L["Wrist"] = "Poignets"
 --DebugTools
 L["%s: %s tried to call the protected function '%s'."] = "%s: %s a essayé d'appeler la fonction protégée '%s'."
 L["INCOMPATIBLE_ADDON"] = "L'addon %s est incompatible avec le module %s d'ElvUi. Désactivez l'add-on ou le module incompatible."
-L["No locals to dump"] = "Aucunes données à vider"; -- Need review
+L["No locals to dump"] = "Aucune données à vider"; -- Need review
 L['|cFFE30000Lua error recieved. You can view the error message when you exit combat.'] = "|cFFE30000Erreur Lua reçue. Vous pouvez voir ce message d'erreur quand vous sortez de combat."
 
 --General
@@ -590,22 +590,22 @@ L["When in a raid group display if anyone in your raid is targetting the current
 L["Who's targetting who?"] = "Qui est en train de cibler qui ?"
 
 --Tutorials
-L['A raid marker feature is available by pressing Escape -> Keybinds scroll to the bottom under ElvUI and setting a keybind for the raid marker.'] = true;
-L['ElvUI has a dual spec feature which allows you to load different profiles based on your current spec on the fly. You can enable this from the profiles tab.'] = true;
-L['For technical support visit us at http://www.tukui.org.'] = true;
-L['If you accidently remove a chat frame you can always go the in-game configuration menu, press install, go to the chat portion and reset them.'] = true
-L['If you are experiencing issues with ElvUI try disabling all your addons except ElvUI, remember ElvUI is a full UI replacement addon, you cannot run two addons that do the same thing.'] = true;
-L['If you need to reset the gold datatext type /resetgold.'] = true;
-L['The buff panel to the right of minimap is a list of your consolidated buffs. You can disable it in Buffs and Debuffs options of ElvUI.'] = true;
-L['The focus unit can be set by typing /focus when you are targetting the unit you want to focus. It is recommended you make a macro to do this.'] = true;
-L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the blizzard actionbar options menu.'] = true;
-L['To setup which channels appear in which chat frame, right click the chat tab and go to settings.'] = true;
-L['Using the /farmmode <size> command will spawn a larger minimap on your screen that can be moved around, very useful when farming.'] = true;
-L['You can access copy chat and chat menu functions by mouse over the top right corner of chat panel and left/right click on the button that will appear.'] = true;
-L['You can see someones average item level of their gear by holding shift and mousing over them. It should appear inside the tooltip.'] = true;
-L['You can set your keybinds quickly by typing /kb.'] = true;
-L['You can toggle the microbar by using your middle mouse button on the minimap you can also accomplish this by holding shift and right clicking on the minimap.'] = true;
-L['You can use the /resetui command to reset all of your movers. You can also use the command to reset a specific mover, /resetui <mover name>.\nExample: /resetui Player Frame'] = true;
+L['A raid marker feature is available by pressing Escape -> Keybinds scroll to the bottom under ElvUI and setting a keybind for the raid marker.'] = "Une fonction marqueur de raid est disponible en appuyant sur Echap -> Raccourcis, défilez en bas d'ElvUi et paramétrez le raccourcis pour le marqueur de raid."
+L['ElvUI has a dual spec feature which allows you to load different profiles based on your current spec on the fly. You can enable this from the profiles tab.'] = "ElvUI dispose d'une fonction double spécialisation qui vous permet de charger à la volée des profils différents en fonction de votre specialisation actuelle."
+L['For technical support visit us at http://www.tukui.org.'] = "Pour tout support technique, merci de nous visiter à http://www.tukui.org."
+L['If you accidently remove a chat frame you can always go the in-game configuration menu, press install, go to the chat portion and reset them.'] = "Si vous supprimez accidentellement un cadre de discussion, vous pouvez toujours aller dans le menu de configuration d'ElvUi. Cliquez ensuite sur Installation puis passez à l'étape concernant les fenêtres de discussion pour remettre à zero les paramètres."
+L['If you are experiencing issues with ElvUI try disabling all your addons except ElvUI, remember ElvUI is a full UI replacement addon, you cannot run two addons that do the same thing.'] = "Si vous rencontrez des problèmes avec ElvUI, essayez de désactiver tous vos addons sauf ElvUI. Rappelez-vous que'ElvUi est une interface utilisateur complète et que vous ne pouvez pas éxécuter deux addons qui font la même chose."
+L['If you need to reset the gold datatext type /resetgold.'] = "Si vous souhaitez réinitialiser le datatextes de pièces d'or, tapez /resetgold."
+L['The buff panel to the right of minimap is a list of your consolidated buffs. You can disable it in Buffs and Debuffs options of ElvUI.'] = "Le panneau d'améliorations à droite de la minicarte est une liste de vos améliorations groupées. Vous pouvez la désactiver dans la section Améliorations et Affaiblissement d'ElvUi."
+L['The focus unit can be set by typing /focus when you are targetting the unit you want to focus. It is recommended you make a macro to do this.'] = "La cadre de focus peut être défini en tapent /focus quand vous êtres en train de cibler une unité que vous voulez focus. Il est recommandé de faire une macro pour cela."
+L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the blizzard actionbar options menu.'] = "Pour déplacer par défaut les capacités des barres d'actions, maintenant MAJ + déplacer. Vous pouvez modifier la touche de modification dans le menu des barres d'actions de Blizzard."
+L['To setup which channels appear in which chat frame, right click the chat tab and go to settings.'] = "Pour configurer quels cannaux de disucssions doivent apparaitrent de les feneêtres de Chat, faites un clic droit sur l'onglet de Chat et allez dans les paramètres."
+L['Using the /farmmode <size> command will spawn a larger minimap on your screen that can be moved around, very useful when farming.'] = "En utilisant la commande /farmmode <taille>, vous pouvez afficher une minicarte plus grande qui peut être déplacée. Très utile pour les métiers de récolte."
+L['You can access copy chat and chat menu functions by mouse over the top right corner of chat panel and left/right click on the button that will appear.'] = "Vous pouvez accéder à une copie du Chat et des fonctions du Chat en survolant avec votre souris le coin haut droit de la fenêtre de discussion. Cliquez ensuite sur le bouton."
+L['You can see someones average item level of their gear by holding shift and mousing over them. It should appear inside the tooltip.'] = "Vous pouvez voir le niveau d'objet moyen de n'importe qui en maintenant la touche MAJ enfoncée puis en passant votre souris sur un joueur. Le score apparaitra dans le bulle d'informations."
+L['You can set your keybinds quickly by typing /kb.'] = "Vous pouvez assignez rapidement vos raccourcis en tapant /kb."
+L['You can toggle the microbar by using your middle mouse button on the minimap you can also accomplish this by holding shift and right clicking on the minimap.'] = "Vous pouvez afficher la microbarre en utilisant le bouton central de la souris sur la minicarte. Vous pouvez également y parvenir en maintenant le touche MAJ tout en effectuant un clic droit sur la minicarte."
+L['You can use the /resetui command to reset all of your movers. You can also use the command to reset a specific mover, /resetui <mover name>.\nExample: /resetui Player Frame'] = "Vous pouvez utiliser la commande /resetui pour réinitialiser l'ensemble de vos cadres. Vous pouvez aussi utiliser la commande /resetui <nom du cadre> pour réinitialiser un cadre spécifique.\nExemple: /resetui Player Frame"
 
 --UnitFrames
 L["%s frame(s) has a conflicting anchor point, please change either the buff or debuff anchor point so they are not attached to each other. Forcing the debuffs to be attached to the main unitframe until fixed."] = "% du (des) cadre (s) a un point d'ancrage contradictoires, merci de changer le point d'ancrage du buff ou du debuff de sorte qu'ils ne sont pas attachés les uns aux autres. Forcer les debuffs à être attaché au cadre d'unité principale jusqu'à ce qu'ils soient fixé."
