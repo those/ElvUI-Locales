@@ -7,6 +7,7 @@ L[" |cff00ff00bound to |r"] = " |cff00ff00绑定到 |r"
 L["Action Paging"] = "动作条翻页"
 L["ActionBars"] = "动作条"
 L["All keybindings cleared for |cff00ff00%s|r."] = "取消 |cff00ff00%s|r 所有绑定的快捷键."
+L['Alpha'] = true;
 L["Anchor Point"] = "定位方向" --also in unitframes
 L["Backdrop"] = "背景"
 L["Bar "] = "快捷列 "
@@ -17,6 +18,7 @@ L["Button Size"] = "按钮大小" --Also used in Bags
 L["Button Spacing"] = "按钮间距" --Also used in Bags
 L["Buttons Per Row"] = "每行按钮数"
 L["Buttons"] = "按钮数"
+L['Change the alpha level of the frame.'] = true;
 L["Color when the text is about to expire"] = "即将冷却完毕的数字颜色"
 L["Color when the text is in the days format."] = "以天显示的文字颜色"
 L["Color when the text is in the hours format."] = "以小时显示的文字颜色"
@@ -52,6 +54,7 @@ L["LOCK_AB_ERROR"] = "It has come to our attention that you do not have your act
 L["Low Threshold"] = "冷却时间低阀值"
 L["Macro Text"] = "巨集内容"
 L['Max Paging'] = true;
+L['Micro Bar'] = true;
 L["Minutes"] = "分"
 L["Mouse Over"] = "滑鼠滑过显示" --Also used in Bags
 L["Multiply the backdrops height or width by this value. This is usefull if you wish to have more than one bar behind a backdrop."] = "根据此值增加背景的高度或宽度. 一般用来在一个背景框里放置多条快捷列"
@@ -93,7 +96,6 @@ L["Delete Grays"] = "删除灰色物品"
 L["Deleted %d gray items. Total Worth: %s"] = "已删除 %d 个灰色物品. 总价值: "
 L["Descending"] = true;
 L["Direction the bag sorting will use to allocate the items."] = true;
-L["Enable Bag-Bar"] = true;
 L["Enable/Disable the all-in-one bag."] = "开/关整合背包。" -- Needs review
 L["Enable/Disable the Bag-Bar."] = true;
 L["goldabbrev"] = "|cffffd700g|r" --Also used in gold datatext
@@ -594,13 +596,13 @@ L['For technical support visit us at http://www.tukui.org.'] = true;
 L['If you accidently remove a chat frame you can always go the in-game configuration menu, press install, go to the chat portion and reset them.'] = true
 L['If you are experiencing issues with ElvUI try disabling all your addons except ElvUI, remember ElvUI is a full UI replacement addon, you cannot run two addons that do the same thing.'] = true;
 L['If you need to reset the gold datatext type /resetgold.'] = true;
-L['If your experience and reputation bars disappear, mouse over the place where they were and click them again.'] = true;
 L['The buff panel to the right of minimap is a list of your consolidated buffs. You can disable it in Buffs and Debuffs options of ElvUI.'] = true;
 L['The focus unit can be set by typing /focus when you are targetting the unit you want to focus. It is recommended you make a macro to do this.'] = true;
 L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the blizzard actionbar options menu.'] = true;
 L['To setup which channels appear in which chat frame, right click the chat tab and go to settings.'] = true;
 L['Using the /farmmode <size> command will spawn a larger minimap on your screen that can be moved around, very useful when farming.'] = true;
 L['You can access copy chat and chat menu functions by mouse over the top right corner of chat panel and left/right click on the button that will appear.'] = true;
+L['You can see someones average item level of their gear by holding shift and mousing over them. It should appear inside the tooltip.'] = true;
 L['You can set your keybinds quickly by typing /kb.'] = true;
 L['You can toggle the microbar by using your middle mouse button on the minimap you can also accomplish this by holding shift and right clicking on the minimap.'] = true;
 L['You can use the /resetui command to reset all of your movers. You can also use the command to reset a specific mover, /resetui <mover name>.\nExample: /resetui Player Frame'] = true;
@@ -625,7 +627,6 @@ L["Bars will transition smoothly."] = "状态条平滑增减"
 L['Bars'] = true; --Also used in ExpRepBar tooltip
 L['Below'] = true;
 L["Blacklist"] = "黑名单"
-L["Blank"] = "空"
 L["Boss Frames"] = "BOSS 框架"
 L["Buff Indicator"] = "Buff 提示器"
 L["Buffs"] = "增益光环"
@@ -655,6 +656,7 @@ L["Create Filter"] = "创造筛选器"
 L["Current - Max"] = "目前值 - 最大值"
 L["Current - Percent"] = "目前值 - 百分比"
 L["Current / Max"] = "目前/最大生命值"
+L['Current - Max | Percent'] = true;
 L["Current"] = "目前值"
 L["Custom Health Backdrop"] = "自订生命条背景"
 L["Debuff Highlighting"] = "减益光环加亮显示"
@@ -675,6 +677,7 @@ L["Display the rested icon on the unitframe."] = "在单位框架上显示充分
 L["Display the target of the cast on the castbar."] = true;
 L["Display tick marks on the castbar for channelled spells. This will adjust automatically for spells like Drain Soul and add additional ticks based on haste."] = "若为需引导的法术，在施法条上显示每跳周期伤害。启动此功能后，针对吸取灵魂这类的法术，将自动调整显示每跳周期伤害，并视加速等级增加额外的周期伤害。"
 L["Down"] = "下"
+L['Enemy Aura Type'] = true;
 L["Fade the unitframe when out of combat, not casting, no target exists."] = "非战斗/施法/目标不存在时隐藏单位框架"
 L["Fill"] = "填充"
 L["Filled"] = "全长"
@@ -687,6 +690,7 @@ L["Frame"] = "框架"
 L["Frequent Updates"] = "频繁更新" -- Needs review
 L['Friendlies: Show Buffs'] = true;
 L['Friendlies: Show Debuffs'] = true;
+L['Friendly Aura Type'] = true;
 L["Ghost"] = "鬼魂"
 L["Good"] = "安全"
 L["Group By"] = true;
@@ -707,14 +711,10 @@ L['If set then if the aura is found on the whitelist filter it will display. Not
 L['If set, only auras belonging to yourself in addition to any aura that passes the set filter may be shown. Note: You can change between only doing this on friendly or enemy units.'] = true;
 L["Interrupt Color"] = "不可打断颜色"
 L["Latency"] = "延迟"
-L["Length"] = true;
-L["Long (Include Level)"] = true;
-L["Long"] = true;
 L["Low Mana Threshold"] = "低法力阈值"
 L["Main statusbar texture."] = "主状态条材质"
 L["Match Frame Width"] = "匹配视窗宽度"
 L["Max Columns"] = "最大列数"
-L["Medium"] = true;
 L["MT, MA First"] = true;
 L["Name"] = "姓名" --Also used in Buffs and Debuffs
 L["Neutral"] = "中立"
@@ -767,7 +767,8 @@ L["Set the filter type, blacklisted filters hide any aura on the like and show a
 L["Set the font size for unitframes."] = true;
 L["Set the order that the group will sort."] = true;
 L["Set the priority order of the spell, please note that prioritys are only used for the raid debuff module, not the standard buff/debuff module. If you want to disable set to zero."] = true;
-L["Short"] = true;
+L['Set the type of auras to show when a unit is a foe.'] = true;
+L['Set the type of auras to show when a unit is friendly.'] = true;
 L["Show a incomming heal prediction bar on the unitframe. Also display a slightly different colored bar for incoming overheals."] = "在单位框架中显示即将回复的的预测治疗量，过量治疗则以不同颜色显示。"
 L['Show Auras'] = true;
 L["Show Missing"] = "显示未命中"
@@ -790,7 +791,6 @@ L["Target Frame"] = "目标框架"
 L["TargetTarget Frame"] = "目标的目标框架"
 L["Text Format"] = "文字格式"
 L["Text Toggle On NPC"] = "NPC 文字显示开关"
-L["Text"] = "文字"
 L["The alpha to set units that are out of range to."] = "单位框架超出距离的透明度"
 L["The amount of space (in pixels) between the columns."] = "列之间的间隔距离(像素)"
 L["The anchor point for each new column. A value of LEFT will cause the columns to grow to the right."] = "每一行的定位. 设定这个值为LEFT, 那么这一行的将从左向增长"
@@ -830,3 +830,24 @@ L["You can't remove a pre-existing filter."] = "你不能删除一个内建的�
 L["You cannot copy settings from the same unit."] = "你不能从相同的单位复制设定"
 L["You cannot set the Group Point and Column Point so they are opposite of each other."] = "你不能设定队伍位置和列位置这些他们是互相对立的."
 L["You may not remove a spell from a default filter that is not customly added. Setting spell to false instead."] = "你不能移除一个内建技能, 仅能停用此技能."
+L['TEXT_FORMAT_DESC'] = [=[Provide a string to change the text format.
+
+Examples:
+[colorname][name] [difficultycolor][level] [shortclassification]
+[health:current-max]
+[power:current]
+
+Health / Power Formats:
+'current' - current amount
+'percent' - percentage amount
+'current-max' - current amount followed by maximum amount, will display only max is current is equal to max
+'current-percent' - current amount followed by percentage amount, will display only max is current is equal to max
+'current-max-percent' - current amount, max amount, followed by percentage amount, will display only max if current is equal to max
+'deficit' - display the deficit value, will display nothing if there is no deficit
+
+Name Formats:
+'name-short' - Name restricted to 10 characters
+'name-medium' - Name restricted to 15 characters
+'name-long' - Name restricted to 20 characters
+
+To disable leave the field blank, if you need more information visit http://www.tukui.org]=];
