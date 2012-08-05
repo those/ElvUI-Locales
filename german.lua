@@ -131,7 +131,7 @@ L['Consolidated Buffs'] = 'Zusammengesetzte Stärkungszauber'
 L['Defines how the group is sorted.'] = 'Lege fest wie die Gruppe sortiert wird.'
 L['Defines the sort order of the selected sort method.'] = 'Legt die Sortierreihenfolge der ausgewählten Sortier Methode fest.'
 L['Display the consolidated buffs bar.'] = 'Zeige die zusammengesetzte Stärkungszauber Leiste.'
-L["Fade Threshold"] = true;
+L["Fade Threshold"] = "Verblassende Schwelle"
 L['Index'] = 'Index'
 L['Indicate whether buffs you cast yourself should be separated before or after.'] = 'Wenn du einen Zauber auf dich selber wirkst zeige diesen zuerst in der Leiste.'
 L['Limit the number of rows or columns.'] = 'Beschränkung der Anzahl an Leisten oder Spalten.'
@@ -141,7 +141,7 @@ L["Other's First"] = "Andere Zuerst"
 L['Seperate'] = 'Seperat'
 L['Set the size of the individual auras.'] = 'Lege die Größe der individuelen Stärkungszauber fest.'
 L['Sort Method'] = 'Sortier Methode'
-L['Threshold before text changes red, goes into decimal form, and the icon will fade. Set to -1 to disable.'] = true;
+L['Threshold before text changes red, goes into decimal form, and the icon will fade. Set to -1 to disable.'] = 'Die Schwelle bevor der Text Rot wird, geht in dezimal Form, und das Symbol wird verblassen. Setze es auf -1 um es zu deaktivieren.'
 L['Time'] = 'Zeit'
 L['Wrap After'] = 'Maximale Stärkungszauber'
 L['Your Auras First'] = 'Deine Stärkungszauber zuerst'
@@ -645,7 +645,7 @@ L["Color the unit healthbar if there is a debuff that can be dispelled by you."]
 L["Color"] = "Farbe"
 L["Column Point"] = "Spalten Punkt"
 L["Column Spacing"] = "Spalten Abstand"
-L["Combat Fade"] = "im Kampf ausblenden"
+L["Combat Fade"] = "Im Kampf ausblenden"
 L["Combobar"] = "Kombopunkte Leiste"
 L["Copy From"] = "Kopieren von"
 L["Create a filter, once created a filter can be set inside the buffs/debuffs section of each unit."] = "Erstelle einen Filter, ist der Filter einmal erstellt kann er bei jeder Einheit im Bereich Buffs/Debuffs ausgewählt werden."
@@ -653,7 +653,7 @@ L["Create Filter"] = "Filter erstellen"
 L["Current - Max"] = "Derzeit - Maximal"
 L["Current - Percent"] = "Derzeit - Prozent"
 L["Current / Max"] = "Aktuell / Maximal"
-L['Current - Max | Percent'] = true;
+L['Current - Max | Percent'] = 'Aktuell - Maximal | Prozent'
 L["Current"] = "Derzeit"
 L["Custom Health Backdrop"] = "Benutzerdefinierte Hintergrundfarbe"
 L["Debuff Highlighting"] = "Debuff hervorhebung"
@@ -827,24 +827,24 @@ L["You can't remove a pre-existing filter."] = "Du kannst einen vorgefertigten F
 L["You cannot copy settings from the same unit."] = "Du kannst keine Einstellungen von der gleichen Einheit kopieren."
 L["You cannot set the Group Point and Column Point so they are opposite of each other."] = "Du kannst nicht den Gruppenpunkt und den Spaltenpunkt so setzen das sie sich gegenüber sind."
 L["You may not remove a spell from a default filter that is not customly added. Setting spell to false instead."] = "Du kannst keinen Filter entfernen der nicht benutzerdefiniert hinzugefügt wurde. Setzte den Zauber einfach auf deaktiviert."
-L['TEXT_FORMAT_DESC'] = [=[Provide a string to change the text format.
+L['TEXT_FORMAT_DESC'] = [=[Wähle eine Zeichenfolge um das Textformat zu ändern.
 
-Examples:
+Beispiele:
 [colorname][name] [difficultycolor][level] [shortclassification]
 [health:current-max]
 [power:current]
 
-Health / Power Formats:
-'current' - current amount
-'percent' - percentage amount
-'current-max' - current amount followed by maximum amount, will display only max is current is equal to max
-'current-percent' - current amount followed by percentage amount, will display only max is current is equal to max
-'current-max-percent' - current amount, max amount, followed by percentage amount, will display only max if current is equal to max
-'deficit' - display the deficit value, will display nothing if there is no deficit
+Leben / Kraft Formate:
+'current' - Aktueller Betrag
+'percent' - Prozent Betrag
+'current-max' - Aktueller Betrag gefolgt von dem Maximum Betrag, wird nur das Maximale anzeigen wenn der Aktuelle Betrag auch das Maximum hat
+'current-percent' - Aktueller Betrag gefolgt von dem Prozent Betrag, wird nur das Maximale anzeigen wenn der Aktuelle Betrag auch das Maximum hat
+'current-max-percent' - Aktueller Betrag, Maximaler Betrag, gefolgt von dem Prozent Betrag, wird nur das Maximale anzeigen wenn der Aktuelle Betrag auch das Maximum hat
+'deficit' - Zeigt den Defizit Betrag, wird nichts anzeigen wenn kein Defizit vorhanden ist
 
-Name Formats:
-'name-short' - Name restricted to 10 characters
-'name-medium' - Name restricted to 15 characters
-'name-long' - Name restricted to 20 characters
+Namen Formate:
+'name-short' - Name auf 10 Zeichen beschränkt
+'name-medium' - Name auf 15 Zeichen beschränkt
+'name-long' - Name auf 20 Zeichen beschränkt
 
-To disable leave the field blank, if you need more information visit http://www.tukui.org]=];
+Zum deaktvieren lasse das Feld leer, brauchst du mehr Informationen besuche http://www.tukui.org]=];
