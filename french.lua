@@ -146,8 +146,8 @@ L['Threshold before text changes red, goes into decimal form, and the icon will 
 L['Time'] = "Temps"
 L['Wrap After'] = "Enrouler Après"
 L['Your Auras First'] = "Vos Auras en premier"
- 
- --Chat
+
+--Chat
 L["AFK"] = "ABS" --Also used in datatexts and tooltip
 L["Attempt to create URL links inside the chat."] = "Essaye de créer un lien pour les URLs dans les fenêtres de chat."
 L["BG"] = "BG"
@@ -627,7 +627,6 @@ L["Bars will transition smoothly."] = "La transitions des barres seront fluides.
 L["Bars"] = "Barres" --Also used in ExpRepBar tooltip
 L['Below'] = "En dessous"
 L["Blacklist"] = "Liste noire"
-L["Blank"] = "Vide"
 L["Boss Frames"] = "Cadre du Boss"
 L["Buff Indicator"] = "Indicateur d'affaiblissement"
 L["Buffs"] = "Améliorations"
@@ -657,6 +656,7 @@ L["Create Filter"] = "Créer un filtre"
 L["Current / Max"] = "Actuel / Max"
 L["Current - Percent"] = "Actuel - Pourcent"
 L["Current - Max"] = "Actuel - Max"
+L['Current - Max | Percent'] = true;
 L["Current"] = "Actuel"
 L["Custom Health Backdrop"] = "Fond de vie personnalisé"
 L["Debuff Highlighting"] = "Soulignement des affaiblissements"
@@ -677,6 +677,7 @@ L["Display the rested icon on the unitframe."] = "Afficher l'icône reposé sur 
 L["Display the target of the cast on the castbar."] = "Afficher le sort en court d'incantation de la cible sur votre barre d'incantation." --Need review
 L["Display tick marks on the castbar for channelled spells. This will adjust automatically for spells like Drain Soul and add additional ticks based on haste."] = "Affichage des marques de graduation (ticks) sur la barre de lancement de sort. Cela s'ajustera automatiquement pour les sorts comme Drain d'âme qui est basé sur la Hâte."
 L["Down"] = "En bas"
+L['Enemy Aura Type'] = true;
 L["Fade the unitframe when out of combat, not casting, no target exists."] = "Estompe les cadres d'unités quand vous êtes hors combat, quand vous ne lancez pas un sort, quand vous ne ciblez personne."
 L["Fill"] = "Collée"
 L["Filled"] = "Collée"
@@ -689,6 +690,7 @@ L["Frame"] = "Fenêtre"
 L["Frequent Updates"] = "Mise à Jours fréquentes"
 L['Friendlies: Show Buffs'] = "Amicaux: afficher les améliorations"
 L['Friendlies: Show Debuffs'] = "Amicaux: afficher les affaiblissements"
+L['Friendly Aura Type'] = true;
 L["Ghost"] = "Fantôme"
 L["Good"] = "Bonne"
 L["Group By"] = "Groupe par" --Need review
@@ -709,14 +711,10 @@ L['If set then if the aura is found on the whitelist filter it will display. Not
 L['If set, only auras belonging to yourself in addition to any aura that passes the set filter may be shown. Note: You can change between only doing this on friendly or enemy units.'] = true;
 L["Interrupt Color"] = "Couleur de l'interruption"
 L["Latency"] = "Latence"
-L["Length"] = "Longueur";
-L["Long (Include Level)"] = "Long (inclus le niveau)";
-L["Long"] = "Long";
 L["Low Mana Threshold"] = "Seuil de mana faible"
 L["Main statusbar texture."] = "Texture de la barre principale d'état."
 L["Match Frame Width"] = "Accorder à la taille du cadre"
 L["Max Columns"] = "Max colonnes"
-L["Medium"] = "Moyen";
 L["MT, MA First"] = "Tank principal, Soutien principal en premier"
 L["Name"] = "Nom" --Also used in Buffs and Debuffs
 L["Neutral"] = "Neutre"
@@ -769,7 +767,8 @@ L["Set the filter type, blacklisted filters hide any aura on the like and show a
 L["Set the font size for unitframes."] = "Configure la taille de la police d'écriture pour les cadres d'unités."
 L["Set the order that the group will sort."] = "Définir l'ordre du groupe qui sera trié"
 L["Set the priority order of the spell, please note that prioritys are only used for the raid debuff module, not the standard buff/debuff module. If you want to disable set to zero."] = true;
-L["Short"] = "Court";
+L['Set the type of auras to show when a unit is a foe.'] = true;
+L['Set the type of auras to show when a unit is friendly.'] = true;
 L["Show a incomming heal prediction bar on the unitframe. Also display a slightly different colored bar for incoming overheals."] = "Affiche une barre sur la prédiction des soins à venir sur le cadre d'unité. Ainsi qu'une barre de couleur légèrement différente pour les soins entrants excédants."
 L['Show Auras'] = "Afficher les auras"
 L["Show Missing"] = "Afficher les manquants"
@@ -792,7 +791,6 @@ L["Target Frame"] = "Cadre de la cible"
 L["TargetTarget Frame"] = "Cadre de la cible de votre cible"
 L["Text Format"] = "Format du texte"
 L["Text Toggle On NPC"] = "Afficher le texte des PNJ"
-L["Text"] = "Texte"
 L["The alpha to set units that are out of range to."] = "Règle la transparence des unités hors de portée."
 L["The amount of space (in pixels) between the columns."] = "L'espace (en pixels) entre deux colonnes."
 L["The anchor point for each new column. A value of LEFT will cause the columns to grow to the right."] = "Le point d'ancrage pour chaque nouvelle colonne. Si la valeur est sur LEFT, les nouvelles colonnes se développeront sur la droite"
@@ -832,3 +830,24 @@ L["You can't remove a pre-existing filter."] = "Vous ne pouvez pas supprimer un 
 L["You cannot copy settings from the same unit."] = "Vous ne pouvez pas copier les réglages du même cadre."
 L["You cannot set the Group Point and Column Point so they are opposite of each other."] = "Vous ne pouvez pas configurer le Point de Groupe et le Point de la Colonne quand ils sont opposés l'un à l'autre."
 L["You may not remove a spell from a default filter that is not customly added. Setting spell to false instead."] = "Vous ne pouvez pas supprimer un sort du filtre qui est par défaut. Le sort est maintenant désactivé."
+L['TEXT_FORMAT_DESC'] = [=[Provide a string to change the text format.
+
+Examples:
+[colorname][name] [difficultycolor][level] [shortclassification]
+[health:current-max]
+[power:current]
+
+Health / Power Formats:
+'current' - current amount
+'percent' - percentage amount
+'current-max' - current amount followed by maximum amount, will display only max is current is equal to max
+'current-percent' - current amount followed by percentage amount, will display only max is current is equal to max
+'current-max-percent' - current amount, max amount, followed by percentage amount, will display only max if current is equal to max
+'deficit' - display the deficit value, will display nothing if there is no deficit
+
+Name Formats:
+'name-short' - Name restricted to 10 characters
+'name-medium' - Name restricted to 15 characters
+'name-long' - Name restricted to 20 characters
+
+To disable leave the field blank, if you need more information visit http://www.tukui.org]=];
