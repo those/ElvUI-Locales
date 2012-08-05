@@ -627,7 +627,6 @@ L["Bars will transition smoothly."] = "Полосы будут изменять�
 L["Bars"] = "Полосы" --Also used in ExpRepBar tooltip
 L['Below'] = "Снизу"
 L["Blacklist"] = "Черный список"
-L["Blank"] = "Пусто"
 L["Boss Frames"] = "Боссы"
 L["Buff Indicator"] = "Индикатор баффов"
 L["Buffs"] = "Баффы"
@@ -657,6 +656,7 @@ L["Create Filter"] = "Создать фильтр"
 L["Current - Max"] = "Текущее - Максимальное"
 L["Current - Percent"] = "Текущее - Процент"
 L["Current / Max"] = "Текущее / Максимальное"
+L['Current - Max | Percent'] = true;
 L["Current"] = "Текущее"
 L["Custom Health Backdrop"] = "Свой фон полосы здоровья"
 L["Debuff Highlighting"] = "Подсветка дебаффов"
@@ -711,14 +711,10 @@ L['If set then if the aura is found on the whitelist filter it will display. Not
 L["If set, only auras belonging to yourself in addition to any aura that passes the set filter may be shown. Note: You can change between only doing this on friendly or enemy units."] = "При включении из пропущенных фильтром аур будут показываться только наложенные Вами. Примечание: Вы также можете назначить применение фильтрации только к дружественным или враждебным целям."
 L["Interrupt Color"] = "Цвет не прерываемого"
 L["Latency"] = "Задержка"
-L["Length"] = "Длина"
-L["Long (Include Level)"] = "Полное + уровень"
-L["Long"] = "Полное"
 L["Low Mana Threshold"] = "Низкое значение маны"
 L["Main statusbar texture."] = "Основная текстура полос состояния (здоровье, ресурс и тд)."
 L["Match Frame Width"] = "По ширине рамки"
 L["Max Columns"] = "Максимум столбцов"
-L["Medium"] = "Среднее"
 L["MT, MA First"] = "Сначала танки и помощники"
 L["Name"] = "Имя"; --Also used in Buffs and Debuffs
 L["Neutral"] = "Нейтральный"
@@ -773,7 +769,6 @@ L["Set the order that the group will sort."] = "Устанавливает ме�
 L["Set the priority order of the spell, please note that prioritys are only used for the raid debuff module, not the standard buff/debuff module. If you want to disable set to zero."] = "Устанавливает порядок заклинания. Заметьте, что приоритеты используются только для модуля рейдовых дебаффов, а не для стандартных баффов/дебаффов. Для отключения приоритетности установите на 0."
 L['Set the type of auras to show when a unit is a foe.'] = "Устанавливает тип аур для отображения, когда юнит враг."
 L['Set the type of auras to show when a unit is friendly.'] = "Устанавливает тип аур для отображения, когда юнит друг."
-L["Short"] = "Короткое"
 L["Show a incomming heal prediction bar on the unitframe. Also display a slightly different colored bar for incoming overheals."] = "Отображать объем входящего исцеления на рамках. Также отображает немного иначе окрашенную полосу для избыточного исцеления."
 L['Show Auras'] = "Показать ауры"
 L["Show Missing"] = "Показывать отсутствие" --buff indicator filter option
@@ -796,7 +791,6 @@ L["Target Frame"] = "Цель"
 L["TargetTarget Frame"] = "Цель цели"
 L["Text Format"] = "Формат текста"
 L["Text Toggle On NPC"] = "Переключение текста для НИП"
-L["Text"] = "Текст"
 L["The alpha to set units that are out of range to."] = "Прозрачность рамок юнитов, находящихся вне дальности действия заклинаний."
 L["The amount of space (in pixels) between the columns."] = "Расстояние между столбцами (в пикселях)."
 L["The anchor point for each new column. A value of LEFT will cause the columns to grow to the right."] = "Точка фиксации для каждого нового столбца. Значение 'LEFT' заставит новые столбцы расти вправо (появляться справа от предыдущего)."
@@ -836,3 +830,24 @@ L["You can't remove a pre-existing filter."] = "Вы не можете удал�
 L["You cannot copy settings from the same unit."] = "Вы не можете копировать установки из того же юнита."
 L["You cannot set the Group Point and Column Point so they are opposite of each other."] = "Вы не можете установить точки группы и столбцов так, чтобы они были противоположны друг другу."
 L["You may not remove a spell from a default filter that is not customly added. Setting spell to false instead."] = "Вы не можете удалить заклинание из фильтра по умолчанию, которое не было добавлено в него вручную. Отключаю использование в фильтре этого заклинания."
+L['TEXT_FORMAT_DESC'] = [=[Provide a string to change the text format.
+
+Examples:
+[colorname][name] [difficultycolor][level] [shortclassification]
+[health:current-max]
+[power:current]
+
+Health / Power Formats:
+'current' - current amount
+'percent' - percentage amount
+'current-max' - current amount followed by maximum amount, will display only max is current is equal to max
+'current-percent' - current amount followed by percentage amount, will display only max is current is equal to max
+'current-max-percent' - current amount, max amount, followed by percentage amount, will display only max if current is equal to max
+'deficit' - display the deficit value, will display nothing if there is no deficit
+
+Name Formats:
+'name-short' - Name restricted to 10 characters
+'name-medium' - Name restricted to 15 characters
+'name-long' - Name restricted to 20 characters
+
+To disable leave the field blank, if you need more information visit http://www.tukui.org]=];
