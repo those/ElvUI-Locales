@@ -626,7 +626,6 @@ L["Bars will transition smoothly."] = "Sanfter übergang der Leisten."
 L['Bars'] = 'Leisten' --Also used in ExpRepBar tooltip
 L['Below'] = 'Unten'
 L["Blacklist"] = "Schwarze-Liste"
-L["Blank"] = "Leer"
 L["Boss Frames"] = "Boss Fenster"
 L["Buff Indicator"] = "Buff Indikator"
 L["Buffs"] = "Buffs"
@@ -656,6 +655,7 @@ L["Create Filter"] = "Filter erstellen"
 L["Current - Max"] = "Derzeit - Maximal"
 L["Current - Percent"] = "Derzeit - Prozent"
 L["Current / Max"] = "Aktuell / Maximal"
+L['Current - Max | Percent'] = true;
 L["Current"] = "Derzeit"
 L["Custom Health Backdrop"] = "Benutzerdefinierte Hintergrundfarbe"
 L["Debuff Highlighting"] = "Debuff hervorhebung"
@@ -676,6 +676,7 @@ L["Display the rested icon on the unitframe."] = "Zeige das Ausgeruht Icon auf d
 L["Display the target of the cast on the castbar."] = "Zeige das Ziel des Zaubers auf der Zauberleiste."
 L["Display tick marks on the castbar for channelled spells. This will adjust automatically for spells like Drain Soul and add additional ticks based on haste."] = "Anzeige der Zauberleistenticks für kanalisierte Zauber. Dies wird automatisch für Zauber wie Seelendieb zusätzliche Ticks hinzufügen basierend auf Tempo."
 L["Down"] = "Hinunter"
+L['Enemy Aura Type'] = true;
 L["Fade the unitframe when out of combat, not casting, no target exists."] = "Blende die Haupteinheitenfenster aus, wenn du dich nicht im Kampf befindest, nicht Zauberst oder kein Ziel anvisierst."
 L["Fill"] = "Füllen"
 L["Filled"] = "Gefüllt"
@@ -688,6 +689,7 @@ L["Frame"] = "Fenster"
 L["Frequent Updates"] = "Häufigkeit der Aktualisierung"
 L['Friendlies: Show Buffs'] = 'Befreundete Einheiten: Zeige Stärkungszauber'
 L['Friendlies: Show Debuffs'] = 'Befreundete Einheiten: Zeige Schwächungszauber'
+L['Friendly Aura Type'] = true;
 L["Ghost"] = "Geist"
 L["Good"] = "Gut"
 L["Group By"] = "Gruppiert durch"
@@ -708,14 +710,10 @@ L['If set then if the aura is found on the whitelist filter it will display. Not
 L['If set, only auras belonging to yourself in addition to any aura that passes the set filter may be shown. Note: You can change between only doing this on friendly or enemy units.'] = "Wenn dies aktiv ist, werden nur deine eigenen Auren und jene, die dem eingestellten Filter entsprechen, angezeigt."
 L["Interrupt Color"] = "Unterbrechungsfarbe"
 L["Latency"] = "Latenz"
-L["Length"] = "Länge"
-L["Long (Include Level)"] = "Lang (Inklusive Level)"
-L["Long"] = "Lang"
 L["Low Mana Threshold"] = "Warnung: Mana niedrig"
 L["Main statusbar texture."] = "Haupt-Statusleisten Texture"
 L["Match Frame Width"] = "Passende Fenster-Breite"
 L["Max Columns"] = "Maximale Spalten"
-L["Medium"] = "Mittel"
 L["MT, MA First"] = "MT, MA First"
 L["Name"] = "Name" --Also used in Buffs and Debuffs
 L["Neutral"] = "Neutral"
@@ -768,7 +766,8 @@ L["Set the filter type, blacklisted filters hide any aura on the like and show a
 L["Set the font size for unitframes."] = "Setzt die Schriftart für die Einheitenfenster."
 L["Set the order that the group will sort."] = "Wähle die richtung in welche die Gruppe sortiert werden soll."
 L["Set the priority order of the spell, please note that prioritys are only used for the raid debuff module, not the standard buff/debuff module. If you want to disable set to zero."] = "Wähle die Priorität des Zaubers, bitte beachten das sich die Priorität nur auf das Schlachtzugs Schwächungszauber Modul auswirkt, nicht das Standart Stärkungs/Schwächungszauber Modul. Möchtest du es deaktivieren setze es auf 0."
-L["Short"] = "Kurz"
+L['Set the type of auras to show when a unit is a foe.'] = true;
+L['Set the type of auras to show when a unit is friendly.'] = true;
 L["Show a incomming heal prediction bar on the unitframe. Also display a slightly different colored bar for incoming overheals."] = "Zeige Eingehende Heilung in einer Leiste auf dem Einheitenfenster. Zeigt eine etwas andere farbige Leiste für eingehende Überheilung."
 L['Show Auras'] = 'Zeige Auren'
 L["Show Missing"] = "Zeige fehlendes"
@@ -791,7 +790,6 @@ L["Target Frame"] = "Ziel Fenster"
 L["TargetTarget Frame"] = "Ziel des Ziels Fenster"
 L["Text Format"] = "Text Format"
 L["Text Toggle On NPC"] = "Ein-/Ausschalter für den Text auf NPCs"
-L["Text"] = "Text"
 L["The alpha to set units that are out of range to."] = "Setzt den Alphabereich für Einheiten die aus deiner Reichweite sind."
 L["The amount of space (in pixels) between the columns."] = "Die Größe des Abstandes (in Pixel) zwischen den Spalten."
 L["The anchor point for each new column. A value of LEFT will cause the columns to grow to the right."] = "Der Ankerpunkt für jede neue Spalte. Ein LINKS-Wert verursacht eine Anwachsen der Spalten nach rechts."
@@ -831,3 +829,24 @@ L["You can't remove a pre-existing filter."] = "Du kannst einen vorgefertigten F
 L["You cannot copy settings from the same unit."] = "Du kannst keine Einstellungen von der gleichen Einheit kopieren."
 L["You cannot set the Group Point and Column Point so they are opposite of each other."] = "Du kannst nicht den Gruppenpunkt und den Spaltenpunkt so setzen das sie sich gegenüber sind."
 L["You may not remove a spell from a default filter that is not customly added. Setting spell to false instead."] = "Du kannst keinen Filter entfernen der nicht benutzerdefiniert hinzugefügt wurde. Setzte den Zauber einfach auf deaktiviert."
+L['TEXT_FORMAT_DESC'] = [=[Provide a string to change the text format.
+
+Examples:
+[colorname][name] [difficultycolor][level] [shortclassification]
+[health:current-max]
+[power:current]
+
+Health / Power Formats:
+'current' - current amount
+'percent' - percentage amount
+'current-max' - current amount followed by maximum amount, will display only max is current is equal to max
+'current-percent' - current amount followed by percentage amount, will display only max is current is equal to max
+'current-max-percent' - current amount, max amount, followed by percentage amount, will display only max if current is equal to max
+'deficit' - display the deficit value, will display nothing if there is no deficit
+
+Name Formats:
+'name-short' - Name restricted to 10 characters
+'name-medium' - Name restricted to 15 characters
+'name-long' - Name restricted to 20 characters
+
+To disable leave the field blank, if you need more information visit http://www.tukui.org]=];
