@@ -7,6 +7,7 @@ L[" |cff00ff00bound to |r"] = "|cff00ff00단축키 지정: |r"
 L["Action Paging"] = "행동단축바 페이지 전환"
 L["ActionBars"] = "행동단축바"
 L["All keybindings cleared for |cff00ff00%s|r."] = "|cff00ff00%s|r의 단축키 설정이 제거됩니다."
+L['Alpha'] = true;
 L["Anchor Point"] = "기준점" --also in unitframes
 L["Backdrop"] = "배경"
 L["Bar "] = "바"
@@ -17,6 +18,7 @@ L["Button Size"] = "버튼 크기" --Also used in Bags
 L["Button Spacing"] = "버튼 간격" --Also used in Bags
 L["Buttons Per Row"] = "한 줄당 버튼 수"
 L["Buttons"] = "버튼 수"
+L['Change the alpha level of the frame.'] = true;
 L["Color when the text is about to expire"] = "만료되는 버프의 문자 색상"
 L["Color when the text is in the days format."] = "하루 단위 버프의 문자 색상"
 L["Color when the text is in the hours format."] = "시간 단위 버프의 문자 색상"
@@ -52,6 +54,7 @@ L["LOCK_AB_ERROR"] = "It has come to our attention that you do not have your act
 L["Low Threshold"] = "낮은 임계값"
 L["Macro Text"] = "매크로 문자"
 L['Max Paging'] = true;
+L['Micro Bar'] = true;
 L["Minutes"] = "분"
 L["Mouse Over"] = "마우스 오버" --Also used in Bags
 L["Multiply the backdrops height or width by this value. This is usefull if you wish to have more than one bar behind a backdrop."] = "이 값의 배율로 배경의 높이 또는 너비만큼 백그라운드가 추가 됩니다. 이는 당신이 이 새로 생성된 백그라운드에 하나 이상의 바를 더 생성할 경우 유용합니다."
@@ -93,7 +96,6 @@ L["Delete Grays"] = "회색템 삭제"
 L["Deleted %d gray items. Total Worth: %s"] = [=[%d개의 회색 아이템을 삭제했습니다. 환산: %s:]=]
 L["Descending"] = true;
 L["Direction the bag sorting will use to allocate the items."] = "방향 가방 정렬이 항목을 할당하는 데 사용합니다." -- Needs review
-L["Enable Bag-Bar"] = true;
 L["Enable/Disable the all-in-one bag."] = "통합가방 사용/중지"
 L["Enable/Disable the Bag-Bar."] = true;
 L["goldabbrev"] = "|cffffd700g|r" --Also used in gold datatext
@@ -600,13 +602,13 @@ L['For technical support visit us at http://www.tukui.org.'] = true;
 L['If you accidently remove a chat frame you can always go the in-game configuration menu, press install, go to the chat portion and reset them.'] = true
 L['If you are experiencing issues with ElvUI try disabling all your addons except ElvUI, remember ElvUI is a full UI replacement addon, you cannot run two addons that do the same thing.'] = true;
 L['If you need to reset the gold datatext type /resetgold.'] = true;
-L['If your experience and reputation bars disappear, mouse over the place where they were and click them again.'] = true;
 L['The buff panel to the right of minimap is a list of your consolidated buffs. You can disable it in Buffs and Debuffs options of ElvUI.'] = true;
 L['The focus unit can be set by typing /focus when you are targetting the unit you want to focus. It is recommended you make a macro to do this.'] = true;
 L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the blizzard actionbar options menu.'] = true;
 L['To setup which channels appear in which chat frame, right click the chat tab and go to settings.'] = true;
 L['Using the /farmmode <size> command will spawn a larger minimap on your screen that can be moved around, very useful when farming.'] = true;
 L['You can access copy chat and chat menu functions by mouse over the top right corner of chat panel and left/right click on the button that will appear.'] = true;
+L['You can see someones average item level of their gear by holding shift and mousing over them. It should appear inside the tooltip.'] = true;
 L['You can set your keybinds quickly by typing /kb.'] = true;
 L['You can toggle the microbar by using your middle mouse button on the minimap you can also accomplish this by holding shift and right clicking on the minimap.'] = true;
 L['You can use the /resetui command to reset all of your movers. You can also use the command to reset a specific mover, /resetui <mover name>.\nExample: /resetui Player Frame'] = true;
@@ -631,7 +633,6 @@ L["Bars will transition smoothly."] = "바을 부드럽게 전환합니다."
 L['Bars'] = true; --Also used in ExpRepBar tooltip
 L['Below'] = true;
 L["Blacklist"] = "블랙리스트"
-L["Blank"] = "빈공간"
 L["Boss Frames"] = "보스 프레임"
 L["Buff Indicator"] = "버프 알람"
 L["Buffs"] = "버프"
@@ -661,6 +662,7 @@ L["Create Filter"] = "필터 생성"
 L["Current - Max"] = "현재 - 최대"
 L["Current - Percent"] = "현재 - 비율"
 L["Current / Max"] = "현재 / 최대"
+L['Current - Max | Percent'] = true;
 L["Current"] = "현재"
 L["Custom Health Backdrop"] = "임의 생명력 배경"
 L["Debuff Highlighting"] = "디버프 강조"
@@ -681,6 +683,7 @@ L["Display the rested icon on the unitframe."] = "유닛 프레임에 휴식 아
 L["Display the target of the cast on the castbar."] = "시전바에 시전바 대상을 표시합니다." -- Needs review
 L["Display tick marks on the castbar for channelled spells. This will adjust automatically for spells like Drain Soul and add additional ticks based on haste."] = "시전바에 시전되는 주문의 틱을 표시합니다. 영혼 흡수나 가속이 추가되는 주문에 따라 틱이 자동 조절됩니다."
 L["Down"] = "아래로"
+L['Enemy Aura Type'] = true;
 L["Fade the unitframe when out of combat, not casting, no target exists."] = "전투중/시전중이 아니거나 대상이 없을 때 유닛프레임을 감춥니다."
 L["Fill"] = "채우기"
 L["Filled"] = "채움"
@@ -693,6 +696,7 @@ L["Frame"] = "프레임"
 L["Frequent Updates"] = "자주 업데이트"
 L['Friendlies: Show Buffs'] = true;
 L['Friendlies: Show Debuffs'] = true;
+L['Friendly Aura Type'] = true;
 L["Ghost"] = "유령"
 L["Good"] = "우호적"
 L["Group By"] = true;
@@ -713,14 +717,10 @@ L['If set then if the aura is found on the whitelist filter it will display. Not
 L['If set, only auras belonging to yourself in addition to any aura that passes the set filter may be shown. Note: You can change between only doing this on friendly or enemy units.'] = true;
 L["Interrupt Color"] = "방해(차단)시 색상"
 L["Latency"] = "지연 시간:"
-L["Length"] = true;
-L["Long (Include Level)"] = true;
-L["Long"] = true;
 L["Low Mana Threshold"] = "낮은 마나 임계값"
 L["Main statusbar texture."] = "기본 상태 바 텍스쳐."
 L["Match Frame Width"] = "유닛프레임의 너비에 맞추기"
 L["Max Columns"] = "최대 열"
-L["Medium"] = true;
 L["MT, MA First"] = true;
 L["Name"] = "이름" --Also used in Buffs and Debuffs
 L["Neutral"] = "중립"
@@ -774,7 +774,8 @@ L["Set the filter type, blacklisted filters hide any aura on the like and show a
 L["Set the font size for unitframes."] = "유닛프레임의 글꼴 크기를 설정합니다."
 L["Set the order that the group will sort."] = true;
 L["Set the priority order of the spell, please note that prioritys are only used for the raid debuff module, not the standard buff/debuff module. If you want to disable set to zero."] = true;
-L["Short"] = true;
+L['Set the type of auras to show when a unit is a foe.'] = true;
+L['Set the type of auras to show when a unit is friendly.'] = true;
 L["Show a incomming heal prediction bar on the unitframe. Also display a slightly different colored bar for incoming overheals."] = "유닛프레임에 예상 치유량을 표시합니다. 오버힐은 약간 다른 색상으로 표시됩니다."
 L['Show Auras'] = true;
 L["Show Missing"] = "누락 보이기"
@@ -797,7 +798,6 @@ L["Target Frame"] = "대상 프레임"
 L["TargetTarget Frame"] = "대상의대상 프레임"
 L["Text Format"] = "문자 형식"
 L["Text Toggle On NPC"] = "NPC일 경우 문자 전환"
-L["Text"] = "문자"
 L["The alpha to set units that are out of range to."] = "사거리 밖의 대상에 대한 투명도를 설정합니다."
 L["The amount of space (in pixels) between the columns."] = "열 사이의 간격을 설정하니다."
 L["The anchor point for each new column. A value of LEFT will cause the columns to grow to the right."] = "생성된 열의 기준점을 설정합니다. 'LEFT'일 경우 오른쪽으로 증감하게 됩니다."
@@ -837,3 +837,24 @@ L["You can't remove a pre-existing filter."] = "기존 필터를 제거할 수 �
 L["You cannot copy settings from the same unit."] = "같은 유닛은 복사할 수 없습니다."
 L["You cannot set the Group Point and Column Point so they are opposite of each other."] = "그룹 기준점과 열 기준점을 설정할 수 없습니다."
 L["You may not remove a spell from a default filter that is not customly added. Setting spell to false instead."] = "기본 필터에 설정된 기본 주문들은 삭제할 수 없습니다. 대신 비활성화는 가능합니다."
+L['TEXT_FORMAT_DESC'] = [=[Provide a string to change the text format.
+
+Examples:
+[colorname][name] [difficultycolor][level] [shortclassification]
+[health:current-max]
+[power:current]
+
+Health / Power Formats:
+'current' - current amount
+'percent' - percentage amount
+'current-max' - current amount followed by maximum amount, will display only max is current is equal to max
+'current-percent' - current amount followed by percentage amount, will display only max is current is equal to max
+'current-max-percent' - current amount, max amount, followed by percentage amount, will display only max if current is equal to max
+'deficit' - display the deficit value, will display nothing if there is no deficit
+
+Name Formats:
+'name-short' - Name restricted to 10 characters
+'name-medium' - Name restricted to 15 characters
+'name-long' - Name restricted to 20 characters
+
+To disable leave the field blank, if you need more information visit http://www.tukui.org]=];
