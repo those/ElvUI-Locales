@@ -654,7 +654,7 @@ L["Create Filter"] = "Создать фильтр"
 L["Current - Max"] = "Текущее - Максимальное"
 L["Current - Percent"] = "Текущее - Процент"
 L["Current / Max"] = "Текущее / Максимальное"
-L['Current - Max | Percent'] = true;
+L['Current - Max | Percent'] = "Текущее - Максимальное | Процент"
 L["Current"] = "Текущее"
 L["Custom Health Backdrop"] = "Свой фон полосы здоровья"
 L["Debuff Highlighting"] = "Подсветка дебаффов"
@@ -828,24 +828,24 @@ L["You can't remove a pre-existing filter."] = "Вы не можете удал�
 L["You cannot copy settings from the same unit."] = "Вы не можете копировать установки из того же юнита."
 L["You cannot set the Group Point and Column Point so they are opposite of each other."] = "Вы не можете установить точки группы и столбцов так, чтобы они были противоположны друг другу."
 L["You may not remove a spell from a default filter that is not customly added. Setting spell to false instead."] = "Вы не можете удалить заклинание из фильтра по умолчанию, которое не было добавлено в него вручную. Отключаю использование в фильтре этого заклинания."
-L['TEXT_FORMAT_DESC'] = [=[Provide a string to change the text format.
+L['TEXT_FORMAT_DESC'] = [=[Строка для изменения вида текста.
 
-Examples:
+Примеры:
 [colorname][name] [difficultycolor][level] [shortclassification]
 [health:current-max]
 [power:current]
 
-Health / Power Formats:
-'current' - current amount
-'percent' - percentage amount
-'current-max' - current amount followed by maximum amount, will display only max is current is equal to max
-'current-percent' - current amount followed by percentage amount, will display only max is current is equal to max
-'current-max-percent' - current amount, max amount, followed by percentage amount, will display only max if current is equal to max
-'deficit' - display the deficit value, will display nothing if there is no deficit
+Форматы здоровья/резурсов:
+'current' - текущее значение
+'percent' - значение в процентах
+'current-max' - текущее значение, за которым идет максимальное значение. Будет отображать только максимальное значение, если текущее равно ему.
+'current-percent' - текущее значение, за которым идет значение в процентах.Будет отображать только максимальное значение, если текущее равно ему.
+'current-max-percent' - текущее значение, максимальное значение, за которым идет значение в процентах, Будет отображать только максимальное значение, если текущее равно ему.
+'deficit' - отображает значение недостающего до максимума здоровья/ресурса. Не будет отображать ничего, если текущее значение равно максимальному.
 
-Name Formats:
-'name-short' - Name restricted to 10 characters
-'name-medium' - Name restricted to 15 characters
-'name-long' - Name restricted to 20 characters
+Форматы имени:
+'name-short' - Имя с ограничением длины в 10 символов
+'name-medium' - Имя с ограничением длины в 15 символов
+'name-long' - Имя с ограничением длины в 20 символов
 
-To disable leave the field blank, if you need more information visit http://www.tukui.org]=];
+Для отключения оставьте поле пустым, для дополнительной информации посетите http://www.tukui.org]=];
