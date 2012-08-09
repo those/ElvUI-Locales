@@ -532,7 +532,6 @@ L["Misc Frames"] = "Прочие фреймы"
 L['Mounts & Pets'] = "Транспорт и питомцы"
 L["Non-Raid Frame"] = "Не рейдовые фреймы"
 L["Pet Battle"] = "Битвы питомцев"
-
 L["Petition Frame"] = "Хартия гильдии"
 L["PvP Frames"] = "ПвП фреймы"
 L["Quest Frames"] = "Задания"
