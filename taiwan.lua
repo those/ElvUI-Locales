@@ -307,6 +307,7 @@ L["DATATEXT_DESC"] = "設定螢幕所顯示的部份資訊文字。";
 L["Deficit:"] = "赤字：";
 L['Demolishers Destroyed'] = true;
 L['Display minimap panels below the minimap, used for datatexts.'] = true;
+L['Download'] = true;
 L["DPS"] = "傷害輸出";
 L["Earned:"] = "賺取：";
 L["Feet"] = "腳";

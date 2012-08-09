@@ -306,6 +306,7 @@ L["DATATEXT_DESC"] = "Установка отображения информац
 L["Deficit:"] = "Убыток:"
 L['Demolishers Destroyed'] = "Разрушителей уничтожено"
 L['Display minimap panels below the minimap, used for datatexts.'] = "Отображать панели информационных текстов под миникартой."
+L['Download'] = true;
 L["DPS"] = "УВС"
 L["Earned:"] = "Заработано"
 L["Feet"] = "Ступни"

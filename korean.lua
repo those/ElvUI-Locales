@@ -307,6 +307,7 @@ L["DATATEXT_DESC"] = "정보문자를 설정합니다."
 L["Deficit:"] = "적자:"
 L['Demolishers Destroyed'] = true;
 L['Display minimap panels below the minimap, used for datatexts.'] = true;
+L['Download'] = true;
 L["DPS"] = "DPS"
 L["Earned:"] = "수입:"
 L["Feet"] = "발"

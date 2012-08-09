@@ -306,6 +306,7 @@ L["DATATEXT_DESC"] = "Affiche à l'écran des textes d'informations"
 L["Deficit:"] = "Déficit: "
 L['Demolishers Destroyed'] = "Démolisseurs détruits"
 L['Display minimap panels below the minimap, used for datatexts.'] = "Afficher les panneaux sous la minicarte utilisés pour les textes d'informations."
+L['Download'] = true;
 L["DPS"] = "DPS"
 L["Earned:"] = "Gagné: "
 L["Feet"] = "Pieds"
