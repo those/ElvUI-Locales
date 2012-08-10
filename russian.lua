@@ -829,9 +829,9 @@ L["You may not remove a spell from a default filter that is not customly added. 
 L['TEXT_FORMAT_DESC'] = [=[Строка для изменения вида текста.
 
 Примеры:
-[colorname][name] [difficultycolor][smartlevel] [shortclassification]
-[health:current-max]
-[power:current]
+[namecolor][name] [difficultycolor][smartlevel] [shortclassification]
+[healthcolor][health:current-max]
+[powercolor][power:current]
 
 Форматы здоровья/резурсов:
 'current' - текущее значение

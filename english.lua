@@ -71,7 +71,7 @@ L["Restore Bar"] = true;
 L["Restore the actionbars default settings"] = true;
 L["Seconds"] = true;
 L["Set the font size of the action buttons."] = true;
-L["ShapeShift Bar"] = true;
+L["Stance Bar"] = true;
 L["The ammount of buttons to display per row."] = true;
 L["The ammount of buttons to display."] = true;
 L["The first button anchors itself to this point on the bar."] = true;
@@ -825,9 +825,9 @@ L["You may not remove a spell from a default filter that is not customly added. 
 L['TEXT_FORMAT_DESC'] = [=[Provide a string to change the text format.
 
 Examples:
-[colorname][name] [difficultycolor][smartlevel] [shortclassification]
-[health:current-max]
-[power:current]
+[namecolor][name] [difficultycolor][smartlevel] [shortclassification]
+[healthcolor][health:current-max]
+[powercolor][power:current]
 
 Health / Power Formats:
 'current' - current amount
