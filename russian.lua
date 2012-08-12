@@ -71,6 +71,7 @@ L["The first button anchors itself to this point on the bar."] = "Первая �
 L["The size of the action buttons."] = "Размер кнопок панели команд."
 L["Threshold before text turns red and is in decimal form. Set to -1 for it to never turn red"] = "Время, после которого текст станет красным и начнет отображать доли секунды. Установите -1, чтобы не отображать текст в такой форме."
 L["Toggles the display of the actionbars backdrop."] = "Включить отображение фона панели команд."
+L['Trigger'] = true;
 L["Visibility State"] = "Статус отображения"
 L['When enabled the main actionbar will use the maximum amount of pages available. This means if you have another actionbar disabled, the actionbar page will become available on the main actionbar. Having this disabled will limit the main actionbar to two pages.'] = "При активации основная панель будет использовать максимальное кол-во панелей для переключения. Это означает, что если какая-то из панелей отключена, то она будет доступна для переключения. Отключение опции ограничит переключение двумя панелями."
 L["Width Multiplier"] = "Множитель ширины"

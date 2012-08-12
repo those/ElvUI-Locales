@@ -71,6 +71,7 @@ L["The first button anchors itself to this point on the bar."] = "첫번째 버�
 L["The size of the action buttons."] = "행동단축바 버튼의 크기"
 L["Threshold before text turns red and is in decimal form. Set to -1 for it to never turn red"] = "붉은 문자열로 전환될 10진법 형태의 임계값. 사용하지 않으려면 -1로 설정"
 L["Toggles the display of the actionbars backdrop."] = "행동단축바 배경의 표시를 전환합니다."
+L['Trigger'] = true;
 L["Visibility State"] = "보여지는 상태"
 L['When enabled the main actionbar will use the maximum amount of pages available. This means if you have another actionbar disabled, the actionbar page will become available on the main actionbar. Having this disabled will limit the main actionbar to two pages.'] = true;
 L["Width Multiplier"] = "너비 배율"

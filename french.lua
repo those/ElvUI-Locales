@@ -71,6 +71,7 @@ L["The first button anchors itself to this point on the bar."] = "Le premier bou
 L["The size of the action buttons."] = "Taille des boutons de la barre d'actions."
 L["Threshold before text turns red and is in decimal form. Set to -1 for it to never turn red"] = "Seuil avant que le texte devienne rouge sous forme de décimal. Mettre -1 pour qu'il ne devienne jamais rouge."
 L["Toggles the display of the actionbars backdrop."] = "Affiche ou non la couleur de fond de la barre d'action."
+L['Trigger'] = true;
 L["Visibility State"] = "État de visibilité"
 L['When enabled the main actionbar will use the maximum amount of pages available. This means if you have another actionbar disabled, the actionbar page will become available on the main actionbar. Having this disabled will limit the main actionbar to two pages.'] = "Lorsqu'elle est activée, la barre d'action principale utilisera le montant de pages disponibles. Cela signifie que su vous avez une autre barre d'actions désactivér, la barre d'action sera disponible dans la barre d'action principale. Avoir ce paramètre désactivé limitera la barre d'action principale à deux pages. "
 L["Width Multiplier"] = "Multiplicateur largeur"
