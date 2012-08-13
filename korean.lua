@@ -611,7 +611,7 @@ L['Using the /farmmode <size> command will spawn a larger minimap on your screen
 L['You can access copy chat and chat menu functions by mouse over the top right corner of chat panel and left/right click on the button that will appear.'] = true;
 L['You can see someones average item level of their gear by holding shift and mousing over them. It should appear inside the tooltip.'] = true;
 L['You can set your keybinds quickly by typing /kb.'] = true;
-L['You can toggle the microbar by using your middle mouse button on the minimap you can also accomplish this by holding shift and right clicking on the minimap.'] = true;
+L['You can toggle the microbar by using your middle mouse button on the minimap you can also accomplish this by enabling the actual microbar located in the actionbar settings.'] = true;
 L['You can use the /resetui command to reset all of your movers. You can also use the command to reset a specific mover, /resetui <mover name>.\nExample: /resetui Player Frame'] = true;
 
 --UnitFrames
@@ -643,7 +643,7 @@ L["Class Backdrop"] = "직업별 배경색상"
 L["Class Health"] = "직업별 생명력 색상"
 L["Class Power"] = "직업별 마력 색상"
 L["Classbar"] = "직업 바"
-L["Color health by ammount remaining."] = "생명력의 양에 따라 색상이 변화합니다."
+L["Color health by amount remaining."] = "생명력의 양에 따라 색상이 변화합니다."
 L["Color health by classcolor or reaction."] = "직업이나 관계에 따라 생명력 색상을 변경합니다."
 L["Color Icons"] = "아이콘 색상"
 L["Color power by classcolor or reaction."] = "직업이나 관계에 따라 마력 색상을 변경합니다."

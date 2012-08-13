@@ -605,7 +605,7 @@ L['Using the /farmmode <size> command will spawn a larger minimap on your screen
 L['You can access copy chat and chat menu functions by mouse over the top right corner of chat panel and left/right click on the button that will appear.'] = "Vous pouvez accéder à une copie du Chat et des fonctions du Chat en survolant avec votre souris le coin haut droit de la fenêtre de discussion. Cliquez ensuite sur le bouton."
 L['You can see someones average item level of their gear by holding shift and mousing over them. It should appear inside the tooltip.'] = "Vous pouvez voir le niveau d'objet moyen de n'importe qui en maintenant la touche MAJ enfoncée puis en passant votre souris sur un joueur. Le score apparaitra dans le bulle d'informations."
 L['You can set your keybinds quickly by typing /kb.'] = "Vous pouvez assignez rapidement vos raccourcis en tapant /kb."
-L['You can toggle the microbar by using your middle mouse button on the minimap you can also accomplish this by holding shift and right clicking on the minimap.'] = "Vous pouvez afficher la microbarre en utilisant le bouton central de la souris sur la minicarte. Vous pouvez également y parvenir en maintenant le touche MAJ tout en effectuant un clic droit sur la minicarte."
+L['You can toggle the microbar by using your middle mouse button on the minimap you can also accomplish this by enabling the actual microbar located in the actionbar settings.'] = true;
 L['You can use the /resetui command to reset all of your movers. You can also use the command to reset a specific mover, /resetui <mover name>.\nExample: /resetui Player Frame'] = "Vous pouvez utiliser la commande /resetui pour réinitialiser l'ensemble de vos cadres. Vous pouvez aussi utiliser la commande /resetui <nom du cadre> pour réinitialiser un cadre spécifique.\nExemple: /resetui Player Frame"
 
 --UnitFrames
@@ -637,7 +637,7 @@ L["Class Backdrop"] = "Fond selon la Classe"
 L["Class Health"] = "Santé selon la Classe"
 L["Class Power"] = "Énergie selon la Classe"
 L["Classbar"] = "Barre de Classe"
-L["Color health by ammount remaining."] = "Colore le cadre selon la vie restante."
+L["Color health by amount remaining."] = "Colore le cadre selon la vie restante."
 L["Color health by classcolor or reaction."] = "Colore la vie par la couleur de la classe ou par l'aggro."
 L["Color Icons"] = "Couleur des icônes"
 L["Color power by classcolor or reaction."] = "Colore l'énergie de la classe par la couleur de la classe ou par l'aggro."

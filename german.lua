@@ -604,7 +604,7 @@ L['Using the /farmmode <size> command will spawn a larger minimap on your screen
 L['You can access copy chat and chat menu functions by mouse over the top right corner of chat panel and left/right click on the button that will appear.'] = 'Du kannst die Funktionen Chat Kopieren und Chat Menü aufrufen wenn die Maus in die obere rechte Ecke des Chatfensters bewegst und links/rechts klickst.'
 L['You can see someones average item level of their gear by holding shift and mousing over them. It should appear inside the tooltip.'] = 'Du kannst das durchschnitts Item Level von jemanden sehen wenn du bei gedrückter shift Taste mit der Maus über ihn fährst. Es wird dann im Tooltip angezeigt.'
 L['You can set your keybinds quickly by typing /kb.'] = 'Du kannst deine Tastaturbelegung schnell ändern wenn du /kb eintippst.'
-L['You can toggle the microbar by using your middle mouse button on the minimap you can also accomplish this by holding shift and right clicking on the minimap.'] = 'Du kannst die Microleiste durch mittleren Mausklick oder auch durch shift und rechtsklick auf der Minimap aufrufen.'
+L['You can toggle the microbar by using your middle mouse button on the minimap you can also accomplish this by enabling the actual microbar located in the actionbar settings.'] = true;
 L['You can use the /resetui command to reset all of your movers. You can also use the command to reset a specific mover, /resetui <mover name>.\nExample: /resetui Player Frame'] = 'Du kannst durch benutzen von /resetui alle Ankerpunkte zurücksetzen. Du kannst das Kommando auch benutzen um spezielle Anker zurückzusetzen, /resetui <Anker Name>.\nBeispiel: /resetui Player Frame'
 
 --UnitFrames
@@ -636,7 +636,7 @@ L["Class Backdrop"] = "Klassen Hintergrund"
 L["Class Health"] = "Klassen Gesundheit"
 L["Class Power"] = "Klassen Kraft"
 L["Classbar"] = "Klassenleiste"
-L["Color health by ammount remaining."] = "Färbe die Gesundheitsleiste entsprechend der aktuell verbleibenden Lebenspunkte"
+L["Color health by amount remaining."] = "Färbe die Gesundheitsleiste entsprechend der aktuell verbleibenden Lebenspunkte"
 L["Color health by classcolor or reaction."] = "Gesundheitsfarbe nach Klassenfarbe oder Reaktion."
 L["Color Icons"] = "Symbol färben"
 L["Color power by classcolor or reaction."] = "Färbe die Powerleiste entsprechend ihrer Klasse."
