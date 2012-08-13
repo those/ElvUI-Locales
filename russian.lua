@@ -821,6 +821,7 @@ L["Visibility"] = "Видимость"
 L["What each frame should attach itself to, example setting it to TOP every unit will attach its top to the last point bottom."] = "К чему должна пристыковываться каждая рамка. Например, значение 'TOP' заставит рамки прикрепляться к нижней границе предыдущей."
 L["What point to anchor to the frame you set to attach to."] = "К какой точке выбранного фиксатора прикрепить ауры."
 L["What to attach the buff anchor frame to."] = "К чему прикреплять ауры."
+L["What to attach the debuff anchor frame to."] = true;
 L['When set the Buffs and Debuffs will toggle being displayed depending on if the unit is friendly or an enemy. This will not effect the aurabars module.'] = "При включении, баффы и дебаффы будут отображаться в зависимости от того, является ли цель другом или врагом. Это не затрагивает модуль полос аур."
 L["When true, the group header is shown when the player is in a party."] = "Включить отображение этой категории рамок, когда игрок находится в группе."
 L["When true, the group header is shown when the player is in a raid."] = "Включить отображение этой категории рамок, когда игрок находится в рейде."

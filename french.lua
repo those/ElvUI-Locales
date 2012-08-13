@@ -821,6 +821,7 @@ L["Visibility"] = "Visibilité"
 L["What each frame should attach itself to, example setting it to TOP every unit will attach its top to the last point bottom."] = "Le point d'ancrage pour attacher les cadres entre eux, exemple: si le paramètre est sur TOP, tous les cadres d'unité se développeront vers le bas."
 L["What point to anchor to the frame you set to attach to."] = "Quel point d'ancrage sur le cadre vous choisissez à attacher."
 L["What to attach the buff anchor frame to."] = "Choisissez à quoi vous voulez attacher les améliorations sur le cadre."
+L["What to attach the debuff anchor frame to."] = true;
 L['When set the Buffs and Debuffs will toggle being displayed depending on if the unit is friendly or an enemy. This will not effect the aurabars module.'] = true;
 L["When true, the group header is shown when the player is in a party."] = "Quand coché, l'en-tête de groupe est affiché lorsque le joueur est dans un groupe."
 L["When true, the group header is shown when the player is in a raid."] = "Quand coché, l'en-tête de groupe est affiché lorsque le joueur est dans un raid."

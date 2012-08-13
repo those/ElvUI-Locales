@@ -821,6 +821,7 @@ L["Visibility"] = "可见性"
 L["What each frame should attach itself to, example setting it to TOP every unit will attach its top to the last point bottom."] = "每一个框架都会依附在你设定的位置上, 例如: 你设定依附于TOP那么每一个单位都将把它单位TOP依附于前一个单位的BOTTOM"
 L["What point to anchor to the frame you set to attach to."] = "框架的定位对齐方向"
 L["What to attach the buff anchor frame to."] = "buff 定位附加到哪儿"
+L["What to attach the debuff anchor frame to."] = true;
 L['When set the Buffs and Debuffs will toggle being displayed depending on if the unit is friendly or an enemy. This will not effect the aurabars module.'] = true;
 L["When true, the group header is shown when the player is in a party."] = "若启用 当玩家进入队伍中时显示"
 L["When true, the group header is shown when the player is in a raid."] = "若启用 当玩家进入团队时显示"

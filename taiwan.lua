@@ -822,6 +822,7 @@ L["Visibility"] = "可見性";
 L["What each frame should attach itself to, example setting it to TOP every unit will attach its top to the last point bottom."] = "每個隊員框架的排列順序，例如：若設為「TOP」(向上對齊)，則每個隊員的單位框架將排列在上一個隊員的框架下方。";
 L["What point to anchor to the frame you set to attach to."] = "增益光環框架將對齊至依附框架的此端。";
 L["What to attach the buff anchor frame to."] = "增益光環框架依附位置。";
+L["What to attach the debuff anchor frame to."] = true;
 L['When set the Buffs and Debuffs will toggle being displayed depending on if the unit is friendly or an enemy. This will not effect the aurabars module.'] = true;
 L["When true, the group header is shown when the player is in a party."] = "當玩家處於隊伍模式時顯示組隊框架。";
 L["When true, the group header is shown when the player is in a raid."] = "當玩家處於團隊模式時顯示組隊框架。";

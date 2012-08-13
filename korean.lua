@@ -828,6 +828,7 @@ L["Visibility"] = "표시"
 L["What each frame should attach itself to, example setting it to TOP every unit will attach its top to the last point bottom."] = "프레임끼리 서로 붙입니다. 모든 유닛을 'TOP\"으로 설정할 경우 가장 마지막 프레임의 아래에 붙입니다."
 L["What point to anchor to the frame you set to attach to."] = "붙여넣을 프레임의 기준점을 정합니다."
 L["What to attach the buff anchor frame to."] = "버프 기준점을 어디에 붙일지 정한다."
+L["What to attach the debuff anchor frame to."] = true;
 L['When set the Buffs and Debuffs will toggle being displayed depending on if the unit is friendly or an enemy. This will not effect the aurabars module.'] = true;
 L["When true, the group header is shown when the player is in a party."] = "활성화시, 파티에 속해있을 때 플레이어를 표시합니다."
 L["When true, the group header is shown when the player is in a raid."] = "활성화시, 공격대에 속해있을 때 플레이어를 표시합니다."
