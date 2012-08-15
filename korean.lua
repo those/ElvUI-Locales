@@ -400,7 +400,6 @@ L["LOGIN_MSG"] = "Welcome to %sElvUI|r version %s%s|r, type /ec to access the in
 L["Loot Roll"] = "주사위"
 L["Loot"] = "전리품"
 L["Map Alpha While Moving"] = true;
-L["Media"] = "미디어"
 L["Reset all frames to their original positions."] = "원래 위치로 모든 프레임을 초기화합니다."
 L["Reset Anchors"] = "앵커 초기화"
 L['Right'] = true;
@@ -423,6 +422,7 @@ L["Font Size"] = "글꼴 크기" --Also used in UnitFrames
 L["Fonts"] = "글꼴"
 L["Main backdrop color of the UI."] = "UI의 기본 배경 색상."
 L["Main border color of the UI."] = "UI의 기본 테두리 색상."
+L["Media"] = "미디어"
 L["Primary Texture"] = "기본 텍스쳐"
 L["Secondary Texture"] = "보조 텍스쳐"
 L["Set the font size for everything in UI. Note: This doesn't effect somethings that have their own seperate options (UnitFrame Font, Datatext Font, ect..)"] = [=[UI의 모든 글꼴 크기를 설정합니다.
