@@ -301,7 +301,6 @@ L['Bases Assaulted'] = 'Basen Eingenommen'
 L['Bases Defended'] = 'Basen Verteidigt'
 L['Battleground datatexts temporarily hidden, to show type /bgstats or right click the "C" icon near the minimap.'] = 'Schlachtfeld Infotexte sind temporär versteckt, um sie wieder anzuzeigen tippe /bgstats oder rechtsklicke auf das "C" Symbol nahe der Minimap.'
 L['Battleground datatexts will now show again if you are inside a battleground.'] = 'Schlachtfeld Infotexte werden wieder angezeigt solange du dich in einem Schlachtfeld befindest.'
-L['Battleground Texts'] = 'Schlachtfeld Texte'
 L['Change settings for the display of the location text that is on the minimap.'] = 'Ändere die Einstellungen für die Anzeige des Umgebungstextes an der Minimap.'
 L["Character: "] = "Charakter: "
 L["Chest"] = "Brust"
@@ -361,7 +360,6 @@ L['Towers Assaulted'] = 'Türme angegriffen'
 L['Towers Defended'] = 'Türme verteidigt'
 L["Unhittable:"] = "Unhittable:"
 L["Waist"] = "Taille"
-L['When inside a battleground display personal scoreboard information on the main datatext bars.'] = 'Innerhalb eines Schlachtfeldes zeige Perönliche Statistiken in den Haupt-Infoleisten.'
 L["Wrist"] = "Handgelenke"
 
 --DebugTools
@@ -696,6 +694,7 @@ L["Ghost"] = "Geist"
 L["Good"] = "Gut"
 L["Group By"] = "Gruppiert durch"
 L["Group Point"] = "Gruppen Punkt"
+L['Growth Direction'] = true;
 L["Heal Prediction"] = "Eingehende Heilung"
 L["Health Backdrop"] = "Gesundheitshintergrund"
 L["Health By Value"] = "Gesundheit nach dem Wert"

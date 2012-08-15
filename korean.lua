@@ -303,7 +303,6 @@ L['Bases Assaulted'] = true;
 L['Bases Defended'] = true;
 L['Battleground datatexts temporarily hidden, to show type /bgstats or right click the "C" icon near the minimap.'] = true;
 L['Battleground datatexts will now show again if you are inside a battleground.'] = true;
-L['Battleground Texts'] = true;
 L['Change settings for the display of the location text that is on the minimap.'] = true;
 L["Character: "] = "캐릭터:"
 L["Chest"] = "가슴"
@@ -363,7 +362,6 @@ L['Towers Assaulted'] = true;
 L['Towers Defended'] = true;
 L["Unhittable:"] = "전체 완방:"
 L["Waist"] = "허리"
-L['When inside a battleground display personal scoreboard information on the main datatext bars.'] = true;
 L["Wrist"] = "손목"
 
 --DebugTools
@@ -703,6 +701,7 @@ L["Ghost"] = "유령"
 L["Good"] = "우호적"
 L["Group By"] = true;
 L["Group Point"] = "공격대 프레임 위치"
+L['Growth Direction'] = true;
 L["Heal Prediction"] = true;
 L["Health Backdrop"] = "생명력 배경"
 L["Health By Value"] = "값에 따른 생명력"

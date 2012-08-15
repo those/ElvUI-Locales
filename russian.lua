@@ -302,7 +302,6 @@ L['Bases Assaulted'] = "Штурмы баз"
 L['Bases Defended'] = "Оборона баз"
 L['Battleground datatexts temporarily hidden, to show type /bgstats or right click the "C" icon near the minimap.'] = 'Информация поля боя временно скрыта. Для отображения введите /bgstat или ПКМ на иконке "С" у миникарты.'
 L['Battleground datatexts will now show again if you are inside a battleground.'] = "Информация поля боя снова будет отображаться, если Вы находитесь на них."
-L['Battleground Texts'] = "Текст ПБ"
 L['Change settings for the display of the location text that is on the minimap.'] = "Изменяет опции отображения названия локации на миникарте"
 L['Character:'] = "Персонаж: "
 L["Chest"] = "Грудь"
@@ -362,7 +361,6 @@ L['Towers Assaulted'] = "Штурмы башен"
 L['Towers Defended'] = "Оборона башен"
 L["Unhittable:"] = "Полная защита от ударов"
 L["Waist"] = "Пояс"
-L['When inside a battleground display personal scoreboard information on the main datatext bars.'] = "На полях боя отображать личную информацию на основных полосах инфо-текстов";
 L["Wrist"] = "Запястья"
 
 --DebugTools

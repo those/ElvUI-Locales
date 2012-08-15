@@ -298,7 +298,6 @@ L['Bases Assaulted'] = true;
 L['Bases Defended'] = true;
 L['Battleground datatexts temporarily hidden, to show type /bgstats or right click the "C" icon near the minimap.'] = true;
 L['Battleground datatexts will now show again if you are inside a battleground.'] = true;
-L['Battleground Texts'] = true;
 L['Change settings for the display of the location text that is on the minimap.'] = true;
 L["Character: "] = true
 L["Chest"] = true;
@@ -358,7 +357,6 @@ L['Towers Assaulted'] = true;
 L['Towers Defended'] = true;
 L["Unhittable:"] = true;
 L["Waist"] = true;
-L['When inside a battleground display personal scoreboard information on the main datatext bars.'] = true;
 L["Wrist"] = true;
 
 --DebugTools
@@ -693,6 +691,7 @@ L["Ghost"] = true;
 L["Good"] = true;
 L["Group By"] = true;
 L["Group Point"] = true;
+L['Growth Direction'] = true;
 L["Heal Prediction"] = true;
 L["Health Backdrop"] = true;
 L["Health By Value"] = true;
