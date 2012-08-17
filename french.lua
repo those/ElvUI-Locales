@@ -562,7 +562,7 @@ L["Trainer Frame"] = "Entraîneur"
 L["World Map"] = "Carte du monde"
 
 --Static Popups
-L["A setting you have changed will change an option for this character only. This setting that you have changed will be uneffected by changing user profiles. Changing this setting requires that you reload your User Interface."] = true;
+L["A setting you have changed will change an option for this character only. This setting that you have changed will be uneffected by changing user profiles. Changing this setting requires that you reload your User Interface."] = "Un réglages que vous avez modifié ne s'appliquera que pour ce personnage. La modification de ce réglage ne sera pas affecté par un changement de profile. Changer ce réglage requiert de relancer l'interface."
 L["Are you sure you want to delete all your gray items?"] = "Êtes-vous sûr de vouloir détruire tout vos Objets Gris ?"
 L["Are you sure you want to disband the group?"] = "Êtes-vous sûr de vouloir dissoudre le groupe ? "
 L["Are you sure you want to reset every mover back to it's default position?"] = "Êtes-vous sûre de vouloir réinitialiser tous les cadres à leur position par défaut ?"
@@ -622,7 +622,7 @@ L["An Y offset (in pixels) to be used when anchoring new frames."] = "Un décala
 L["Any Unit"] = "N'importe quelle unité"
 L["Arena Frames"] = "Cadre d'arène"
 L["Assist Frames"] = "Cadre des Soutiens"
-L['Assist Target'] = true;
+L['Assist Target'] = 'Cible de soutien'
 L["Attach To"] = "Attacher à"
 L['Aura Bars'] = "Barre d'auras"
 L["Bad"] = "Mauvaise"
@@ -676,7 +676,7 @@ L["Display a spark texture at the end of the castbar statusbar to help show the 
 L['Display Frames'] = "Afficher les cadres"
 L["Display Player"] = "Afficher le joueur"
 L["Display Target"] = "Affcher la cible"
-L['Display icon on arena frame indicating the units talent specialization or the units faction if inside a battleground.'] = true;
+L['Display icon on arena frame indicating the units talent specialization or the units faction if inside a battleground.'] = "Afficher une icône sur les cadres d'arènes indiquant la spécialisation des unités our leur factions si vous êtes dans un champs de batailles."
 L["Display the rested icon on the unitframe."] = "Afficher l'icône reposé sur le portrait d'unité"
 L["Display the target of the cast on the castbar."] = "Afficher le sort en court d'incantation de la cible sur votre barre d'incantation." --Need review
 L["Display tick marks on the castbar for channelled spells. This will adjust automatically for spells like Drain Soul and add additional ticks based on haste."] = "Affichage des marques de graduation (ticks) sur la barre de lancement de sort. Cela s'ajustera automatiquement pour les sorts comme Drain d'âme qui est basé sur la Hâte."
@@ -751,7 +751,7 @@ L["Power text will be hidden on NPC targets, in addition the name text will be r
 L["Power"] = "Énergie"
 L["Powers"] = "Énergies"
 L["Priority"] = "Priorité"
-L['PVP Trinket'] = "Bijou PVP"
+L['PVP Trinket'] = 'Bijou PVP'
 L['Raid-10 Frames'] = "Cadres de raid 10 joueurs"
 L['Raid-25 Frames'] = "Cadres de raid 25 joueurs"
 L['Raid-40 Frames'] = "Cadres de raid 40 joueurs"
@@ -790,11 +790,11 @@ L["Smart Raid Filter"] = "Filtre intelligent de Raid"
 L["Smooth Bars"] = "Barres fluides"
 L["Spaced"] = "Espacée"
 L["Spark"] = "Lueur"
-L['Spec Icon'] = true;
+L['Spec Icon'] = 'Icônes de spécialisation'
 L["Spell not found in list."] = "Sort non trouvé dans la liste."
 L["StatusBar Texture"] = "Texture de la barre d'état."
 L["Tank Frames"] = "Cadre des Tanks"
-L['Tank Target'] = true;
+L['Tank Target'] = 'Cible de Tank'
 L["Tapped"] = "Collé"
 L["Target Frame"] = "Cadre de la cible"
 L["TargetTarget Frame"] = "Cadre de la cible de votre cible"
@@ -827,7 +827,7 @@ L["What each frame should attach itself to, example setting it to TOP every unit
 L["What point to anchor to the frame you set to attach to."] = "Quel point d'ancrage sur le cadre vous choisissez à attacher."
 L["What to attach the buff anchor frame to."] = "Choisissez à quoi vous voulez attacher les améliorations sur le cadre."
 L["What to attach the debuff anchor frame to."] = "Choisissez à quoi vous voulez attacher les affaiblissements sur le cadre."
-L['When set the Buffs and Debuffs will toggle being displayed depending on if the unit is friendly or an enemy. This will not effect the aurabars module.'] = true;
+L['When set the Buffs and Debuffs will toggle being displayed depending on if the unit is friendly or an enemy. This will not effect the aurabars module.'] = "Une fois activé, les améliorations et affaiblissements seront soits affichés ou cachés en fonction du statut de l'unité (Amicale ou Enemie). Ceci n'affectera pas le module aurabars."
 L["When true, the group header is shown when the player is in a party."] = "Quand coché, l'en-tête de groupe est affiché lorsque le joueur est dans un groupe."
 L["When true, the group header is shown when the player is in a raid."] = "Quand coché, l'en-tête de groupe est affiché lorsque le joueur est dans un raid."
 L["When true, the header includes the player when not in a raid."] = "Quand coché, l'en-tête est affiché lorsque le joueur n'est pas dans un raid."
@@ -841,24 +841,24 @@ L["You can't remove a pre-existing filter."] = "Vous ne pouvez pas supprimer un 
 L["You cannot copy settings from the same unit."] = "Vous ne pouvez pas copier les réglages du même cadre."
 L["You cannot set the Group Point and Column Point so they are opposite of each other."] = "Vous ne pouvez pas configurer le Point de Groupe et le Point de la Colonne quand ils sont opposés l'un à l'autre."
 L["You may not remove a spell from a default filter that is not customly added. Setting spell to false instead."] = "Vous ne pouvez pas supprimer un sort du filtre qui est par défaut. Le sort est maintenant désactivé."
-L['TEXT_FORMAT_DESC'] = [=[Provide a string to change the text format.
+L['TEXT_FORMAT_DESC'] = [=[Entrer une séquence pour changer le format du texte.
 
-Examples:
+Exemples:
 [namecolor][name] [difficultycolor][smartlevel] [shortclassification]
 [healthcolor][health:current-max]
 [powercolor][power:current]
 
 Health / Power Formats:
-'current' - current amount
-'percent' - percentage amount
-'current-max' - current amount followed by maximum amount, will display only max is current is equal to max
-'current-percent' - current amount followed by percentage amount, will display only max is current is equal to max
-'current-max-percent' - current amount, max amount, followed by percentage amount, will display only max if current is equal to max
-'deficit' - display the deficit value, will display nothing if there is no deficit
+'current' - Quantité actuelle
+'percent' - Quantité en pourcentage
+'current-max' - Quantité actuelle suivie par quantité maximale, n'affichera seulement la quantité maximale si la quantité actuelle est égale au maximum.
+'current-percent' - Quantité actuelle suivie par quantité en pourcentage, n'affichera seulement la quantité maximale si la quantité actuelle est égale au maximum
+'current-max-percent' -  Quantité actuelle, quantité maximale, suivie par quantité en pourcentage, n'affichera seulement la quantité maximale si la quantité actuelle est égale au maximum
+'deficit' - Affiche la valeur du déficit, n'affichera rien si il n'y a pas de déficit
 
 Name Formats:
-'name-short' - Name restricted to 10 characters
-'name-medium' - Name restricted to 15 characters
-'name-long' - Name restricted to 20 characters
+'name-short' - Nom limité à 10 charactères
+'name-medium' - Nom limité à 15 charactères
+'name-long' - Nom limité à 20 charactères
 
-To disable leave the field blank, if you need more information visit http://www.tukui.org]=];
+Pour désactiver, laisser le champs vide. Pour plus d'information, merci de visiter http://www.tukui.org]=];
