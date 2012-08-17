@@ -366,9 +366,9 @@ L['When inside a battleground display personal scoreboard information on the mai
 L["Wrist"] = "Запястья"
 
 --DebugTools
-L["%s: %s tried to call the protected function '%s'."] = true;
+L["%s: %s tried to call the protected function '%s'."] = true; --No need to translate due to our code sharing tool will make it unreadable
 L["INCOMPATIBLE_ADDON"] = "Аддон %s не совместим с модулем %s ElvUI. Пожалуйста, отключите не совместимый аддон или модуль."
-L["No locals to dump"] = true;
+L["No locals to dump"] = true; --No need to translate due to our code sharing tool will make it unreadable
 L['|cFFE30000Lua error recieved. You can view the error message when you exit combat.'] = "|cFFE30000Обнаружена ошибка lua. Вы получите отчет о ней после завершения боя."
 
 --General
@@ -750,7 +750,7 @@ L["Power text will be hidden on NPC targets, in addition the name text will be r
 L["Power"] = "Ресурс"
 L["Powers"] = "Ресурсы"
 L["Priority"] = "Приоритет"
-L['PVP Trinket'] = true;
+L['PVP Trinket'] = "ПвП Аксессуар"
 L['Raid-10 Frames'] = "Рейд 10"
 L['Raid-25 Frames'] = "Рейд 25"
 L['Raid-40 Frames'] = "Рейд 40"
