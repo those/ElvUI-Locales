@@ -677,6 +677,7 @@ L["Display a spark texture at the end of the castbar statusbar to help show the 
 L['Display Frames'] = true;
 L["Display Player"] = "顯示玩家";
 L["Display Target"] = "顯示施法目標";
+L['Display icon on arena frame indicating the units talent specialization or the units faction if inside a battleground.'] = true;
 L["Display the rested icon on the unitframe."] = "在單位框架上顯示充分休息圖示。";
 L["Display the target of the cast on the castbar."] = "於施法條上顯示施法目標";
 L["Display tick marks on the castbar for channelled spells. This will adjust automatically for spells like Drain Soul and add additional ticks based on haste."] = "若為需引導的法術，在施法條上顯示每跳週期傷害。啟動此功能後，針對吸取靈魂這類的法術，將自動調整顯示每跳週期傷害，並視加速等級增加額外的週期傷害。";
@@ -790,6 +791,7 @@ L["Smart Raid Filter"] = "智能團隊篩選";
 L["Smooth Bars"] = "平滑顯示";
 L["Spaced"] = "保留間距";
 L["Spark"] = "閃光材質";
+L['Spec Icon'] = true;
 L["Spell not found in list."] = "清單中找不到此技能。";
 L["StatusBar Texture"] = "狀態列材質";
 L["Tank Frames"] = "坦克框架";

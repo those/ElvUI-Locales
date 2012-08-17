@@ -682,6 +682,7 @@ L["Display a spark texture at the end of the castbar statusbar to help show the 
 L['Display Frames'] = true;
 L["Display Player"] = "플레이어 표시"
 L["Display Target"] = "대상 표시" -- Needs review
+L['Display icon on arena frame indicating the units talent specialization or the units faction if inside a battleground.'] = true;
 L["Display the rested icon on the unitframe."] = "유닛 프레임에 휴식 아이콘을 표시합니다." -- Needs review
 L["Display the target of the cast on the castbar."] = "시전바에 시전바 대상을 표시합니다." -- Needs review
 L["Display tick marks on the castbar for channelled spells. This will adjust automatically for spells like Drain Soul and add additional ticks based on haste."] = "시전바에 시전되는 주문의 틱을 표시합니다. 영혼 흡수나 가속이 추가되는 주문에 따라 틱이 자동 조절됩니다."
@@ -796,6 +797,7 @@ L["Smart Raid Filter"] = "스마트 레이드 필터"
 L["Smooth Bars"] = "부드러운 바"
 L["Spaced"] = "간격"
 L["Spark"] = "반짝임"
+L['Spec Icon'] = true;
 L["Spell not found in list."] = "목록에서 주문을 찾을 수 없습니다."
 L["StatusBar Texture"] = "상태 표시바 텍스쳐"
 L["Tank Frames"] = "방어전담 프레임"

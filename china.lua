@@ -676,6 +676,7 @@ L["Display a spark texture at the end of the castbar statusbar to help show the 
 L['Display Frames'] = true;
 L["Display Player"] = "显示玩家"
 L["Display Target"] = true;
+L['Display icon on arena frame indicating the units talent specialization or the units faction if inside a battleground.'] = true;
 L["Display the rested icon on the unitframe."] = "在单位框架上显示充分休息图标。" -- Needs review
 L["Display the target of the cast on the castbar."] = true;
 L["Display tick marks on the castbar for channelled spells. This will adjust automatically for spells like Drain Soul and add additional ticks based on haste."] = "若为需引导的法术，在施法条上显示每跳周期伤害。启动此功能后，针对吸取灵魂这类的法术，将自动调整显示每跳周期伤害，并视加速等级增加额外的周期伤害。"
@@ -789,6 +790,7 @@ L["Smart Raid Filter"] = "智能团队过滤"
 L["Smooth Bars"] = "平滑化"
 L["Spaced"] = "留空"
 L["Spark"] = "火花"
+L['Spec Icon'] = true;
 L["Spell not found in list."] = "列表中未发现技能"
 L["StatusBar Texture"] = "状态条材质"
 L["Tank Frames"] = "坦克框架"

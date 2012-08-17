@@ -675,6 +675,8 @@ L["Display a spark texture at the end of the castbar statusbar to help show the 
 L['Display Frames'] = 'Zeige Fenster'
 L["Display Player"] = "Zeige Spieler"
 L["Display Target"] = "Zeige Ziel"
+L['Display icon on arena frame indicating the units talent specialization or the units faction if inside a battleground.'] = true;
+L['Display icon on arena frame indicating the units talent specialization or the units faction if inside a battleground.'] = true;
 L["Display the rested icon on the unitframe."] = "Zeige das Ausgeruht Icon auf den Einheitenfenstern."
 L["Display the target of the cast on the castbar."] = "Zeige das Ziel des Zaubers auf der Zauberleiste."
 L["Display tick marks on the castbar for channelled spells. This will adjust automatically for spells like Drain Soul and add additional ticks based on haste."] = "Anzeige der Zauberleistenticks für kanalisierte Zauber. Dies wird automatisch für Zauber wie Seelendieb zusätzliche Ticks hinzufügen basierend auf Tempo."
@@ -788,6 +790,7 @@ L["Smart Raid Filter"] = "Intelligenter-Raid Filter"
 L["Smooth Bars"] = "Sanfte Leistenübergänge"
 L["Spaced"] = "Abgetrennt"
 L["Spark"] = "Funken"
+L['Spec Icon'] = true;
 L["Spell not found in list."] = "Zauber in der Liste nicht gefunden."
 L["StatusBar Texture"] = "Statusleisten Texture"
 L["Tank Frames"] = "Tank Fenster"

@@ -676,6 +676,7 @@ L["Display a spark texture at the end of the castbar statusbar to help show the 
 L['Display Frames'] = "Показать рамки"
 L["Display Player"] = "Показывать себя"
 L["Display Target"] = "Показывать цель"
+L['Display icon on arena frame indicating the units talent specialization or the units faction if inside a battleground.'] = true;
 L["Display the rested icon on the unitframe."] = "Отображать иконку отдыха на рамке игрока"
 L["Display the target of the cast on the castbar."] = "Отображать имя цели заклинания на полосе."
 L["Display tick marks on the castbar for channelled spells. This will adjust automatically for spells like Drain Soul and add additional ticks based on haste."] = "Отображать метки тиков на полосе заклинаний для поддерживаемых заклинаний. Они будут автоматически масштабироваться для заклинаний вроде Похищения души и добавлять новые тики, основываясь на показателе скорости."
@@ -789,6 +790,7 @@ L["Smart Raid Filter"] = "Умный фильтр рейда"
 L["Smooth Bars"] = "Плавные полосы"
 L["Spaced"] = "Раздельно"
 L["Spark"] = "Искра"
+L['Spec Icon'] = true;
 L["Spell not found in list."] = "Заклинание не найдено в этом списке"
 L["StatusBar Texture"] = "Текстура полос состояния"
 L["Tank Frames"] = "Танки"

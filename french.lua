@@ -676,6 +676,7 @@ L["Display a spark texture at the end of the castbar statusbar to help show the 
 L['Display Frames'] = "Afficher les cadres"
 L["Display Player"] = "Afficher le joueur"
 L["Display Target"] = "Affcher la cible"
+L['Display icon on arena frame indicating the units talent specialization or the units faction if inside a battleground.'] = true;
 L["Display the rested icon on the unitframe."] = "Afficher l'icône reposé sur le portrait d'unité"
 L["Display the target of the cast on the castbar."] = "Afficher le sort en court d'incantation de la cible sur votre barre d'incantation." --Need review
 L["Display tick marks on the castbar for channelled spells. This will adjust automatically for spells like Drain Soul and add additional ticks based on haste."] = "Affichage des marques de graduation (ticks) sur la barre de lancement de sort. Cela s'ajustera automatiquement pour les sorts comme Drain d'âme qui est basé sur la Hâte."
@@ -789,6 +790,7 @@ L["Smart Raid Filter"] = "Filtre intelligent de Raid"
 L["Smooth Bars"] = "Barres fluides"
 L["Spaced"] = "Espacée"
 L["Spark"] = "Lueur"
+L['Spec Icon'] = true;
 L["Spell not found in list."] = "Sort non trouvé dans la liste."
 L["StatusBar Texture"] = "Texture de la barre d'état."
 L["Tank Frames"] = "Cadre des Tanks"
