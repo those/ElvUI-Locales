@@ -750,6 +750,7 @@ L["Power text will be hidden on NPC targets, in addition the name text will be r
 L["Power"] = "Ресурс"
 L["Powers"] = "Ресурсы"
 L["Priority"] = "Приоритет"
+L['PVP Trinket'] = true;
 L['Raid-10 Frames'] = "Рейд 10"
 L['Raid-25 Frames'] = "Рейд 25"
 L['Raid-40 Frames'] = "Рейд 40"

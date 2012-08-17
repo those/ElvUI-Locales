@@ -750,6 +750,7 @@ L["Power text will be hidden on NPC targets, in addition the name text will be r
 L["Power"] = "Énergie"
 L["Powers"] = "Énergies"
 L["Priority"] = "Priorité"
+L['PVP Trinket'] = true;
 L['Raid-10 Frames'] = "Cadres de raid 10 joueurs"
 L['Raid-25 Frames'] = "Cadres de raid 25 joueurs"
 L['Raid-40 Frames'] = "Cadres de raid 40 joueurs"
