@@ -303,6 +303,7 @@ L['Bases Defended'] = "Оборона баз"
 L['Battleground datatexts temporarily hidden, to show type /bgstats or right click the "C" icon near the minimap.'] = 'Информация поля боя временно скрыта. Для отображения введите /bgstat или ПКМ на иконке "С" у миникарты.'
 L['Battleground datatexts will now show again if you are inside a battleground.'] = "Информация поля боя снова будет отображаться, если Вы находитесь на них."
 L['Battleground Texts'] = "Текст ПБ"
+L['Carts Controlled'] = true;
 L['Change settings for the display of the location text that is on the minimap.'] = "Изменяет опции отображения названия локации на миникарте"
 L['Character:'] = "Персонаж: "
 L["Chest"] = "Грудь"
