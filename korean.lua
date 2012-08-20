@@ -165,6 +165,7 @@ L["Font"] = "글꼴"
 L["G"] = "G"
 L["Hide Both"] = "모두 숨기기"
 L["Hyperlink Hover"] = "하이퍼링크 마우스오버"
+L['Invalid Target'] = true;
 L["Keyword Alert"] = true;
 L['Keywords'] = true;
 L["Left Only"] = "왼쪽만"
@@ -609,7 +610,7 @@ L['If you are experiencing issues with ElvUI try disabling all your addons excep
 L['If you need to reset the gold datatext type /resetgold.'] = true;
 L['The buff panel to the right of minimap is a list of your consolidated buffs. You can disable it in Buffs and Debuffs options of ElvUI.'] = true;
 L['The focus unit can be set by typing /focus when you are targetting the unit you want to focus. It is recommended you make a macro to do this.'] = true;
-L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the blizzard actionbar options menu.'] = true;
+L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the actionbar options menu.'] = true;
 L['To setup which channels appear in which chat frame, right click the chat tab and go to settings.'] = true;
 L['Using the /farmmode <size> command will spawn a larger minimap on your screen that can be moved around, very useful when farming.'] = true;
 L['You can access copy chat and chat menu functions by mouse over the top right corner of chat panel and left/right click on the button that will appear.'] = true;

@@ -164,6 +164,7 @@ L["Font"] = "Schrift"
 L["G"] = "G"
 L["Hide Both"] = "Verstecke Beide"
 L["Hyperlink Hover"] = "Hyperlink Hover"
+L['Invalid Target'] = true;
 L["Keyword Alert"] = "Stichwort Alarm"
 L['Keywords'] = 'Stichwort'
 L["Left Only"] = "Nur Links"
@@ -602,7 +603,7 @@ L['If you are experiencing issues with ElvUI try disabling all your addons excep
 L['If you need to reset the gold datatext type /resetgold.'] = 'Wenn du deinen Gold Infotext zurücksetzen willst gib /resetgold ein.'
 L['The buff panel to the right of minimap is a list of your consolidated buffs. You can disable it in Buffs and Debuffs options of ElvUI.'] = 'Die Stärkungszauber Leiste rechts neben der Minimap ist eine Liste der Zusammengesetzten Stärkungszauber. Du kannst diese in den Stärkungs und Schwachungszauber Optionen in ElvUI deaktivieren.'
 L['The focus unit can be set by typing /focus when you are targetting the unit you want to focus. It is recommended you make a macro to do this.'] = 'Das Fokus Fenster kann durch Eingabe von /fokus während du ein Ziel hast gesetzt werden. Es wird empfohlen ein Makro dafür zu nutzen.'
-L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the blizzard actionbar options menu.'] = 'Um Fähigkeiten auf der Aktionsleiste zu verschieben Standartmäßig shift + bewegen. Du kannst die modifier Taste im Blizzard Aktionsleisten Menü umstellen.'
+L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the actionbar options menu.'] = 'Um Fähigkeiten auf der Aktionsleiste zu verschieben Standartmäßig shift + bewegen. Du kannst die modifier Taste im Aktionsleisten Menü umstellen.'
 L['To setup which channels appear in which chat frame, right click the chat tab and go to settings.'] = 'Um einzustellen welcher Kanel im welchem Chatfenster angezeigt werden soll, rechts klick auf das Chattap und gehe auf Einstellungen.'
 L['Using the /farmmode <size> command will spawn a larger minimap on your screen that can be moved around, very useful when farming.'] = 'Benutze das /farmmode <Größe> Kommando und eine größere Minimap auf dem Bildschirm erscheinen zu lassen die sich verschieben lässt, sehr nützlich zum Farmen.'
 L['You can access copy chat and chat menu functions by mouse over the top right corner of chat panel and left/right click on the button that will appear.'] = 'Du kannst die Funktionen Chat Kopieren und Chat Menü aufrufen wenn die Maus in die obere rechte Ecke des Chatfensters bewegst und links/rechts klickst.'

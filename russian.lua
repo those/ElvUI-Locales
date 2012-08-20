@@ -165,6 +165,7 @@ L["Font"] = "Шрифт"
 L["G"] = "Г"
 L["Hide Both"] = "Скрыть оба"
 L["Hyperlink Hover"] = "Подсказка над ссылками"
+L['Invalid Target'] = true;
 L["Keyword Alert"] = "Звук ключевых слов"
 L['Keywords'] = "Ключевые слова"
 L["Left Only"] = "Только левый"
@@ -603,7 +604,7 @@ L['If you are experiencing issues with ElvUI try disabling all your addons excep
 L['If you need to reset the gold datatext type /resetgold.'] = 'Если Вы хотите сбросить данные в инфо-тексте золота, введите команду /resetgold.';
 L['The buff panel to the right of minimap is a list of your consolidated buffs. You can disable it in Buffs and Debuffs options of ElvUI.'] = 'Панель с баффами справа от миникарты это список Ваших объединенных баффов. Вы можете отключить ее в разделе эффектов и аур в настройках ElvUI.';
 L['The focus unit can be set by typing /focus when you are targetting the unit you want to focus. It is recommended you make a macro to do this.'] = 'Запомненную цель (фокус) можно установить командой /focus при взятии нужного врага в цель. Для этого рекомендуется сделать макрос.';
-L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the blizzard actionbar options menu.'] = 'Для перемещения способностей по панелям команд нужно перемещать их с зажатой клавишей shift. Вы можете поменять модификатор в опциях панелей команд Blizzard.';
+L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the actionbar options menu.'] = 'Для перемещения способностей по панелям команд нужно перемещать их с зажатой клавишей shift. Вы можете поменять модификатор в опциях панелей команд Blizzard.'; --Remove only "Blizzard" ?
 L['To setup which channels appear in which chat frame, right click the chat tab and go to settings.'] = 'Для настройки отображения каналов в чате кликните правой кнопкой мыши на закладке нужного чата и выберите пункт "параметры".';
 L['Using the /farmmode <size> command will spawn a larger minimap on your screen that can be moved around, very useful when farming.'] = 'Использование команды /farmmode <размер> откроет миникарту большего размера, которую можно свободно перемещать по экрану. Очень полезно при фарме.';
 L['You can access copy chat and chat menu functions by mouse over the top right corner of chat panel and left/right click on the button that will appear.'] = 'Вы можете получить доступ к функциям копирования чата и меню чата, наведя курсор на верхний правый угол панели чата и кликнув левой/правой кнопкой мыши на появившейся кнопке.';
