@@ -690,7 +690,7 @@ L["Display tick marks on the castbar for channelled spells. This will adjust aut
 L["Down"] = "En bas"
 L['Enemy Aura Type'] = "Type d'Aura inamical";
 L["Fade the unitframe when out of combat, not casting, no target exists."] = "Estompe les cadres d'unités quand vous êtes hors combat, quand vous ne lancez pas un sort, quand vous ne ciblez personne."
-L["Fill"] = "Rassasié" --Need review
+L["Fill"] = "Rempli" --Need review
 L["Filled"] = "Rempli"
 L["Filter Type"] = "Type de filtre"
 L["Focus Frame"] = "Cadre de la Focalisation"
