@@ -132,7 +132,7 @@ L['AURAS_DESC'] = "Configure les icones qui apparaissent près de la Minicarte."
 L['Begin a new row or column after this many auras.'] = "Commencer une nouvelle ligne ou colonne après cette limite d'auras."
 L['Consolidated Buffs'] = "Améliorations groupées"
 L['Defines how the group is sorted.'] = "Définit la façon dont le groupe est trié."
-L['Defines the sort order of the selected sort method.'] =  true; --WTF ?
+L['Defines the sort order of the selected sort method.'] =  "Définit l'ordre de tri selon un ordre descendant" --Need Review
 L['Display the consolidated buffs bar.'] = "Affiche la barre d'améliorations groupées."
 L["Fade Threshold"] = "Fondu de seuil"
 L['Index'] = "Index"
@@ -140,7 +140,7 @@ L['Indicate whether buffs you cast yourself should be separated before or after.
 L['Limit the number of rows or columns.'] = "Limiter le nombre de lignes ou de colonnes"
 L['Max Wraps'] = "Retour à la ligne maximal"
 L['No Sorting'] = "Aucun tri"
-L["Other's First"] = "Autre Première" --Need review
+L["Other's First"] = "Les autres en premier" --Need review
 L['Seperate'] = "Séparer"
 L['Set the size of the individual auras.'] = "Définit la taille des auras individuelles."
 L['Sort Method'] = "Méthode de tri"
@@ -402,7 +402,7 @@ L["General"] = "Général"
 L['Left'] = "Gauche"
 L["Log Taints"] = "Journal  des corruptions";
 L["Login Message"] = "Message de connexion"
-L["LOGIN_MSG"] = "Bienvenue sur %sElvUI|r version %s%s|r, tapez /ec afin d'accéder au menu de configuration en jeu. Si vous avez besoin d'un support technique, vous pouvez nous rejoindre sur http://www.tukui.org"
+L["LOGIN_MSG"] = "Bienvenue sur la version %s%s|r d'%sElvUI|r, tapez /ec afin d'accéder au menu de configuration en jeu. Si vous avez besoin d'un support technique, vous pouvez nous rejoindre sur http://www.tukui.org"
 L["Loot Roll"] = "Cadre de butin"
 L["Loot"] = "Butin"
 L["Map Alpha While Moving"] = "Transparence de la carte en mouvement"
@@ -413,7 +413,7 @@ L["Send ADDON_ACTION_BLOCKED errors to the Lua Error frame. These errors are les
 L["Skin the blizzard chat bubbles."] = "Habillage des bulles de Chat."
 L["Tiny Map"] = "Petite Carte";
 L['Toggle Tutorials'] = "Afficher les tutoriels"
-L["Welcome to ElvUI version %s!"] = "Bienvenue sur ElvUI version %s !"
+L["Welcome to ElvUI version %s!"] = "Bienvenue sur la version %s d'ElvUI !"
 
 --Media
 L["Backdrop color of transparent frames"] = "Couleur de fond pour les cadres estompés."
@@ -717,7 +717,7 @@ L['Hold shift + right click to blacklist this aura.'] = "Maintenant MAJ + clic d
 L["Horizontal"] = "Horizontale" --Also used in bags module
 L["How far away the portrait is from the camera."] = "Configure la distance de la caméra par rapport au portrait."
 L["Icon"] = "Icône"
-L['If not set to 0 then override the size of the aura icon to this.'] = true; --WTF ?
+L['If not set to 0 then override the size of the aura icon to this.'] = "Si ce n'est pas réglé sur 0, alors remplacer la taille de l'icône d'aura à cet égard." --Need review
 L['If set then if the aura is found on the blacklist filter it will not display. Note: You can change between only doing this on friendly or enemy units.'] = "Si défini alors que l'aura est trouvée dans la liste noire, elle ne sera pas affichée. Remarque: Vous pouvez changer entre les unités amies ou ennemies." --Need fucking review
 L['If set then if the aura is found on the whitelist filter it will display. Note: You can change between only doing this on friendly or enemy units.'] = "Si défini alors que l'aura est trouvée dans la liste blanche, elle sera affichée. Remarque: Vous pouvez changer entre les unités amies ou ennemies." --Need fucking review
 L['If set, only auras belonging to yourself in addition to any aura that passes the set filter may be shown. Note: You can change between only doing this on friendly or enemy units.'] = "S'il est défini, seuls les auras appartenant à vous-même en plus de toute aura qui passe le filtre peuvent être montrées. Remarque: Vous pouvez changer entre les unités amies ou ennemies." --Need fucking review
