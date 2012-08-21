@@ -74,7 +74,7 @@ L["Threshold before text turns red and is in decimal form. Set to -1 for it to n
 L["Toggles the display of the actionbars backdrop."] = "Affiche ou non la couleur de fond de la barre d'action."
 L['Trigger'] = "Déclencheur"  --Need review
 L["Visibility State"] = "État de visibilité"
-L['When enabled the main actionbar will use the maximum amount of pages available. This means if you have another actionbar disabled, the actionbar page will become available on the main actionbar. Having this disabled will limit the main actionbar to two pages.'] = "Lorsqu'elle est activée, la barre d'action principale utilisera le montant de pages disponibles. Cela signifie que su vous avez une autre barre d'actions désactivér, la barre d'action sera disponible dans la barre d'action principale. Avoir ce paramètre désactivé limitera la barre d'action principale à deux pages. "
+L['When enabled the main actionbar will use the maximum amount of pages available. This means if you have another actionbar disabled, the actionbar page will become available on the main actionbar. Having this disabled will limit the main actionbar to two pages.'] = "Lorsqu'elle est activée, la barre d'action principale utilisera le montant de pages disponibles. Cela signifie que su vous avez une autre barre d'actions désactivée, la barre d'action sera disponible dans la barre d'action principale. Avoir ce paramètre désactivé limitera la barre d'action principale à deux pages. "
 L["Width Multiplier"] = "Multiplicateur largeur"
 L[ [=[This works like a macro, you can run different situations to get the actionbar to page differently.
  Example: '[combat] 2;']=] ] = [=[Ceci fonctionne comme une macro, vous pouvez exécuter différentes situations pour avoir une pagination de la barre d'actions différente.
@@ -217,7 +217,7 @@ Or for most users it would be easier to simply put a tga file into your WoW fold
 
 Notez:
 La taille de l'image recommandée est 256x128 pixels
-Vous devez redémarrer le jeu après avoir ajouter un fichier dans le dossier.
+Vous devez redémarrer le jeu après avoir ajouté un fichier dans le dossier.
 Le format du fichier doit être en .tga
 
 Exemple: Interface\AddOns\ElvUI\media\textures\copy
@@ -243,7 +243,7 @@ L["Importance: |cff07D400High|r"] = "Importance: |cff07D400Haute|r"
 L["Importance: |cffD3CF00Medium|r"] = "Importance: |cffD3CF00Moyenne|r"
 L["Importance: |cffFF0000Low|r"] = "Importance: |cffFF0000Faible|r"
 L["Install"] = "Installer"
-L["Installation Complete"] = "Instalation terminée"
+L["Installation Complete"] = "Installation terminée"
 L["Layout Set"] = "Disposition configurée"
 L["Layout"] = "Disposition"
 L["Lock"] = "Verrouiller"
@@ -269,14 +269,14 @@ L['Theme Setup'] = "Configuration du thème"
 L["This install process will help you learn some of the features in ElvUI has to offer and also prepare your user interface for usage."] = "Ce programme d'installation vous aidera à découvrir quelques fonctions d'ElvUI et à vous offrir et préparera également votre interface à son utilisation."
 L["This is completely optional."] = "Ceci est totalement optionnel."
 L["This part of the installation process sets up your chat windows names, positions and colors."] = "Cette partie du processus d'installation configure les noms, positions et couleurs de vos fenêtres de chat."
-L["This part of the installation process sets up your World of Warcraft default options it is recommended you should do this step for everything to behave properly."] = "Cette partie du processus d'installation paramètrera vos options par défaut de World of Warcraft. il est recommendé d'effectuer cette étape afin que tout fonctionne normalement."
+L["This part of the installation process sets up your World of Warcraft default options it is recommended you should do this step for everything to behave properly."] = "Cette partie du processus d'installation paramètrera vos options par défaut de World of Warcraft. Il est recommandé d'effectuer cette étape afin que tout fonctionne normalement."
 L["This resolution doesn't require that you change settings for the UI to fit on your screen."] = "Cette résolution ne nécessite pas que vous modifiez les paramètres de l'interface utilisateur pour s'adapter sur votre écran."
 L["This resolution requires that you change some settings to get everything to fit on your screen."] = "Cette résolution nécessite que vous modifiez les paramètres de l'interface utilisateur pour s'adapter sur votre écran."
 L["This will change the layout of your unitframes, raidframes, and datatexts."] = "Ceci affectera la disposition des cadres d'unités, des cadres de Raid et des Textes d'informations."
 L["Toggle Anchors"] = "Afficher les ancres"
 L['Toggle Configuration'] = "Afficher la Configuration" --Need review Toogle
 L["Unlock various elements of the UI to be repositioned."] = "Déverrouille divers éléments de l'interface utilisateur pour être repositionné."
-L["Using the healer layout it is highly recommended you download the addon Clique to work side by side with ElvUI."] = "Using the healer layout it is highly recommended you download the addon Clique to work side by side with ElvUI." -- Needs review
+L["Using the healer layout it is highly recommended you download the addon Clique to work side by side with ElvUI."] = true;
 L["Version"] = "Version"
 L["You are now finished with the installation process. Bonus Hint: If you wish to access blizzard micro menu, middle click on the minimap. If you don't have a middle click button then hold down shift and right click the minimap. If you are in need of technical support please visit us at www.tukui.org."] = "Vous avez maintenant terminé le processus d'installation. Si vous avez besoin d'un support technique, merci de vous rendre sur www.tukui.org"
 L['You can always change fonts and colors of any element of elvui from the in-game configuration.'] = "Vous pouvez toujours modifier les polices et les couleurs de n'importe quel élément d'Elvui dans la configuration du jeu."
@@ -366,7 +366,7 @@ L['Towers Defended'] = "Tours défendues"
 L["Unhittable:"] = "Intouchable:"
 L['Victory Points'] = "Points de Victoire"
 L["Waist"] = "Taille"
-L['When inside a battleground display personal scoreboard information on the main datatext bars.'] = "Lorsqu'à l'intérieur d'un Champs de bataill, afficher la tableau des scores personnel dans la barre de textes d'informations principale."
+L['When inside a battleground display personal scoreboard information on the main datatext bars.'] = "Lorsqu'à l'intérieur d'un Champs de bataille, afficher le tableau des scores personnel dans la barre de textes d'information principale."
 L["Wrist"] = "Poignets"
 
 --DebugTools
@@ -396,7 +396,7 @@ L["ELVUI_DESC"] = "ElvUI est une interface de remplacement complète pour World 
 L['Emotion Icons'] = "Emoticônes" --Need review for emotion icons
 L["Enable/Disable the loot frame."] = "Activer / désactiver le cadre de butin."
 L["Enable/Disable the loot roll frame."] = "Activer / désactiver le cadre du tirage au sort du butin."
-L['Enable/Disable the minimap. |cffFF0000Warning: This will prevent you from seeing the consolidated buffs bar, and prevent you from seeing the minimap datatexts.|r'] = "Activer / désactiver la minicarte. |cffFF0000Attention: Cela vous empêchera de voir la barre d'améliorations groupées et les textes d'invormation sous la minicarte."
+L['Enable/Disable the minimap. |cffFF0000Warning: This will prevent you from seeing the consolidated buffs bar, and prevent you from seeing the minimap datatexts.|r'] = "Activer / désactiver la minicarte. |cffFF0000Attention: Cela vous empêchera de voir la barre d'améliorations groupées et les textes d'information sous la minicarte."
 L["General"] = "Général"
 L['Left'] = "Gauche"
 L["Log Taints"] = "Journal  des corruptions";
@@ -559,7 +559,7 @@ L["Tabard Frame"] = "Tabard"
 L["Talent Frame"] = "Feuille des talents"
 L["Taxi Frame"] = "Trajets aériens"
 L["Time Manager"] = "Chronomètre"
-L["TOGGLESKIN_DESC"] = "Active ou désactive l'habillage ElvUi des élements ci-dessous."
+L["TOGGLESKIN_DESC"] = "Active ou désactive l'habillage ElvUi des éléments ci-dessous."
 L["Trade Frame"] = "Fenêtre d'échange"
 L["TradeSkill Frame"] = "Métiers"
 L["Trainer Frame"] = "Entraîneur"
@@ -567,7 +567,7 @@ L["World Map"] = "Carte du monde"
 
 --Static Popups
 L["A setting you have changed will change an option for this character only. This setting that you have changed will be uneffected by changing user profiles. Changing this setting requires that you reload your User Interface."] = "Un réglage que vous avez modifié ne s'appliquera que pour ce personnage. La modification de ce réglage ne sera pas affecté par un changement de profil. Changer ce réglage requiert de relancer l'interface."
-L["Are you sure you want to delete all your gray items?"] = "Êtes-vous sûr de vouloir détruire tout vos Objets Gris ?"
+L["Are you sure you want to delete all your gray items?"] = "Êtes-vous sûr de vouloir détruire tous vos Objets Gris ?"
 L["Are you sure you want to disband the group?"] = "Êtes-vous sûr de vouloir dissoudre le groupe ? "
 L["Are you sure you want to reset every mover back to it's default position?"] = "Êtes-vous sûre de vouloir réinitialiser tous les cadres à leur position par défaut ?"
 L["Can't buy anymore slots!"] = "Impossible d'acheter plus emplacements !"
@@ -600,12 +600,12 @@ L['A raid marker feature is available by pressing Escape -> Keybinds scroll to t
 L['ElvUI has a dual spec feature which allows you to load different profiles based on your current spec on the fly. You can enable this from the profiles tab.'] = "ElvUI dispose d'une fonction double spécialisation qui vous permet de charger à la volée des profils différents en fonction de votre specialisation actuelle."
 L['For technical support visit us at http://www.tukui.org.'] = "Pour tout support technique, merci de nous visiter à http://www.tukui.org."
 L['If you accidently remove a chat frame you can always go the in-game configuration menu, press install, go to the chat portion and reset them.'] = "Si vous supprimez accidentellement un cadre de discussion, vous pouvez toujours aller dans le menu de configuration d'ElvUi. Cliquez ensuite sur Installation puis passez à l'étape concernant les fenêtres de discussion pour remettre à zero les paramètres."
-L['If you are experiencing issues with ElvUI try disabling all your addons except ElvUI, remember ElvUI is a full UI replacement addon, you cannot run two addons that do the same thing.'] = "Si vous rencontrez des problèmes avec ElvUI, essayez de désactiver tous vos addons sauf ElvUI. Rappelez-vous que'ElvUi est une interface utilisateur complète et que vous ne pouvez pas éxécuter deux addons qui font la même chose."
+L['If you are experiencing issues with ElvUI try disabling all your addons except ElvUI, remember ElvUI is a full UI replacement addon, you cannot run two addons that do the same thing.'] = "Si vous rencontrez des problèmes avec ElvUI, essayez de désactiver tous vos addons sauf ElvUI. Rappelez-vous que'ElvUi est une interface utilisateur complète et que vous ne pouvez pas exécuter deux addons qui font la même chose."
 L['If you need to reset the gold datatext type /resetgold.'] = "Si vous souhaitez réinitialiser le datatextes de pièces d'or, tapez /resetgold."
 L['The buff panel to the right of minimap is a list of your consolidated buffs. You can disable it in Buffs and Debuffs options of ElvUI.'] = "Le panneau d'améliorations à droite de la minicarte est une liste de vos améliorations groupées. Vous pouvez la désactiver dans la section Améliorations et Affaiblissement d'ElvUi."
-L['The focus unit can be set by typing /focus when you are targetting the unit you want to focus. It is recommended you make a macro to do this.'] = "La cadre de focus peut être défini en tapent /focus quand vous êtres en train de cibler une unité que vous voulez focus. Il est recommandé de faire une macro pour cela."
+L['The focus unit can be set by typing /focus when you are targetting the unit you want to focus. It is recommended you make a macro to do this.'] = "La cadre de focus peut être défini en tapent /focus quand vous êtes en train de cibler une unité que vous voulez focus. Il est recommandé de faire une macro pour cela."
 L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the actionbar options menu.'] = "Pour déplacer par défaut les capacités des barres d'actions, maintenant MAJ + déplacer. Vous pouvez modifier la touche de modification dans le menu des barres d'actions."
-L['To setup which channels appear in which chat frame, right click the chat tab and go to settings.'] = "Pour configurer quels cannaux de disucssions doivent apparaitrent de les feneêtres de Chat, faites un clic droit sur l'onglet de Chat et allez dans les paramètres."
+L['To setup which channels appear in which chat frame, right click the chat tab and go to settings.'] = "Pour configurer quels canaux de discussions doivent apparaitre de les fenêtres de Chat, faites un clic droit sur l'onglet de Chat et allez dans les paramètres."
 L['Using the /farmmode <size> command will spawn a larger minimap on your screen that can be moved around, very useful when farming.'] = "En utilisant la commande /farmmode <taille>, vous pouvez afficher une minicarte plus grande qui peut être déplacée. Très utile pour les métiers de récolte."
 L['You can access copy chat and chat menu functions by mouse over the top right corner of chat panel and left/right click on the button that will appear.'] = "Vous pouvez accéder à une copie du Chat et des fonctions du Chat en survolant avec votre souris le coin haut droit de la fenêtre de discussion. Cliquez ensuite sur le bouton."
 L['You can see someones average item level of their gear by holding shift and mousing over them. It should appear inside the tooltip.'] = "Vous pouvez voir le niveau d'objet moyen de n'importe qui en maintenant la touche MAJ enfoncée puis en passant votre souris sur un joueur. Le score apparaitra dans le bulle d'informations."
@@ -657,7 +657,7 @@ L["Combat Fade"] = "Estomper hors combat"
 L["Combobar"] = "Barre des points de combo"
 L["Copy From"] = "Copier depuis"
 L['Create a custom fontstring. Once you enter a name you will be able to select it from the elements dropdown list.'] = "Créer une chaîne de caractères personnalisée. Une fois que vous entrez un nom, vous serez en mesure de le sélectionner dans la liste déroulante éléments."
-L["Create a filter, once created a filter can be set inside the buffs/debuffs section of each unit."] = "Créer un filtre, chaque filtre créé peut être configurer dans la section Amélioration / Affaiblissements de chaque unité."
+L["Create a filter, once created a filter can be set inside the buffs/debuffs section of each unit."] = "Créer un filtre, chaque filtre créé peut être configuré dans la section Amélioration / Affaiblissements de chaque unité."
 L["Create Filter"] = "Créer un filtre"
 L['Current - Max | Percent'] = "Actuel Max | Pourcent" ;
 L["Current / Max"] = "Actuel / Max"
@@ -669,7 +669,7 @@ L['Custom Texts'] = "Textes personnalisés";
 L["Debuff Highlighting"] = "Soulignement des affaiblissements"
 L["Debuffs"] = "Affaiblissements"
 L["Deficit"] = "Déficit"
-L["Delete a created filter, you cannot delete pre-existing filters, only custom ones."] = "Supprimer un filtre créé. Vous ne pouvez pas supprimer un filtre pré-existant mais seulement ceux que vous avez créé."
+L["Delete a created filter, you cannot delete pre-existing filters, only custom ones."] = "Supprimer un filtre créé. Vous ne pouvez pas supprimer un filtre préexistant mais seulement ceux que vous avez créé."
 L["Delete Filter"] = "Supprimer un filtre"
 L["Direction the health bar moves when gaining/losing health."] = "Sens de direction de la barre de vie quand vous en gagnez ou perdez."
 L["Disable Blizzard"] = "Désactiver Blizzard"
@@ -737,7 +737,7 @@ L["Offset of the powerbar to the healthbar, set to 0 to disable."] = "Décale la
 L["Offset"] = "Décalage"
 L["OOR Alpha"] = "Transparence Hors de portée"
 L["Orientation"] = "Orientation"
-L["Overlay the healthbar"] = "Superpositionner la barre de vie"
+L["Overlay the healthbar"] = "Superposer la barre de vie"
 L["Overlay"] = "Superposition"
 L["Override any custom visibility setting in certain situations, EX: Only show groups 1 and 2 inside a 10 man instance."] = "Remplace tous paramètre de visibilité dans certaines situations, Ex: afficher seulement le groupe 1 et 2 quand vous êtes dans un raid à 10 joueurs."
 L["Party Frames"] = "Cadre de groupe"
@@ -807,11 +807,11 @@ L["Text Toggle On NPC"] = "Afficher le texte des PNJ"
 L["The alpha to set units that are out of range to."] = "Règle la transparence des unités hors de portée."
 L["The amount of space (in pixels) between the columns."] = "L'espace (en pixels) entre deux colonnes."
 L["The anchor point for each new column. A value of LEFT will cause the columns to grow to the right."] = "Le point d'ancrage pour chaque nouvelle colonne. Si la valeur est sur LEFT, les nouvelles colonnes se développeront sur la droite"
-L["The following macro must be true in order for the group to be shown, in addition to any filter that may already be set."] = "La macro suivante doit être coché pour pour que le groupe soit affiché, en plus de la configuration des filtres."
+L["The following macro must be true in order for the group to be shown, in addition to any filter that may already be set."] = "La macro suivante doit être coché pour que le groupe soit affiché, en plus de la configuration des filtres."
 L["The font that the unitframes will use."] = "La police que les cadres d'unités utiliseront."
 L["The maximum number of columns that the header will create."] = "Nombre maximum de colonne que l'en-tête va créer."
 L["The maximum number of units that will be displayed in a single column."] = "Maximum d'unités affichées dans une seule colonne"
-L['The name you have selected is already in use by another element.'] = "Le nom que vous avez selectionné est déjà utilisé par un autre élément."
+L['The name you have selected is already in use by another element.'] = "Le nom que vous avez sélectionné est déjà utilisé par un autre élément."
 L['The object you want to attach to.'] = "L'objet que vous souhaitez attacher à."
 L['The point of which you are anchoring to in relation to the attach to object.'] = "Le point dont vous êtes ancrée en relation avec l'attache de cet objet."  --Holy shit, WTF ????
 L['The spell "%s" has been added to the Blacklist unitframe aura filter.'] = "Le sort %s a bien été ajouté à la liste noire des filtres des cadres d'unités."
@@ -839,8 +839,8 @@ L["When true, the header is shown when the player is not in any group."] = "Quan
 L["When you mana falls below this point, text will flash on the player frame."] = "Quand votre mana tombe sous ce point, un texte clignotant apparaitra sur le cadre joueur."
 L["Whitelist"] = "Liste blanche"
 L["Width"] = "Largeur" --Also used in NamePlates module
-L["xOffset"] = "Décallage de l'axe X"
-L["yOffset"] = "Décallage de l'axe Y" --Another variation in bags section Y Offset
+L["xOffset"] = "Décalage de l'axe X"
+L["yOffset"] = "Décalage de l'axe Y" --Another variation in bags section Y Offset
 L["You can't remove a pre-existing filter."] = "Vous ne pouvez pas supprimer un filtre préexistant."
 L["You cannot copy settings from the same unit."] = "Vous ne pouvez pas copier les réglages du même cadre."
 L["You cannot set the Group Point and Column Point so they are opposite of each other."] = "Vous ne pouvez pas configurer le Point de Groupe et le Point de la Colonne quand ils sont opposés l'un à l'autre."
