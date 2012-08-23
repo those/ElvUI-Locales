@@ -382,11 +382,13 @@ L['Adjust the position of the threat bar to either the left or right datatext pa
 L['Adjust the size of the minimap.'] = "Изменяет размер миникарты"
 L["Announce Interrupts"] = "Объявлять о прерываниях"
 L["Announce when you interrupt a spell to the specified chat channel."] = "Объявлять о прерванных Вами заклинаниях в указанный канал чата."
+L['Auto Greed/DE'] = true;
 L["Auto Repair"] = "Автоматический ремонт"
 L["Auto Scale"] = "Автоматический масштаб"
 L["Automatically accept invites from guild/friends."] = "Автоматически принимать приглашения в группу от друзей и гильдии."
 L["Automatically repair using the following method when visiting a merchant."] = "Автоматически чинить экипировку за счет выбранного источника при посещении торговца."
 L["Automatically scale the User Interface based on your screen resolution"] = "Автоматически масштабировать UI в зависимости от вашего разрешения"
+L['Automatically select greed or disenchant (when available) on green quality items. This will only work if you are the max level.'] = true;
 L["Automatically vendor gray items when visiting a vendor."] = "Автоматически продавать предметы серого качества при посещении торговца."
 L["Chat Bubbles"] = "Облачка сообщений"
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = "Устанавливает прозрачность карты мира при движении персонажа."

@@ -383,11 +383,13 @@ L['Adjust the position of the threat bar to either the left or right datatext pa
 L['Adjust the size of the minimap.'] = "미니맵의 크기를 조정합니다."
 L["Announce Interrupts"] = "방해/차단 알림"
 L["Announce when you interrupt a spell to the specified chat channel."] = "주문 차단/방해를 하면 특정 대화채널로 알립니다."
+L['Auto Greed/DE'] = true;
 L["Auto Repair"] = "자동 수리"
 L["Auto Scale"] = "자동 크기"
 L["Automatically accept invites from guild/friends."] = "길드원/친구 초대시 자동으로 수락합니다."
 L["Automatically repair using the following method when visiting a merchant."] = "상인 방문 시 다음과 같은 방법으로 장비을 자동 수리합니다."
 L["Automatically scale the User Interface based on your screen resolution"] = "사용자의 화면 해상도에 따라 자동으로 UI 크기를 맞춥니다."
+L['Automatically select greed or disenchant (when available) on green quality items. This will only work if you are the max level.'] = true;
 L["Automatically vendor gray items when visiting a vendor."] = true;
 L["Chat Bubbles"] = "말풍선 대화" -- Needs review
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = "캐릭터 이동시 전체지도의 투명 상태를 설정합니다."

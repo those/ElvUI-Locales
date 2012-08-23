@@ -381,11 +381,13 @@ L['Adjust the position of the threat bar to either the left or right datatext pa
 L['Adjust the size of the minimap.'] = 'Stelle die Größe der Minimap ein.'
 L["Announce Interrupts"] = "Unterbrechungen Ankündigen"
 L["Announce when you interrupt a spell to the specified chat channel."] = "Melde wenn du einen Zauber unterbrochen hast in dem angegebenen Chatchannel."
+L['Auto Greed/DE'] = true;
 L["Auto Repair"] = "Automatische Reparatur"
 L["Auto Scale"] = "Automatische Skalierung"
 L["Automatically accept invites from guild/friends."] = "Automatisch Einladungen von Gildenmitgliedern/Freunden akzeptieren"
 L["Automatically repair using the following method when visiting a merchant."] = "Repariere automatisch deine Ausrüstungsgegenstände, wenn du eine der folgenden Methoden auswählst."
 L["Automatically scale the User Interface based on your screen resolution"] = "Automatische Skalierung des Interfaces, angepasst an deine Bildschirm-Einstellung"
+L['Automatically select greed or disenchant (when available) on green quality items. This will only work if you are the max level.'] = true;
 L["Automatically vendor gray items when visiting a vendor."] = "Automatischer Verkauf von Grauen Items wenn man einen Händer aufsucht."
 L["Chat Bubbles"] = "Chat Sprechblasen"
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = "Legt fest, welche Transparenz die Weltkarte haben soll, wenn du dich bewegst."

@@ -382,11 +382,13 @@ L['Adjust the position of the threat bar to either the left or right datatext pa
 L['Adjust the size of the minimap.'] = "调整小地图尺寸。" -- Needs review
 L["Announce Interrupts"] = "打断通告"
 L["Announce when you interrupt a spell to the specified chat channel."] = "在指定聊天频道通知打断信息."
+L['Auto Greed/DE'] = true;
 L["Auto Repair"] = "自动修装"
 L["Auto Scale"] = "自动缩放"
 L["Automatically accept invites from guild/friends."] = "自动接受工会或好友的邀请"
 L["Automatically repair using the following method when visiting a merchant."] = "使用以下方式来自动修理装备."
 L["Automatically scale the User Interface based on your screen resolution"] = "依据屏幕分辨率度自动缩放介面"
+L['Automatically select greed or disenchant (when available) on green quality items. This will only work if you are the max level.'] = true;
 L["Automatically vendor gray items when visiting a vendor."] = true;
 L["Chat Bubbles"] = true;
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = "进行移动时，世界地图的透明度显示。"
