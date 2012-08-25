@@ -53,7 +53,6 @@ L["KEY_SHIFT"] = "S"
 L["KEY_SPACE"] = "SpB"
 L["Low Threshold"] = "Seuil"
 L["Macro Text"] = "Texte sur Macro"
-L['Max Paging'] = "Pagination Max"
 L['Micro Bar'] = "Micro Barre"
 L["Minutes"] = "Minutes"
 L["Mouse Over"] = "Au survol"
@@ -74,7 +73,6 @@ L["Threshold before text turns red and is in decimal form. Set to -1 for it to n
 L["Toggles the display of the actionbars backdrop."] = "Affiche ou non la couleur de fond de la barre d'action."
 L['Trigger'] = "Déclencheur"
 L["Visibility State"] = "État de visibilité"
-L['When enabled the main actionbar will use the maximum amount of pages available. This means if you have another actionbar disabled, the actionbar page will become available on the main actionbar. Having this disabled will limit the main actionbar to two pages.'] = "Lorsqu'elle est activée, la barre d'action principale utilisera le montant de pages disponibles. Cela signifie que su vous avez une autre barre d'actions désactivée, la barre d'action sera disponible dans la barre d'action principale. Avoir ce paramètre désactivé limitera la barre d'action principale à deux pages. "
 L["Width Multiplier"] = "Multiplicateur largeur"
 L[ [=[This works like a macro, you can run different situations to get the actionbar to page differently.
  Example: '[combat] 2;']=] ] = [=[Ceci fonctionne comme une macro, vous pouvez exécuter différentes situations pour avoir une pagination de la barre d'actions différente.

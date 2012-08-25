@@ -54,7 +54,6 @@ L["KEY_SHIFT"] = "S"
 L["KEY_SPACE"] = "SpB"
 L["Low Threshold"] = "Niedrige CD-Schwelle"
 L["Macro Text"] = "Makro Text"
-L['Max Paging'] = 'Maximale Seitenwechsel'
 L['Micro Bar'] = 'Micro Leiste'
 L["Minutes"] = "Minuten"
 L["Mouse Over"] = "Mous Over" --Also used in Bags
@@ -75,7 +74,6 @@ L["Threshold before text turns red and is in decimal form. Set to -1 for it to n
 L["Toggles the display of the actionbars backdrop."] = "Aktiviere den Hintergrund der Aktionsleisten."
 L['Trigger'] = 'Auslöser'
 L["Visibility State"] = "Sichbarkeits Zustand"
-L['When enabled the main actionbar will use the maximum amount of pages available. This means if you have another actionbar disabled, the actionbar page will become available on the main actionbar. Having this disabled will limit the main actionbar to two pages.'] = 'Wenn aktiviert nutzt die Haupt Aktionsleiste das maximum der verfügbaren Seiten. Das bedeudet wenn eine andere Aktionsleiste deaktiviert ist, kann man diese auf der Haupt Aktionsleiste auswählenThis means if you have another actionbar. Ist dies deaktiviert wird die Haupt Aktionsleiste auf zwei Seiten begrenzt.'
 L["Width Multiplier"] = "Breiten multiplikator"
 L[ [=[This works like a macro, you can run different situations to get the actionbar to page differently.
  Example: '[combat] 2;']=] ] = "Das funktioniert wie ein Makro, du kannst verschiedene Situationen haben um die Aktionsleiste anzuzeigen und zu verbergen.\\n Beispiel: '[combat] show;hide'"

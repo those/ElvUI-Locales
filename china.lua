@@ -53,7 +53,6 @@ L["KEY_SHIFT"] = "S"
 L["KEY_SPACE"] = "SpB"
 L["Low Threshold"] = "冷却时间低阀值"
 L["Macro Text"] = "巨集内容"
-L['Max Paging'] = true;
 L['Micro Bar'] = true;
 L["Minutes"] = "分"
 L["Mouse Over"] = "滑鼠滑过显示" --Also used in Bags
@@ -74,7 +73,6 @@ L["Threshold before text turns red and is in decimal form. Set to -1 for it to n
 L["Toggles the display of the actionbars backdrop."] = "切换快捷列显示背景框"
 L['Trigger'] = true;
 L["Visibility State"] = "可见状态"
-L['When enabled the main actionbar will use the maximum amount of pages available. This means if you have another actionbar disabled, the actionbar page will become available on the main actionbar. Having this disabled will limit the main actionbar to two pages.'] = true;
 L["Width Multiplier"] = "宽度倍增"
 L[ [=[This works like a macro, you can run different situations to get the actionbar to page differently.
  Example: '[combat] 2;']=] ] = [=[和巨集写法类似, 能根据不同姿态切换快捷列.

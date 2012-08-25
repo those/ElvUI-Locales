@@ -53,7 +53,6 @@ L["KEY_SHIFT"] = "S"
 L["KEY_SPACE"] = "SpB"
 L["Low Threshold"] = "Минимальное значение"
 L["Macro Text"] = "Названия макросов"
-L['Max Paging'] = "Макс-ное переключение"
 L['Micro Bar'] = "Микроменю"
 L["Minutes"] = "Минуты"
 L["Mouse Over"] = "При наведении" --Also used in Bags
@@ -74,7 +73,6 @@ L["Threshold before text turns red and is in decimal form. Set to -1 for it to n
 L["Toggles the display of the actionbars backdrop."] = "Включить отображение фона панели команд."
 L['Trigger'] = "Триггер"
 L["Visibility State"] = "Статус отображения"
-L['When enabled the main actionbar will use the maximum amount of pages available. This means if you have another actionbar disabled, the actionbar page will become available on the main actionbar. Having this disabled will limit the main actionbar to two pages.'] = "При активации основная панель будет использовать максимальное кол-во панелей для переключения. Это означает, что если какая-то из панелей отключена, то она будет доступна для переключения. Отключение опции ограничит переключение двумя панелями."
 L["Width Multiplier"] = "Множитель ширины"
 L[ [=[This works like a macro, you can run different situations to get the actionbar to page differently.
  Example: '[combat] 2;']=] ] = [=[Работает как макрос. Вы можете установить различные условия для отображения разных панелей.

@@ -53,7 +53,6 @@ L["KEY_SHIFT"] = "S"
 L["KEY_SPACE"] = "SpB"
 L["Low Threshold"] = "Baixo Limiar"
 L["Macro Text"] = "Textos de Macros"
-L['Max Paging'] = true;
 L['Micro Bar'] = true;
 L["Minutes"] = "Minutos"
 L["Mouse Over"] = "Sobre Mouse" --Also used in Bags
@@ -74,7 +73,6 @@ L["Threshold before text turns red and is in decimal form. Set to -1 for it to n
 L["Toggles the display of the actionbars backdrop."] = true;
 L['Trigger'] = true;
 L["Visibility State"] = "Estado de Visibilidade"
-L['When enabled the main actionbar will use the maximum amount of pages available. This means if you have another actionbar disabled, the actionbar page will become available on the main actionbar. Having this disabled will limit the main actionbar to two pages.'] = true;
 L["Width Multiplier"] = "Multiplicador de Comprimento"
 L[ [=[This works like a macro, you can run different situations to get the actionbar to page differently.
  Example: '[combat] 2;']=] ] = true;

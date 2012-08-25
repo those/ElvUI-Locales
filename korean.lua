@@ -53,7 +53,6 @@ L["KEY_SHIFT"] = "S"
 L["KEY_SPACE"] = "SpB"
 L["Low Threshold"] = "낮은 임계값"
 L["Macro Text"] = "매크로 문자"
-L['Max Paging'] = true;
 L['Micro Bar'] = true;
 L["Minutes"] = "분"
 L["Mouse Over"] = "마우스 오버" --Also used in Bags
@@ -74,7 +73,6 @@ L["Threshold before text turns red and is in decimal form. Set to -1 for it to n
 L["Toggles the display of the actionbars backdrop."] = "행동단축바 배경의 표시를 전환합니다."
 L['Trigger'] = true;
 L["Visibility State"] = "보여지는 상태"
-L['When enabled the main actionbar will use the maximum amount of pages available. This means if you have another actionbar disabled, the actionbar page will become available on the main actionbar. Having this disabled will limit the main actionbar to two pages.'] = true;
 L["Width Multiplier"] = "너비 배율"
 L[ [=[This works like a macro, you can run different situations to get the actionbar to page differently.
  Example: '[combat] 2;']=] ] = [=[이것은 당신이 처한 상황(예를들어 전투나 비전투시)에 따라 다른 액션바 페이지를 보여주며 매크로처럼 작동합니다.
